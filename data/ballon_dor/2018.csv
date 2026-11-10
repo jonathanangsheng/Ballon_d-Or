@@ -9,3 +9,23 @@ rank,name,age,country,position,club,points
 8,Eden Hazard,27,Belgium,forward,Chelsea,119
 9,Kevin De Bruyne,27,Belgium,midfielder,Manchester City,29
 10,Harry Kane,25,England,forward,Tottenham Hotspur,25
+11,N'Golo Kanté,27,France,midfielder,Chelsea,24
+12,Neymar,26,Brazil,midfielder,Paris Saint-Germain,19
+13,Luis Suárez,31,Uruguay,forward,Barcelona,17
+14,Thibaut Courtois,26,Belgium,goalkeeper,Real Madrid,12
+15,Paul Pogba,25,France,midfielder,Manchester United,9
+16,Sergio Agüero,30,Argentina,forward,Manchester City,7
+17,Gareth Bale,29,Wales,forward,Real Madrid,6
+17,Karim Benzema,30,France,forward,Real Madrid,6
+19,Roberto Firmino,27,Brazil,forward,Liverpool,4
+19,Ivan Rakitić,30,Croatia,midfielder,Barcelona,4
+19,Sergio Ramos,32,Spain,defender,Real Madrid,4
+22,Edinson Cavani,31,Uruguay,forward,Paris Saint-Germain,3
+22,Sadio Mané,26,Senegal,forward,Liverpool,3
+22,Marcelo,30,Brazil,defender,Real Madrid,3
+25,Alisson,26,Brazil,goalkeeper,Liverpool,2
+25,Mario Mandžukić,32,Croatia,forward,Juventus,2
+25,Jan Oblak,25,Slovenia,goalkeeper,Atlético Madrid,2
+28,Diego Godín,32,Uruguay,defender,Atlético Madrid,1
+29,Isco,26,Spain,midfielder,Real Madrid,0
+29,Hugo Lloris,31,France,goalkeeper,Tottenham Hotspur,0

@@ -45,6 +45,7 @@ def score(predicted_names, actual_rows):
     hits:  how many predicted names are in the actual top 10
     exact: how many predicted names sit at their actual rank (ties count for every tied position)
     """
+    actual_rows = [r for r in actual_rows if r["rank"] <= 10]  # 2016+ files hold all 30 nominees
     actual_rank = {r["name"]: r["rank"] for r in actual_rows}
     hits = sum(name in actual_rank for name in predicted_names)
     exact = 0
