@@ -47,3 +47,25 @@ Columns: `rank,name,age,country,position,club,points`
 - One correction: Wikipedia's 2004 table lists Wayne Rooney's club as Everton only; his
   article shows he joined Manchester United on 31 August 2004, before the December ceremony, so
   his club is Manchester United.
+
+## Performance features
+
+[`data/features/`](data/features/) holds one row per nominee per edition with stats for that
+edition's judging period (`<year>.csv`), the judging windows (`windows.csv`), what is missing
+and why ([`gaps.md`](data/features/gaps.md)) and how many rows each column fills
+([`coverage.md`](data/features/coverage.md)). Rebuild and check:
+
+```bash
+python build_windows.py && python build_features.py && python report.py && python check_features.py
+```
+
+### Feature sources
+
+- Match event data (minutes, goals, assists, cards, xG and more) provided by
+  [StatsBomb](https://statsbomb.com/) through their free
+  [open data](https://github.com/statsbomb/open-data).
+- International results and goalscorers:
+  [martj42/international_results](https://github.com/martj42/international_results) (CC0).
+- Tournament rounds and Champions League results: [openfootball](https://github.com/openfootball)
+  (public domain).
+- Trophies, awards, squads and edition dates: English Wikipedia (CC BY-SA), fetched November 2026.
