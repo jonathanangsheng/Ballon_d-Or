@@ -1,0 +1,27 @@
+year,window_start,window_end,voting_deadline,ceremony_date,window_end_estimated,voting_deadline_estimated,source_url,notes
+2000,2000-01-01,2000-11-19,2000-11-19,2000-12-19,true,true,https://en.wikipedia.org/wiki/2000_Ballon_d%27Or,deadline not stated in source; ceremony - 30 days
+2001,2001-01-01,2001-11-18,2001-11-18,2001-12-18,true,true,https://en.wikipedia.org/wiki/2001_Ballon_d%27Or,deadline not stated in source; ceremony - 30 days
+2002,2002-01-01,2002-11-12,2002-11-12,2002-12-12,true,true,https://en.wikipedia.org/wiki/2002_Ballon_d%27Or,deadline not stated in source; ceremony - 30 days
+2003,2003-01-01,2003-11-22,2003-11-22,2003-12-22,true,true,https://en.wikipedia.org/wiki/2003_Ballon_d%27Or,deadline not stated in source; ceremony - 30 days
+2004,2004-01-01,2004-11-13,2004-11-13,2004-12-13,true,true,https://en.wikipedia.org/wiki/2004_Ballon_d%27Or,deadline not stated in source; ceremony - 30 days
+2005,2005-01-01,2005-10-29,2005-10-29,2005-11-28,true,true,https://en.wikipedia.org/wiki/2005_Ballon_d%27Or,deadline not stated in source; ceremony - 30 days
+2006,2006-01-01,2006-10-28,2006-10-28,2006-11-27,true,true,https://en.wikipedia.org/wiki/2006_Ballon_d%27Or,deadline not stated in source; ceremony - 30 days
+2007,2007-01-01,2007-11-02,2007-11-02,2007-12-02,true,true,https://en.wikipedia.org/wiki/2007_Ballon_d%27Or,deadline not stated in source; ceremony - 30 days
+2008,2008-01-01,2008-11-02,2008-11-02,2008-12-02,true,true,https://en.wikipedia.org/wiki/2008_Ballon_d%27Or,deadline not stated in source; ceremony - 30 days
+2009,2009-01-01,2009-11-01,2009-11-01,2009-12-01,true,true,https://en.wikipedia.org/wiki/2009_Ballon_d%27Or,deadline not stated in source; ceremony - 30 days
+2010,2010-01-01,2010-12-11,2010-12-11,2011-01-10,true,true,https://en.wikipedia.org/wiki/2010_FIFA_Ballon_d%27Or,deadline not stated in source; ceremony - 30 days
+2011,2011-01-01,2011-12-10,2011-12-10,2012-01-09,true,true,https://en.wikipedia.org/wiki/2011_FIFA_Ballon_d%27Or,deadline not stated in source; ceremony - 30 days
+2012,2012-01-01,2012-12-08,2012-12-08,2013-01-07,true,true,https://en.wikipedia.org/wiki/2012_FIFA_Ballon_d%27Or,deadline not stated in source; ceremony - 30 days
+2013,2013-01-01,2013-11-29,2013-11-29,2014-01-13,false,false,https://en.wikipedia.org/wiki/2013_FIFA_Ballon_d%27Or,"Wikipedia: ""voting was extended to 29 November 2013"""
+2014,2014-01-01,2014-12-13,2014-12-13,2015-01-12,true,true,https://en.wikipedia.org/wiki/2014_FIFA_Ballon_d%27Or,deadline not stated in source; ceremony - 30 days
+2015,2015-01-01,2015-12-12,2015-12-12,2016-01-11,true,true,https://en.wikipedia.org/wiki/2015_FIFA_Ballon_d%27Or,deadline not stated in source; ceremony - 30 days
+2016,2016-01-01,2016-11-12,2016-11-12,2016-12-12,true,true,https://en.wikipedia.org/wiki/2016_Ballon_d%27Or,deadline not stated in source; ceremony - 30 days
+2017,2017-01-01,2017-11-07,2017-11-07,2017-12-07,true,true,https://en.wikipedia.org/wiki/2017_Ballon_d%27Or,deadline not stated in source; ceremony - 30 days
+2018,2018-01-01,2018-11-03,2018-11-03,2018-12-03,true,true,https://en.wikipedia.org/wiki/2018_Ballon_d%27Or,deadline not stated in source; ceremony - 30 days
+2019,2019-01-01,2019-11-02,2019-11-02,2019-12-02,true,true,https://en.wikipedia.org/wiki/2019_Ballon_d%27Or,deadline not stated in source; ceremony - 30 days
+2021,2021-01-01,2021-10-30,2021-10-30,2021-11-29,true,true,https://en.wikipedia.org/wiki/2021_Ballon_d%27Or,deadline not stated in source; ceremony - 30 days
+2022,2021-08-01,2022-07-31,2022-09-17,2022-10-17,false,true,https://en.wikipedia.org/wiki/2022_Ballon_d%27Or,deadline not stated in source; ceremony - 30 days
+2023,2022-08-01,2023-07-31,2023-09-30,2023-10-30,false,true,https://en.wikipedia.org/wiki/2023_Ballon_d%27Or,deadline not stated in source; ceremony - 30 days
+2024,2023-08-01,2024-07-31,2024-09-28,2024-10-28,false,true,https://en.wikipedia.org/wiki/2024_Ballon_d%27Or,deadline not stated in source; ceremony - 30 days
+2025,2024-08-01,2025-07-31,2025-08-23,2025-09-22,false,true,https://en.wikipedia.org/wiki/2025_Ballon_d%27Or,deadline not stated in source; ceremony - 30 days
+2026,2025-08-01,2026-07-31,2026-09-26,2026-10-26,false,true,https://en.wikipedia.org/wiki/2026_Ballon_d%27Or,deadline not stated in source; ceremony - 30 days

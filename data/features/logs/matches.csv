@@ -1,0 +1,732 @@
+year,name,bucket,source,match_id,date,competition,season,stage,team,in_squad,extra_time,apps,minutes,goals,assists,ko_ga,yellow,red,gk_clean_sheets,gk_goals_conceded,xg,npxg,xa,shots,key_passes
+2015,Lionel Messi,league,statsbomb,267183,2015-03-22,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,,1.0,0,,,,,0.36367063699999996,0.36367063699999996,0.7763433500000001,5.0,4.0
+2015,Lionel Messi,league,statsbomb,265963,2015-04-28,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,2.0,1.0,0,,,,,1.054331952,0.270831952,0.239716555,5.0,4.0
+2015,Lionel Messi,league,statsbomb,266916,2015-03-08,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,3.0,1.0,0,,,,,2.38873202,1.6052320199999999,0.5129950999999999,6.0,2.0
+2015,Lionel Messi,league,statsbomb,267197,2015-05-23,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,2.0,,0,,,,,1.101221037,1.101221037,0.03601926,5.0,1.0
+2015,Lionel Messi,league,statsbomb,265866,2015-05-02,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,2.0,1.0,0,,,,,1.4658115550000002,1.4658115550000002,0.417212839,8.0,4.0
+2015,Lionel Messi,league,statsbomb,267400,2015-04-08,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,1.0,,0,,,,,0.196947528,0.196947528,,5.0,
+2015,Lionel Messi,league,statsbomb,266148,2015-02-21,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,,,0,,,,,0.047456406,0.047456406,0.17064251,1.0,1.0
+2015,Lionel Messi,league,statsbomb,266045,2015-05-09,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,,,0,,,,,0.34781111800000003,0.34781111800000003,0.29329237,4.0,1.0
+2015,Lionel Messi,league,statsbomb,70303,2015-01-11,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,1.0,,0,1.0,,,,0.680566094,0.680566094,0.04532608,7.0,1.0
+2015,Lionel Messi,league,statsbomb,266240,2015-01-04,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,45,,,0,,,,,0.15433899,0.15433899,0.008874215,2.0,1.0
+2015,Lionel Messi,league,statsbomb,267597,2015-02-01,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,1.0,,0,,,,,0.46826843,0.46826843,0.244954978,3.0,4.0
+2015,Lionel Messi,league,statsbomb,266794,2015-01-24,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,2.0,2.0,0,,,,,0.9550594699999999,0.17155947,0.75073206,4.0,3.0
+2015,Lionel Messi,league,statsbomb,267343,2015-02-28,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,1.0,,0,,,,,1.688542368,1.688542368,0.39335126,6.0,1.0
+2015,Lionel Messi,league,statsbomb,266631,2015-05-17,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,1.0,,0,1.0,,,,0.4773118474,0.4773118474,0.2726849153,7.0,3.0
+2015,Lionel Messi,league,statsbomb,266230,2015-01-18,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,3.0,,0,,,,,0.9382158320000001,0.9382158320000001,,7.0,
+2015,Lionel Messi,league,statsbomb,266525,2015-04-18,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,1.0,1.0,0,,,,,1.44426215,1.44426215,0.355055923,4.0,3.0
+2015,Lionel Messi,league,statsbomb,266531,2015-04-25,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,1.0,,0,,,,,0.449668238,0.449668238,0.40430285,4.0,2.0
+2015,Lionel Messi,league,statsbomb,266741,2015-02-15,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,3.0,1.0,0,,,,,2.130618563,1.347118563,0.20465937,9.0,1.0
+2015,Lionel Messi,league,statsbomb,266871,2015-02-08,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,1.0,2.0,0,,,,,0.550690584,0.550690584,0.443854126,4.0,5.0
+2015,Lionel Messi,league,statsbomb,266967,2015-03-14,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,2.0,,0,,,,,1.03238663,0.24888663,0.27635571999999997,4.0,2.0
+2015,Lionel Messi,league,statsbomb,266929,2015-04-05,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,,,0,,,,,0.57601948,0.57601948,,4.0,
+2015,Lionel Messi,league,statsbomb,266142,2015-04-11,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,1.0,,0,,,,,0.254550539,0.254550539,0.076215304,6.0,1.0
+2015,Lionel Messi,league,statsbomb,3825660,2015-11-08,La Liga,2015/2016,Regular Season,Barcelona,False,,,,,,,,,,,,,,,
+2015,Lionel Messi,league,statsbomb,3825637,2015-10-25,La Liga,2015/2016,Regular Season,Barcelona,False,,,,,,,,,,,,,,,
+2015,Lionel Messi,league,statsbomb,3825645,2015-10-31,La Liga,2015/2016,Regular Season,Barcelona,False,,,,,,,,,,,,,,,
+2015,Lionel Messi,league,statsbomb,3825627,2015-10-17,La Liga,2015/2016,Regular Season,Barcelona,False,,,,,,,,,,,,,,,
+2015,Lionel Messi,league,statsbomb,3825617,2015-10-03,La Liga,2015/2016,Regular Season,Barcelona,False,,,,,,,,,,,,,,,
+2015,Lionel Messi,league,statsbomb,267611,2015-09-26,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,9,,,0,,,,,,,,,
+2015,Lionel Messi,league,statsbomb,267422,2015-08-29,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,90,,,0,,,,,0.486158329,0.486158329,0.36853480499999997,7.0,3.0
+2015,Lionel Messi,league,statsbomb,266236,2015-08-23,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,90,,,0,,,,,0.9638092129999999,0.180309213,0.051640365,4.0,1.0
+2015,Lionel Messi,league,statsbomb,267274,2015-12-05,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,90,,1.0,0,,,,,0.603388754,0.603388754,0.078315794,7.0,1.0
+2015,Lionel Messi,league,statsbomb,266961,2015-12-12,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,90,1.0,1.0,0,,,,,0.37069653399999997,0.37069653399999997,0.246758971,8.0,5.0
+2015,Lionel Messi,league,statsbomb,266885,2015-11-28,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,90,1.0,,0,,,,,1.440702377,1.440702377,,7.0,
+2015,Lionel Messi,league,statsbomb,266166,2015-09-12,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,31,1.0,,0,,,,,0.33538208399999997,0.33538208399999997,0.289627665,3.0,2.0
+2015,Lionel Messi,league,statsbomb,266424,2015-11-21,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,34,,,0,,,,,0.15168181,0.15168181,,2.0,
+2015,Lionel Messi,league,statsbomb,266467,2015-09-23,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,90,,1.0,0,,,,,0.5765190950000001,0.5765190950000001,0.8711685549999999,7.0,6.0
+2015,Lionel Messi,league,statsbomb,266490,2015-09-20,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,90,2.0,1.0,0,,,,,2.1496591150000004,0.5826591150000001,0.34589675,10.0,2.0
+2015,Neymar,league,statsbomb,267183,2015-03-22,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,84,,,0,,,,,1.06259763,1.06259763,0.236788299,4.0,3.0
+2015,Neymar,league,statsbomb,265963,2015-04-28,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,1.0,1.0,0,,,,,0.170638595,0.170638595,0.070114737,2.0,2.0
+2015,Neymar,league,statsbomb,266916,2015-03-08,La Liga,2014/2015,Regular Season,Barcelona,False,,,,,,,,,,,,,,,
+2015,Neymar,league,statsbomb,267197,2015-05-23,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,,1.0,0,,,,,0.0430351504,0.0430351504,0.818551238,2.0,3.0
+2015,Neymar,league,statsbomb,265866,2015-05-02,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,1.0,,0,,,,,1.724366399,0.9408663989999999,0.059248198,6.0,1.0
+2015,Neymar,league,statsbomb,267400,2015-04-08,La Liga,2014/2015,Regular Season,Barcelona,True,,0,0,,,,,,,,,,,,
+2015,Neymar,league,statsbomb,266148,2015-02-21,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,,,0,1.0,,,,0.086175887,0.086175887,0.279298341,2.0,3.0
+2015,Neymar,league,statsbomb,266045,2015-05-09,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,1.0,,0,,,,,0.788850241,0.788850241,0.334658764,4.0,3.0
+2015,Neymar,league,statsbomb,70303,2015-01-11,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,1.0,,0,,,,,0.844393791,0.844393791,0.21242714799999998,5.0,3.0
+2015,Neymar,league,statsbomb,266240,2015-01-04,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,33,,,0,1.0,,,,,,,,
+2015,Neymar,league,statsbomb,267597,2015-02-01,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,1.0,,0,,,,,0.34131793,0.34131793,,2.0,
+2015,Neymar,league,statsbomb,266794,2015-01-24,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,2.0,1.0,0,,,,,0.72809938,0.72809938,0.6742816,2.0,1.0
+2015,Neymar,league,statsbomb,267343,2015-02-28,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,,,0,1.0,,,,0.08330842,0.08330842,0.46885853,1.0,4.0
+2015,Neymar,league,statsbomb,266631,2015-05-17,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,,,0,1.0,,,,0.44351260000000003,0.44351260000000003,0.116225607,2.0,3.0
+2015,Neymar,league,statsbomb,266230,2015-01-18,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,69,,,0,,,,,0.043634295,0.043634295,0.09478312,1.0,1.0
+2015,Neymar,league,statsbomb,266525,2015-04-18,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,,,0,,,,,0.225818523,0.225818523,0.4103609,2.0,1.0
+2015,Neymar,league,statsbomb,266531,2015-04-25,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,1.0,,0,,,,,1.152879642,1.152879642,0.17526214,6.0,1.0
+2015,Neymar,league,statsbomb,266741,2015-02-15,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,67,1.0,,0,,,,,0.29383377,0.29383377,0.228657834,2.0,3.0
+2015,Neymar,league,statsbomb,266871,2015-02-08,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,1.0,,0,,,,,1.31598096,1.31598096,0.316797,5.0,3.0
+2015,Neymar,league,statsbomb,266967,2015-03-14,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,69,,,0,,,,,0.295987495,0.295987495,,3.0,
+2015,Neymar,league,statsbomb,266929,2015-04-05,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,,,0,,,,,0.139744598,0.139744598,0.151232557,2.0,3.0
+2015,Neymar,league,statsbomb,266142,2015-04-11,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,73,1.0,1.0,0,,,,,0.059780280500000005,0.059780280500000005,0.399029051,2.0,5.0
+2015,Neymar,league,statsbomb,3825660,2015-11-08,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,90,2.0,,0,1.0,,,,0.49438614900000005,0.49438614900000005,0.566668088,4.0,7.0
+2015,Neymar,league,statsbomb,3825637,2015-10-25,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,90,,2.0,0,1.0,,,,0.0974889585,0.0974889585,0.37960721999999997,2.0,3.0
+2015,Neymar,league,statsbomb,3825645,2015-10-31,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,90,1.0,,0,,,,,0.222192785,0.222192785,0.909623603,2.0,3.0
+2015,Neymar,league,statsbomb,3825627,2015-10-17,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,90,4.0,1.0,0,,,,,2.9214079550000003,1.354407955,0.35705393500000004,7.0,3.0
+2015,Neymar,league,statsbomb,3825617,2015-10-03,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,90,1.0,,0,,,,,1.258662925,0.475162925,0.475130473,9.0,6.0
+2015,Neymar,league,statsbomb,267611,2015-09-26,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,90,,,0,,,,,1.3506473739999998,0.567147374,0.2075036,5.0,1.0
+2015,Neymar,league,statsbomb,267422,2015-08-29,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,86,,,0,,,,,0.163454265,0.163454265,0.42540222099999997,2.0,5.0
+2015,Neymar,league,statsbomb,266236,2015-08-23,La Liga,2015/2016,Regular Season,Barcelona,False,,,,,,,,,,,,,,,
+2015,Neymar,league,statsbomb,267274,2015-12-05,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,90,,,0,,,,,0.31558717,0.31558717,0.577814682,2.0,4.0
+2015,Neymar,league,statsbomb,266961,2015-12-12,La Liga,2015/2016,Regular Season,Barcelona,False,,,,,,,,,,,,,,,
+2015,Neymar,league,statsbomb,266885,2015-11-28,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,90,2.0,1.0,0,,,,,0.58142425,0.58142425,1.146270042,2.0,6.0
+2015,Neymar,league,statsbomb,266166,2015-09-12,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,90,1.0,,0,,,,,0.5451460770000001,0.5451460770000001,0.207732906,4.0,2.0
+2015,Neymar,league,statsbomb,266424,2015-11-21,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,90,1.0,1.0,0,,,,,0.374675379,0.374675379,0.8925915,4.0,5.0
+2015,Neymar,league,statsbomb,266467,2015-09-23,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,90,1.0,,0,1.0,,,,0.762437009,0.762437009,0.330818414,6.0,4.0
+2015,Neymar,league,statsbomb,266490,2015-09-20,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,90,1.0,,0,,,,,0.5607330150000001,0.5607330150000001,,4.0,
+2015,Luis Suárez,league,statsbomb,267183,2015-03-22,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,1.0,,0,1.0,,,,0.27406421,0.27406421,0.08249827,4.0,1.0
+2015,Luis Suárez,league,statsbomb,265963,2015-04-28,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,2.0,2.0,0,,,,,0.451370769,0.451370769,0.229981192,5.0,3.0
+2015,Luis Suárez,league,statsbomb,266916,2015-03-08,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,2.0,,0,,,,,0.8883223709999999,0.8883223709999999,0.40336156,5.0,2.0
+2015,Luis Suárez,league,statsbomb,267197,2015-05-23,La Liga,2014/2015,Regular Season,Barcelona,False,,,,,,,,,,,,,,,
+2015,Luis Suárez,league,statsbomb,265866,2015-05-02,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,3.0,,0,,,,,1.22604772,1.22604772,0.503777214,5.0,3.0
+2015,Luis Suárez,league,statsbomb,267400,2015-04-08,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,2.0,,0,,,,,1.1423915,1.1423915,0.03909677,4.0,1.0
+2015,Luis Suárez,league,statsbomb,266148,2015-02-21,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,,,0,,,,,0.14053211799999998,0.14053211799999998,0.026152613,2.0,1.0
+2015,Luis Suárez,league,statsbomb,266045,2015-05-09,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,,,0,,,,,0.17384149,0.17384149,,1.0,
+2015,Luis Suárez,league,statsbomb,70303,2015-01-11,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,1.0,,0,1.0,,,,0.9592166200000001,0.9592166200000001,0.12677914,2.0,1.0
+2015,Luis Suárez,league,statsbomb,266240,2015-01-04,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,,,0,,,,,0.2364925024,0.2364925024,0.211066064,5.0,2.0
+2015,Luis Suárez,league,statsbomb,267597,2015-02-01,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,78,,1.0,0,,,,,1.3956276399999998,1.3956276399999998,0.438304238,5.0,3.0
+2015,Luis Suárez,league,statsbomb,266794,2015-01-24,La Liga,2014/2015,Regular Season,Barcelona,True,,0,0,,,,,,,,,,,,
+2015,Luis Suárez,league,statsbomb,267343,2015-02-28,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,79,1.0,1.0,0,1.0,,,,0.24308571,0.24308571,0.7019052769999999,2.0,2.0
+2015,Luis Suárez,league,statsbomb,266631,2015-05-17,La Liga,2014/2015,Regular Season,Barcelona,False,,,,,,,,,,,,,,,
+2015,Luis Suárez,league,statsbomb,266230,2015-01-18,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,,,0,,,,,0.8097565600000001,0.8097565600000001,0.15292079,4.0,2.0
+2015,Luis Suárez,league,statsbomb,266525,2015-04-18,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,64,1.0,,0,,,,,0.19651033,0.19651033,0.010552535,1.0,1.0
+2015,Luis Suárez,league,statsbomb,266531,2015-04-25,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,79,,2.0,0,,,,,0.32899149,0.32899149,0.854285765,3.0,5.0
+2015,Luis Suárez,league,statsbomb,266741,2015-02-15,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,23,1.0,,0,,,,,0.18100502,0.18100502,,1.0,
+2015,Luis Suárez,league,statsbomb,266871,2015-02-08,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,80,1.0,,0,,,,,0.630903765,0.630903765,0.7222191099999999,6.0,2.0
+2015,Luis Suárez,league,statsbomb,266967,2015-03-14,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,,,0,,,,,,,0.131622922,,2.0
+2015,Luis Suárez,league,statsbomb,266929,2015-04-05,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,86,,,0,1.0,,,,0.06371929800000001,0.06371929800000001,0.09591699799999999,2.0,2.0
+2015,Luis Suárez,league,statsbomb,266142,2015-04-11,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,,,0,,,,,0.615277614,0.615277614,0.24254236,3.0,1.0
+2015,Luis Suárez,league,statsbomb,3825660,2015-11-08,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,90,1.0,1.0,0,1.0,,,,1.106248817,0.322748817,0.698610035,7.0,3.0
+2015,Luis Suárez,league,statsbomb,3825637,2015-10-25,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,90,3.0,,0,,,,,1.054498616,1.054498616,0.10992855,6.0,1.0
+2015,Luis Suárez,league,statsbomb,3825645,2015-10-31,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,90,1.0,,0,,,,,0.7397121929999999,0.7397121929999999,,4.0,
+2015,Luis Suárez,league,statsbomb,3825627,2015-10-17,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,90,1.0,1.0,0,,,,,0.74019707,0.74019707,1.02624877,4.0,2.0
+2015,Luis Suárez,league,statsbomb,3825617,2015-10-03,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,90,,,0,,,,,0.4087000095,0.4087000095,0.6176766850000001,6.0,3.0
+2015,Luis Suárez,league,statsbomb,267611,2015-09-26,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,90,2.0,,0,1.0,,,,0.383874689,0.383874689,0.550881195,5.0,4.0
+2015,Luis Suárez,league,statsbomb,267422,2015-08-29,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,90,,,0,,,,,0.402988175,0.402988175,0.03533704,5.0,1.0
+2015,Luis Suárez,league,statsbomb,266236,2015-08-23,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,90,1.0,,0,1.0,,,,0.606032035,0.606032035,,3.0,
+2015,Luis Suárez,league,statsbomb,267274,2015-12-05,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,90,1.0,,0,,,,,0.275691429,0.275691429,0.054578137,4.0,1.0
+2015,Luis Suárez,league,statsbomb,266961,2015-12-12,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,90,,,0,,,,,0.47466526200000003,0.47466526200000003,0.08387053,5.0,1.0
+2015,Luis Suárez,league,statsbomb,266885,2015-11-28,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,90,1.0,,0,,,,,0.24238714,0.24238714,0.22545692,2.0,1.0
+2015,Luis Suárez,league,statsbomb,266166,2015-09-12,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,90,,1.0,0,,,,,0.600070811,0.600070811,0.37584534999999997,3.0,2.0
+2015,Luis Suárez,league,statsbomb,266424,2015-11-21,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,90,2.0,,0,,,,,1.19790654,1.19790654,0.25071914,4.0,2.0
+2015,Luis Suárez,league,statsbomb,266467,2015-09-23,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,90,,,0,,,,,,,0.20708616,,1.0
+2015,Luis Suárez,league,statsbomb,266490,2015-09-20,La Liga,2015/2016,Regular Season,Barcelona,True,,0,0,,,,,,,,,,,,
+2015,Andrés Iniesta,league,statsbomb,267183,2015-03-22,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,79,,,0,1.0,,,,,,,,
+2015,Andrés Iniesta,league,statsbomb,265963,2015-04-28,La Liga,2014/2015,Regular Season,Barcelona,True,,0,0,,,,,,,,,,,,
+2015,Andrés Iniesta,league,statsbomb,266916,2015-03-08,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,65,,,0,,,,,0.086475923,0.086475923,,2.0,
+2015,Andrés Iniesta,league,statsbomb,267197,2015-05-23,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,5,,,0,,,,,,,,,
+2015,Andrés Iniesta,league,statsbomb,265866,2015-05-02,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,60,,1.0,0,,,,,0.15530975900000002,0.15530975900000002,0.31518722,3.0,1.0
+2015,Andrés Iniesta,league,statsbomb,267400,2015-04-08,La Liga,2014/2015,Regular Season,Barcelona,True,,0,0,,,,,,,,,,,,
+2015,Andrés Iniesta,league,statsbomb,266148,2015-02-21,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,67,,,0,,,,,0.17064251,0.17064251,,1.0,
+2015,Andrés Iniesta,league,statsbomb,266045,2015-05-09,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,17,,,0,,,,,,,,,
+2015,Andrés Iniesta,league,statsbomb,70303,2015-01-11,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,,,0,,,,,0.04532608,0.04532608,0.047597695,1.0,1.0
+2015,Andrés Iniesta,league,statsbomb,266240,2015-01-04,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,,,0,,,,,0.037629327,0.037629327,0.18023354,2.0,1.0
+2015,Andrés Iniesta,league,statsbomb,267597,2015-02-01,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,90,,,0,,,,,0.053200398,0.053200398,0.127809087,1.0,2.0
+2015,Andrés Iniesta,league,statsbomb,266794,2015-01-24,La Liga,2014/2015,Regular Season,Barcelona,True,,0,0,,,,,,,,,,,,
+2015,Andrés Iniesta,league,statsbomb,267343,2015-02-28,La Liga,2014/2015,Regular Season,Barcelona,True,,0,0,,,,,,,,,,,,
+2015,Andrés Iniesta,league,statsbomb,266631,2015-05-17,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,81,,,0,,,,,,,,,
+2015,Andrés Iniesta,league,statsbomb,266230,2015-01-18,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,65,,,0,,,,,0.037729494,0.037729494,0.22901858,1.0,1.0
+2015,Andrés Iniesta,league,statsbomb,266525,2015-04-18,La Liga,2014/2015,Regular Season,Barcelona,False,,,,,,,,,,,,,,,
+2015,Andrés Iniesta,league,statsbomb,266531,2015-04-25,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,87,,,0,,,,,,,,,
+2015,Andrés Iniesta,league,statsbomb,266741,2015-02-15,La Liga,2014/2015,Regular Season,Barcelona,False,,,,,,,,,,,,,,,
+2015,Andrés Iniesta,league,statsbomb,266871,2015-02-08,La Liga,2014/2015,Regular Season,Barcelona,True,,0,0,,,,,,,,,,,,
+2015,Andrés Iniesta,league,statsbomb,266967,2015-03-14,La Liga,2014/2015,Regular Season,Barcelona,True,,0,0,,,,,,,,,,,,
+2015,Andrés Iniesta,league,statsbomb,266929,2015-04-05,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,74,,,0,,,,,,,,,
+2015,Andrés Iniesta,league,statsbomb,266142,2015-04-11,La Liga,2014/2015,Regular Season,Barcelona,True,0,1,86,,,0,,,,,0.24858743230000002,0.24858743230000002,,2.0,
+2015,Andrés Iniesta,league,statsbomb,3825660,2015-11-08,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,90,,,0,1.0,,,,0.57049706,0.57049706,0.101452798,2.0,3.0
+2015,Andrés Iniesta,league,statsbomb,3825637,2015-10-25,La Liga,2015/2016,Regular Season,Barcelona,False,,,,,,,,,,,,,,,
+2015,Andrés Iniesta,league,statsbomb,3825645,2015-10-31,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,30,,,0,,,,,,,0.00856471,,1.0
+2015,Andrés Iniesta,league,statsbomb,3825627,2015-10-17,La Liga,2015/2016,Regular Season,Barcelona,False,,,,,,,,,,,,,,,
+2015,Andrés Iniesta,league,statsbomb,3825617,2015-10-03,La Liga,2015/2016,Regular Season,Barcelona,False,,,,,,,,,,,,,,,
+2015,Andrés Iniesta,league,statsbomb,267611,2015-09-26,La Liga,2015/2016,Regular Season,Barcelona,True,,0,0,,,,,,,,,,,,
+2015,Andrés Iniesta,league,statsbomb,267422,2015-08-29,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,90,,,0,,,,,0.037785444,0.037785444,0.1167679355,1.0,3.0
+2015,Andrés Iniesta,league,statsbomb,266236,2015-08-23,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,90,,,0,,,,,0.088355057,0.088355057,,2.0,
+2015,Andrés Iniesta,league,statsbomb,267274,2015-12-05,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,90,,,0,,,,,,,,,
+2015,Andrés Iniesta,league,statsbomb,266961,2015-12-12,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,90,,,0,,,,,0.07198797900000001,0.07198797900000001,0.06668426899999999,2.0,3.0
+2015,Andrés Iniesta,league,statsbomb,266885,2015-11-28,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,90,,,0,,,,,0.22545692,0.22545692,,1.0,
+2015,Andrés Iniesta,league,statsbomb,266166,2015-09-12,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,90,,,0,1.0,,,,,,0.06771354,,1.0
+2015,Andrés Iniesta,league,statsbomb,266424,2015-11-21,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,77,1.0,1.0,0,,,,,0.11742188,0.11742188,0.15911818,1.0,1.0
+2015,Andrés Iniesta,league,statsbomb,266467,2015-09-23,La Liga,2015/2016,Regular Season,Barcelona,True,0,1,90,,,0,,,,,,,0.41868334399999996,,4.0
+2015,Andrés Iniesta,league,statsbomb,266490,2015-09-20,La Liga,2015/2016,Regular Season,Barcelona,True,,0,0,,,,,,,,,,,,
+2018,Luka Modrić,intl_tournament,statsbomb,7545,2018-06-21,FIFA World Cup,2018,Group Stage,Croatia,True,0,1,90,1.0,,0,,,,,0.033162551,0.033162551,0.109290046,2.0,2.0
+2018,Luka Modrić,intl_tournament,statsbomb,7561,2018-06-26,FIFA World Cup,2018,Group Stage,Croatia,True,0,1,64,,,0,,,,,0.02248241,0.02248241,0.097237828,1.0,3.0
+2018,Luka Modrić,intl_tournament,statsbomb,8656,2018-07-11,FIFA World Cup,2018,Semi-finals,Croatia,True,1,1,118,0.0,0.0,0.0,,,,,,,0.023132257,,2.0
+2018,Luka Modrić,intl_tournament,statsbomb,7581,2018-07-01,FIFA World Cup,2018,Round of 16,Croatia,True,1,1,120,0.0,0.0,0.0,,,,,0.8830591689999999,0.099559169,0.30024003699999996,3.0,5.0
+2018,Luka Modrić,intl_tournament,statsbomb,7529,2018-06-16,FIFA World Cup,2018,Group Stage,Croatia,True,0,1,90,1.0,,0,,,,,0.7835,,,1.0,
+2018,Luka Modrić,intl_tournament,statsbomb,8658,2018-07-15,FIFA World Cup,2018,Final,Croatia,True,0,1,90,0.0,0.0,0.0,,,,,,,0.295552114,,3.0
+2018,Luka Modrić,intl_tournament,statsbomb,8652,2018-07-07,FIFA World Cup,2018,Quarter-finals,Croatia,True,1,1,120,0.0,1.0,1.0,,,,,0.117851339,0.117851339,0.243654101,3.0,3.0
+2018,Cristiano Ronaldo,intl_tournament,statsbomb,7557,2018-06-25,FIFA World Cup,2018,Group Stage,Portugal,True,0,1,90,,,0,1.0,,,,0.9472454438,0.1637454438,0.03004273,5.0,1.0
+2018,Cristiano Ronaldo,intl_tournament,statsbomb,7542,2018-06-20,FIFA World Cup,2018,Group Stage,Portugal,True,0,1,90,1.0,,0,,,,,0.46615798999999997,0.46615798999999997,0.20104031,6.0,1.0
+2018,Cristiano Ronaldo,intl_tournament,statsbomb,7576,2018-06-15,FIFA World Cup,2018,Group Stage,Portugal,True,0,1,90,3.0,,0,,,,,1.1523559309999998,0.36885593099999997,0.023871757,5.0,1.0
+2018,Cristiano Ronaldo,intl_tournament,statsbomb,7579,2018-06-30,FIFA World Cup,2018,Round of 16,Portugal,True,0,1,90,0.0,0.0,0.0,1.0,,,,0.1389704705,0.1389704705,0.06765104,6.0,1.0
+2018,Antoine Griezmann,intl_tournament,statsbomb,7546,2018-06-21,FIFA World Cup,2018,Group Stage,France,True,0,1,79,,,0,,,,,0.092351041,0.092351041,0.053871572,2.0,1.0
+2018,Antoine Griezmann,intl_tournament,statsbomb,7580,2018-06-30,FIFA World Cup,2018,Round of 16,France,True,0,1,83,1.0,0.0,1.0,,,,,1.02876922,0.24526922,,3.0,
+2018,Antoine Griezmann,intl_tournament,statsbomb,7530,2018-06-16,FIFA World Cup,2018,Group Stage,France,True,0,1,69,1.0,,0,,,,,1.336258533,0.552758533,,5.0,
+2018,Antoine Griezmann,intl_tournament,statsbomb,8649,2018-07-06,FIFA World Cup,2018,Quarter-finals,France,True,0,1,90,1.0,1.0,2.0,,,,,0.042225982,0.042225982,0.182521713,2.0,2.0
+2018,Antoine Griezmann,intl_tournament,statsbomb,8658,2018-07-15,FIFA World Cup,2018,Final,France,True,0,1,90,1.0,0.0,1.0,,,,,0.81689769,0.03339769,0.052249614,2.0,1.0
+2018,Antoine Griezmann,intl_tournament,statsbomb,8655,2018-07-10,FIFA World Cup,2018,Semi-finals,France,True,0,1,90,0.0,1.0,1.0,,,,,0.20842411,0.20842411,0.331037372,5.0,4.0
+2018,Antoine Griezmann,intl_tournament,statsbomb,7563,2018-06-26,FIFA World Cup,2018,Group Stage,France,True,0,1,68,,,0,,,,,0.031989345,0.031989345,,2.0,
+2018,Kylian Mbappé,intl_tournament,statsbomb,7546,2018-06-21,FIFA World Cup,2018,Group Stage,France,True,0,1,74,1.0,,0,,,,,1.20909485,1.20909485,0.10144759,2.0,1.0
+2018,Kylian Mbappé,intl_tournament,statsbomb,7580,2018-06-30,FIFA World Cup,2018,Round of 16,France,True,0,1,88,2.0,0.0,2.0,,,,,0.338766354,0.338766354,,2.0,
+2018,Kylian Mbappé,intl_tournament,statsbomb,7530,2018-06-16,FIFA World Cup,2018,Group Stage,France,True,0,1,90,,,0,,,,,0.011586021,0.011586021,0.42914772,1.0,2.0
+2018,Kylian Mbappé,intl_tournament,statsbomb,8649,2018-07-06,FIFA World Cup,2018,Quarter-finals,France,True,0,1,87,0.0,0.0,0.0,1.0,,,,0.15214236,0.15214236,,1.0,
+2018,Kylian Mbappé,intl_tournament,statsbomb,8658,2018-07-15,FIFA World Cup,2018,Final,France,True,0,1,90,1.0,0.0,1.0,,,,,0.06342211,0.06342211,,2.0,
+2018,Kylian Mbappé,intl_tournament,statsbomb,8655,2018-07-10,FIFA World Cup,2018,Semi-finals,France,True,0,1,90,0.0,0.0,0.0,1.0,,,,,,0.424298064,,5.0
+2018,Kylian Mbappé,intl_tournament,statsbomb,7563,2018-06-26,FIFA World Cup,2018,Group Stage,France,True,0,1,12,,,0,,,,,,,0.031210398,,1.0
+2018,Lionel Messi,intl_tournament,statsbomb,7545,2018-06-21,FIFA World Cup,2018,Group Stage,Argentina,True,0,1,90,,,0,,,,,0.2574592,0.2574592,0.11561402200000001,1.0,2.0
+2018,Lionel Messi,intl_tournament,statsbomb,7531,2018-06-16,FIFA World Cup,2018,Group Stage,Argentina,True,0,1,90,,,0,,,,,1.0809845754,0.2974845754,0.322391205,11.0,3.0
+2018,Lionel Messi,intl_tournament,statsbomb,7580,2018-06-30,FIFA World Cup,2018,Round of 16,Argentina,True,0,1,90,0.0,1.0,1.0,,,,,0.23996204799999998,0.23996204799999998,0.34560817,4.0,2.0
+2018,Lionel Messi,intl_tournament,statsbomb,7564,2018-06-26,FIFA World Cup,2018,Group Stage,Argentina,True,0,1,90,1.0,,0,1.0,,,,0.29854430600000004,0.29854430600000004,0.205230054,2.0,2.0
+2018,Mohamed Salah,intl_tournament,statsbomb,7540,2018-06-19,FIFA World Cup,2018,Group Stage,Egypt,True,0,1,90,1.0,,0,,,,,1.045561952,0.262061952,0.13697189,4.0,2.0
+2018,Mohamed Salah,intl_tournament,statsbomb,7578,2018-06-15,FIFA World Cup,2018,Group Stage,Egypt,True,,0,0,,,,,,,,,,,,
+2018,Mohamed Salah,intl_tournament,statsbomb,7559,2018-06-25,FIFA World Cup,2018,Group Stage,Egypt,True,0,1,90,1.0,,0,,,,,0.55171308,0.55171308,0.22116122000000002,2.0,3.0
+2018,Raphaël Varane,intl_tournament,statsbomb,7546,2018-06-21,FIFA World Cup,2018,Group Stage,France,True,0,1,90,,,0,,,,,0.10144759,0.10144759,,1.0,
+2018,Raphaël Varane,intl_tournament,statsbomb,7580,2018-06-30,FIFA World Cup,2018,Round of 16,France,True,0,1,90,0.0,0.0,0.0,,,,,,,,,
+2018,Raphaël Varane,intl_tournament,statsbomb,7530,2018-06-16,FIFA World Cup,2018,Group Stage,France,True,0,1,90,,,0,,,,,,,,,
+2018,Raphaël Varane,intl_tournament,statsbomb,8649,2018-07-06,FIFA World Cup,2018,Quarter-finals,France,True,0,1,90,1.0,0.0,1.0,,,,,0.182521713,0.182521713,,2.0,
+2018,Raphaël Varane,intl_tournament,statsbomb,8658,2018-07-15,FIFA World Cup,2018,Final,France,True,0,1,90,0.0,0.0,0.0,,,,,,,,,
+2018,Raphaël Varane,intl_tournament,statsbomb,8655,2018-07-10,FIFA World Cup,2018,Semi-finals,France,True,0,1,90,0.0,0.0,0.0,,,,,,,,,
+2018,Raphaël Varane,intl_tournament,statsbomb,7563,2018-06-26,FIFA World Cup,2018,Group Stage,France,True,0,1,90,,,0,,,,,0.07222413,0.07222413,,1.0,
+2018,Eden Hazard,intl_tournament,statsbomb,8650,2018-07-06,FIFA World Cup,2018,Quarter-finals,Belgium,True,0,1,90,0.0,0.0,0.0,,,,,0.17642219399999998,0.17642219399999998,,2.0,
+2018,Eden Hazard,intl_tournament,statsbomb,7584,2018-07-02,FIFA World Cup,2018,Round of 16,Belgium,True,0,1,90,0.0,1.0,1.0,,,,,0.394165508,0.394165508,0.335411275,4.0,5.0
+2018,Eden Hazard,intl_tournament,statsbomb,7570,2018-06-28,FIFA World Cup,2018,Group Stage,Belgium,True,,0,0,,,,,,,,,,,,
+2018,Eden Hazard,intl_tournament,statsbomb,7536,2018-06-18,FIFA World Cup,2018,Group Stage,Belgium,True,0,1,90,,1.0,0,,,,,0.181980115,0.181980115,0.442220814,4.0,4.0
+2018,Eden Hazard,intl_tournament,statsbomb,7552,2018-06-23,FIFA World Cup,2018,Group Stage,Belgium,True,0,1,67,2.0,,0,,,,,2.040389838,1.256889838,0.148151109,4.0,3.0
+2018,Eden Hazard,intl_tournament,statsbomb,8655,2018-07-10,FIFA World Cup,2018,Semi-finals,Belgium,True,0,1,90,0.0,0.0,0.0,1.0,,,,0.038098143,0.038098143,0.037019253,2.0,1.0
+2018,Eden Hazard,intl_tournament,statsbomb,8657,2018-07-14,FIFA World Cup,2018,3rd Place Final,Belgium,True,0,1,90,1.0,0.0,1.0,,,,,0.440466064,0.440466064,0.09487932800000001,2.0,2.0
+2018,Kevin De Bruyne,intl_tournament,statsbomb,8650,2018-07-06,FIFA World Cup,2018,Quarter-finals,Belgium,True,0,1,90,1.0,0.0,1.0,,,,,0.070240028,0.070240028,0.255152308,3.0,3.0
+2018,Kevin De Bruyne,intl_tournament,statsbomb,7584,2018-07-02,FIFA World Cup,2018,Round of 16,Belgium,True,0,1,90,0.0,0.0,0.0,,,,,0.136468701,0.136468701,0.4715148145,2.0,5.0
+2018,Kevin De Bruyne,intl_tournament,statsbomb,7570,2018-06-28,FIFA World Cup,2018,Group Stage,Belgium,True,,0,0,,,,,,,,,,,,
+2018,Kevin De Bruyne,intl_tournament,statsbomb,7536,2018-06-18,FIFA World Cup,2018,Group Stage,Belgium,True,0,1,90,,1.0,0,1.0,,,,0.121723746,0.121723746,0.42746649800000003,3.0,4.0
+2018,Kevin De Bruyne,intl_tournament,statsbomb,7552,2018-06-23,FIFA World Cup,2018,Group Stage,Belgium,True,0,1,90,,,0,,,,,,,0.73803229,,4.0
+2018,Kevin De Bruyne,intl_tournament,statsbomb,8655,2018-07-10,FIFA World Cup,2018,Semi-finals,Belgium,True,0,1,90,0.0,0.0,0.0,,,,,0.112280763,0.112280763,0.02582844,2.0,1.0
+2018,Kevin De Bruyne,intl_tournament,statsbomb,8657,2018-07-14,FIFA World Cup,2018,3rd Place Final,Belgium,True,0,1,90,0.0,1.0,1.0,,,,,0.111022568,0.111022568,0.5822231019999999,2.0,4.0
+2018,Harry Kane,intl_tournament,statsbomb,7554,2018-06-24,FIFA World Cup,2018,Group Stage,England,True,0,1,63,3.0,,0,,,,,1.7672203199999998,0.20022032,0.43374035,3.0,1.0
+2018,Harry Kane,intl_tournament,statsbomb,7585,2018-07-03,FIFA World Cup,2018,Round of 16,England,True,1,1,120,1.0,0.0,1.0,,,,,1.416698389,0.6331983889999999,,3.0,
+2018,Harry Kane,intl_tournament,statsbomb,7570,2018-06-28,FIFA World Cup,2018,Group Stage,England,True,,0,0,,,,,,,,,,,,
+2018,Harry Kane,intl_tournament,statsbomb,8656,2018-07-11,FIFA World Cup,2018,Semi-finals,England,True,1,1,120,0.0,0.0,0.0,,,,,0.066172027,0.066172027,0.016519846,2.0,1.0
+2018,Harry Kane,intl_tournament,statsbomb,7537,2018-06-18,FIFA World Cup,2018,Group Stage,England,True,0,1,90,2.0,,0,,,,,0.596464368,0.596464368,,3.0,
+2018,Harry Kane,intl_tournament,statsbomb,8651,2018-07-07,FIFA World Cup,2018,Quarter-finals,England,True,0,1,90,0.0,0.0,0.0,,,,,0.057993297,0.057993297,,1.0,
+2018,Harry Kane,intl_tournament,statsbomb,8657,2018-07-14,FIFA World Cup,2018,3rd Place Final,England,True,0,1,90,0.0,0.0,0.0,,,,,0.12335713000000001,0.12335713000000001,,2.0,
+2018,N'Golo Kanté,intl_tournament,statsbomb,7546,2018-06-21,FIFA World Cup,2018,Group Stage,France,True,0,1,90,,,0,,,,,,,0.009108837,,1.0
+2018,N'Golo Kanté,intl_tournament,statsbomb,7580,2018-06-30,FIFA World Cup,2018,Round of 16,France,True,0,1,90,0.0,0.0,0.0,,,,,,,,,
+2018,N'Golo Kanté,intl_tournament,statsbomb,7530,2018-06-16,FIFA World Cup,2018,Group Stage,France,True,0,1,90,,,0,,,,,,,,,
+2018,N'Golo Kanté,intl_tournament,statsbomb,8649,2018-07-06,FIFA World Cup,2018,Quarter-finals,France,True,0,1,90,0.0,0.0,0.0,,,,,0.035039734,0.035039734,,1.0,
+2018,N'Golo Kanté,intl_tournament,statsbomb,8658,2018-07-15,FIFA World Cup,2018,Final,France,True,0,1,54,0.0,0.0,0.0,1.0,,,,,,,,
+2018,N'Golo Kanté,intl_tournament,statsbomb,8655,2018-07-10,FIFA World Cup,2018,Semi-finals,France,True,0,1,90,0.0,0.0,0.0,1.0,,,,,,,,
+2018,N'Golo Kanté,intl_tournament,statsbomb,7563,2018-06-26,FIFA World Cup,2018,Group Stage,France,True,0,1,90,,,0,,,,,,,,,
+2018,Neymar,intl_tournament,statsbomb,8650,2018-07-06,FIFA World Cup,2018,Quarter-finals,Brazil,True,0,1,90,0.0,0.0,0.0,,,,,0.21139941,0.21139941,1.12436435,3.0,8.0
+2018,Neymar,intl_tournament,statsbomb,7548,2018-06-22,FIFA World Cup,2018,Group Stage,Brazil,True,0,1,90,1.0,,0,1.0,,,,1.691641476,1.691641476,0.22993855200000002,6.0,3.0
+2018,Neymar,intl_tournament,statsbomb,7565,2018-06-27,FIFA World Cup,2018,Group Stage,Brazil,True,0,1,90,,1.0,0,,,,,0.505276462,0.505276462,0.564025386,7.0,5.0
+2018,Neymar,intl_tournament,statsbomb,7583,2018-07-02,FIFA World Cup,2018,Round of 16,Brazil,True,0,1,90,1.0,0.0,1.0,,,,,1.506504574,1.506504574,0.25393783999999997,7.0,4.0
+2018,Neymar,intl_tournament,statsbomb,7533,2018-06-17,FIFA World Cup,2018,Group Stage,Brazil,True,0,1,90,,,0,,,,,0.263670604,0.263670604,0.513297735,4.0,4.0
+2018,Luis Suárez,intl_tournament,statsbomb,7544,2018-06-20,FIFA World Cup,2018,Group Stage,Uruguay,True,0,1,90,1.0,,0,,,,,0.567622716,0.567622716,0.152814951,6.0,2.0
+2018,Luis Suárez,intl_tournament,statsbomb,7578,2018-06-15,FIFA World Cup,2018,Group Stage,Uruguay,True,0,1,90,,,0,,,,,0.8016247839999999,0.8016247839999999,0.118427209,4.0,2.0
+2018,Luis Suárez,intl_tournament,statsbomb,7558,2018-06-25,FIFA World Cup,2018,Group Stage,Uruguay,True,0,1,90,1.0,,0,,,,,0.12156405,0.12156405,0.4325817,1.0,1.0
+2018,Luis Suárez,intl_tournament,statsbomb,8649,2018-07-06,FIFA World Cup,2018,Quarter-finals,Uruguay,True,0,1,90,0.0,0.0,0.0,,,,,,,0.013982514,,1.0
+2018,Luis Suárez,intl_tournament,statsbomb,7579,2018-06-30,FIFA World Cup,2018,Round of 16,Uruguay,True,0,1,90,0.0,1.0,1.0,,,,,0.065548417,0.065548417,0.17684262,3.0,1.0
+2018,Thibaut Courtois,intl_tournament,statsbomb,8650,2018-07-06,FIFA World Cup,2018,Quarter-finals,Belgium,True,0,1,90,0.0,0.0,0.0,,,0,1,,,,,
+2018,Thibaut Courtois,intl_tournament,statsbomb,7584,2018-07-02,FIFA World Cup,2018,Round of 16,Belgium,True,0,1,90,0.0,0.0,0.0,,,0,2,,,,,
+2018,Thibaut Courtois,intl_tournament,statsbomb,7570,2018-06-28,FIFA World Cup,2018,Group Stage,Belgium,True,0,1,90,,,0,,,1,0,,,,,
+2018,Thibaut Courtois,intl_tournament,statsbomb,7536,2018-06-18,FIFA World Cup,2018,Group Stage,Belgium,True,0,1,90,,,0,,,1,0,,,,,
+2018,Thibaut Courtois,intl_tournament,statsbomb,7552,2018-06-23,FIFA World Cup,2018,Group Stage,Belgium,True,0,1,90,,,0,,,0,2,,,,,
+2018,Thibaut Courtois,intl_tournament,statsbomb,8655,2018-07-10,FIFA World Cup,2018,Semi-finals,Belgium,True,0,1,90,0.0,0.0,0.0,,,0,1,,,,,
+2018,Thibaut Courtois,intl_tournament,statsbomb,8657,2018-07-14,FIFA World Cup,2018,3rd Place Final,Belgium,True,0,1,90,0.0,0.0,0.0,,,1,0,,,,,
+2018,Paul Pogba,intl_tournament,statsbomb,7546,2018-06-21,FIFA World Cup,2018,Group Stage,France,True,0,1,89,,,0,1.0,,,,0.009108837,0.009108837,0.37127456999999997,1.0,2.0
+2018,Paul Pogba,intl_tournament,statsbomb,7580,2018-06-30,FIFA World Cup,2018,Round of 16,France,True,0,1,90,0.0,0.0,0.0,,,,,0.09104843,0.09104843,0.07977028,1.0,1.0
+2018,Paul Pogba,intl_tournament,statsbomb,7530,2018-06-16,FIFA World Cup,2018,Group Stage,France,True,0,1,90,,,0,,,,,0.050655685,0.050655685,0.054453943,1.0,1.0
+2018,Paul Pogba,intl_tournament,statsbomb,8649,2018-07-06,FIFA World Cup,2018,Quarter-finals,France,True,0,1,90,0.0,0.0,0.0,,,,,0.006310853,0.006310853,0.06060878,1.0,1.0
+2018,Paul Pogba,intl_tournament,statsbomb,8658,2018-07-15,FIFA World Cup,2018,Final,France,True,0,1,90,1.0,0.0,1.0,,,,,0.138514984,0.138514984,0.01856424,2.0,1.0
+2018,Paul Pogba,intl_tournament,statsbomb,8655,2018-07-10,FIFA World Cup,2018,Semi-finals,France,True,0,1,90,0.0,0.0,0.0,,,,,0.06375324,0.06375324,0.344477944,1.0,3.0
+2018,Paul Pogba,intl_tournament,statsbomb,7563,2018-06-26,FIFA World Cup,2018,Group Stage,France,True,,0,0,,,,,,,,,,,,
+2018,Sergio Agüero,intl_tournament,statsbomb,7545,2018-06-21,FIFA World Cup,2018,Group Stage,Argentina,True,0,1,54,,,0,,,,,0.13586974,0.13586974,,1.0,
+2018,Sergio Agüero,intl_tournament,statsbomb,7531,2018-06-16,FIFA World Cup,2018,Group Stage,Argentina,True,0,1,90,1.0,,0,,,,,0.187333773,0.187333773,0.027525058,3.0,1.0
+2018,Sergio Agüero,intl_tournament,statsbomb,7580,2018-06-30,FIFA World Cup,2018,Round of 16,Argentina,True,0,1,25,1.0,0.0,1.0,,,,,0.34560817,0.34560817,,2.0,
+2018,Sergio Agüero,intl_tournament,statsbomb,7564,2018-06-26,FIFA World Cup,2018,Group Stage,Argentina,True,0,1,11,,,0,,,,,,,,,
+2018,Roberto Firmino,intl_tournament,statsbomb,8650,2018-07-06,FIFA World Cup,2018,Quarter-finals,Brazil,True,0,1,45,0.0,0.0,0.0,,,,,0.344289876,0.344289876,0.014297066,2.0,1.0
+2018,Roberto Firmino,intl_tournament,statsbomb,7548,2018-06-22,FIFA World Cup,2018,Group Stage,Brazil,True,0,1,22,,,0,,,,,0.15961349,0.15961349,,1.0,
+2018,Roberto Firmino,intl_tournament,statsbomb,7565,2018-06-27,FIFA World Cup,2018,Group Stage,Brazil,True,,0,0,,,,,,,,,,,,
+2018,Roberto Firmino,intl_tournament,statsbomb,7583,2018-07-02,FIFA World Cup,2018,Round of 16,Brazil,True,0,1,4,1.0,0.0,1.0,,,,,0.9220455,0.9220455,,1.0,
+2018,Roberto Firmino,intl_tournament,statsbomb,7533,2018-06-17,FIFA World Cup,2018,Group Stage,Brazil,True,0,1,12,,,0,,,,,0.18350318999999998,0.18350318999999998,,2.0,
+2018,Ivan Rakitić,intl_tournament,statsbomb,7545,2018-06-21,FIFA World Cup,2018,Group Stage,Croatia,True,0,1,90,1.0,,0,,,,,0.6052953249999999,0.6052953249999999,0.10931223,4.0,1.0
+2018,Ivan Rakitić,intl_tournament,statsbomb,7561,2018-06-26,FIFA World Cup,2018,Group Stage,Croatia,True,0,1,9,,,0,,,,,0.063333191,0.063333191,,2.0,
+2018,Ivan Rakitić,intl_tournament,statsbomb,8656,2018-07-11,FIFA World Cup,2018,Semi-finals,Croatia,True,1,1,120,0.0,0.0,0.0,,,,,0.030502638,0.030502638,0.061426584,1.0,1.0
+2018,Ivan Rakitić,intl_tournament,statsbomb,7581,2018-07-01,FIFA World Cup,2018,Round of 16,Croatia,True,1,1,120,0.0,0.0,0.0,,,,,0.135159271,0.135159271,0.176995852,3.0,2.0
+2018,Ivan Rakitić,intl_tournament,statsbomb,7529,2018-06-16,FIFA World Cup,2018,Group Stage,Croatia,True,0,1,90,,,0,1.0,,,,0.018438444,0.018438444,0.239579692,1.0,3.0
+2018,Ivan Rakitić,intl_tournament,statsbomb,8658,2018-07-15,FIFA World Cup,2018,Final,Croatia,True,0,1,90,0.0,0.0,0.0,,,,,0.11902875099999999,0.11902875099999999,0.21369202999999998,3.0,2.0
+2018,Ivan Rakitić,intl_tournament,statsbomb,8652,2018-07-07,FIFA World Cup,2018,Quarter-finals,Croatia,True,1,1,120,0.0,0.0,0.0,,,,,0.045481052,0.045481052,0.00991792,1.0,1.0
+2018,Sergio Ramos,intl_tournament,statsbomb,7543,2018-06-20,FIFA World Cup,2018,Group Stage,Spain,True,0,1,90,,,0,,,,,0.11837049399999999,0.11837049399999999,0.209744779,2.0,2.0
+2018,Sergio Ramos,intl_tournament,statsbomb,7576,2018-06-15,FIFA World Cup,2018,Group Stage,Spain,True,0,1,90,,,0,,,,,,,,,
+2018,Sergio Ramos,intl_tournament,statsbomb,7582,2018-07-01,FIFA World Cup,2018,Round of 16,Spain,True,1,1,120,0.0,0.0,0.0,,,,,0.072778836,0.072778836,0.011966425,1.0,1.0
+2018,Sergio Ramos,intl_tournament,statsbomb,7560,2018-06-25,FIFA World Cup,2018,Group Stage,Spain,True,0,1,90,,,0,,,,,0.006282342,0.006282342,,1.0,
+2018,Edinson Cavani,intl_tournament,statsbomb,7544,2018-06-20,FIFA World Cup,2018,Group Stage,Uruguay,True,0,1,90,,,0,,,,,0.6891027439999999,0.6891027439999999,0.15817063,4.0,1.0
+2018,Edinson Cavani,intl_tournament,statsbomb,7578,2018-06-15,FIFA World Cup,2018,Group Stage,Uruguay,True,0,1,90,,,0,,,,,0.226066789,0.226066789,0.20541766,5.0,1.0
+2018,Edinson Cavani,intl_tournament,statsbomb,7558,2018-06-25,FIFA World Cup,2018,Group Stage,Uruguay,True,0,1,90,1.0,,0,,,,,0.97908331,0.97908331,,4.0,
+2018,Edinson Cavani,intl_tournament,statsbomb,8649,2018-07-06,FIFA World Cup,2018,Quarter-finals,Uruguay,False,,,,,,,,,,,,,,,
+2018,Edinson Cavani,intl_tournament,statsbomb,7579,2018-06-30,FIFA World Cup,2018,Round of 16,Uruguay,True,0,1,73,2.0,0.0,2.0,,,,,0.251813164,0.251813164,0.013191463,3.0,1.0
+2018,Sadio Mané,intl_tournament,statsbomb,7539,2018-06-19,FIFA World Cup,2018,Group Stage,Senegal,True,0,1,90,,,0,,,,,0.13267757,0.13267757,0.054520755000000004,1.0,2.0
+2018,Sadio Mané,intl_tournament,statsbomb,7571,2018-06-28,FIFA World Cup,2018,Group Stage,Senegal,True,0,1,90,,,0,,,,,0.047152,0.047152,0.223056365,1.0,2.0
+2018,Sadio Mané,intl_tournament,statsbomb,7556,2018-06-24,FIFA World Cup,2018,Group Stage,Senegal,True,0,1,90,1.0,,0,,,,,0.57378894,0.57378894,0.08816641,1.0,1.0
+2018,Marcelo,intl_tournament,statsbomb,8650,2018-07-06,FIFA World Cup,2018,Quarter-finals,Brazil,True,0,1,90,0.0,0.0,0.0,,,,,0.011753061,0.011753061,0.306126463,1.0,3.0
+2018,Marcelo,intl_tournament,statsbomb,7548,2018-06-22,FIFA World Cup,2018,Group Stage,Brazil,True,0,1,90,,,0,,,,,0.0472848075,0.0472848075,0.021353607,3.0,2.0
+2018,Marcelo,intl_tournament,statsbomb,7565,2018-06-27,FIFA World Cup,2018,Group Stage,Brazil,True,0,1,9,,,0,,,,,,,,,
+2018,Marcelo,intl_tournament,statsbomb,7583,2018-07-02,FIFA World Cup,2018,Round of 16,Brazil,True,,0,0,,,,,,,,,,,,
+2018,Marcelo,intl_tournament,statsbomb,7533,2018-06-17,FIFA World Cup,2018,Group Stage,Brazil,True,0,1,90,,,0,,,,,,,0.107496079,,3.0
+2018,Alisson,intl_tournament,statsbomb,8650,2018-07-06,FIFA World Cup,2018,Quarter-finals,Brazil,True,0,1,90,0.0,0.0,0.0,,,0,2,,,,,
+2018,Alisson,intl_tournament,statsbomb,7548,2018-06-22,FIFA World Cup,2018,Group Stage,Brazil,True,0,1,90,,,0,,,1,0,,,,,
+2018,Alisson,intl_tournament,statsbomb,7565,2018-06-27,FIFA World Cup,2018,Group Stage,Brazil,True,0,1,90,,,0,,,1,0,,,,,
+2018,Alisson,intl_tournament,statsbomb,7583,2018-07-02,FIFA World Cup,2018,Round of 16,Brazil,True,0,1,90,0.0,0.0,0.0,,,1,0,,,,,
+2018,Alisson,intl_tournament,statsbomb,7533,2018-06-17,FIFA World Cup,2018,Group Stage,Brazil,True,0,1,90,,,0,,,0,1,,,,,
+2018,Mario Mandžukić,intl_tournament,statsbomb,7545,2018-06-21,FIFA World Cup,2018,Group Stage,Croatia,True,0,1,90,,,0,1.0,,,,0.47826972,0.47826972,,3.0,
+2018,Mario Mandžukić,intl_tournament,statsbomb,7561,2018-06-26,FIFA World Cup,2018,Group Stage,Croatia,True,,0,0,,,,,,,,,,,,
+2018,Mario Mandžukić,intl_tournament,statsbomb,8656,2018-07-11,FIFA World Cup,2018,Semi-finals,Croatia,True,1,1,115,1.0,0.0,1.0,1.0,,,,0.738664365,0.738664365,0.0076604215,3.0,1.0
+2018,Mario Mandžukić,intl_tournament,statsbomb,7581,2018-07-01,FIFA World Cup,2018,Round of 16,Croatia,True,1,1,108,1.0,0.0,1.0,,,,,0.26349646,0.26349646,,1.0,
+2018,Mario Mandžukić,intl_tournament,statsbomb,7529,2018-06-16,FIFA World Cup,2018,Group Stage,Croatia,True,0,1,85,,,0,,,,,0.42800066999999997,0.42800066999999997,0.107280558,2.0,3.0
+2018,Mario Mandžukić,intl_tournament,statsbomb,8658,2018-07-15,FIFA World Cup,2018,Final,Croatia,True,0,1,90,1.0,0.0,1.0,,,,,0.5631902,0.5631902,0.06950906,1.0,1.0
+2018,Mario Mandžukić,intl_tournament,statsbomb,8652,2018-07-07,FIFA World Cup,2018,Quarter-finals,Croatia,True,1,1,120,0.0,1.0,1.0,,,,,0.2387839,0.2387839,0.37317618,2.0,2.0
+2018,Diego Godín,intl_tournament,statsbomb,7544,2018-06-20,FIFA World Cup,2018,Group Stage,Uruguay,True,0,1,90,,,0,,,,,,,,,
+2018,Diego Godín,intl_tournament,statsbomb,7578,2018-06-15,FIFA World Cup,2018,Group Stage,Uruguay,True,0,1,90,,,0,,,,,,,,,
+2018,Diego Godín,intl_tournament,statsbomb,7558,2018-06-25,FIFA World Cup,2018,Group Stage,Uruguay,True,0,1,90,,,0,,,,,0.2085115518,0.2085115518,,2.0,
+2018,Diego Godín,intl_tournament,statsbomb,8649,2018-07-06,FIFA World Cup,2018,Quarter-finals,Uruguay,True,0,1,90,0.0,0.0,0.0,,,,,0.20940804,0.20940804,,1.0,
+2018,Diego Godín,intl_tournament,statsbomb,7579,2018-06-30,FIFA World Cup,2018,Round of 16,Uruguay,True,0,1,90,0.0,0.0,0.0,,,,,,,0.014627576,,1.0
+2018,Isco,intl_tournament,statsbomb,7543,2018-06-20,FIFA World Cup,2018,Group Stage,Spain,True,0,1,90,,,0,,,,,0.143861468,0.143861468,0.2562277,4.0,2.0
+2018,Isco,intl_tournament,statsbomb,7576,2018-06-15,FIFA World Cup,2018,Group Stage,Spain,True,0,1,90,,,0,,,,,0.034385515500000005,0.034385515500000005,,2.0,
+2018,Isco,intl_tournament,statsbomb,7582,2018-07-01,FIFA World Cup,2018,Round of 16,Spain,True,1,1,120,0.0,0.0,0.0,,,,,0.03204402,0.03204402,0.132138146,1.0,2.0
+2018,Isco,intl_tournament,statsbomb,7560,2018-06-25,FIFA World Cup,2018,Group Stage,Spain,True,0,1,90,1.0,,0,,,,,0.6135978,0.6135978,0.47378389600000004,3.0,6.0
+2018,Hugo Lloris,intl_tournament,statsbomb,7546,2018-06-21,FIFA World Cup,2018,Group Stage,France,True,0,1,90,,,0,,,1,0,,,,,
+2018,Hugo Lloris,intl_tournament,statsbomb,7580,2018-06-30,FIFA World Cup,2018,Round of 16,France,True,0,1,90,0.0,0.0,0.0,,,0,3,,,,,
+2018,Hugo Lloris,intl_tournament,statsbomb,7530,2018-06-16,FIFA World Cup,2018,Group Stage,France,True,0,1,90,,,0,,,0,1,,,,,
+2018,Hugo Lloris,intl_tournament,statsbomb,8649,2018-07-06,FIFA World Cup,2018,Quarter-finals,France,True,0,1,90,0.0,0.0,0.0,,,1,0,,,,,
+2018,Hugo Lloris,intl_tournament,statsbomb,8658,2018-07-15,FIFA World Cup,2018,Final,France,True,0,1,90,0.0,0.0,0.0,,,0,2,,,,,
+2018,Hugo Lloris,intl_tournament,statsbomb,8655,2018-07-10,FIFA World Cup,2018,Semi-finals,France,True,0,1,90,0.0,0.0,0.0,,,1,0,,,,,
+2018,Hugo Lloris,intl_tournament,statsbomb,7563,2018-06-26,FIFA World Cup,2018,Group Stage,France,True,,0,0,,,,,,,,,,,,
+2021,Robert Lewandowski,intl_tournament,statsbomb,3788762,2021-06-19,UEFA Euro,2020,Group Stage,Poland,True,0,1,90,1.0,,0,1.0,,,,0.274261915,0.274261915,0.19680348,2.0,1.0
+2021,Robert Lewandowski,intl_tournament,statsbomb,3788749,2021-06-14,UEFA Euro,2020,Group Stage,Poland,True,0,1,90,,,0,,,,,0.259361669,0.259361669,0.053235233,5.0,1.0
+2021,Robert Lewandowski,intl_tournament,statsbomb,3788776,2021-06-23,UEFA Euro,2020,Group Stage,Poland,True,0,1,90,2.0,,0,,,,,1.067115735,1.067115735,0.041133597,5.0,1.0
+2021,Jorginho,intl_tournament,statsbomb,3794685,2021-06-26,UEFA Euro,2020,Round of 16,Italy,True,1,1,120,0.0,0.0,0.0,,,,,,,,,
+2021,Jorginho,intl_tournament,statsbomb,3795107,2021-07-02,UEFA Euro,2020,Quarter-finals,Italy,True,0,1,90,0.0,0.0,0.0,,,,,,,0.02266121,,1.0
+2021,Jorginho,intl_tournament,statsbomb,3795220,2021-07-06,UEFA Euro,2020,Semi-finals,Italy,True,1,1,120,0.0,0.0,0.0,,,,,,,,,
+2021,Jorginho,intl_tournament,statsbomb,3795506,2021-07-11,UEFA Euro,2020,Final,Italy,True,1,1,120,0.0,0.0,0.0,1.0,,,,,,0.06580821,,1.0
+2021,Jorginho,intl_tournament,statsbomb,3788766,2021-06-20,UEFA Euro,2020,Group Stage,Italy,True,0,1,74,,,0,,,,,,,0.058780637499999996,,2.0
+2021,Jorginho,intl_tournament,statsbomb,3788754,2021-06-16,UEFA Euro,2020,Group Stage,Italy,True,0,1,90,,,0,,,,,,,,,
+2021,Jorginho,intl_tournament,statsbomb,3788741,2021-06-11,UEFA Euro,2020,Group Stage,Italy,True,0,1,90,,,0,,,,,,,0.16244968599999998,,2.0
+2021,Karim Benzema,intl_tournament,statsbomb,3788773,2021-06-23,UEFA Euro,2020,Group Stage,France,True,0,1,90,2.0,,0,,,,,1.129763064,0.34626306399999995,0.038125727,4.0,1.0
+2021,Karim Benzema,intl_tournament,statsbomb,3788763,2021-06-19,UEFA Euro,2020,Group Stage,France,True,0,1,76,,,0,,,,,0.229631783,0.229631783,0.18776856,2.0,1.0
+2021,Karim Benzema,intl_tournament,statsbomb,3794691,2021-06-28,UEFA Euro,2020,Round of 16,France,True,1,1,93,2.0,0.0,2.0,,,,,1.109184579,1.109184579,0.03996484,4.0,1.0
+2021,Karim Benzema,intl_tournament,statsbomb,3788751,2021-06-15,UEFA Euro,2020,Group Stage,France,True,0,1,88,,,0,,,,,0.054731365,0.054731365,,1.0,
+2021,N'Golo Kanté,intl_tournament,statsbomb,3788773,2021-06-23,UEFA Euro,2020,Group Stage,France,True,0,1,90,,,0,,,,,,,,,
+2021,N'Golo Kanté,intl_tournament,statsbomb,3788763,2021-06-19,UEFA Euro,2020,Group Stage,France,True,0,1,90,,,0,,,,,0.025959449,0.025959449,,1.0,
+2021,N'Golo Kanté,intl_tournament,statsbomb,3794691,2021-06-28,UEFA Euro,2020,Round of 16,France,True,1,1,120,0.0,0.0,0.0,,,,,,,0.016221011,,1.0
+2021,N'Golo Kanté,intl_tournament,statsbomb,3788751,2021-06-15,UEFA Euro,2020,Group Stage,France,True,0,1,90,,,0,,,,,,,,,
+2021,Cristiano Ronaldo,intl_tournament,statsbomb,3788773,2021-06-23,UEFA Euro,2020,Group Stage,Portugal,True,0,1,90,2.0,,0,,,,,1.706463501,0.139463501,,5.0,
+2021,Cristiano Ronaldo,intl_tournament,statsbomb,3794687,2021-06-27,UEFA Euro,2020,Round of 16,Portugal,True,0,1,90,0.0,0.0,0.0,,,,,0.081785072,0.081785072,0.36158355,4.0,2.0
+2021,Cristiano Ronaldo,intl_tournament,statsbomb,3788764,2021-06-19,UEFA Euro,2020,Group Stage,Portugal,True,0,1,90,1.0,1.0,0,,,,,0.9376172252999999,0.9376172252999999,0.863865715,2.0,2.0
+2021,Cristiano Ronaldo,intl_tournament,statsbomb,3788752,2021-06-15,UEFA Euro,2020,Group Stage,Portugal,True,0,1,90,2.0,,0,,,,,2.1379117,1.3544117,,4.0,
+2021,Kevin De Bruyne,intl_tournament,statsbomb,3794687,2021-06-27,UEFA Euro,2020,Round of 16,Belgium,True,0,1,48,0.0,0.0,0.0,,,,,,,0.029850839,,1.0
+2021,Kevin De Bruyne,intl_tournament,statsbomb,3795107,2021-07-02,UEFA Euro,2020,Quarter-finals,Belgium,True,0,1,90,0.0,0.0,0.0,,,,,0.131743901,0.131743901,0.668373503,2.0,3.0
+2021,Kevin De Bruyne,intl_tournament,statsbomb,3788768,2021-06-21,UEFA Euro,2020,Group Stage,Belgium,True,0,1,90,,1.0,0,,,,,0.05387097,0.05387097,0.593561627,1.0,7.0
+2021,Kevin De Bruyne,intl_tournament,statsbomb,3788757,2021-06-17,UEFA Euro,2020,Group Stage,Belgium,True,0,1,45,1.0,1.0,0,,,,,0.136564058,0.136564058,0.67649315,2.0,2.0
+2021,Kevin De Bruyne,intl_tournament,statsbomb,3788743,2021-06-12,UEFA Euro,2020,Group Stage,Belgium,False,,,,,,,,,,,,,,,
+2021,Kylian Mbappé,intl_tournament,statsbomb,3788773,2021-06-23,UEFA Euro,2020,Group Stage,France,True,0,1,90,,,0,,,,,0.16151626,0.16151626,,1.0,
+2021,Kylian Mbappé,intl_tournament,statsbomb,3788763,2021-06-19,UEFA Euro,2020,Group Stage,France,True,0,1,90,,,0,,,,,0.790124304,0.790124304,0.229631783,6.0,2.0
+2021,Kylian Mbappé,intl_tournament,statsbomb,3794691,2021-06-28,UEFA Euro,2020,Round of 16,France,True,1,1,120,0.0,1.0,1.0,,,,,0.450157678,0.450157678,0.803763591,6.0,4.0
+2021,Kylian Mbappé,intl_tournament,statsbomb,3788751,2021-06-15,UEFA Euro,2020,Group Stage,France,True,0,1,90,,,0,,,,,0.04669623,0.04669623,0.1344984,1.0,1.0
+2021,Gianluigi Donnarumma,intl_tournament,statsbomb,3794685,2021-06-26,UEFA Euro,2020,Round of 16,Italy,True,1,1,120,0.0,0.0,0.0,,,0,1,,,,,
+2021,Gianluigi Donnarumma,intl_tournament,statsbomb,3795107,2021-07-02,UEFA Euro,2020,Quarter-finals,Italy,True,0,1,90,0.0,0.0,0.0,,,0,1,,,,,
+2021,Gianluigi Donnarumma,intl_tournament,statsbomb,3795220,2021-07-06,UEFA Euro,2020,Semi-finals,Italy,True,1,1,120,0.0,0.0,0.0,,,0,1,,,,,
+2021,Gianluigi Donnarumma,intl_tournament,statsbomb,3795506,2021-07-11,UEFA Euro,2020,Final,Italy,True,1,1,120,0.0,0.0,0.0,,,0,1,,,,,
+2021,Gianluigi Donnarumma,intl_tournament,statsbomb,3788766,2021-06-20,UEFA Euro,2020,Group Stage,Italy,True,0,1,89,,,0,,,0,0,,,,,
+2021,Gianluigi Donnarumma,intl_tournament,statsbomb,3788754,2021-06-16,UEFA Euro,2020,Group Stage,Italy,True,0,1,90,,,0,,,1,0,,,,,
+2021,Gianluigi Donnarumma,intl_tournament,statsbomb,3788741,2021-06-11,UEFA Euro,2020,Group Stage,Italy,True,0,1,90,,,0,,,1,0,,,,,
+2021,Romelu Lukaku,intl_tournament,statsbomb,3794687,2021-06-27,UEFA Euro,2020,Round of 16,Belgium,True,0,1,90,0.0,0.0,0.0,,,,,0.06989411300000001,0.06989411300000001,0.06755641,2.0,1.0
+2021,Romelu Lukaku,intl_tournament,statsbomb,3795107,2021-07-02,UEFA Euro,2020,Quarter-finals,Belgium,True,0,1,90,1.0,0.0,1.0,,,,,1.4668280619999998,0.683328062,,4.0,
+2021,Romelu Lukaku,intl_tournament,statsbomb,3788768,2021-06-21,UEFA Euro,2020,Group Stage,Belgium,True,0,1,84,1.0,,0,,,,,0.3979244860000001,0.3979244860000001,0.05387097,4.0,1.0
+2021,Romelu Lukaku,intl_tournament,statsbomb,3788757,2021-06-17,UEFA Euro,2020,Group Stage,Belgium,True,0,1,90,,,0,,,,,,,,,
+2021,Romelu Lukaku,intl_tournament,statsbomb,3788743,2021-06-12,UEFA Euro,2020,Group Stage,Belgium,True,0,1,90,2.0,,0,,,,,0.73941475,0.73941475,0.08832228,3.0,1.0
+2021,Giorgio Chiellini,intl_tournament,statsbomb,3794685,2021-06-26,UEFA Euro,2020,Round of 16,Italy,False,,,,,,,,,,,,,,,
+2021,Giorgio Chiellini,intl_tournament,statsbomb,3795107,2021-07-02,UEFA Euro,2020,Quarter-finals,Italy,True,0,1,90,0.0,0.0,0.0,,,,,,,,,
+2021,Giorgio Chiellini,intl_tournament,statsbomb,3795220,2021-07-06,UEFA Euro,2020,Semi-finals,Italy,True,1,1,120,0.0,0.0,0.0,,,,,,,,,
+2021,Giorgio Chiellini,intl_tournament,statsbomb,3795506,2021-07-11,UEFA Euro,2020,Final,Italy,True,1,1,120,0.0,0.0,0.0,1.0,,,,,,,,
+2021,Giorgio Chiellini,intl_tournament,statsbomb,3788766,2021-06-20,UEFA Euro,2020,Group Stage,Italy,False,,,,,,,,,,,,,,,
+2021,Giorgio Chiellini,intl_tournament,statsbomb,3788754,2021-06-16,UEFA Euro,2020,Group Stage,Italy,True,0,1,24,,,0,,,,,,,,,
+2021,Giorgio Chiellini,intl_tournament,statsbomb,3788741,2021-06-11,UEFA Euro,2020,Group Stage,Italy,True,0,1,90,,,0,,,,,0.070222646,0.070222646,0.042096123,2.0,1.0
+2021,Leonardo Bonucci,intl_tournament,statsbomb,3794685,2021-06-26,UEFA Euro,2020,Round of 16,Italy,True,1,1,120,0.0,0.0,0.0,,,,,0.053369246,0.053369246,,1.0,
+2021,Leonardo Bonucci,intl_tournament,statsbomb,3795107,2021-07-02,UEFA Euro,2020,Quarter-finals,Italy,True,0,1,90,0.0,0.0,0.0,,,,,,,,,
+2021,Leonardo Bonucci,intl_tournament,statsbomb,3795220,2021-07-06,UEFA Euro,2020,Semi-finals,Italy,True,1,1,120,0.0,0.0,0.0,1.0,,,,,,,,
+2021,Leonardo Bonucci,intl_tournament,statsbomb,3795506,2021-07-11,UEFA Euro,2020,Final,Italy,True,1,1,120,1.0,0.0,1.0,1.0,,,,0.830150904,0.830150904,0.20038714,2.0,1.0
+2021,Leonardo Bonucci,intl_tournament,statsbomb,3788766,2021-06-20,UEFA Euro,2020,Group Stage,Italy,True,0,1,45,,,0,,,,,,,,,
+2021,Leonardo Bonucci,intl_tournament,statsbomb,3788754,2021-06-16,UEFA Euro,2020,Group Stage,Italy,True,0,1,90,,,0,,,,,,,0.10382516,,1.0
+2021,Leonardo Bonucci,intl_tournament,statsbomb,3788741,2021-06-11,UEFA Euro,2020,Group Stage,Italy,True,0,1,90,,,0,,,,,0.068464709,0.068464709,,2.0,
+2021,Raheem Sterling,intl_tournament,statsbomb,3795187,2021-07-03,UEFA Euro,2020,Quarter-finals,England,True,0,1,64,0.0,1.0,1.0,,,,,0.034231465,0.034231465,0.3530124,1.0,1.0
+2021,Raheem Sterling,intl_tournament,statsbomb,3795506,2021-07-11,UEFA Euro,2020,Final,England,True,1,1,120,0.0,0.0,0.0,,,,,,,,,
+2021,Raheem Sterling,intl_tournament,statsbomb,3794688,2021-06-29,UEFA Euro,2020,Round of 16,England,True,0,1,90,1.0,0.0,1.0,,,,,0.528249881,0.528249881,,2.0,
+2021,Raheem Sterling,intl_tournament,statsbomb,3788772,2021-06-22,UEFA Euro,2020,Group Stage,England,True,0,1,67,1.0,,0,,,,,0.46297292,0.46297292,,2.0,
+2021,Raheem Sterling,intl_tournament,statsbomb,3788759,2021-06-18,UEFA Euro,2020,Group Stage,England,True,0,1,90,,,0,,,,,,,0.17642419,,1.0
+2021,Raheem Sterling,intl_tournament,statsbomb,3788745,2021-06-13,UEFA Euro,2020,Group Stage,England,True,0,1,90,1.0,,0,,,,,0.183716726,0.183716726,0.11645709,3.0,1.0
+2021,Raheem Sterling,intl_tournament,statsbomb,3795221,2021-07-07,UEFA Euro,2020,Semi-finals,England,True,1,1,120,0.0,0.0,0.0,,,,,0.945330972,0.945330972,,6.0,
+2021,Simon Kjær,intl_tournament,statsbomb,3794689,2021-06-26,UEFA Euro,2020,Round of 16,Denmark,True,0,1,77,0.0,0.0,0.0,,,,,,,,,
+2021,Simon Kjær,intl_tournament,statsbomb,3788769,2021-06-21,UEFA Euro,2020,Group Stage,Denmark,True,0,1,90,,,0,,,,,0.57488538,0.57488538,0.18357,2.0,1.0
+2021,Simon Kjær,intl_tournament,statsbomb,3795109,2021-07-03,UEFA Euro,2020,Quarter-finals,Denmark,True,0,1,90,0.0,0.0,0.0,,,,,,,,,
+2021,Simon Kjær,intl_tournament,statsbomb,3788757,2021-06-17,UEFA Euro,2020,Group Stage,Denmark,True,0,1,90,,,0,,,,,,,,,
+2021,Simon Kjær,intl_tournament,statsbomb,3795221,2021-07-07,UEFA Euro,2020,Semi-finals,Denmark,True,1,1,120,0.0,0.0,0.0,,,,,,,,,
+2021,Simon Kjær,intl_tournament,statsbomb,3788742,2021-06-12,UEFA Euro,2020,Group Stage,Denmark,True,0,1,63,,,0,,,,,,,,,
+2021,Mason Mount,intl_tournament,statsbomb,3795187,2021-07-03,UEFA Euro,2020,Quarter-finals,England,True,0,1,90,0.0,1.0,1.0,,,,,0.0772035,0.0772035,0.278703775,1.0,2.0
+2021,Mason Mount,intl_tournament,statsbomb,3795506,2021-07-11,UEFA Euro,2020,Final,England,True,1,1,99,0.0,0.0,0.0,,,,,,,,,
+2021,Mason Mount,intl_tournament,statsbomb,3794688,2021-06-29,UEFA Euro,2020,Round of 16,England,True,,0,0,,,,,,,,,,,,
+2021,Mason Mount,intl_tournament,statsbomb,3788772,2021-06-22,UEFA Euro,2020,Group Stage,England,False,,,,,,,,,,,,,,,
+2021,Mason Mount,intl_tournament,statsbomb,3788759,2021-06-18,UEFA Euro,2020,Group Stage,England,True,0,1,90,,,0,,,,,0.246645183,0.246645183,0.292557442,3.0,2.0
+2021,Mason Mount,intl_tournament,statsbomb,3788745,2021-06-13,UEFA Euro,2020,Group Stage,England,True,0,1,90,,,0,,,,,0.058016267,0.058016267,0.2437531,1.0,1.0
+2021,Mason Mount,intl_tournament,statsbomb,3795221,2021-07-07,UEFA Euro,2020,Semi-finals,England,True,1,1,95,0.0,0.0,0.0,,,,,0.14410182,0.14410182,0.212714763,2.0,4.0
+2021,Bruno Fernandes,intl_tournament,statsbomb,3788773,2021-06-23,UEFA Euro,2020,Group Stage,Portugal,True,0,1,18,,,0,,,,,,,,,
+2021,Bruno Fernandes,intl_tournament,statsbomb,3794687,2021-06-27,UEFA Euro,2020,Round of 16,Portugal,True,0,1,35,0.0,0.0,0.0,,,,,0.051758267,0.051758267,0.147800534,2.0,2.0
+2021,Bruno Fernandes,intl_tournament,statsbomb,3788764,2021-06-19,UEFA Euro,2020,Group Stage,Portugal,True,0,1,64,,,0,,,,,,,0.023040526,,1.0
+2021,Bruno Fernandes,intl_tournament,statsbomb,3788752,2021-06-15,UEFA Euro,2020,Group Stage,Portugal,True,0,1,88,,,0,,,,,0.042920209,0.042920209,0.5313045700000001,2.0,3.0
+2021,Harry Kane,intl_tournament,statsbomb,3795187,2021-07-03,UEFA Euro,2020,Quarter-finals,England,True,0,1,73,2.0,0.0,2.0,,,,,0.677363185,0.677363185,0.0772035,4.0,1.0
+2021,Harry Kane,intl_tournament,statsbomb,3795506,2021-07-11,UEFA Euro,2020,Final,England,True,1,1,120,0.0,0.0,0.0,,,,,,,,,
+2021,Harry Kane,intl_tournament,statsbomb,3794688,2021-06-29,UEFA Euro,2020,Round of 16,England,True,0,1,90,1.0,0.0,1.0,,,,,0.43912625,0.43912625,,1.0,
+2021,Harry Kane,intl_tournament,statsbomb,3788772,2021-06-22,UEFA Euro,2020,Group Stage,England,True,0,1,90,,,0,,,,,0.164915739,0.164915739,,3.0,
+2021,Harry Kane,intl_tournament,statsbomb,3788759,2021-06-18,UEFA Euro,2020,Group Stage,England,True,0,1,74,,,0,,,,,0.226620413,0.226620413,0.055685814,2.0,1.0
+2021,Harry Kane,intl_tournament,statsbomb,3788745,2021-06-13,UEFA Euro,2020,Group Stage,England,True,0,1,82,,,0,,,,,0.2437531,0.2437531,,1.0,
+2021,Harry Kane,intl_tournament,statsbomb,3795221,2021-07-07,UEFA Euro,2020,Semi-finals,England,True,1,1,120,1.0,0.0,1.0,,,,,1.5981488219999997,0.814648822,0.28623481500000003,5.0,3.0
+2021,Pedri,intl_tournament,statsbomb,3795108,2021-07-02,UEFA Euro,2020,Quarter-finals,Spain,True,1,1,119,0.0,0.0,0.0,,,,,,,0.307159268,,5.0
+2021,Pedri,intl_tournament,statsbomb,3795220,2021-07-06,UEFA Euro,2020,Semi-finals,Spain,True,1,1,120,0.0,0.0,0.0,,,,,,,0.029885331,,1.0
+2021,Pedri,intl_tournament,statsbomb,3794686,2021-06-28,UEFA Euro,2020,Round of 16,Spain,True,1,1,120,0.0,0.0,0.0,,,,,,,0.211803989,,2.0
+2021,Pedri,intl_tournament,statsbomb,3788762,2021-06-19,UEFA Euro,2020,Group Stage,Spain,True,0,1,90,,,0,,,,,,,0.062174123,,1.0
+2021,Pedri,intl_tournament,statsbomb,3788750,2021-06-14,UEFA Euro,2020,Group Stage,Spain,True,0,1,90,,,0,,,,,,,,,
+2021,Pedri,intl_tournament,statsbomb,3788775,2021-06-23,UEFA Euro,2020,Group Stage,Spain,True,0,1,90,,,0,,,,,,,0.34926105,,1.0
+2021,Phil Foden,intl_tournament,statsbomb,3795187,2021-07-03,UEFA Euro,2020,Quarter-finals,England,True,,0,0,,,,,,,,,,,,
+2021,Phil Foden,intl_tournament,statsbomb,3795506,2021-07-11,UEFA Euro,2020,Final,England,False,,,,,,,,,,,,,,,
+2021,Phil Foden,intl_tournament,statsbomb,3794688,2021-06-29,UEFA Euro,2020,Round of 16,England,False,,,,,,,,,,,,,,,
+2021,Phil Foden,intl_tournament,statsbomb,3788772,2021-06-22,UEFA Euro,2020,Group Stage,England,False,,,,,,,,,,,,,,,
+2021,Phil Foden,intl_tournament,statsbomb,3788759,2021-06-18,UEFA Euro,2020,Group Stage,England,False,,,,,,,,,,,,,,,
+2021,Phil Foden,intl_tournament,statsbomb,3788745,2021-06-13,UEFA Euro,2020,Group Stage,England,False,,,,,,,,,,,,,,,
+2021,Phil Foden,intl_tournament,statsbomb,3795221,2021-07-07,UEFA Euro,2020,Semi-finals,England,False,,,,,,,,,,,,,,,
+2021,Gerard Moreno,intl_tournament,statsbomb,3795108,2021-07-02,UEFA Euro,2020,Quarter-finals,Spain,True,1,1,66,0.0,0.0,0.0,,,,,1.0550684320000001,1.0550684320000001,,6.0,
+2021,Gerard Moreno,intl_tournament,statsbomb,3795220,2021-07-06,UEFA Euro,2020,Semi-finals,Spain,True,1,1,51,0.0,0.0,0.0,,,,,0.062070966,0.062070966,,1.0,
+2021,Gerard Moreno,intl_tournament,statsbomb,3794686,2021-06-28,UEFA Euro,2020,Round of 16,Spain,True,,0,0,,,,,,,,,,,,
+2021,Gerard Moreno,intl_tournament,statsbomb,3788762,2021-06-19,UEFA Euro,2020,Group Stage,Spain,True,0,1,67,,,0,,,,,1.034650162,0.25115016199999995,0.047417913,4.0,1.0
+2021,Gerard Moreno,intl_tournament,statsbomb,3788750,2021-06-14,UEFA Euro,2020,Group Stage,Spain,True,0,1,16,,,0,,,,,0.31075415,0.31075415,,3.0,
+2021,Gerard Moreno,intl_tournament,statsbomb,3788775,2021-06-23,UEFA Euro,2020,Group Stage,Spain,True,0,1,76,,1.0,0,,,,,0.061550876000000004,0.061550876000000004,0.18135086299999997,2.0,2.0
+2021,Nicolò Barella,intl_tournament,statsbomb,3794685,2021-06-26,UEFA Euro,2020,Round of 16,Italy,True,1,1,67,0.0,0.0,0.0,1.0,,,,0.196557645,0.196557645,0.096125026,2.0,2.0
+2021,Nicolò Barella,intl_tournament,statsbomb,3795107,2021-07-02,UEFA Euro,2020,Quarter-finals,Italy,True,0,1,90,1.0,1.0,2.0,,,,,0.14378044,0.14378044,0.08646219999999999,1.0,2.0
+2021,Nicolò Barella,intl_tournament,statsbomb,3795220,2021-07-06,UEFA Euro,2020,Semi-finals,Italy,True,1,1,84,0.0,0.0,0.0,,,,,,,0.10739351,,2.0
+2021,Nicolò Barella,intl_tournament,statsbomb,3795506,2021-07-11,UEFA Euro,2020,Final,Italy,True,1,1,54,0.0,0.0,0.0,1.0,,,,,,,,
+2021,Nicolò Barella,intl_tournament,statsbomb,3788766,2021-06-20,UEFA Euro,2020,Group Stage,Italy,True,,0,0,,,,,,,,,,,,
+2021,Nicolò Barella,intl_tournament,statsbomb,3788754,2021-06-16,UEFA Euro,2020,Group Stage,Italy,True,0,1,86,,1.0,0,,,,,,,0.10475444,,2.0
+2021,Nicolò Barella,intl_tournament,statsbomb,3788741,2021-06-11,UEFA Euro,2020,Group Stage,Italy,True,0,1,90,,,0,,,,,0.054620683999999996,0.054620683999999996,0.009443652,2.0,1.0
+2021,Rúben Dias,intl_tournament,statsbomb,3788773,2021-06-23,UEFA Euro,2020,Group Stage,Portugal,True,0,1,90,,,0,,,,,,,,,
+2021,Rúben Dias,intl_tournament,statsbomb,3794687,2021-06-27,UEFA Euro,2020,Round of 16,Portugal,True,0,1,90,0.0,0.0,0.0,,,,,0.08251094,0.08251094,,1.0,
+2021,Rúben Dias,intl_tournament,statsbomb,3788764,2021-06-19,UEFA Euro,2020,Group Stage,Portugal,True,0,1,90,,,0,,,,,,,,,
+2021,Rúben Dias,intl_tournament,statsbomb,3788752,2021-06-15,UEFA Euro,2020,Group Stage,Portugal,True,0,1,90,,,0,1.0,,,,,,,,
+2021,Luka Modrić,intl_tournament,statsbomb,3788760,2021-06-18,UEFA Euro,2020,Group Stage,Croatia,True,0,1,90,,,0,,,,,,,0.166220945,,2.0
+2021,Luka Modrić,intl_tournament,statsbomb,3794686,2021-06-28,UEFA Euro,2020,Round of 16,Croatia,True,1,1,113,0.0,0.0,0.0,,,,,,,0.066409856,,1.0
+2021,Luka Modrić,intl_tournament,statsbomb,3788771,2021-06-22,UEFA Euro,2020,Group Stage,Croatia,True,0,1,90,1.0,1.0,0,,,,,0.081586396,0.081586396,0.06999729,2.0,1.0
+2021,Luka Modrić,intl_tournament,statsbomb,3788745,2021-06-13,UEFA Euro,2020,Group Stage,Croatia,True,0,1,90,,,0,,,,,0.0063818074,0.0063818074,0.043127847999999996,1.0,2.0
+2021,Cesar Azpilicueta,intl_tournament,statsbomb,3795108,2021-07-02,UEFA Euro,2020,Quarter-finals,Spain,True,1,1,120,0.0,0.0,0.0,,,,,0.10035629,0.10035629,0.044336874,1.0,1.0
+2021,Cesar Azpilicueta,intl_tournament,statsbomb,3795220,2021-07-06,UEFA Euro,2020,Semi-finals,Spain,True,1,1,85,0.0,0.0,0.0,,,,,,,,,
+2021,Cesar Azpilicueta,intl_tournament,statsbomb,3794686,2021-06-28,UEFA Euro,2020,Round of 16,Spain,True,1,1,120,1.0,0.0,1.0,,,,,0.42618630999999996,0.42618630999999996,0.03493103,2.0,1.0
+2021,Cesar Azpilicueta,intl_tournament,statsbomb,3788762,2021-06-19,UEFA Euro,2020,Group Stage,Spain,True,,0,0,,,,,,,,,,,,
+2021,Cesar Azpilicueta,intl_tournament,statsbomb,3788750,2021-06-14,UEFA Euro,2020,Group Stage,Spain,True,,0,0,,,,,,,,,,,,
+2021,Cesar Azpilicueta,intl_tournament,statsbomb,3788775,2021-06-23,UEFA Euro,2020,Group Stage,Spain,True,0,1,76,,,0,,,,,0.13841203,0.13841203,0.16887438999999999,2.0,2.0
+2023,Lionel Messi,intl_tournament,statsbomb,3869321,2022-12-09,FIFA World Cup,2022,Quarter-finals,Argentina,True,1,1,120,1.0,1.0,2.0,1.0,,,,1.008719043,0.22521904299999998,0.505448686,6.0,3.0
+2023,Lionel Messi,intl_tournament,statsbomb,3869685,2022-12-18,FIFA World Cup,2022,Final,Argentina,True,1,1,120,2.0,0.0,2.0,,,,,1.455279741,0.6717797409999999,0.274195578,5.0,2.0
+2023,Lionel Messi,intl_tournament,statsbomb,3869151,2022-12-03,FIFA World Cup,2022,Round of 16,Argentina,True,0,1,90,1.0,0.0,1.0,,,,,0.342740973,0.342740973,0.708293563,6.0,4.0
+2023,Lionel Messi,intl_tournament,statsbomb,3857264,2022-11-30,FIFA World Cup,2022,Group Stage,Argentina,True,0,1,90,,,0,,,,,1.163422857,0.379922857,0.291580488,7.0,4.0
+2023,Lionel Messi,intl_tournament,statsbomb,3857289,2022-11-26,FIFA World Cup,2022,Group Stage,Argentina,True,0,1,90,1.0,1.0,0,,,,,0.101247489,0.101247489,0.035064373,2.0,1.0
+2023,Lionel Messi,intl_tournament,statsbomb,3869519,2022-12-13,FIFA World Cup,2022,Semi-finals,Argentina,True,0,1,90,1.0,1.0,2.0,,,,,0.88931502,0.10581502,0.40206958,2.0,2.0
+2023,Lionel Messi,intl_tournament,statsbomb,3857300,2022-11-22,FIFA World Cup,2022,Group Stage,Argentina,True,0,1,90,1.0,,0,,,,,1.070924102,0.287424102,0.228872635,4.0,3.0
+2023,Kylian Mbappé,intl_tournament,statsbomb,3857275,2022-11-30,FIFA World Cup,2022,Group Stage,France,True,0,1,27,,,0,,,,,0.08112707899999999,0.08112707899999999,,3.0,
+2023,Kylian Mbappé,intl_tournament,statsbomb,3857266,2022-11-26,FIFA World Cup,2022,Group Stage,France,True,0,1,90,2.0,,0,,,,,0.735812103,0.735812103,0.12143094400000001,6.0,3.0
+2023,Kylian Mbappé,intl_tournament,statsbomb,3869685,2022-12-18,FIFA World Cup,2022,Final,France,True,1,1,120,3.0,0.0,3.0,,,,,1.782553667,0.215553667,,6.0,
+2023,Kylian Mbappé,intl_tournament,statsbomb,3869354,2022-12-10,FIFA World Cup,2022,Quarter-finals,France,True,0,1,90,0.0,0.0,0.0,,,,,0.06798863,0.06798863,0.030820057,1.0,1.0
+2023,Kylian Mbappé,intl_tournament,statsbomb,3869552,2022-12-14,FIFA World Cup,2022,Semi-finals,France,True,0,1,90,0.0,0.0,0.0,,,,,0.27924131599999996,0.27924131599999996,0.058006103,3.0,2.0
+2023,Kylian Mbappé,intl_tournament,statsbomb,3869152,2022-12-04,FIFA World Cup,2022,Round of 16,France,True,0,1,90,2.0,1.0,3.0,,,,,0.26174300100000003,0.26174300100000003,0.326751632,5.0,2.0
+2023,Kylian Mbappé,intl_tournament,statsbomb,3857279,2022-11-22,FIFA World Cup,2022,Group Stage,France,True,0,1,90,1.0,1.0,0,,,,,1.024786081,1.024786081,0.2987077,7.0,3.0
+2023,Kevin De Bruyne,intl_tournament,statsbomb,3857296,2022-12-01,FIFA World Cup,2022,Group Stage,Belgium,True,0,1,90,,,0,,,,,0.0549966988,0.0549966988,0.41180043,2.0,3.0
+2023,Kevin De Bruyne,intl_tournament,statsbomb,3857268,2022-11-23,FIFA World Cup,2022,Group Stage,Belgium,True,0,1,90,,,0,,,,,0.070228491,0.070228491,0.28568781200000004,2.0,4.0
+2023,Kevin De Bruyne,intl_tournament,statsbomb,3857283,2022-11-27,FIFA World Cup,2022,Group Stage,Belgium,True,0,1,90,,,0,,,,,0.052741134999999995,0.052741134999999995,0.06452631,3.0,1.0
+2023,Rodri,intl_tournament,statsbomb,3857255,2022-12-01,FIFA World Cup,2022,Group Stage,Spain,True,0,1,90,,,0,,,,,,,0.016258996,,2.0
+2023,Rodri,intl_tournament,statsbomb,3869220,2022-12-06,FIFA World Cup,2022,Round of 16,Spain,True,1,1,120,0.0,0.0,0.0,,,,,0.0056476467,0.0056476467,0.10407615,1.0,1.0
+2023,Rodri,intl_tournament,statsbomb,3857263,2022-11-27,FIFA World Cup,2022,Group Stage,Spain,True,0,1,90,,,0,,,,,,,0.04777013,,1.0
+2023,Rodri,intl_tournament,statsbomb,3857291,2022-11-23,FIFA World Cup,2022,Group Stage,Spain,True,0,1,90,,,0,,,,,,,,,
+2023,Vinícius Júnior,intl_tournament,statsbomb,3857269,2022-11-28,FIFA World Cup,2022,Group Stage,Brazil,True,0,1,90,,,0,,,,,0.21638125,0.21638125,0.23181052200000002,1.0,2.0
+2023,Vinícius Júnior,intl_tournament,statsbomb,3857258,2022-11-24,FIFA World Cup,2022,Group Stage,Brazil,True,0,1,75,,1.0,0,,,,,0.330003712,0.330003712,0.2158784547,4.0,4.0
+2023,Vinícius Júnior,intl_tournament,statsbomb,3869420,2022-12-09,FIFA World Cup,2022,Quarter-finals,Brazil,True,1,1,64,0.0,0.0,0.0,,,,,0.07816816100000001,0.07816816100000001,,2.0,
+2023,Vinícius Júnior,intl_tournament,statsbomb,3869253,2022-12-05,FIFA World Cup,2022,Round of 16,Brazil,True,0,1,72,1.0,1.0,2.0,,,,,0.18697343,0.18697343,0.11223454,2.0,2.0
+2023,Vinícius Júnior,intl_tournament,statsbomb,3857280,2022-12-02,FIFA World Cup,2022,Group Stage,Brazil,True,,0,0,,,,,,,,,,,,
+2023,Julián Álvarez,intl_tournament,statsbomb,3869321,2022-12-09,FIFA World Cup,2022,Quarter-finals,Argentina,True,1,1,81,0.0,0.0,0.0,,,,,,,0.03387043,,1.0
+2023,Julián Álvarez,intl_tournament,statsbomb,3869685,2022-12-18,FIFA World Cup,2022,Final,Argentina,True,1,1,102,0.0,0.0,0.0,,,,,0.05953379,0.05953379,0.024542088,1.0,1.0
+2023,Julián Álvarez,intl_tournament,statsbomb,3869151,2022-12-03,FIFA World Cup,2022,Round of 16,Argentina,True,0,1,71,1.0,0.0,1.0,,,,,0.28060678,0.28060678,,1.0,
+2023,Julián Álvarez,intl_tournament,statsbomb,3857264,2022-11-30,FIFA World Cup,2022,Group Stage,Argentina,True,0,1,78,1.0,,0,,,,,0.81140879,0.81140879,,6.0,
+2023,Julián Álvarez,intl_tournament,statsbomb,3857289,2022-11-26,FIFA World Cup,2022,Group Stage,Argentina,True,0,1,28,,,0,,,,,,,,,
+2023,Julián Álvarez,intl_tournament,statsbomb,3869519,2022-12-13,FIFA World Cup,2022,Semi-finals,Argentina,True,0,1,74,2.0,0.0,2.0,,,,,0.69538802,0.69538802,,2.0,
+2023,Julián Álvarez,intl_tournament,statsbomb,3857300,2022-11-22,FIFA World Cup,2022,Group Stage,Argentina,True,0,1,32,,,0,,,,,0.061390053,0.061390053,,1.0,
+2023,Bernardo Silva,intl_tournament,statsbomb,3857298,2022-11-24,FIFA World Cup,2022,Group Stage,Portugal,True,0,1,88,,,0,,,,,,,0.07848694,,1.0
+2023,Bernardo Silva,intl_tournament,statsbomb,3869486,2022-12-10,FIFA World Cup,2022,Quarter-finals,Portugal,True,0,1,90,0.0,0.0,0.0,,,,,0.10927713,0.10927713,0.057325892,1.0,1.0
+2023,Bernardo Silva,intl_tournament,statsbomb,3869254,2022-12-06,FIFA World Cup,2022,Round of 16,Portugal,True,0,1,81,0.0,0.0,0.0,,,,,,,,,
+2023,Bernardo Silva,intl_tournament,statsbomb,3857270,2022-11-28,FIFA World Cup,2022,Group Stage,Portugal,True,0,1,90,,,0,,,,,,,0.09693327399999999,,3.0
+2023,Bernardo Silva,intl_tournament,statsbomb,3857262,2022-12-02,FIFA World Cup,2022,Group Stage,Portugal,True,0,1,9,,,0,,,,,,,,,
+2023,Luka Modrić,intl_tournament,statsbomb,3857296,2022-12-01,FIFA World Cup,2022,Group Stage,Croatia,True,0,1,90,,,0,,,,,0.143307925,0.143307925,0.03397081,2.0,1.0
+2023,Luka Modrić,intl_tournament,statsbomb,3857277,2022-11-23,FIFA World Cup,2022,Group Stage,Croatia,True,0,1,90,,,0,,,,,0.073204115,0.073204115,,1.0,
+2023,Luka Modrić,intl_tournament,statsbomb,3869684,2022-12-17,FIFA World Cup,2022,3rd Place Final,Croatia,True,0,1,90,0.0,0.0,0.0,,,,,0.07012748,0.07012748,,1.0,
+2023,Luka Modrić,intl_tournament,statsbomb,3869519,2022-12-13,FIFA World Cup,2022,Semi-finals,Croatia,True,0,1,81,0.0,0.0,0.0,,,,,0.026162526,0.026162526,0.0996135273,1.0,2.0
+2023,Luka Modrić,intl_tournament,statsbomb,3869420,2022-12-09,FIFA World Cup,2022,Quarter-finals,Croatia,True,1,1,120,0.0,0.0,0.0,,,,,,,0.11005159,,1.0
+2023,Luka Modrić,intl_tournament,statsbomb,3869219,2022-12-05,FIFA World Cup,2022,Round of 16,Croatia,True,1,1,98,0.0,0.0,0.0,,,,,0.031055314,0.031055314,,1.0,
+2023,Luka Modrić,intl_tournament,statsbomb,3857281,2022-11-27,FIFA World Cup,2022,Group Stage,Croatia,True,0,1,85,,,0,1.0,,,,,,0.38433991,,2.0
+2023,Robert Lewandowski,intl_tournament,statsbomb,3857297,2022-11-26,FIFA World Cup,2022,Group Stage,Poland,True,0,1,90,1.0,1.0,0,,,,,1.2604797589999999,1.2604797589999999,0.23496674,5.0,1.0
+2023,Robert Lewandowski,intl_tournament,statsbomb,3857265,2022-11-22,FIFA World Cup,2022,Group Stage,Poland,True,0,1,90,,,0,,,,,0.8404645279999999,0.056964528,0.07129421,2.0,2.0
+2023,Robert Lewandowski,intl_tournament,statsbomb,3857264,2022-11-30,FIFA World Cup,2022,Group Stage,Poland,True,0,1,90,,,0,,,,,,,0.061495427,,1.0
+2023,Robert Lewandowski,intl_tournament,statsbomb,3869152,2022-12-04,FIFA World Cup,2022,Round of 16,Poland,True,0,1,90,1.0,0.0,1.0,,,,,1.024973515,0.24147351499999997,0.043646414,5.0,1.0
+2023,Yassine Bounou,intl_tournament,statsbomb,3857276,2022-12-01,FIFA World Cup,2022,Group Stage,Morocco,True,0,1,90,,,0,,,0,1,,,,,
+2023,Yassine Bounou,intl_tournament,statsbomb,3857277,2022-11-23,FIFA World Cup,2022,Group Stage,Morocco,True,0,1,90,,,0,,,1,0,,,,,
+2023,Yassine Bounou,intl_tournament,statsbomb,3869684,2022-12-17,FIFA World Cup,2022,3rd Place Final,Morocco,True,0,1,90,0.0,0.0,0.0,,,0,2,,,,,
+2023,Yassine Bounou,intl_tournament,statsbomb,3869486,2022-12-10,FIFA World Cup,2022,Quarter-finals,Morocco,True,0,1,90,0.0,0.0,0.0,,,1,0,,,,,
+2023,Yassine Bounou,intl_tournament,statsbomb,3869552,2022-12-14,FIFA World Cup,2022,Semi-finals,Morocco,True,0,1,90,0.0,0.0,0.0,,,0,2,,,,,
+2023,Yassine Bounou,intl_tournament,statsbomb,3869220,2022-12-06,FIFA World Cup,2022,Round of 16,Morocco,True,1,1,120,0.0,0.0,0.0,,,1,0,,,,,
+2023,Yassine Bounou,intl_tournament,statsbomb,3857283,2022-11-27,FIFA World Cup,2022,Group Stage,Morocco,True,,0,0,,,,,,,,,,,,
+2023,İlkay Gündoğan,intl_tournament,statsbomb,3857284,2022-11-23,FIFA World Cup,2022,Group Stage,Germany,True,0,1,67,1.0,,0,,,,,1.1289538890000002,0.345453889,,6.0,
+2023,İlkay Gündoğan,intl_tournament,statsbomb,3857292,2022-12-01,FIFA World Cup,2022,Group Stage,Germany,True,0,1,54,,,0,,,,,,,,,
+2023,İlkay Gündoğan,intl_tournament,statsbomb,3857263,2022-11-27,FIFA World Cup,2022,Group Stage,Germany,True,0,1,69,,,0,,,,,,,0.09558376,,1.0
+2023,Emiliano Martínez,intl_tournament,statsbomb,3869321,2022-12-09,FIFA World Cup,2022,Quarter-finals,Argentina,True,1,1,120,0.0,0.0,0.0,,,0,2,,,,,
+2023,Emiliano Martínez,intl_tournament,statsbomb,3869685,2022-12-18,FIFA World Cup,2022,Final,Argentina,True,1,1,120,0.0,0.0,0.0,,,0,3,,,,,
+2023,Emiliano Martínez,intl_tournament,statsbomb,3869151,2022-12-03,FIFA World Cup,2022,Round of 16,Argentina,True,0,1,90,0.0,0.0,0.0,,,0,1,,,,,
+2023,Emiliano Martínez,intl_tournament,statsbomb,3857264,2022-11-30,FIFA World Cup,2022,Group Stage,Argentina,True,0,1,90,,,0,,,1,0,,,,,
+2023,Emiliano Martínez,intl_tournament,statsbomb,3857289,2022-11-26,FIFA World Cup,2022,Group Stage,Argentina,True,0,1,90,,,0,,,1,0,,,,,
+2023,Emiliano Martínez,intl_tournament,statsbomb,3869519,2022-12-13,FIFA World Cup,2022,Semi-finals,Argentina,True,0,1,90,0.0,0.0,0.0,,,1,0,,,,,
+2023,Emiliano Martínez,intl_tournament,statsbomb,3857300,2022-11-22,FIFA World Cup,2022,Group Stage,Argentina,True,0,1,90,,,0,,,0,2,,,,,
+2023,Jude Bellingham,intl_tournament,statsbomb,3857271,2022-11-21,FIFA World Cup,2022,Group Stage,England,True,0,1,90,1.0,,0,,,,,0.08285139,0.08285139,,1.0,
+2023,Jude Bellingham,intl_tournament,statsbomb,3857272,2022-11-25,FIFA World Cup,2022,Group Stage,England,True,0,1,68,,,0,,,,,,,,,
+2023,Jude Bellingham,intl_tournament,statsbomb,3857261,2022-11-29,FIFA World Cup,2022,Group Stage,England,True,0,1,90,,,0,,,,,0.49393251000000005,0.49393251000000005,0.085435804,2.0,2.0
+2023,Jude Bellingham,intl_tournament,statsbomb,3869118,2022-12-04,FIFA World Cup,2022,Round of 16,England,True,0,1,76,0.0,1.0,1.0,,,,,,,0.13174866,,1.0
+2023,Jude Bellingham,intl_tournament,statsbomb,3869354,2022-12-10,FIFA World Cup,2022,Quarter-finals,England,True,0,1,90,0.0,0.0,0.0,,,,,0.264472474,0.264472474,0.024138648,2.0,1.0
+2023,Harry Kane,intl_tournament,statsbomb,3857271,2022-11-21,FIFA World Cup,2022,Group Stage,England,True,0,1,75,,2.0,0,,,,,,,0.59663718,,2.0
+2023,Harry Kane,intl_tournament,statsbomb,3857272,2022-11-25,FIFA World Cup,2022,Group Stage,England,True,0,1,90,,,0,,,,,0.17599504,0.17599504,,2.0,
+2023,Harry Kane,intl_tournament,statsbomb,3857261,2022-11-29,FIFA World Cup,2022,Group Stage,England,True,0,1,57,,1.0,0,,,,,0.058247065,0.058247065,0.7247115900000001,2.0,2.0
+2023,Harry Kane,intl_tournament,statsbomb,3869118,2022-12-04,FIFA World Cup,2022,Round of 16,England,True,0,1,90,1.0,0.0,1.0,,,,,0.406086861,0.406086861,0.03518777,3.0,1.0
+2023,Harry Kane,intl_tournament,statsbomb,3869354,2022-12-10,FIFA World Cup,2022,Quarter-finals,England,True,0,1,90,1.0,0.0,1.0,,,,,1.6906509769999998,0.123650977,,5.0,
+2023,Lautaro Martínez,intl_tournament,statsbomb,3869321,2022-12-09,FIFA World Cup,2022,Quarter-finals,Argentina,True,1,1,39,0.0,0.0,0.0,,,,,0.30697173,0.30697173,,2.0,
+2023,Lautaro Martínez,intl_tournament,statsbomb,3869685,2022-12-18,FIFA World Cup,2022,Final,Argentina,True,1,1,18,0.0,0.0,0.0,,,,,0.58352003,0.58352003,,4.0,
+2023,Lautaro Martínez,intl_tournament,statsbomb,3869151,2022-12-03,FIFA World Cup,2022,Round of 16,Argentina,True,0,1,19,0.0,0.0,0.0,,,,,0.7485856280000001,0.7485856280000001,,4.0,
+2023,Lautaro Martínez,intl_tournament,statsbomb,3857264,2022-11-30,FIFA World Cup,2022,Group Stage,Argentina,True,0,1,12,,,0,,,,,0.17955275,0.17955275,,1.0,
+2023,Lautaro Martínez,intl_tournament,statsbomb,3857289,2022-11-26,FIFA World Cup,2022,Group Stage,Argentina,True,0,1,62,,,0,,,,,0.13799548,0.13799548,,1.0,
+2023,Lautaro Martínez,intl_tournament,statsbomb,3869519,2022-12-13,FIFA World Cup,2022,Semi-finals,Argentina,True,,0,0,,,,,,,,,,,,
+2023,Lautaro Martínez,intl_tournament,statsbomb,3857300,2022-11-22,FIFA World Cup,2022,Group Stage,Argentina,True,0,1,90,,,0,,,,,0.164921135,0.164921135,,2.0,
+2023,Antoine Griezmann,intl_tournament,statsbomb,3857275,2022-11-30,FIFA World Cup,2022,Group Stage,France,True,0,1,18,,,0,,,,,,,0.102067817,,2.0
+2023,Antoine Griezmann,intl_tournament,statsbomb,3857266,2022-11-26,FIFA World Cup,2022,Group Stage,France,True,0,1,90,,1.0,0,,,,,0.228188675,0.228188675,0.6501668,2.0,3.0
+2023,Antoine Griezmann,intl_tournament,statsbomb,3869685,2022-12-18,FIFA World Cup,2022,Final,France,True,1,1,70,0.0,0.0,0.0,,,,,,,0.09618377,,1.0
+2023,Antoine Griezmann,intl_tournament,statsbomb,3869354,2022-12-10,FIFA World Cup,2022,Quarter-finals,France,True,0,1,90,0.0,2.0,2.0,1.0,,,,,,0.174522753,,2.0
+2023,Antoine Griezmann,intl_tournament,statsbomb,3869552,2022-12-14,FIFA World Cup,2022,Semi-finals,France,True,0,1,90,0.0,0.0,0.0,,,,,,,0.346799094,,4.0
+2023,Antoine Griezmann,intl_tournament,statsbomb,3869152,2022-12-04,FIFA World Cup,2022,Round of 16,France,True,0,1,90,0.0,0.0,0.0,,,,,0.008752431,0.008752431,0.223674188,1.0,3.0
+2023,Antoine Griezmann,intl_tournament,statsbomb,3857279,2022-11-22,FIFA World Cup,2022,Group Stage,France,True,0,1,90,,,0,,,,,0.259378965,0.259378965,0.9481016760000002,3.0,5.0
+2023,André Onana,intl_tournament,statsbomb,3857290,2022-11-24,FIFA World Cup,2022,Group Stage,Cameroon,True,0,1,90,,,0,,,0,1,,,,,
+2023,André Onana,intl_tournament,statsbomb,3857259,2022-11-28,FIFA World Cup,2022,Group Stage,Cameroon,False,,,,,,,,,,,,,,,
+2023,André Onana,intl_tournament,statsbomb,3857280,2022-12-02,FIFA World Cup,2022,Group Stage,Cameroon,False,,,,,,,,,,,,,,,
+2023,Bukayo Saka,intl_tournament,statsbomb,3857271,2022-11-21,FIFA World Cup,2022,Group Stage,England,True,0,1,70,2.0,,0,,,,,0.169339465,0.169339465,0.06697492,3.0,1.0
+2023,Bukayo Saka,intl_tournament,statsbomb,3857272,2022-11-25,FIFA World Cup,2022,Group Stage,England,True,0,1,78,,,0,,,,,0.08680134,0.08680134,0.10607713,1.0,1.0
+2023,Bukayo Saka,intl_tournament,statsbomb,3857261,2022-11-29,FIFA World Cup,2022,Group Stage,England,True,,0,0,,,,,,,,,,,,
+2023,Bukayo Saka,intl_tournament,statsbomb,3869118,2022-12-04,FIFA World Cup,2022,Round of 16,England,True,0,1,64,1.0,0.0,1.0,,,,,0.2525772,0.2525772,0.18422936,2.0,1.0
+2023,Bukayo Saka,intl_tournament,statsbomb,3869354,2022-12-10,FIFA World Cup,2022,Quarter-finals,England,True,0,1,79,0.0,0.0,0.0,,,,,0.07073746,0.07073746,0.104734834,1.0,2.0
+2023,Joško Gvardiol,intl_tournament,statsbomb,3857296,2022-12-01,FIFA World Cup,2022,Group Stage,Croatia,True,0,1,90,,,0,,,,,,,0.07960723,,1.0
+2023,Joško Gvardiol,intl_tournament,statsbomb,3857277,2022-11-23,FIFA World Cup,2022,Group Stage,Croatia,True,0,1,90,,,0,,,,,,,,,
+2023,Joško Gvardiol,intl_tournament,statsbomb,3869684,2022-12-17,FIFA World Cup,2022,3rd Place Final,Croatia,True,0,1,90,1.0,0.0,1.0,,,,,0.1243582,0.1243582,,1.0,
+2023,Joško Gvardiol,intl_tournament,statsbomb,3869519,2022-12-13,FIFA World Cup,2022,Semi-finals,Croatia,True,0,1,90,0.0,0.0,0.0,,,,,,,,,
+2023,Joško Gvardiol,intl_tournament,statsbomb,3869420,2022-12-09,FIFA World Cup,2022,Quarter-finals,Croatia,True,1,1,120,0.0,0.0,0.0,,,,,,,,,
+2023,Joško Gvardiol,intl_tournament,statsbomb,3869219,2022-12-05,FIFA World Cup,2022,Round of 16,Croatia,True,1,1,120,0.0,0.0,0.0,,,,,0.061746918,0.061746918,,1.0,
+2023,Joško Gvardiol,intl_tournament,statsbomb,3857281,2022-11-27,FIFA World Cup,2022,Group Stage,Croatia,True,0,1,90,,,0,,,,,,,,,
+2023,Jamal Musiala,intl_tournament,statsbomb,3857284,2022-11-23,FIFA World Cup,2022,Group Stage,Germany,True,0,1,78,,,0,,,,,0.26407773,0.26407773,0.12987601299999998,3.0,2.0
+2023,Jamal Musiala,intl_tournament,statsbomb,3857292,2022-12-01,FIFA World Cup,2022,Group Stage,Germany,True,0,1,90,,,0,,,,,0.598476109,0.598476109,0.203150619,7.0,3.0
+2023,Jamal Musiala,intl_tournament,statsbomb,3857263,2022-11-27,FIFA World Cup,2022,Group Stage,Germany,True,0,1,90,,,0,,,,,0.28996226,0.28996226,0.37951746670000003,1.0,2.0
+2023,Randal Kolo Muani,intl_tournament,statsbomb,3857275,2022-11-30,FIFA World Cup,2022,Group Stage,France,True,0,1,90,,,0,,,,,0.041042205,0.041042205,,1.0,
+2023,Randal Kolo Muani,intl_tournament,statsbomb,3857266,2022-11-26,FIFA World Cup,2022,Group Stage,France,True,,0,0,,,,,,,,,,,,
+2023,Randal Kolo Muani,intl_tournament,statsbomb,3869685,2022-12-18,FIFA World Cup,2022,Final,France,True,1,1,79,0.0,0.0,0.0,,,,,0.37369772,0.37369772,,2.0,
+2023,Randal Kolo Muani,intl_tournament,statsbomb,3869354,2022-12-10,FIFA World Cup,2022,Quarter-finals,France,True,,0,0,,,,,,,,,,,,
+2023,Randal Kolo Muani,intl_tournament,statsbomb,3869552,2022-12-14,FIFA World Cup,2022,Semi-finals,France,True,0,1,12,1.0,0.0,1.0,,,,,0.8521293,0.8521293,,1.0,
+2023,Randal Kolo Muani,intl_tournament,statsbomb,3869152,2022-12-04,FIFA World Cup,2022,Round of 16,France,True,,0,0,,,,,,,,,,,,
+2023,Randal Kolo Muani,intl_tournament,statsbomb,3857279,2022-11-22,FIFA World Cup,2022,Group Stage,France,True,,0,0,,,,,,,,,,,,
+2023,Rúben Dias,intl_tournament,statsbomb,3857298,2022-11-24,FIFA World Cup,2022,Group Stage,Portugal,True,0,1,90,,,0,,,,,,,,,
+2023,Rúben Dias,intl_tournament,statsbomb,3869486,2022-12-10,FIFA World Cup,2022,Quarter-finals,Portugal,True,0,1,90,0.0,0.0,0.0,,,,,,,,,
+2023,Rúben Dias,intl_tournament,statsbomb,3869254,2022-12-06,FIFA World Cup,2022,Round of 16,Portugal,True,0,1,90,0.0,0.0,0.0,,,,,0.03750256,0.03750256,,1.0,
+2023,Rúben Dias,intl_tournament,statsbomb,3857270,2022-11-28,FIFA World Cup,2022,Group Stage,Portugal,True,0,1,90,,,0,1.0,,,,,,,,
+2023,Rúben Dias,intl_tournament,statsbomb,3857262,2022-12-02,FIFA World Cup,2022,Group Stage,Portugal,True,,0,0,,,,,,,,,,,,
+2024,Rodri,intl_tournament,statsbomb,3930160,2024-06-15,UEFA Euro,2024,Group Stage,Spain,True,0,1,85,,,0,1.0,,,,,,,,
+2024,Rodri,intl_tournament,statsbomb,3943043,2024-07-14,UEFA Euro,2024,Final,Spain,True,0,1,45,0.0,0.0,0.0,,,,,,,0.11746518,,1.0
+2024,Rodri,intl_tournament,statsbomb,3942752,2024-07-09,UEFA Euro,2024,Semi-finals,Spain,True,0,1,90,0.0,0.0,0.0,,,,,,,,,
+2024,Rodri,intl_tournament,statsbomb,3942226,2024-07-05,UEFA Euro,2024,Quarter-finals,Spain,True,1,1,120,0.0,0.0,0.0,1.0,,,,,,0.069014962,,2.0
+2024,Rodri,intl_tournament,statsbomb,3941018,2024-06-30,UEFA Euro,2024,Round of 16,Spain,True,0,1,90,1.0,0.0,1.0,,,,,0.11674161499999999,0.11674161499999999,0.061617406,3.0,2.0
+2024,Rodri,intl_tournament,statsbomb,3930179,2024-06-24,UEFA Euro,2024,Group Stage,Spain,False,,,,,,,,,,,,,,,
+2024,Rodri,intl_tournament,statsbomb,3930172,2024-06-20,UEFA Euro,2024,Group Stage,Spain,True,0,1,90,,,0,1.0,,,,0.07428606069999999,0.07428606069999999,0.020980582,2.0,1.0
+2024,Vinícius Júnior,intl_tournament,statsbomb,3939991,2024-07-03,Copa America,2024,Group Stage,Brazil,True,0,1,90,,,0,1.0,,,,0.016413238,0.016413238,,1.0,
+2024,Vinícius Júnior,intl_tournament,statsbomb,3939983,2024-06-29,Copa America,2024,Group Stage,Brazil,True,0,1,90,2.0,,0,1.0,,,,0.7155115550000001,0.7155115550000001,0.21467104,3.0,2.0
+2024,Vinícius Júnior,intl_tournament,statsbomb,3939976,2024-06-25,Copa America,2024,Group Stage,Brazil,True,0,1,70,,,0,,,,,,,0.32281722199999996,,3.0
+2024,Vinícius Júnior,intl_tournament,statsbomb,3942415,2024-07-07,Copa America,2024,Quarter-finals,Brazil,False,,,,,,,,,,,,,,,
+2024,Jude Bellingham,intl_tournament,statsbomb,3930163,2024-06-16,UEFA Euro,2024,Group Stage,England,True,0,1,85,1.0,,0,,,,,0.28910747,0.28910747,,1.0,
+2024,Jude Bellingham,intl_tournament,statsbomb,3930181,2024-06-25,UEFA Euro,2024,Group Stage,England,True,0,1,90,,,0,,,,,,,,,
+2024,Jude Bellingham,intl_tournament,statsbomb,3942227,2024-07-06,UEFA Euro,2024,Quarter-finals,England,True,1,1,120,0.0,0.0,0.0,,,,,0.13419502,0.13419502,0.02448303,2.0,1.0
+2024,Jude Bellingham,intl_tournament,statsbomb,3942819,2024-07-10,UEFA Euro,2024,Semi-finals,England,True,0,1,90,0.0,0.0,0.0,1.0,,,,,,0.028932061,,1.0
+2024,Jude Bellingham,intl_tournament,statsbomb,3943043,2024-07-14,UEFA Euro,2024,Final,England,True,0,1,90,0.0,1.0,1.0,,,,,0.05628593,0.05628593,0.086315768,1.0,2.0
+2024,Jude Bellingham,intl_tournament,statsbomb,3930171,2024-06-20,UEFA Euro,2024,Group Stage,England,True,0,1,90,,,0,,,,,,,0.114346,,1.0
+2024,Jude Bellingham,intl_tournament,statsbomb,3941017,2024-06-30,UEFA Euro,2024,Round of 16,England,True,1,1,105,1.0,0.0,1.0,1.0,,,,0.184565224,0.184565224,0.08902558,2.0,1.0
+2024,Kylian Mbappé,intl_tournament,statsbomb,3938643,2024-06-25,UEFA Euro,2024,Group Stage,France,True,0,1,90,1.0,,0,,,,,1.043761767,0.260261767,,6.0,
+2024,Kylian Mbappé,intl_tournament,statsbomb,3941019,2024-07-01,UEFA Euro,2024,Round of 16,France,True,0,1,90,0.0,0.0,0.0,,,,,0.411068655,0.411068655,,5.0,
+2024,Kylian Mbappé,intl_tournament,statsbomb,3942752,2024-07-09,UEFA Euro,2024,Semi-finals,France,True,0,1,90,0.0,1.0,1.0,,,,,0.24828521399999998,0.24828521399999998,0.27131972,4.0,1.0
+2024,Kylian Mbappé,intl_tournament,statsbomb,3942349,2024-07-05,UEFA Euro,2024,Quarter-finals,France,True,1,1,105,0.0,0.0,0.0,,,,,0.18956340300000002,0.18956340300000002,0.195598924,5.0,2.0
+2024,Kylian Mbappé,intl_tournament,statsbomb,3930173,2024-06-21,UEFA Euro,2024,Group Stage,France,True,,0,0,,,,,,,,,,,,
+2024,Kylian Mbappé,intl_tournament,statsbomb,3930165,2024-06-17,UEFA Euro,2024,Group Stage,France,True,0,1,90,,,0,1.0,,,,0.61416811,0.61416811,,4.0,
+2024,Lautaro Martínez,intl_tournament,statsbomb,3939977,2024-06-26,Copa America,2024,Group Stage,Argentina,True,0,1,18,1.0,,0,,,,,0.82259087,0.82259087,,3.0,
+2024,Lautaro Martínez,intl_tournament,statsbomb,3939986,2024-06-30,Copa America,2024,Group Stage,Argentina,True,0,1,90,2.0,,0,,,,,0.970967135,0.970967135,,4.0,
+2024,Lautaro Martínez,intl_tournament,statsbomb,3943077,2024-07-15,Copa America,2024,Final,Argentina,True,1,1,24,1.0,0.0,1.0,,,,,0.19881123,0.19881123,,1.0,
+2024,Lautaro Martínez,intl_tournament,statsbomb,3942785,2024-07-10,Copa America,2024,Semi-finals,Argentina,True,0,1,13,0.0,0.0,0.0,,,,,,,,,
+2024,Lautaro Martínez,intl_tournament,statsbomb,3942228,2024-07-05,Copa America,2024,Quarter-finals,Argentina,True,0,1,64,0.0,0.0,0.0,,,,,0.049267367,0.049267367,,1.0,
+2024,Lautaro Martínez,intl_tournament,statsbomb,3939969,2024-06-21,Copa America,2024,Group Stage,Argentina,True,0,1,14,1.0,,0,,,,,0.84680314,0.84680314,,2.0,
+2024,Lamine Yamal,intl_tournament,statsbomb,3930160,2024-06-15,UEFA Euro,2024,Group Stage,Spain,True,0,1,85,,1.0,0,,,,,0.37209778299999996,0.37209778299999996,0.5650399899999999,3.0,3.0
+2024,Lamine Yamal,intl_tournament,statsbomb,3943043,2024-07-14,UEFA Euro,2024,Final,Spain,True,0,1,89,0.0,1.0,1.0,,,,,0.32606282,0.32606282,0.38213644999999996,2.0,3.0
+2024,Lamine Yamal,intl_tournament,statsbomb,3942752,2024-07-09,UEFA Euro,2024,Semi-finals,Spain,True,0,1,90,1.0,0.0,1.0,1.0,,,,0.105483894,0.105483894,0.24215967,3.0,2.0
+2024,Lamine Yamal,intl_tournament,statsbomb,3942226,2024-07-05,UEFA Euro,2024,Quarter-finals,Spain,True,1,1,62,0.0,1.0,1.0,,,,,0.111557681,0.111557681,0.38943669000000003,2.0,3.0
+2024,Lamine Yamal,intl_tournament,statsbomb,3941018,2024-06-30,UEFA Euro,2024,Round of 16,Spain,True,0,1,90,0.0,1.0,1.0,,,,,0.64984639,0.64984639,0.541579668,7.0,6.0
+2024,Lamine Yamal,intl_tournament,statsbomb,3930179,2024-06-24,UEFA Euro,2024,Group Stage,Spain,True,0,1,19,,,0,,,,,,,0.02939205,,1.0
+2024,Lamine Yamal,intl_tournament,statsbomb,3930172,2024-06-20,UEFA Euro,2024,Group Stage,Spain,True,0,1,71,,,0,,,,,0.022184672,0.022184672,,1.0,
+2024,Toni Kroos,intl_tournament,statsbomb,3930176,2024-06-23,UEFA Euro,2024,Group Stage,Germany,True,0,1,90,,,0,,,,,0.04210514,0.04210514,0.4074521,1.0,4.0
+2024,Toni Kroos,intl_tournament,statsbomb,3942226,2024-07-05,UEFA Euro,2024,Quarter-finals,Germany,True,1,1,120,0.0,0.0,0.0,1.0,,,,,,0.068153633,,2.0
+2024,Toni Kroos,intl_tournament,statsbomb,3940983,2024-06-29,UEFA Euro,2024,Round of 16,Germany,True,0,1,90,0.0,0.0,0.0,,,,,0.056089107,0.056089107,0.133413577,1.0,4.0
+2024,Toni Kroos,intl_tournament,statsbomb,3930168,2024-06-19,UEFA Euro,2024,Group Stage,Germany,True,0,1,90,,,0,,,,,0.05673947,0.05673947,0.058733784,1.0,1.0
+2024,Toni Kroos,intl_tournament,statsbomb,3930158,2024-06-14,UEFA Euro,2024,Group Stage,Germany,True,0,1,80,,,0,,,,,,,0.128193503,,4.0
+2024,Harry Kane,intl_tournament,statsbomb,3930163,2024-06-16,UEFA Euro,2024,Group Stage,England,True,0,1,90,,,0,,,,,0.16733526,0.16733526,,1.0,
+2024,Harry Kane,intl_tournament,statsbomb,3930181,2024-06-25,UEFA Euro,2024,Group Stage,England,True,0,1,90,,,0,,,,,0.508765244,0.508765244,0.085622948,5.0,2.0
+2024,Harry Kane,intl_tournament,statsbomb,3942227,2024-07-06,UEFA Euro,2024,Quarter-finals,England,True,1,1,109,0.0,0.0,0.0,1.0,,,,0.068560753,0.068560753,0.041179437,2.0,1.0
+2024,Harry Kane,intl_tournament,statsbomb,3942819,2024-07-10,UEFA Euro,2024,Semi-finals,England,True,0,1,80,1.0,0.0,1.0,,,,,0.812432061,0.028932061,0.07174964,2.0,1.0
+2024,Harry Kane,intl_tournament,statsbomb,3943043,2024-07-14,UEFA Euro,2024,Final,England,True,0,1,61,0.0,0.0,0.0,1.0,,,,0.048372418,0.048372418,,1.0,
+2024,Harry Kane,intl_tournament,statsbomb,3930171,2024-06-20,UEFA Euro,2024,Group Stage,England,True,0,1,69,1.0,,0,,,,,0.507577773,0.507577773,0.04036888,2.0,1.0
+2024,Harry Kane,intl_tournament,statsbomb,3941017,2024-06-30,UEFA Euro,2024,Round of 16,England,True,1,1,105,1.0,0.0,1.0,,,,,0.9408045469999999,0.9408045469999999,,5.0,
+2024,Phil Foden,intl_tournament,statsbomb,3930163,2024-06-16,UEFA Euro,2024,Group Stage,England,True,0,1,90,,,0,,,,,,,0.025817266,,1.0
+2024,Phil Foden,intl_tournament,statsbomb,3930181,2024-06-25,UEFA Euro,2024,Group Stage,England,True,0,1,89,,,0,1.0,,,,0.070994003,0.070994003,0.10670476400000001,3.0,2.0
+2024,Phil Foden,intl_tournament,statsbomb,3942227,2024-07-06,UEFA Euro,2024,Quarter-finals,England,True,1,1,114,0.0,0.0,0.0,,,,,0.02448303,0.02448303,0.012332749,1.0,1.0
+2024,Phil Foden,intl_tournament,statsbomb,3942819,2024-07-10,UEFA Euro,2024,Semi-finals,England,True,0,1,79,0.0,0.0,0.0,,,,,0.235638383,0.235638383,,3.0,
+2024,Phil Foden,intl_tournament,statsbomb,3943043,2024-07-14,UEFA Euro,2024,Final,England,True,0,1,89,0.0,0.0,0.0,,,,,0.1796937,0.1796937,,1.0,
+2024,Phil Foden,intl_tournament,statsbomb,3930171,2024-06-20,UEFA Euro,2024,Group Stage,England,True,0,1,68,,,0,,,,,0.18203649600000002,0.18203649600000002,,4.0,
+2024,Phil Foden,intl_tournament,statsbomb,3941017,2024-06-30,UEFA Euro,2024,Round of 16,England,True,1,1,90,0.0,0.0,0.0,,,,,0.054180622,0.054180622,0.26998196,1.0,2.0
+2024,Florian Wirtz,league,statsbomb,3895292,2024-04-06,1. Bundesliga,2023/2024,Regular Season,Bayer Leverkusen,True,0,1,90,1.0,,0,,,,,0.841714318,0.058214318,0.348682139,2.0,3.0
+2024,Florian Wirtz,league,statsbomb,3895320,2024-04-27,1. Bundesliga,2023/2024,Regular Season,Bayer Leverkusen,True,0,1,17,,,0,,,,,,,,,
+2024,Florian Wirtz,league,statsbomb,3895158,2023-12-03,1. Bundesliga,2023/2024,Regular Season,Bayer Leverkusen,True,0,1,90,,,0,,,,,0.070881274,0.070881274,0.165972486,2.0,3.0
+2024,Florian Wirtz,league,statsbomb,3895107,2023-10-08,1. Bundesliga,2023/2024,Regular Season,Bayer Leverkusen,True,0,1,71,,1.0,0,,,,,0.205003153,0.205003153,0.30065371,5.0,2.0
+2024,Florian Wirtz,league,statsbomb,3895340,2024-05-12,1. Bundesliga,2023/2024,Regular Season,Bayer Leverkusen,False,,,,,,,,,,,,,,,
+2024,Florian Wirtz,league,statsbomb,3895286,2024-03-30,1. Bundesliga,2023/2024,Regular Season,Bayer Leverkusen,True,0,1,90,,,0,,,,,0.129059061,0.129059061,0.43252929399999995,3.0,6.0
+2024,Florian Wirtz,league,statsbomb,3895302,2024-04-14,1. Bundesliga,2023/2024,Regular Season,Bayer Leverkusen,True,0,1,45,3.0,,0,,,,,0.870759703,0.870759703,0.06844198,5.0,1.0
+2024,Florian Wirtz,league,statsbomb,3895333,2024-05-05,1. Bundesliga,2023/2024,Regular Season,Bayer Leverkusen,False,,,,,,,,,,,,,,,
+2024,Florian Wirtz,league,statsbomb,3895348,2024-05-18,1. Bundesliga,2023/2024,Regular Season,Bayer Leverkusen,True,0,1,28,,,0,,,,,0.200013376,0.200013376,0.116226042,3.0,2.0
+2024,Florian Wirtz,league,statsbomb,3895220,2024-02-03,1. Bundesliga,2023/2024,Regular Season,Bayer Leverkusen,True,0,1,76,,1.0,0,,,,,0.184695376,0.184695376,0.16010623699999998,2.0,2.0
+2024,Florian Wirtz,league,statsbomb,3895250,2024-02-23,1. Bundesliga,2023/2024,Regular Season,Bayer Leverkusen,True,0,1,89,,1.0,0,1.0,,,,0.132703234,0.132703234,0.06854503049999999,3.0,3.0
+2024,Florian Wirtz,league,statsbomb,3895266,2024-03-10,1. Bundesliga,2023/2024,Regular Season,Bayer Leverkusen,True,0,1,89,1.0,,0,,,,,0.33749204,0.33749204,0.072932821,3.0,2.0
+2024,Florian Wirtz,league,statsbomb,3895275,2024-03-17,1. Bundesliga,2023/2024,Regular Season,Bayer Leverkusen,True,0,1,90,1.0,,0,,,,,0.520676904,0.520676904,0.25808865,2.0,2.0
+2024,Florian Wirtz,league,statsbomb,3895180,2023-12-17,1. Bundesliga,2023/2024,Regular Season,Bayer Leverkusen,True,0,1,87,1.0,1.0,0,,,,,0.544262803,0.544262803,0.159495223,4.0,2.0
+2024,Florian Wirtz,league,statsbomb,3895134,2023-11-04,1. Bundesliga,2023/2024,Regular Season,Bayer Leverkusen,True,0,1,90,1.0,,0,,,,,0.4335934,0.4335934,0.29677752,1.0,1.0
+2024,Florian Wirtz,league,statsbomb,3895121,2023-10-29,1. Bundesliga,2023/2024,Regular Season,Bayer Leverkusen,True,0,1,90,1.0,,0,,,,,0.21958273599999997,0.21958273599999997,0.42284611,3.0,2.0
+2024,Florian Wirtz,league,statsbomb,3895074,2023-09-15,1. Bundesliga,2023/2024,Regular Season,Bayer Leverkusen,True,0,1,90,,,0,1.0,,,,0.36008543,0.36008543,0.24834392500000002,1.0,3.0
+2024,Florian Wirtz,league,statsbomb,3895139,2023-11-12,1. Bundesliga,2023/2024,Regular Season,Bayer Leverkusen,True,0,1,86,,1.0,0,,,,,0.5215122839999999,0.5215122839999999,0.268568566,3.0,5.0
+2024,Florian Wirtz,league,statsbomb,3895086,2023-09-24,1. Bundesliga,2023/2024,Regular Season,Bayer Leverkusen,True,0,1,70,,,0,,,,,0.273933553,0.273933553,0.18020607,3.0,3.0
+2024,Florian Wirtz,league,statsbomb,3895309,2024-04-21,1. Bundesliga,2023/2024,Regular Season,Bayer Leverkusen,True,0,1,21,,1.0,0,,,,,,,0.11654504,,1.0
+2024,Florian Wirtz,league,statsbomb,3895258,2024-03-03,1. Bundesliga,2023/2024,Regular Season,Bayer Leverkusen,True,0,1,90,,,0,,,,,0.120631612,0.120631612,0.040050685,4.0,1.0
+2024,Florian Wirtz,league,statsbomb,3895244,2024-02-17,1. Bundesliga,2023/2024,Regular Season,Bayer Leverkusen,True,0,1,87,,1.0,0,,,,,0.24007409999999998,0.24007409999999998,0.730474043,2.0,4.0
+2024,Florian Wirtz,league,statsbomb,3895232,2024-02-10,1. Bundesliga,2023/2024,Regular Season,Bayer Leverkusen,True,0,1,89,,,0,,,,,0.07725087,0.07725087,,1.0,
+2024,Florian Wirtz,league,statsbomb,3895210,2024-01-27,1. Bundesliga,2023/2024,Regular Season,Bayer Leverkusen,True,0,1,90,,,0,,,,,0.524159179,0.524159179,0.7350606040000001,4.0,6.0
+2024,Florian Wirtz,league,statsbomb,3895202,2024-01-20,1. Bundesliga,2023/2024,Regular Season,Bayer Leverkusen,True,0,1,90,,,0,1.0,,,,0.169646643,0.169646643,0.126711487,3.0,2.0
+2024,Florian Wirtz,league,statsbomb,3895194,2024-01-13,1. Bundesliga,2023/2024,Regular Season,Bayer Leverkusen,True,0,1,29,,,0,,,,,0.142889615,0.142889615,,2.0,
+2024,Florian Wirtz,league,statsbomb,3895182,2023-12-20,1. Bundesliga,2023/2024,Regular Season,Bayer Leverkusen,True,0,1,87,,1.0,0,,,,,0.10643516,0.10643516,0.400742578,1.0,2.0
+2024,Florian Wirtz,league,statsbomb,3895167,2023-12-10,1. Bundesliga,2023/2024,Regular Season,Bayer Leverkusen,True,0,1,90,1.0,,0,,,,,0.56590184,0.56590184,0.07776846,2.0,1.0
+2024,Florian Wirtz,league,statsbomb,3895153,2023-11-25,1. Bundesliga,2023/2024,Regular Season,Bayer Leverkusen,True,0,1,80,,,0,,,,,,,,,
+2024,Florian Wirtz,league,statsbomb,3895113,2023-10-21,1. Bundesliga,2023/2024,Regular Season,Bayer Leverkusen,True,0,1,30,,,0,,,,,0.10275764700000001,0.10275764700000001,,2.0,
+2024,Florian Wirtz,league,statsbomb,3895095,2023-09-30,1. Bundesliga,2023/2024,Regular Season,Bayer Leverkusen,True,0,1,63,,,0,,,,,,,,,
+2024,Florian Wirtz,league,statsbomb,3895067,2023-09-02,1. Bundesliga,2023/2024,Regular Season,Bayer Leverkusen,True,0,1,79,,1.0,0,,,,,0.09058177,0.09058177,0.6615760340000001,2.0,3.0
+2024,Florian Wirtz,league,statsbomb,3895060,2023-08-26,1. Bundesliga,2023/2024,Regular Season,Bayer Leverkusen,True,0,1,90,,1.0,0,,,,,0.03490053,0.03490053,1.27546379,1.0,9.0
+2024,Florian Wirtz,league,statsbomb,3895052,2023-08-19,1. Bundesliga,2023/2024,Regular Season,Bayer Leverkusen,True,0,1,75,1.0,,0,,,,,0.44963343,0.44963343,,2.0,
+2024,Florian Wirtz,intl_tournament,statsbomb,3930176,2024-06-23,UEFA Euro,2024,Group Stage,Germany,True,0,1,75,,,0,,,,,,,0.2001696,,2.0
+2024,Florian Wirtz,intl_tournament,statsbomb,3942226,2024-07-05,UEFA Euro,2024,Quarter-finals,Germany,True,1,1,75,1.0,0.0,1.0,1.0,,,,0.255206137,0.255206137,0.146698797,3.0,2.0
+2024,Florian Wirtz,intl_tournament,statsbomb,3940983,2024-06-29,UEFA Euro,2024,Round of 16,Germany,True,0,1,10,0.0,0.0,0.0,,,,,0.11136572,0.11136572,0.208174489,1.0,2.0
+2024,Florian Wirtz,intl_tournament,statsbomb,3930168,2024-06-19,UEFA Euro,2024,Group Stage,Germany,True,0,1,57,,,0,,,,,0.009146902,0.009146902,0.057380453,1.0,1.0
+2024,Florian Wirtz,intl_tournament,statsbomb,3930158,2024-06-14,UEFA Euro,2024,Group Stage,Germany,True,0,1,62,1.0,,0,,,,,0.199686272,0.199686272,,3.0,
+2024,Ademola Lookman,intl_tournament,statsbomb,3920409,2024-01-22,African Cup of Nations,2023,Group Stage,Nigeria,True,0,1,11,,,0,,,,,,,,,
+2024,Ademola Lookman,intl_tournament,statsbomb,3920386,2024-01-14,African Cup of Nations,2023,Group Stage,Nigeria,True,0,1,90,,1.0,0,,,,,0.31954441,0.31954441,0.797851906,2.0,3.0
+2024,Ademola Lookman,intl_tournament,statsbomb,3923881,2024-02-11,African Cup of Nations,2023,Final,Nigeria,True,0,1,78,0.0,0.0,0.0,,,,,,,0.088090934,,1.0
+2024,Ademola Lookman,intl_tournament,statsbomb,3922837,2024-02-07,African Cup of Nations,2023,Semi-finals,Nigeria,True,1,1,101,0.0,0.0,0.0,,,,,0.013108453,0.013108453,0.279088106,1.0,4.0
+2024,Ademola Lookman,intl_tournament,statsbomb,3922321,2024-02-02,African Cup of Nations,2023,Quarter-finals,Nigeria,True,0,1,90,1.0,0.0,1.0,,,,,0.2006958,0.2006958,0.32260052,1.0,2.0
+2024,Ademola Lookman,intl_tournament,statsbomb,3922238,2024-01-27,African Cup of Nations,2023,Round of 16,Nigeria,True,0,1,90,2.0,0.0,2.0,,,,,0.7611411299999999,0.7611411299999999,0.41568408999999995,3.0,2.0
+2024,Ademola Lookman,intl_tournament,statsbomb,3920398,2024-01-18,African Cup of Nations,2023,Group Stage,Nigeria,True,0,1,79,,,0,,,,,0.025145063,0.025145063,0.095259357,1.0,2.0
+2024,Nico Williams,intl_tournament,statsbomb,3930160,2024-06-15,UEFA Euro,2024,Group Stage,Spain,True,0,1,67,,,0,,,,,,,0.108392105,,1.0
+2024,Nico Williams,intl_tournament,statsbomb,3943043,2024-07-14,UEFA Euro,2024,Final,Spain,True,0,1,90,1.0,0.0,1.0,,,,,0.22964415,0.22964415,0.343512525,3.0,2.0
+2024,Nico Williams,intl_tournament,statsbomb,3942752,2024-07-09,UEFA Euro,2024,Semi-finals,Spain,True,0,1,90,0.0,0.0,0.0,,,,,,,0.024287114,,1.0
+2024,Nico Williams,intl_tournament,statsbomb,3942226,2024-07-05,UEFA Euro,2024,Quarter-finals,Spain,True,1,1,79,0.0,0.0,0.0,,,,,0.146633905,0.146633905,,2.0,
+2024,Nico Williams,intl_tournament,statsbomb,3941018,2024-06-30,UEFA Euro,2024,Round of 16,Spain,True,0,1,90,1.0,1.0,2.0,,,,,0.396383955,0.396383955,0.416517382,5.0,4.0
+2024,Nico Williams,intl_tournament,statsbomb,3930179,2024-06-24,UEFA Euro,2024,Group Stage,Spain,True,,0,0,,,,,,,,,,,,
+2024,Nico Williams,intl_tournament,statsbomb,3930172,2024-06-20,UEFA Euro,2024,Group Stage,Spain,True,0,1,77,,,0,,,,,0.1758983295,0.1758983295,0.340897519,2.0,4.0
+2024,Granit Xhaka,intl_tournament,statsbomb,3930159,2024-06-15,UEFA Euro,2024,Group Stage,Switzerland,True,0,1,90,,,0,,,,,0.044237033,0.044237033,0.303494201,1.0,4.0
+2024,Granit Xhaka,intl_tournament,statsbomb,3942227,2024-07-06,UEFA Euro,2024,Quarter-finals,Switzerland,True,1,1,120,0.0,0.0,0.0,,,,,,,,,
+2024,Granit Xhaka,intl_tournament,statsbomb,3930176,2024-06-23,UEFA Euro,2024,Group Stage,Switzerland,True,0,1,90,,,0,1.0,,,,0.028437931,0.028437931,0.024068562,1.0,1.0
+2024,Granit Xhaka,intl_tournament,statsbomb,3930169,2024-06-19,UEFA Euro,2024,Group Stage,Switzerland,True,0,1,90,,,0,,,,,0.039015256,0.039015256,,1.0,
+2024,Granit Xhaka,intl_tournament,statsbomb,3940878,2024-06-29,UEFA Euro,2024,Round of 16,Switzerland,True,0,1,90,0.0,0.0,0.0,,,,,0.0407081,0.0407081,0.117631147,1.0,3.0
+2024,Federico Valverde,intl_tournament,statsbomb,3939982,2024-06-28,Copa America,2024,Group Stage,Uruguay,True,0,1,85,1.0,,0,,,,,0.26518478,0.26518478,0.188597184,3.0,2.0
+2024,Federico Valverde,intl_tournament,statsbomb,3939990,2024-07-02,Copa America,2024,Group Stage,Uruguay,True,0,1,90,,,0,,,,,0.0099505612,0.0099505612,,2.0,
+2024,Federico Valverde,intl_tournament,statsbomb,3943076,2024-07-14,Copa America,2024,3rd Place Final,Uruguay,True,0,1,90,0.0,0.0,0.0,,,,,0.041431721,0.041431721,0.106336462,2.0,2.0
+2024,Federico Valverde,intl_tournament,statsbomb,3942852,2024-07-11,Copa America,2024,Semi-finals,Uruguay,True,0,1,90,0.0,0.0,0.0,,,,,0.03820826,0.03820826,0.329188465,1.0,3.0
+2024,Federico Valverde,intl_tournament,statsbomb,3942415,2024-07-07,Copa America,2024,Quarter-finals,Uruguay,True,0,1,90,0.0,0.0,0.0,,,,,0.04849001,0.04849001,0.08991297,3.0,1.0
+2024,Federico Valverde,intl_tournament,statsbomb,3939973,2024-06-24,Copa America,2024,Group Stage,Uruguay,True,0,1,85,,,0,,,,,0.186662973,0.186662973,0.17982744,4.0,1.0
+2024,Emiliano Martínez,intl_tournament,statsbomb,3939977,2024-06-26,Copa America,2024,Group Stage,Argentina,True,0,1,90,,,0,,,1,0,,,,,
+2024,Emiliano Martínez,intl_tournament,statsbomb,3939986,2024-06-30,Copa America,2024,Group Stage,Argentina,True,0,1,90,,,0,,,1,0,,,,,
+2024,Emiliano Martínez,intl_tournament,statsbomb,3943077,2024-07-15,Copa America,2024,Final,Argentina,True,1,1,120,0.0,0.0,0.0,,,1,0,,,,,
+2024,Emiliano Martínez,intl_tournament,statsbomb,3942785,2024-07-10,Copa America,2024,Semi-finals,Argentina,True,0,1,90,0.0,0.0,0.0,,,1,0,,,,,
+2024,Emiliano Martínez,intl_tournament,statsbomb,3942228,2024-07-05,Copa America,2024,Quarter-finals,Argentina,True,0,1,90,0.0,0.0,0.0,,,0,1,,,0.049267367,,1.0
+2024,Emiliano Martínez,intl_tournament,statsbomb,3939969,2024-06-21,Copa America,2024,Group Stage,Argentina,True,0,1,90,,,0,,,1,0,,,0.1567685,,1.0
+2024,Hakan Çalhanoğlu,intl_tournament,statsbomb,3938639,2024-06-18,UEFA Euro,2024,Group Stage,Turkey,True,0,1,90,,,0,1.0,,,,0.12006999050000002,0.12006999050000002,0.1123256567,4.0,2.0
+2024,Hakan Çalhanoğlu,intl_tournament,statsbomb,3930174,2024-06-22,UEFA Euro,2024,Group Stage,Turkey,True,0,1,90,,,0,,,,,0.008017924,0.008017924,0.004203976,1.0,1.0
+2024,Hakan Çalhanoğlu,intl_tournament,statsbomb,3942382,2024-07-06,UEFA Euro,2024,Quarter-finals,Turkey,True,0,1,90,0.0,0.0,0.0,,,,,0.048900281000000004,0.048900281000000004,0.103276074,2.0,1.0
+2024,Hakan Çalhanoğlu,intl_tournament,statsbomb,3930184,2024-06-26,UEFA Euro,2024,Group Stage,Turkey,True,0,1,87,1.0,,0,1.0,,,,0.09350828950000001,0.09350828950000001,,3.0,
+2024,Hakan Çalhanoğlu,intl_tournament,statsbomb,3941022,2024-07-02,UEFA Euro,2024,Round of 16,Turkey,False,,,,,,,,,,,,,,,
+2024,Bukayo Saka,intl_tournament,statsbomb,3930163,2024-06-16,UEFA Euro,2024,Group Stage,England,True,0,1,75,,,0,,,,,,,,,
+2024,Bukayo Saka,intl_tournament,statsbomb,3930181,2024-06-25,UEFA Euro,2024,Group Stage,England,True,0,1,70,,,0,,,,,,,,,
+2024,Bukayo Saka,intl_tournament,statsbomb,3942227,2024-07-06,UEFA Euro,2024,Quarter-finals,England,True,1,1,120,1.0,0.0,1.0,,,,,0.093507607,0.093507607,0.149220333,3.0,2.0
+2024,Bukayo Saka,intl_tournament,statsbomb,3942819,2024-07-10,UEFA Euro,2024,Semi-finals,England,True,0,1,90,0.0,0.0,0.0,1.0,,,,0.07174964,0.07174964,0.028710563,1.0,1.0
+2024,Bukayo Saka,intl_tournament,statsbomb,3943043,2024-07-14,UEFA Euro,2024,Final,England,True,0,1,90,0.0,0.0,0.0,,,,,,,0.10528113,,2.0
+2024,Bukayo Saka,intl_tournament,statsbomb,3930171,2024-06-20,UEFA Euro,2024,Group Stage,England,True,0,1,69,,,0,,,,,0.3256995,0.3256995,0.055357697,3.0,2.0
+2024,Bukayo Saka,intl_tournament,statsbomb,3941017,2024-06-30,UEFA Euro,2024,Round of 16,England,True,1,1,120,0.0,0.0,0.0,,,,,0.026043994,0.026043994,0.026050739,1.0,1.0
+2024,Antonio Rüdiger,intl_tournament,statsbomb,3930176,2024-06-23,UEFA Euro,2024,Group Stage,Germany,True,0,1,90,,,0,,,,,0.07583652,0.07583652,,1.0,
+2024,Antonio Rüdiger,intl_tournament,statsbomb,3942226,2024-07-05,UEFA Euro,2024,Quarter-finals,Germany,True,1,1,120,0.0,0.0,0.0,1.0,,,,,,0.232691026,,2.0
+2024,Antonio Rüdiger,intl_tournament,statsbomb,3940983,2024-06-29,UEFA Euro,2024,Round of 16,Germany,True,0,1,90,0.0,0.0,0.0,,,,,,,0.07374886,,1.0
+2024,Antonio Rüdiger,intl_tournament,statsbomb,3930168,2024-06-19,UEFA Euro,2024,Group Stage,Germany,True,0,1,90,,,0,1.0,,,,0.007015708,0.007015708,0.17632313,1.0,1.0
+2024,Antonio Rüdiger,intl_tournament,statsbomb,3930158,2024-06-14,UEFA Euro,2024,Group Stage,Germany,True,0,1,90,,,0,,,,,0.080480048,0.080480048,,2.0,
+2024,Rúben Dias,intl_tournament,statsbomb,3930166,2024-06-18,UEFA Euro,2024,Group Stage,Portugal,True,0,1,90,,,0,,,,,0.03168744,0.03168744,0.09138278,1.0,1.0
+2024,Rúben Dias,intl_tournament,statsbomb,3938644,2024-06-26,UEFA Euro,2024,Group Stage,Portugal,True,,0,0,,,,,,,,,,,,
+2024,Rúben Dias,intl_tournament,statsbomb,3930174,2024-06-22,UEFA Euro,2024,Group Stage,Portugal,True,0,1,90,,,0,,,,,,,,,
+2024,Rúben Dias,intl_tournament,statsbomb,3942349,2024-07-05,UEFA Euro,2024,Quarter-finals,Portugal,True,1,1,120,0.0,0.0,0.0,,,,,,,,,
+2024,Rúben Dias,intl_tournament,statsbomb,3941020,2024-07-01,UEFA Euro,2024,Round of 16,Portugal,True,1,1,120,0.0,0.0,0.0,,,,,0.048859816,0.048859816,,1.0,
+2024,William Saliba,intl_tournament,statsbomb,3938643,2024-06-25,UEFA Euro,2024,Group Stage,France,True,0,1,90,,,0,,,,,0.046296313,0.046296313,,1.0,
+2024,William Saliba,intl_tournament,statsbomb,3941019,2024-07-01,UEFA Euro,2024,Round of 16,France,True,0,1,90,0.0,0.0,0.0,,,,,0.06782964,0.06782964,,1.0,
+2024,William Saliba,intl_tournament,statsbomb,3942752,2024-07-09,UEFA Euro,2024,Semi-finals,France,True,0,1,90,0.0,0.0,0.0,,,,,,,,,
+2024,William Saliba,intl_tournament,statsbomb,3942349,2024-07-05,UEFA Euro,2024,Quarter-finals,France,True,1,1,120,0.0,0.0,0.0,1.0,,,,,,0.006239464,,1.0
+2024,William Saliba,intl_tournament,statsbomb,3930173,2024-06-21,UEFA Euro,2024,Group Stage,France,True,0,1,90,,,0,,,,,,,,,
+2024,William Saliba,intl_tournament,statsbomb,3930165,2024-06-17,UEFA Euro,2024,Group Stage,France,True,0,1,90,,,0,,,,,,,,,
+2024,Cole Palmer,intl_tournament,statsbomb,3930163,2024-06-16,UEFA Euro,2024,Group Stage,England,True,,0,0,,,,,,,,,,,,
+2024,Cole Palmer,intl_tournament,statsbomb,3930181,2024-06-25,UEFA Euro,2024,Group Stage,England,True,0,1,20,,,0,,,,,0.0473352,0.0473352,,1.0,
+2024,Cole Palmer,intl_tournament,statsbomb,3942227,2024-07-06,UEFA Euro,2024,Quarter-finals,England,True,1,1,42,0.0,0.0,0.0,,,,,,,,,
+2024,Cole Palmer,intl_tournament,statsbomb,3942819,2024-07-10,UEFA Euro,2024,Semi-finals,England,True,0,1,11,0.0,1.0,1.0,,,,,0.051446717,0.051446717,0.035494413,1.0,1.0
+2024,Cole Palmer,intl_tournament,statsbomb,3943043,2024-07-14,UEFA Euro,2024,Final,England,True,0,1,20,1.0,0.0,1.0,,,,,0.03794335,0.03794335,0.057442125,1.0,1.0
+2024,Cole Palmer,intl_tournament,statsbomb,3930171,2024-06-20,UEFA Euro,2024,Group Stage,England,True,,0,0,,,,,,,,,,,,
+2024,Cole Palmer,intl_tournament,statsbomb,3941017,2024-06-30,UEFA Euro,2024,Round of 16,England,True,1,1,55,0.0,0.0,0.0,,,,,,,,,
+2024,Declan Rice,intl_tournament,statsbomb,3930163,2024-06-16,UEFA Euro,2024,Group Stage,England,True,0,1,90,,,0,,,,,,,0.023010701,,1.0
+2024,Declan Rice,intl_tournament,statsbomb,3930181,2024-06-25,UEFA Euro,2024,Group Stage,England,True,0,1,90,,,0,,,,,0.035136804,0.035136804,0.062829636,1.0,2.0
+2024,Declan Rice,intl_tournament,statsbomb,3942227,2024-07-06,UEFA Euro,2024,Quarter-finals,England,True,1,1,120,0.0,1.0,1.0,,,,,0.057292543,0.057292543,0.027096223,2.0,1.0
+2024,Declan Rice,intl_tournament,statsbomb,3942819,2024-07-10,UEFA Euro,2024,Semi-finals,England,True,0,1,90,0.0,0.0,0.0,,,,,,,,,
+2024,Declan Rice,intl_tournament,statsbomb,3943043,2024-07-14,UEFA Euro,2024,Final,England,True,0,1,90,0.0,0.0,0.0,,,,,0.212219465,0.212219465,,3.0,
+2024,Declan Rice,intl_tournament,statsbomb,3930171,2024-06-20,UEFA Euro,2024,Group Stage,England,True,0,1,90,,,0,,,,,0.021318365,0.021318365,,1.0,
+2024,Declan Rice,intl_tournament,statsbomb,3941017,2024-06-30,UEFA Euro,2024,Round of 16,England,True,1,1,120,0.0,0.0,0.0,,,,,0.066741279,0.066741279,,2.0,
+2024,Vitinha,intl_tournament,statsbomb,3930166,2024-06-18,UEFA Euro,2024,Group Stage,Portugal,True,0,1,90,,,0,,,,,0.221897336,0.221897336,0.109479622,3.0,3.0
+2024,Vitinha,intl_tournament,statsbomb,3938644,2024-06-26,UEFA Euro,2024,Group Stage,Portugal,True,,0,0,,,,,,,,,,,,
+2024,Vitinha,intl_tournament,statsbomb,3930174,2024-06-22,UEFA Euro,2024,Group Stage,Portugal,True,0,1,88,,,0,,,,,,,0.041098516,,1.0
+2024,Vitinha,intl_tournament,statsbomb,3942349,2024-07-05,UEFA Euro,2024,Quarter-finals,Portugal,True,1,1,118,0.0,0.0,0.0,,,,,0.27150048,0.27150048,,2.0,
+2024,Vitinha,intl_tournament,statsbomb,3941020,2024-07-01,UEFA Euro,2024,Round of 16,Portugal,True,1,1,65,0.0,0.0,0.0,,,,,0.14764390700000002,0.14764390700000002,,3.0,
+2024,Álex Grimaldo,intl_tournament,statsbomb,3930160,2024-06-15,UEFA Euro,2024,Group Stage,Spain,True,,0,0,,,,,,,,,,,,
+2024,Álex Grimaldo,intl_tournament,statsbomb,3943043,2024-07-14,UEFA Euro,2024,Final,Spain,True,,0,0,,,,,,,,,,,,
+2024,Álex Grimaldo,intl_tournament,statsbomb,3942752,2024-07-09,UEFA Euro,2024,Semi-finals,Spain,True,,0,0,,,,,,,,,,,,
+2024,Álex Grimaldo,intl_tournament,statsbomb,3942226,2024-07-05,UEFA Euro,2024,Quarter-finals,Spain,True,,0,0,,,,,,,,,,,,
+2024,Álex Grimaldo,intl_tournament,statsbomb,3941018,2024-06-30,UEFA Euro,2024,Round of 16,Spain,True,0,1,24,0.0,0.0,0.0,,,,,,,0.057924915,,2.0
+2024,Álex Grimaldo,intl_tournament,statsbomb,3930179,2024-06-24,UEFA Euro,2024,Group Stage,Spain,True,0,1,90,,,0,,,,,,,0.401718362,,6.0
+2024,Álex Grimaldo,intl_tournament,statsbomb,3930172,2024-06-20,UEFA Euro,2024,Group Stage,Spain,True,,0,0,,,,,,,,,,,,
+2024,Artem Dovbyk,intl_tournament,statsbomb,3938638,2024-06-17,UEFA Euro,2024,Group Stage,Ukraine,True,0,1,90,,,0,,,,,0.041105933,0.041105933,0.22535877399999998,1.0,3.0
+2024,Artem Dovbyk,intl_tournament,statsbomb,3938640,2024-06-21,UEFA Euro,2024,Group Stage,Ukraine,True,0,1,66,,,0,,,,,0.375410177,0.375410177,0.1337551,2.0,1.0
+2024,Artem Dovbyk,intl_tournament,statsbomb,3938645,2024-06-26,UEFA Euro,2024,Group Stage,Ukraine,True,0,1,90,,,0,1.0,,,,0.128530488,0.128530488,0.108786294,3.0,2.0

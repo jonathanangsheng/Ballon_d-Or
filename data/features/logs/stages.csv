@@ -1,0 +1,422 @@
+year,name,competition,edition,first_match,last_match,in_squad,stage
+2001,Rivaldo,Copa América,2001,2001-07-12,2001-07-23,False,0
+2002,Ronaldo,FIFA World Cup,2002,2002-06-03,2002-06-30,True,6
+2002,Roberto Carlos,FIFA World Cup,2002,2002-06-03,2002-06-30,True,6
+2002,Oliver Kahn,FIFA World Cup,2002,2002-06-01,2002-06-30,True,5
+2002,Zinedine Zidane,FIFA World Cup,2002,2002-05-31,2002-06-11,True,1
+2002,Michael Ballack,FIFA World Cup,2002,2002-06-01,2002-06-30,True,5
+2002,Thierry Henry,FIFA World Cup,2002,2002-05-31,2002-06-11,True,1
+2002,Raúl,FIFA World Cup,2002,2002-06-02,2002-06-22,True,3
+2002,Rivaldo,FIFA World Cup,2002,2002-06-03,2002-06-30,True,6
+2002,Yıldıray Baştürk,FIFA World Cup,2002,2002-06-03,2002-06-29,True,4
+2002,Alessandro Del Piero,FIFA World Cup,2002,2002-06-03,2002-06-18,True,2
+2004,Deco,UEFA Euro,2004,2004-06-12,2004-07-04,True,5
+2004,Ronaldinho,Copa América,2004,2004-07-08,2004-07-25,False,0
+2004,Thierry Henry,UEFA Euro,2004,2004-06-13,2004-06-25,True,3
+2004,Theodoros Zagorakis,UEFA Euro,2004,2004-06-12,2004-07-04,True,6
+2004,Pavel Nedvěd,UEFA Euro,2004,2004-06-15,2004-07-01,True,4
+2004,Wayne Rooney,UEFA Euro,2004,2004-06-13,2004-06-24,True,3
+2004,Ricardo Carvalho,UEFA Euro,2004,2004-06-12,2004-07-04,False,0
+2004,Ruud van Nistelrooy,UEFA Euro,2004,2004-06-15,2004-06-30,True,4
+2006,Fabio Cannavaro,FIFA World Cup,2006,2006-06-12,2006-07-09,True,6
+2006,Gianluigi Buffon,FIFA World Cup,2006,2006-06-12,2006-07-09,True,6
+2006,Thierry Henry,FIFA World Cup,2006,2006-06-13,2006-07-09,True,5
+2006,Ronaldinho,FIFA World Cup,2006,2006-06-13,2006-07-01,True,3
+2006,Zinedine Zidane,FIFA World Cup,2006,2006-06-13,2006-07-09,True,5
+2006,Miroslav Klose,FIFA World Cup,2006,2006-06-09,2006-07-08,True,4
+2006,Didier Drogba,FIFA World Cup,2006,2006-06-10,2006-06-21,True,1
+2006,Andrea Pirlo,FIFA World Cup,2006,2006-06-12,2006-07-09,True,6
+2006,Jens Lehmann,FIFA World Cup,2006,2006-06-09,2006-07-08,True,4
+2007,Kaká,Copa América,2007,2007-06-27,2007-07-15,False,0
+2008,Cristiano Ronaldo,UEFA Euro,2008,2008-06-07,2008-06-19,True,3
+2008,Fernando Torres,UEFA Euro,2008,2008-06-10,2008-06-29,True,6
+2008,Iker Casillas,UEFA Euro,2008,2008-06-10,2008-06-29,True,6
+2008,Xavi,UEFA Euro,2008,2008-06-10,2008-06-29,True,6
+2008,Andrey Arshavin,UEFA Euro,2008,2008-06-10,2008-06-26,True,4
+2008,David Villa,UEFA Euro,2008,2008-06-10,2008-06-29,True,6
+2008,Zlatan Ibrahimović,UEFA Euro,2008,2008-06-10,2008-06-18,True,1
+2010,Lionel Messi,FIFA World Cup,2010,2010-06-12,2010-07-03,True,3
+2010,Andrés Iniesta,FIFA World Cup,2010,2010-06-16,2010-07-11,True,6
+2010,Xavi,FIFA World Cup,2010,2010-06-16,2010-07-11,True,6
+2010,Wesley Sneijder,FIFA World Cup,2010,2010-06-14,2010-07-11,True,5
+2010,Diego Forlán,FIFA World Cup,2010,2010-06-11,2010-07-10,True,4
+2010,Cristiano Ronaldo,FIFA World Cup,2010,2010-06-15,2010-06-29,True,2
+2010,Iker Casillas,FIFA World Cup,2010,2010-06-16,2010-07-11,True,6
+2010,David Villa,FIFA World Cup,2010,2010-06-16,2010-07-11,True,6
+2010,Didier Drogba,FIFA World Cup,2010,2010-06-15,2010-06-25,True,1
+2010,Xabi Alonso,FIFA World Cup,2010,2010-06-16,2010-07-11,True,6
+2011,Lionel Messi,Copa América,2011,2011-07-01,2011-07-16,True,3
+2011,Luis Suárez,Copa América,2011,2011-07-04,2011-07-24,True,6
+2011,Diego Forlán,Copa América,2011,2011-07-04,2011-07-24,True,6
+2011,Neymar,Copa América,2011,2011-07-03,2011-07-17,True,3
+2012,Lionel Messi,UEFA Champions League,,,,,4
+2012,Cristiano Ronaldo,UEFA Champions League,,,,,4
+2012,Cristiano Ronaldo,UEFA Euro,2012,2012-06-09,2012-06-27,True,4
+2012,Andrés Iniesta,UEFA Champions League,,,,,4
+2012,Andrés Iniesta,UEFA Euro,2012,2012-06-10,2012-07-01,True,6
+2012,Xavi,UEFA Champions League,,,,,4
+2012,Xavi,UEFA Euro,2012,2012-06-10,2012-07-01,True,6
+2012,Radamel Falcao,UEFA Champions League,,,,,0
+2012,Iker Casillas,UEFA Champions League,,,,,4
+2012,Iker Casillas,UEFA Euro,2012,2012-06-10,2012-07-01,True,6
+2012,Andrea Pirlo,UEFA Champions League,,,,,0
+2012,Andrea Pirlo,UEFA Euro,2012,2012-06-10,2012-07-01,True,5
+2012,Robin van Persie,UEFA Euro,2012,2012-06-09,2012-06-17,True,1
+2012,Zlatan Ibrahimović,UEFA Euro,2012,2012-06-11,2012-06-19,True,1
+2013,Cristiano Ronaldo,UEFA Champions League,,,,,4
+2013,Lionel Messi,UEFA Champions League,,,,,4
+2013,Zlatan Ibrahimović,UEFA Champions League,,,,,3
+2013,Andrés Iniesta,UEFA Champions League,,,,,4
+2013,Robin van Persie,UEFA Champions League,,,,,2
+2013,Andrea Pirlo,UEFA Champions League,,,,,3
+2014,Cristiano Ronaldo,FIFA World Cup,2014,2014-06-16,2014-06-26,True,1
+2014,Lionel Messi,UEFA Champions League,,,,,3
+2014,Lionel Messi,FIFA World Cup,2014,2014-06-15,2014-07-13,True,5
+2014,Manuel Neuer,UEFA Champions League,,,,,4
+2014,Manuel Neuer,FIFA World Cup,2014,2014-06-16,2014-07-13,True,6
+2014,Arjen Robben,UEFA Champions League,,,,,4
+2014,Arjen Robben,FIFA World Cup,2014,2014-06-13,2014-07-12,True,4
+2014,Thomas Müller,UEFA Champions League,,,,,4
+2014,Thomas Müller,FIFA World Cup,2014,2014-06-16,2014-07-13,True,6
+2014,Philipp Lahm,UEFA Champions League,,,,,4
+2014,Philipp Lahm,FIFA World Cup,2014,2014-06-16,2014-07-13,True,6
+2014,Neymar,UEFA Champions League,,,,,3
+2014,Neymar,FIFA World Cup,2014,2014-06-12,2014-07-12,True,4
+2014,James Rodríguez,FIFA World Cup,2014,2014-06-14,2014-07-04,True,3
+2014,Toni Kroos,FIFA World Cup,2014,2014-06-16,2014-07-13,True,6
+2014,Ángel Di María,FIFA World Cup,2014,2014-06-15,2014-07-13,True,5
+2015,Cristiano Ronaldo,UEFA Champions League,,,,,4
+2015,Robert Lewandowski,UEFA Champions League,,,,,4
+2015,Luis Suárez,Copa América,2015,2015-06-13,2015-06-24,False,0
+2015,Thomas Müller,UEFA Champions League,,,,,4
+2015,Manuel Neuer,UEFA Champions League,,,,,4
+2015,Eden Hazard,UEFA Champions League,,,,,2
+2015,Alexis Sánchez,UEFA Champions League,,,,,2
+2016,Cristiano Ronaldo,UEFA Euro,2016,2016-06-14,2016-07-10,False,0
+2016,Lionel Messi,UEFA Champions League,,,,,3
+2016,Antoine Griezmann,UEFA Champions League,,,,,5
+2016,Antoine Griezmann,UEFA Euro,2016,2016-06-10,2016-07-10,False,0
+2016,Luis Suárez,UEFA Champions League,,,,,3
+2016,Neymar,UEFA Champions League,,,,,3
+2016,Gareth Bale,UEFA Euro,2016,2016-06-11,2016-07-06,False,0
+2016,Riyad Mahrez,UEFA Champions League,,,,,0
+2016,Jamie Vardy,UEFA Champions League,,,,,0
+2016,Jamie Vardy,UEFA Euro,2016,2016-06-11,2016-06-27,False,0
+2016,Gianluigi Buffon,UEFA Champions League,,,,,2
+2016,Gianluigi Buffon,UEFA Euro,2016,2016-06-13,2016-07-02,False,0
+2016,Pepe,UEFA Euro,2016,2016-06-14,2016-07-10,True,6
+2016,Pierre-Emerick Aubameyang,UEFA Champions League,,,,,0
+2016,Rui Patrício,UEFA Champions League,,,,,0
+2016,Rui Patrício,UEFA Euro,2016,2016-06-14,2016-07-10,False,0
+2016,Zlatan Ibrahimović,UEFA Euro,2016,2016-06-13,2016-06-22,False,0
+2016,Paul Pogba,UEFA Euro,2016,2016-06-10,2016-07-10,False,0
+2016,Arturo Vidal,UEFA Champions League,,,,,4
+2016,Robert Lewandowski,UEFA Champions League,,,,,4
+2016,Robert Lewandowski,UEFA Euro,2016,2016-06-12,2016-06-30,True,3
+2016,Toni Kroos,UEFA Euro,2016,2016-06-12,2016-07-07,False,0
+2016,Luka Modrić,UEFA Euro,2016,2016-06-12,2016-06-25,True,2
+2016,Dimitri Payet,UEFA Euro,2016,2016-06-10,2016-07-10,False,0
+2016,Sergio Agüero,UEFA Champions League,,,,,4
+2016,Kevin De Bruyne,UEFA Champions League,,,,,4
+2016,Kevin De Bruyne,UEFA Euro,2016,2016-06-13,2016-07-01,False,0
+2016,Paulo Dybala,UEFA Champions League,,,,,2
+2016,Paulo Dybala,Copa América,2016,2016-06-06,2016-06-26,False,0
+2016,Diego Godín,UEFA Champions League,,,,,5
+2016,Andrés Iniesta,UEFA Champions League,,,,,3
+2016,Andrés Iniesta,UEFA Euro,2016,2016-06-13,2016-06-27,False,0
+2016,Koke,UEFA Champions League,,,,,5
+2016,Koke,UEFA Euro,2016,2016-06-13,2016-06-27,True,2
+2016,Hugo Lloris,UEFA Champions League,,,,,0
+2016,Hugo Lloris,UEFA Euro,2016,2016-06-10,2016-07-10,False,0
+2016,Thomas Müller,UEFA Champions League,,,,,4
+2016,Thomas Müller,UEFA Euro,2016,2016-06-12,2016-07-07,False,0
+2016,Manuel Neuer,UEFA Champions League,,,,,4
+2016,Manuel Neuer,UEFA Euro,2016,2016-06-12,2016-07-07,False,0
+2016,Sergio Ramos,UEFA Euro,2016,2016-06-13,2016-06-27,False,0
+2017,Lionel Messi,UEFA Champions League,,,,,3
+2017,Gianluigi Buffon,UEFA Champions League,,,,,5
+2017,N'Golo Kanté,UEFA Champions League,,,,,0
+2017,Robert Lewandowski,UEFA Champions League,,,,,3
+2017,Harry Kane,UEFA Champions League,,,,,0
+2017,Edinson Cavani,UEFA Champions League,,,,,2
+2017,Luis Suárez,UEFA Champions League,,,,,3
+2017,Kevin De Bruyne,UEFA Champions League,,,,,2
+2017,Paulo Dybala,UEFA Champions League,,,,,5
+2017,Antoine Griezmann,UEFA Champions League,,,,,4
+2017,Eden Hazard,UEFA Champions League,,,,,0
+2017,David de Gea,UEFA Champions League,,,,,1
+2017,Pierre-Emerick Aubameyang,UEFA Champions League,,,,,3
+2017,Sadio Mané,UEFA Champions League,,,,,0
+2017,Radamel Falcao,UEFA Champions League,,,,,4
+2017,Jan Oblak,UEFA Champions League,,,,,4
+2017,Mats Hummels,UEFA Champions League,,,,,3
+2017,Edin Džeko,UEFA Champions League,,,,,0
+2017,Philippe Coutinho,UEFA Champions League,,,,,0
+2017,Dries Mertens,UEFA Champions League,,,,,2
+2018,Luka Modrić,FIFA World Cup,2018,2018-06-16,2018-07-15,True,5
+2018,Cristiano Ronaldo,FIFA World Cup,2018,2018-06-15,2018-06-30,True,2
+2018,Antoine Griezmann,UEFA Champions League,,,,,1
+2018,Antoine Griezmann,FIFA World Cup,2018,2018-06-16,2018-07-15,True,6
+2018,Kylian Mbappé,FIFA World Cup,2018,2018-06-16,2018-07-15,True,6
+2018,Lionel Messi,UEFA Champions League,,,,,3
+2018,Lionel Messi,FIFA World Cup,2018,2018-06-16,2018-06-30,True,2
+2018,Mohamed Salah,UEFA Champions League,,,,,5
+2018,Mohamed Salah,FIFA World Cup,2018,2018-06-15,2018-06-25,True,1
+2018,Raphaël Varane,FIFA World Cup,2018,2018-06-16,2018-07-15,True,6
+2018,Eden Hazard,UEFA Champions League,,,,,2
+2018,Eden Hazard,FIFA World Cup,2018,2018-06-18,2018-07-14,True,4
+2018,Kevin De Bruyne,UEFA Champions League,,,,,3
+2018,Kevin De Bruyne,FIFA World Cup,2018,2018-06-18,2018-07-14,True,4
+2018,Harry Kane,UEFA Champions League,,,,,2
+2018,Harry Kane,FIFA World Cup,2018,2018-06-18,2018-07-14,True,4
+2018,N'Golo Kanté,UEFA Champions League,,,,,2
+2018,N'Golo Kanté,FIFA World Cup,2018,2018-06-16,2018-07-15,True,6
+2018,Neymar,UEFA Champions League,,,,,2
+2018,Neymar,FIFA World Cup,2018,2018-06-17,2018-07-06,True,3
+2018,Luis Suárez,UEFA Champions League,,,,,3
+2018,Luis Suárez,FIFA World Cup,2018,2018-06-15,2018-07-06,True,3
+2018,Thibaut Courtois,FIFA World Cup,2018,2018-06-18,2018-07-14,True,4
+2018,Paul Pogba,UEFA Champions League,,,,,2
+2018,Paul Pogba,FIFA World Cup,2018,2018-06-16,2018-07-15,True,6
+2018,Sergio Agüero,UEFA Champions League,,,,,3
+2018,Sergio Agüero,FIFA World Cup,2018,2018-06-16,2018-06-30,True,2
+2018,Karim Benzema,FIFA World Cup,2018,2018-06-16,2018-07-15,False,0
+2018,Roberto Firmino,UEFA Champions League,,,,,5
+2018,Roberto Firmino,FIFA World Cup,2018,2018-06-17,2018-07-06,True,3
+2018,Ivan Rakitić,UEFA Champions League,,,,,3
+2018,Ivan Rakitić,FIFA World Cup,2018,2018-06-16,2018-07-15,True,5
+2018,Sergio Ramos,FIFA World Cup,2018,2018-06-15,2018-07-01,True,2
+2018,Edinson Cavani,UEFA Champions League,,,,,2
+2018,Edinson Cavani,FIFA World Cup,2018,2018-06-15,2018-07-06,True,3
+2018,Sadio Mané,UEFA Champions League,,,,,5
+2018,Sadio Mané,FIFA World Cup,2018,2018-06-19,2018-06-28,True,1
+2018,Marcelo,FIFA World Cup,2018,2018-06-17,2018-07-06,True,3
+2018,Alisson,FIFA World Cup,2018,2018-06-17,2018-07-06,True,3
+2018,Mario Mandžukić,UEFA Champions League,,,,,3
+2018,Mario Mandžukić,FIFA World Cup,2018,2018-06-16,2018-07-15,True,5
+2018,Jan Oblak,UEFA Champions League,,,,,1
+2018,Diego Godín,UEFA Champions League,,,,,1
+2018,Diego Godín,FIFA World Cup,2018,2018-06-15,2018-07-06,True,3
+2018,Isco,FIFA World Cup,2018,2018-06-15,2018-07-01,True,2
+2018,Hugo Lloris,UEFA Champions League,,,,,2
+2018,Hugo Lloris,FIFA World Cup,2018,2018-06-16,2018-07-15,True,6
+2019,Lionel Messi,UEFA Champions League,,,,,4
+2019,Cristiano Ronaldo,UEFA Champions League,,,,,3
+2019,Kylian Mbappé,UEFA Champions League,,,,,2
+2019,Robert Lewandowski,UEFA Champions League,,,,,2
+2019,Bernardo Silva,UEFA Champions League,,,,,3
+2019,Riyad Mahrez,UEFA Champions League,,,,,3
+2019,Raheem Sterling,UEFA Champions League,,,,,3
+2019,Kevin De Bruyne,UEFA Champions League,,,,,3
+2019,Sergio Agüero,UEFA Champions League,,,,,3
+2019,Pierre-Emerick Aubameyang,UEFA Champions League,,,,,0
+2019,Dušan Tadić,UEFA Champions League,,,,,4
+2019,Son Heung-min,UEFA Champions League,,,,,5
+2019,Hugo Lloris,UEFA Champions League,,,,,5
+2019,Kalidou Koulibaly,UEFA Champions League,,,,,0
+2019,Marc-André ter Stegen,UEFA Champions League,,,,,4
+2019,Karim Benzema,UEFA Champions League,,,,,2
+2019,Marquinhos,UEFA Champions League,,,,,2
+2019,Donny van de Beek,UEFA Champions League,,,,,4
+2021,Lionel Messi,Copa América,2021,2021-06-14,2021-07-10,True,6
+2021,Robert Lewandowski,UEFA Champions League,,,,,3
+2021,Robert Lewandowski,UEFA Euro,2021,2021-06-14,2021-06-23,True,1
+2021,Jorginho,UEFA Euro,2021,2021-06-11,2021-07-11,True,6
+2021,Karim Benzema,UEFA Champions League,,,,,4
+2021,Karim Benzema,UEFA Euro,2021,2021-06-15,2021-06-28,True,2
+2021,N'Golo Kanté,UEFA Euro,2021,2021-06-15,2021-06-28,True,2
+2021,Cristiano Ronaldo,UEFA Euro,2021,2021-06-15,2021-06-27,True,2
+2021,Mohamed Salah,UEFA Champions League,,,,,3
+2021,Kevin De Bruyne,UEFA Champions League,,,,,5
+2021,Kevin De Bruyne,UEFA Euro,2021,2021-06-12,2021-07-02,True,3
+2021,Kylian Mbappé,UEFA Champions League,,,,,4
+2021,Kylian Mbappé,UEFA Euro,2021,2021-06-15,2021-06-28,True,2
+2021,Gianluigi Donnarumma,UEFA Euro,2021,2021-06-11,2021-07-11,True,6
+2021,Erling Haaland,UEFA Champions League,,,,,3
+2021,Romelu Lukaku,UEFA Euro,2021,2021-06-12,2021-07-02,True,3
+2021,Giorgio Chiellini,UEFA Champions League,,,,,2
+2021,Giorgio Chiellini,UEFA Euro,2021,2021-06-11,2021-07-11,True,6
+2021,Leonardo Bonucci,UEFA Champions League,,,,,2
+2021,Leonardo Bonucci,UEFA Euro,2021,2021-06-11,2021-07-11,True,6
+2021,Raheem Sterling,UEFA Champions League,,,,,5
+2021,Raheem Sterling,UEFA Euro,2021,2021-06-13,2021-07-11,True,5
+2021,Neymar,UEFA Champions League,,,,,4
+2021,Neymar,Copa América,2021,2021-06-13,2021-07-10,True,5
+2021,Luis Suárez,UEFA Champions League,,,,,2
+2021,Luis Suárez,Copa América,2021,2021-06-18,2021-07-03,True,3
+2021,Simon Kjær,UEFA Champions League,,,,,0
+2021,Simon Kjær,UEFA Euro,2021,2021-06-12,2021-07-07,True,4
+2021,Mason Mount,UEFA Euro,2021,2021-06-13,2021-07-11,True,5
+2021,Riyad Mahrez,UEFA Champions League,,,,,5
+2021,Bruno Fernandes,UEFA Champions League,,,,,0
+2021,Bruno Fernandes,UEFA Euro,2021,2021-06-15,2021-06-27,True,2
+2021,Lautaro Martínez,UEFA Champions League,,,,,0
+2021,Lautaro Martínez,Copa América,2021,2021-06-14,2021-07-10,True,6
+2021,Harry Kane,UEFA Champions League,,,,,0
+2021,Harry Kane,UEFA Euro,2021,2021-06-13,2021-07-11,True,5
+2021,Pedri,UEFA Champions League,,,,,2
+2021,Pedri,UEFA Euro,2021,2021-06-14,2021-07-06,True,4
+2021,Phil Foden,UEFA Champions League,,,,,5
+2021,Phil Foden,UEFA Euro,2021,2021-06-13,2021-07-11,True,5
+2021,Gerard Moreno,UEFA Champions League,,,,,0
+2021,Gerard Moreno,UEFA Euro,2021,2021-06-14,2021-07-06,True,4
+2021,Nicolò Barella,UEFA Champions League,,,,,0
+2021,Nicolò Barella,UEFA Euro,2021,2021-06-11,2021-07-11,True,6
+2021,Rúben Dias,UEFA Champions League,,,,,5
+2021,Rúben Dias,UEFA Euro,2021,2021-06-15,2021-06-27,True,2
+2021,Luka Modrić,UEFA Champions League,,,,,4
+2021,Luka Modrić,UEFA Euro,2021,2021-06-13,2021-06-28,True,2
+2021,Cesar Azpilicueta,UEFA Euro,2021,2021-06-14,2021-07-06,True,4
+2022,Sadio Mané,African Cup of Nations,2022,2022-01-10,2022-02-06,False,0
+2022,Kevin De Bruyne,UEFA Champions League,,,,,4
+2022,Mohamed Salah,UEFA Champions League,,,,,5
+2022,Mohamed Salah,African Cup of Nations,2022,2022-01-11,2022-02-06,False,0
+2022,Kylian Mbappé,UEFA Champions League,,,,,2
+2022,Son Heung-min,UEFA Champions League,,,,,0
+2022,Riyad Mahrez,UEFA Champions League,,,,,4
+2022,Riyad Mahrez,African Cup of Nations,2022,2022-01-11,2022-01-20,False,0
+2022,Sébastien Haller,African Cup of Nations,2022,2022-01-12,2022-01-26,False,0
+2022,Fabinho,UEFA Champions League,,,,,5
+2022,Rafael Leão,UEFA Champions League,,,,,0
+2022,Virgil van Dijk,UEFA Champions League,,,,,5
+2022,Harry Kane,UEFA Champions League,,,,,0
+2022,Trent Alexander-Arnold,UEFA Champions League,,,,,5
+2022,Phil Foden,UEFA Champions League,,,,,4
+2022,Bernardo Silva,UEFA Champions League,,,,,4
+2022,João Cancelo,UEFA Champions League,,,,,4
+2022,Joshua Kimmich,UEFA Champions League,,,,,3
+2022,Christopher Nkunku,UEFA Champions League,,,,,1
+2023,Lionel Messi,FIFA World Cup,2022,2022-11-22,2022-12-18,True,6
+2023,Kylian Mbappé,UEFA Champions League,,,,,2
+2023,Kylian Mbappé,FIFA World Cup,2022,2022-11-22,2022-12-18,True,5
+2023,Kevin De Bruyne,FIFA World Cup,2022,2022-11-23,2022-12-01,True,1
+2023,Rodri,FIFA World Cup,2022,2022-11-23,2022-12-06,True,2
+2023,Vinícius Júnior,UEFA Champions League,,,,,4
+2023,Vinícius Júnior,FIFA World Cup,2022,2022-11-24,2022-12-09,True,3
+2023,Julián Álvarez,FIFA World Cup,2022,2022-11-22,2022-12-18,True,6
+2023,Victor Osimhen,UEFA Champions League,,,,,3
+2023,Bernardo Silva,FIFA World Cup,2022,2022-11-24,2022-12-10,True,3
+2023,Luka Modrić,UEFA Champions League,,,,,4
+2023,Luka Modrić,FIFA World Cup,2022,2022-11-23,2022-12-17,True,4
+2023,Mohamed Salah,UEFA Champions League,,,,,2
+2023,Robert Lewandowski,FIFA World Cup,2022,2022-11-22,2022-12-04,True,2
+2023,Yassine Bounou,FIFA World Cup,2022,2022-11-23,2022-12-17,True,4
+2023,İlkay Gündoğan,FIFA World Cup,2022,2022-11-23,2022-12-01,True,1
+2023,Emiliano Martínez,UEFA Champions League,,,,,0
+2023,Emiliano Martínez,FIFA World Cup,2022,2022-11-22,2022-12-18,True,6
+2023,Karim Benzema,FIFA World Cup,2022,2022-11-22,2022-12-18,True,5
+2023,Jude Bellingham,FIFA World Cup,2022,2022-11-21,2022-12-10,True,3
+2023,Harry Kane,FIFA World Cup,2022,2022-11-21,2022-12-10,True,3
+2023,Lautaro Martínez,UEFA Champions League,,,,,0
+2023,Lautaro Martínez,FIFA World Cup,2022,2022-11-22,2022-12-18,True,6
+2023,Antoine Griezmann,FIFA World Cup,2022,2022-11-22,2022-12-18,True,5
+2023,Kim Min-jae,FIFA World Cup,2022,2022-11-24,2022-12-05,True,2
+2023,André Onana,FIFA World Cup,2022,2022-11-24,2022-12-02,True,1
+2023,Bukayo Saka,UEFA Champions League,,,,,0
+2023,Bukayo Saka,FIFA World Cup,2022,2022-11-21,2022-12-10,True,3
+2023,Joško Gvardiol,FIFA World Cup,2022,2022-11-23,2022-12-17,True,4
+2023,Jamal Musiala,UEFA Champions League,,,,,3
+2023,Jamal Musiala,FIFA World Cup,2022,2022-11-23,2022-12-01,True,1
+2023,Nicolò Barella,UEFA Champions League,,,,,0
+2023,Randal Kolo Muani,FIFA World Cup,2022,2022-11-22,2022-12-18,True,5
+2023,Martin Ødegaard,UEFA Champions League,,,,,0
+2023,Rúben Dias,FIFA World Cup,2022,2022-11-24,2022-12-10,True,3
+2024,Rodri,UEFA Champions League,,,,,3
+2024,Rodri,UEFA Euro,2024,2024-06-15,2024-07-14,True,6
+2024,Vinícius Júnior,Copa América,2024,2024-06-24,2024-07-06,True,3
+2024,Jude Bellingham,UEFA Euro,2024,2024-06-16,2024-07-14,True,5
+2024,Dani Carvajal,UEFA Euro,2024,2024-06-15,2024-07-14,True,6
+2024,Erling Haaland,UEFA Champions League,,,,,3
+2024,Kylian Mbappé,UEFA Euro,2024,2024-06-17,2024-07-09,True,4
+2024,Lautaro Martínez,UEFA Champions League,,,,,2
+2024,Lautaro Martínez,Copa América,2024,2024-06-20,2024-07-14,True,6
+2024,Lamine Yamal,UEFA Euro,2024,2024-06-15,2024-07-14,True,6
+2024,Toni Kroos,UEFA Euro,2024,2024-06-14,2024-07-05,True,3
+2024,Harry Kane,UEFA Euro,2024,2024-06-16,2024-07-14,True,5
+2024,Phil Foden,UEFA Champions League,,,,,3
+2024,Phil Foden,UEFA Euro,2024,2024-06-16,2024-07-14,True,5
+2024,Florian Wirtz,UEFA Champions League,,,,,0
+2024,Florian Wirtz,UEFA Euro,2024,2024-06-14,2024-07-05,True,3
+2024,Dani Olmo,UEFA Euro,2024,2024-06-15,2024-07-14,True,6
+2024,Ademola Lookman,UEFA Champions League,,,,,0
+2024,Ademola Lookman,African Cup of Nations,2024,2024-01-14,2024-02-11,True,5
+2024,Nico Williams,UEFA Euro,2024,2024-06-15,2024-07-14,True,6
+2024,Granit Xhaka,UEFA Euro,2024,2024-06-15,2024-07-06,True,3
+2024,Federico Valverde,Copa América,2024,2024-06-23,2024-07-13,True,4
+2024,Emiliano Martínez,UEFA Champions League,,,,,0
+2024,Emiliano Martínez,Copa América,2024,2024-06-20,2024-07-14,True,6
+2024,Martin Ødegaard,UEFA Champions League,,,,,3
+2024,Hakan Çalhanoğlu,UEFA Champions League,,,,,2
+2024,Hakan Çalhanoğlu,UEFA Euro,2024,2024-06-18,2024-07-06,True,3
+2024,Bukayo Saka,UEFA Champions League,,,,,3
+2024,Bukayo Saka,UEFA Euro,2024,2024-06-16,2024-07-14,True,5
+2024,Antonio Rüdiger,UEFA Euro,2024,2024-06-14,2024-07-05,True,3
+2024,Rúben Dias,UEFA Champions League,,,,,3
+2024,Rúben Dias,UEFA Euro,2024,2024-06-18,2024-07-05,True,3
+2024,William Saliba,UEFA Champions League,,,,,3
+2024,William Saliba,UEFA Euro,2024,2024-06-17,2024-07-09,True,4
+2024,Cole Palmer,UEFA Euro,2024,2024-06-16,2024-07-14,True,5
+2024,Declan Rice,UEFA Euro,2024,2024-06-16,2024-07-14,True,5
+2024,Vitinha,UEFA Champions League,,,,,4
+2024,Vitinha,UEFA Euro,2024,2024-06-18,2024-07-05,True,3
+2024,Álex Grimaldo,UEFA Euro,2024,2024-06-15,2024-07-14,True,6
+2024,Artem Dovbyk,UEFA Euro,2024,2024-06-17,2024-06-26,True,1
+2024,Mats Hummels,UEFA Euro,2024,2024-06-14,2024-07-05,False,0
+2025,Lamine Yamal,UEFA Champions League,,,,,4
+2025,Mohamed Salah,UEFA Champions League,,,,,2
+2025,Raphinha,UEFA Champions League,,,,,4
+2025,Cole Palmer,UEFA Champions League,,,,,0
+2025,Pedri,UEFA Champions League,,,,,4
+2025,Harry Kane,UEFA Champions League,,,,,3
+2025,Vinícius Júnior,UEFA Champions League,,,,,3
+2025,Robert Lewandowski,UEFA Champions League,,,,,4
+2025,Lautaro Martínez,UEFA Champions League,,,,,5
+2025,Alexis Mac Allister,UEFA Champions League,,,,,2
+2025,Jude Bellingham,UEFA Champions League,,,,,3
+2025,Denzel Dumfries,UEFA Champions League,,,,,5
+2025,Erling Haaland,UEFA Champions League,,,,,1
+2025,Declan Rice,UEFA Champions League,,,,,4
+2025,Virgil van Dijk,UEFA Champions League,,,,,2
+2026,Harry Kane,UEFA Champions League,,,,,4
+2026,Harry Kane,FIFA World Cup,2026,2026-06-17,2026-07-18,True,4
+2026,Kylian Mbappé,UEFA Champions League,,,,,3
+2026,Kylian Mbappé,FIFA World Cup,2026,2026-06-16,2026-07-18,True,4
+2026,Lamine Yamal,UEFA Champions League,,,,,3
+2026,Lamine Yamal,FIFA World Cup,2026,2026-06-15,2026-07-19,True,6
+2026,Rodri,FIFA World Cup,2026,2026-06-15,2026-07-19,True,6
+2026,Lionel Messi,FIFA World Cup,2026,2026-06-16,2026-07-19,True,5
+2026,Ousmane Dembélé,FIFA World Cup,2026,2026-06-16,2026-07-18,True,4
+2026,Erling Haaland,UEFA Champions League,,,,,2
+2026,Erling Haaland,FIFA World Cup,2026,2026-06-16,2026-07-11,True,3
+2026,Michael Olise,UEFA Champions League,,,,,4
+2026,Michael Olise,FIFA World Cup,2026,2026-06-16,2026-07-18,True,4
+2026,Fabián Ruiz,FIFA World Cup,2026,2026-06-15,2026-07-19,True,6
+2026,Jude Bellingham,UEFA Champions League,,,,,3
+2026,Jude Bellingham,FIFA World Cup,2026,2026-06-17,2026-07-18,True,4
+2026,Pau Cubarsí,UEFA Champions League,,,,,3
+2026,Pau Cubarsí,FIFA World Cup,2026,2026-06-15,2026-07-19,True,6
+2026,Achraf Hakimi,FIFA World Cup,2026,2026-06-13,2026-07-09,True,3
+2026,Vitinha,FIFA World Cup,2026,2026-06-17,2026-07-06,True,2
+2026,Declan Rice,UEFA Champions League,,,,,5
+2026,Declan Rice,FIFA World Cup,2026,2026-06-17,2026-07-18,True,4
+2026,Ferran Torres,FIFA World Cup,2026,2026-06-15,2026-07-19,True,6
+2026,Vinícius Júnior,UEFA Champions League,,,,,3
+2026,Vinícius Júnior,FIFA World Cup,2026,2026-06-13,2026-07-05,True,2
+2026,Marc Cucurella,FIFA World Cup,2026,2026-06-15,2026-07-19,True,6
+2026,João Neves,FIFA World Cup,2026,2026-06-17,2026-07-06,True,2
+2026,Willian Pacho,FIFA World Cup,2026,2026-06-14,2026-06-30,True,2
+2026,Gabriel Magalhães,UEFA Champions League,,,,,5
+2026,Gabriel Magalhães,FIFA World Cup,2026,2026-06-13,2026-07-05,True,2
+2026,Lautaro Martínez,UEFA Champions League,,,,,1
+2026,Lautaro Martínez,FIFA World Cup,2026,2026-06-16,2026-07-19,True,5
+2026,Nuno Mendes,FIFA World Cup,2026,2026-06-17,2026-07-06,True,2
+2026,Luis Díaz,FIFA World Cup,2026,2026-06-17,2026-07-07,True,2
+2026,Marquinhos,FIFA World Cup,2026,2026-06-13,2026-07-05,True,2
+2026,Dayot Upamecano,UEFA Champions League,,,,,4
+2026,Dayot Upamecano,FIFA World Cup,2026,2026-06-16,2026-07-18,True,4
+2026,Bruno Fernandes,UEFA Champions League,,,,,0
+2026,Bruno Fernandes,FIFA World Cup,2026,2026-06-17,2026-07-06,True,2
+2026,Julián Quiñones,FIFA World Cup,2026,2026-06-11,2026-07-05,True,2
+2026,Sadio Mané,FIFA World Cup,2026,2026-06-16,2026-07-01,True,2
+2026,William Saliba,UEFA Champions League,,,,,5
+2026,William Saliba,FIFA World Cup,2026,2026-06-16,2026-07-18,True,4
