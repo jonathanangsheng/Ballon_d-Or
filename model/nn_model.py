@@ -1,5 +1,5 @@
-"""Rank Ballon d'Or nominees with a small neural network (structure as in DSA312 Lectures 10-11:
-one Dense hidden layer, linear output, full-batch gradient descent on MSE). Standard library only.
+"""Rank Ballon d'Or nominees with a small neural network (structure: one Dense hidden layer, 
+linear output, full-batch gradient descent on MSE). Standard library only.
 
 Target: (11 - rank) / 10 for the top 10, 0 below; each year's prediction is sorted and the top
 10 scored with split.score(). Model choice uses leave-one-year-out on 2000-2015 only.
