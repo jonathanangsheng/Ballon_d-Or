@@ -10,7 +10,7 @@ Each split is a dict {year: [row, ...]}, where a row is a dict with the CSV colu
 import csv
 from pathlib import Path
 
-DATA_DIR = Path(__file__).parent / "data" / "ballon_dor"
+DATA_DIR = Path(__file__).parent.parent / "data" / "ballon_dor"
 
 TRAIN_YEARS = list(range(2000, 2016))
 TEST_YEARS = [y for y in range(2016, 2026) if y != 2020]

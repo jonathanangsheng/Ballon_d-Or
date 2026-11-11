@@ -11,7 +11,7 @@ from pathlib import Path
 from build_windows import YEARS, article_title
 from fetch import wiki_prefetch, wiki_wikitext
 
-BD_DIR = Path(__file__).parent / "data" / "ballon_dor"
+BD_DIR = Path(__file__).parent.parent / "data" / "ballon_dor"
 
 
 def norm(s):

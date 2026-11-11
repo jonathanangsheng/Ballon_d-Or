@@ -11,7 +11,7 @@ from pathlib import Path
 
 from fetch import wiki_wikitext
 
-OUT = Path(__file__).parent / "data" / "features" / "windows.csv"
+OUT = Path(__file__).parent.parent / "data" / "features" / "windows.csv"
 YEARS = [y for y in range(2000, 2027) if y != 2020]
 DATE_RE = r"(\d{1,2} [A-Z][a-z]+ \d{4})"
 

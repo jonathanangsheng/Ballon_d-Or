@@ -11,7 +11,7 @@ from collections import defaultdict
 from datetime import date, timedelta
 from pathlib import Path
 
-ROOT = Path(__file__).parent
+ROOT = Path(__file__).parent.parent
 FEAT = ROOT / "data" / "features"
 LOGS = ROOT / "data" / "features" / "logs"
 BD = ROOT / "data" / "ballon_dor"
@@ -78,7 +78,7 @@ for (y, n, b, s), v in agg.items():
     got = num(features[(y, n)][f"{b}_{s}"])
     if got is None or abs(got - v) > 1e-6:
         fail(f"{y} {n} {b}_{s}: feature {got} != logged {v}")
-sys.path.insert(0, str(ROOT))
+sys.path.insert(0, str(Path(__file__).parent))
 import intl  # noqa: E402
 from players import norm  # noqa: E402
 
@@ -172,7 +172,7 @@ cols = list(next(iter(features.values())).keys())
 if any(re.search(r"rank|points|ballon", c, re.I) for c in cols):
     fail("feature column named after rank/points/ballon d'or")
 for fn in FEATURE_CODE:
-    src = (ROOT / fn).read_text(encoding="utf-8")
+    src = (Path(__file__).parent / fn).read_text(encoding="utf-8")
     if re.search(r"""\[\s*["'](rank|points)["']\s*\]""", src):
         fail(f"{fn} reads the rank or points column")
 for log, key in ((awards, "date"), (trophies, "date")):
@@ -185,7 +185,7 @@ print("[4] no rank/points columns or reads; nothing counted after a ceremony")
 # build_windows.py is exempt from the literal scan: its 2020 (cancelled) and 2022 (season
 # windows) constants are the window rules given in the task, not tuning.
 for fn in FEATURE_CODE:
-    src = (ROOT / fn).read_text(encoding="utf-8")
+    src = (Path(__file__).parent / fn).read_text(encoding="utf-8")
     if re.search(r"^\s*(from split|import split)", src, re.M):
         fail(f"{fn} imports the train/test split")
     code = "\n".join(l.split("#")[0] for l in src.splitlines() if not l.strip().startswith(('"', "'")))

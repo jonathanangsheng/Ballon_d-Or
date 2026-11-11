@@ -7,7 +7,7 @@ from pathlib import Path
 from build_features import COLUMNS
 from build_windows import YEARS
 
-FEAT = Path(__file__).parent / "data" / "features"
+FEAT = Path(__file__).parent.parent / "data" / "features"
 SPLITS = [("2000–2015", range(2000, 2016)), ("2016–2025", range(2016, 2026)), ("2026", range(2026, 2027))]
 
 SOURCES = """## Source access (checked 2026-11-10)
