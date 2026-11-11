@@ -100,6 +100,23 @@ for (y, n), r in features.items():
     for b in ("league", "ucl", "club_other"):
         if r[f"{b}_apps"] != "" and (y, n, b) not in logged and (y, n, b) not in season:
             fail(f"{y} {n} {b}_apps filled without logged matches or season total")
+# club goals counted match by match (calendar-year windows): each scoring match inside the
+# window, and the matches sum to the column
+club_goals = {(int(s["year"]), s["name"], s["bucket"]): int(s["goals"]) for s in log_rows("club_goals")}
+by_match = defaultdict(int)
+for m in log_rows("club_goal_matches"):
+    if not in_window(int(m["year"]), m["date"]):
+        fail(f"club goal outside window: {m}")
+    by_match[(int(m["year"]), m["name"], m["bucket"])] += int(m["goals"])
+for k, v in club_goals.items():
+    if by_match[k] != v or num(features[k[:2]][f"{k[2]}_goals"]) != v:
+        fail(f"{k} club goals: column {features[k[:2]][f'{k[2]}_goals']}, log {v}, matches {by_match[k]}")
+    if windows[k[0]]["window_start"].month != 1:
+        fail(f"{k} match-by-match club goals used for an Aug-Jul window")
+for (y, n), r in features.items():
+    for b in ("league", "ucl", "club_other"):
+        if r[f"{b}_goals"] != "" and not ({(y, n, b)} & (logged | set(season) | set(club_goals))):
+            fail(f"{y} {n} {b}_goals filled without a logged source")
 # national stats: goal-list dates inside the window; year-table values only when the country
 # played nothing between the window end and 31 December
 goal_dates = defaultdict(list)
@@ -124,7 +141,7 @@ for (y, n), r in features.items():
         if r[f"national_{stat}"] != "" and not any(
                 (int(s["year"]), s["name"], s["stat"]) == (y, n, stat) for s in national_stats):
             fail(f"{y} {n} national_{stat} filled without a logged source")
-print(f"[2b] {len(season)} season totals, {sum(map(len, goal_dates.values()))} dated international goals, "
+print(f"[2b] {len(season)} season totals, {len(club_goals)} match-by-match club goal values, {sum(map(len, goal_dates.values()))} dated international goals, "
       f"{len(national_stats)} national values checked")
 for (y, n), r in features.items():
     if r["intl_tournament_apps"] != "" and (y, n, "intl_tournament") not in logged:

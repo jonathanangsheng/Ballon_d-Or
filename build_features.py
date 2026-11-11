@@ -8,6 +8,7 @@ Output: data/features/<year>.csv, data/features/logs/*.csv, data/features/row_ga
 """
 import csv
 import re
+import urllib.parse
 from collections import defaultdict
 from datetime import date, timedelta
 from pathlib import Path
@@ -293,6 +294,60 @@ def wiki_club(wt, w):
     return out, why
 
 
+def season_years(label):
+    """(first, last) year of a career-table season label: '2004–05', '1999–2000' or '2005'."""
+    m = re.fullmatch(r"(\d{4})[–-](\d{2}|\d{4})", label.strip())
+    if m:
+        return int(m.group(1)), int(m.group(1)) + 1
+    m = re.fullmatch(r"(\d{4})", label.strip())
+    return (int(m.group(1)),) * 2 if m else None
+
+
+def calendar_seasons(wt, w):
+    """Career-table rows whose season overlaps a calendar-year window."""
+    y = w["end"].year
+    return [r for r in ws.club_seasons(wt) if (s := season_years(r["season"])) and s[0] <= y <= s[1]]
+
+
+def wiki_club_goals(wt, titles, w):
+    """Club goals for a calendar-year window, counted match by match from the club-season
+    articles of every career-table season overlapping the window. A bucket counts only if, for
+    each of those seasons, the article's goals for the player in that competition equal his
+    career-table season total. Returns ({bucket: (goals, [(date, goals)], sources)}, reason)."""
+    if w["start"].month != 1:
+        return {}, None
+    y = w["end"].year
+    rows = calendar_seasons(wt, w)
+    spans = [season_years(r["season"]) for r in rows]
+    if not any(s[0] < y or s == (y, y) for s in spans) or not any(s[1] > y or s == (y, y) for s in spans):
+        return {}, f"career table has no season row for each half of {y}"
+    defs = ws.club_table_defs(wt)
+    ok = {b: True for b in ("league", "ucl", "club_other")}
+    got = {b: [0, [], []] for b in ok}
+    why = []
+    for r, s in zip(rows, spans):
+        tot = ws.season_buckets([r], defs)
+        swt = wiki_wikitext(r["season_link"])[0] if r["season_link"] else None
+        ms, bad = ws.club_match_goals(swt, titles, s) if swt else (None, "no club-season article linked")
+        if ms is None:
+            ok = dict.fromkeys(ok, False)
+            why.append(f"{r['season']}: {bad}")
+            continue
+        src = "https://en.wikipedia.org/wiki/" + r["season_link"].replace(" ", "_")
+        for b in ok:
+            listed = sum(g for _, bb, g in ms if bb == b)
+            if tot[b] is None or listed != tot[b][1]:
+                ok[b] = False
+                why.append(f"{r['season']} {b}: article lists {listed} goals, career table "
+                           f"{tot[b][1] if tot[b] else 'unknown'}")
+                continue
+            inside = [(d, g) for d, bb, g in ms if bb == b and w["start"] <= d <= w["end"]]
+            got[b][0] += sum(g for _, g in inside)
+            got[b][1] += inside
+            got[b][2].append(src)
+    return {b: tuple(got[b]) for b in ok if ok[b]}, "; ".join(why) or None
+
+
 def year_table_ok(country, years_tbl, w):
     """For a calendar-year window: a detail string if the country played no match between the
     window end and 31 Dec (so the year's total is the window's total), else (None, reason)."""
@@ -334,6 +389,8 @@ def build():
     season_titles = set()
     for (year, name, _) in rows:
         a = articles.get(titles.get((year, name)))
+        if a and windows[year]["start"].month == 1:
+            season_titles |= {r["season_link"] for r in calendar_seasons(a[0], windows[year])} - {None}
         if a and windows[year]["start"].month != 1:
             label = season_label(windows[year])
             for r in ws.club_seasons(a[0]):
@@ -390,6 +447,21 @@ def build():
             logs["season_stats"].append({"year": year, "name": name, "bucket": b, "apps": apps,
                                          "goals": goals, "first_match": first, "last_match": last,
                                          "source": src})
+        # calendar-year windows: club goals match by match from club-season articles
+        art_titles = {title, urllib.parse.unquote(art[1].rsplit("/wiki/", 1)[1]).replace("_", " ")} if art else set()
+        cal_goals, why = wiki_club_goals(art[0], art_titles, w) if art else ({}, None)
+        if why:
+            gap("league/ucl/club_other goals (Wikipedia matches)", why)
+        for b, (goals, matches, srcs) in cal_goals.items():
+            if b == "league" and "league" in recs_by_bucket:
+                continue
+            row[f"{b}_goals"] = goals
+            urls += srcs
+            club_fill[b] = None
+            logs["club_goals"].append({"year": year, "name": name, "bucket": b, "goals": goals,
+                                       "seasons": len(srcs), "source": " ".join(srcs)})
+            logs["club_goal_matches"] += [{"year": year, "name": name, "bucket": b, "date": d, "goals": g}
+                                          for d, g in matches]
         for b in ("league", "ucl", "club_other"):
             if b not in club_fill and not (b == "league" and "league" in recs_by_bucket):
                 gap(f"{b}_apps/goals", "season total not verifiably inside the window")

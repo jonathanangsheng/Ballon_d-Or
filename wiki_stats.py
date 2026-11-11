@@ -315,3 +315,151 @@ def league_season_dates(title):
     yrs = [int(y) for y in re.findall(r"\d{4}", title)[:1]]
     ds = [d for d in _dates_in(m.group(1), yrs[0] + 1 if yrs else 0) if d.year > 1900]
     return (min(ds), max(ds)) if len(ds) >= 2 else None, url
+
+
+# ---------- per-match club goals from club-season articles ----------
+
+SKIP_COMP = re.compile(r"friendl|pre-?season|\btour\b|exhibition|testimonial|charity match|"
+                       r"International Champions Cup|Audi Cup|Emirates Cup|Joan Gamper|Trofeo", re.I)
+OTHER_COMP = re.compile(r"Cup|Copa|Coppa|Coupe|Pokal|Super|Shield|Trophy|Taça|Taca|Europa|UEFA|"
+                        r"Intercontinental|Club World|Play-?off|Supercopa|Supercoppa|Intertoto|Recopa", re.I)
+LEAGUE_COMP = re.compile(r"League|Liga|Serie A|Bundesliga|Ligue 1|Eredivisie|Primeira|Premier|"
+                         r"Division|Championship|Süper Lig|Primera|Brasileir|Série A|MLS|Pro League")
+
+
+def comp_bucket(text):
+    """'league' | 'ucl' | 'club_other' | 'skip' (friendlies) | None (does not say)."""
+    h = plain(text)
+    if SKIP_COMP.search(h):
+        return "skip"
+    if re.search(r"Champions League|European Cup", h) and not re.search(r"AFC|CAF|CONCACAF|OFC|Asian|African", h):
+        return "ucl"
+    if OTHER_COMP.search(h):
+        return "club_other"
+    if LEAGUE_COMP.search(h):
+        return "league"
+    return None
+
+
+def _heading_bucket(heads, pos):
+    """Competition of the innermost enclosing heading that names one."""
+    active = {}
+    for p, level, title in heads:
+        if p > pos:
+            break
+        active = {lv: t for lv, t in active.items() if lv < level}
+        active[level] = title
+    for lv in sorted(active, reverse=True):
+        b = comp_bucket(active[lv])
+        if b:
+            return b
+    return None
+
+
+def _template_end(wt, start):
+    depth, i = 0, start
+    while i < len(wt):
+        if wt.startswith("{{", i):
+            depth, i = depth + 1, i + 2
+        elif wt.startswith("}}", i):
+            depth, i = depth - 1, i + 2
+            if depth == 0:
+                return i
+        else:
+            i += 1
+    return i
+
+
+def _norm_title(t):
+    t = t.replace("_", " ").strip()
+    return t[:1].upper() + t[1:]
+
+
+def goals_in(text, names, bare_is_one=False):
+    """Goals credited to the player in a scorers field: the segment after each link to his article
+    up to the next link or line break. Own goals are excluded; a penalty counts. A name with no
+    goal template or minute counts as one goal only in a Scorers column (bare_is_one); in a
+    football box it is a card or substitution."""
+    n = 0
+    links = list(re.finditer(r"\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|[^\]]*)?\]\]", text))
+    for k, m in enumerate(links):
+        if _norm_title(m.group(1)) not in names:
+            continue
+        end = links[k + 1].start() if k + 1 < len(links) else len(text)
+        seg = re.split(r"<br\s*/?>|\n", text[m.end():end])[0]
+        if re.search(r"o\.\s?g\.|\bog\b|own goal", seg, re.I):
+            seg = re.sub(r"\{\{\s*goal\s*\|[^{}]*(o\.\s?g\.|\bog\b)[^{}]*\}\}", "", seg, flags=re.I)
+            if re.search(r"o\.\s?g\.|\bog\b|own goal", seg, re.I):
+                return None  # cannot tell own goals apart
+        tpls = re.findall(r"\{\{\s*goal\s*\|([^{}]*)\}\}", seg, re.I)
+        if tpls:
+            for t in tpls:
+                ps = t.split("|")
+                n += sum(1 for i in range(0, len(ps), 2) if re.match(r"\s*\d", ps[i]))
+            continue
+        mins = re.findall(r"\d+\s*(?:\+\s*\d+)?\s*(?:'|′|&prime;)", seg)
+        if mins:
+            n += len(mins)
+            continue
+        cnt = re.match(r"\s*\((\d)\)", seg)
+        if cnt:
+            n += int(cnt.group(1))
+        elif bare_is_one and not re.search(r"\{\{", seg):
+            n += 1
+    return n
+
+
+def _match_date(text, season):
+    """First date in text; a date written without a year takes the season's first year from
+    July on, else its last year."""
+    ds = [d for d in _dates_in(text, 0) if d.year > 1900]
+    if ds or not season:
+        return ds[0] if ds else None
+    ds = _dates_in(re.sub(r"<ref[^>]*/>|<ref[^>]*>.*?</ref>", "", text, flags=re.S), season[0])
+    return (ds[0] if ds[0].month >= 7 else ds[0].replace(year=season[1])) if ds else None
+
+
+def club_match_goals(wt, player_titles, season=None):
+    """[(date, bucket, goals)] for every competitive match in a club-season article in which the
+    player (any of player_titles, his article's titles) scored, from {{Football box}} templates or results tables with a Scorers column.
+    season = (first year, last year) dates matches written without a year.
+    Returns (matches, reason); matches is None when a scoring match cannot be dated or assigned."""
+    names = {_norm_title(t) for t in player_titles}
+    heads = [(m.start(), len(m.group(1)), m.group(2))
+             for m in re.finditer(r"^(=+)\s*(.*?)\s*=+\s*$", wt, re.M)]
+    out = []
+    for m in re.finditer(r"\{\{\s*Football box", wt, re.I):
+        box = wt[m.start():_template_end(wt, m.start())]
+        par = lambda k: (re.search(r"\|\s*" + k + r"\s*=(.*?)(?=\n\s*\||\}\}\s*$)", box, re.S) or [None, ""])[1]
+        text = par("goals1") + "\n" + par("goals2")
+        if not names & {_norm_title(x) for x in re.findall(r"\[\[([^\]|#]+)", text)}:
+            continue
+        b = comp_bucket(par("competition")) or comp_bucket(par("round")) or _heading_bucket(heads, m.start())
+        if b == "skip":
+            continue
+        g = goals_in(text, names)
+        d = _match_date(par("date"), season)
+        if b is None or g is None or not d:
+            return None, f"scoring match not assignable ({plain(par('date'))[:20]}, competition {b}, goals {g})"
+        out.append((d, b, g))
+    for t in re.finditer(r"\{\|[\s\S]*?\n\|\}", wt):
+        g = grid(t.group(0))
+        if not g:
+            continue
+        head = [plain(c).lower() for _, c in g[0]]
+        isc = next((i for i, h in enumerate(head) if "scorer" in h), None)
+        idt = next((i for i, h in enumerate(head) if h.startswith("date")), None)
+        if isc is None or idt is None:
+            continue
+        b = _heading_bucket(heads, t.start())
+        for r in g[1:]:
+            if len(r) <= max(isc, idt) or not names & {_norm_title(x) for x in re.findall(r"\[\[([^\]|#]+)", r[isc][1])}:
+                continue
+            if b == "skip":
+                continue
+            n = goals_in(r[isc][1], names, bare_is_one=True)
+            d = _match_date(r[idt][1], season)
+            if b is None or n is None or not d:
+                return None, f"scoring table row not assignable ({plain(r[idt][1])[:20]}, competition {b}, goals {n})"
+            out.append((d, b, n))
+    return out, None

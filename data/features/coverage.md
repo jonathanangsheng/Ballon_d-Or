@@ -6,7 +6,7 @@ Rows with a value in each column (blank = missing).
 |---|---|---|---|
 | `league_apps` | 6 | 105 | 29 |
 | `league_minutes` | 6 | 1 | 0 |
-| `league_goals` | 6 | 105 | 29 |
+| `league_goals` | 233 | 211 | 29 |
 | `league_assists` | 6 | 1 | 0 |
 | `league_ko_ga` | 6 | 1 | 0 |
 | `league_yellow` | 6 | 1 | 0 |
@@ -15,7 +15,7 @@ Rows with a value in each column (blank = missing).
 | `league_gk_goals_conceded` | 0 | 0 | 0 |
 | `ucl_apps` | 0 | 66 | 23 |
 | `ucl_minutes` | 0 | 0 | 0 |
-| `ucl_goals` | 0 | 66 | 23 |
+| `ucl_goals` | 205 | 156 | 23 |
 | `ucl_assists` | 0 | 0 | 0 |
 | `ucl_ko_ga` | 0 | 0 | 0 |
 | `ucl_yellow` | 0 | 0 | 0 |
@@ -24,7 +24,7 @@ Rows with a value in each column (blank = missing).
 | `ucl_gk_goals_conceded` | 0 | 0 | 0 |
 | `club_other_apps` | 0 | 66 | 23 |
 | `club_other_minutes` | 0 | 0 | 0 |
-| `club_other_goals` | 0 | 66 | 23 |
+| `club_other_goals` | 197 | 154 | 23 |
 | `club_other_assists` | 0 | 0 | 0 |
 | `club_other_ko_ga` | 0 | 0 | 0 |
 | `club_other_yellow` | 0 | 0 | 0 |
@@ -76,7 +76,7 @@ Rows with a value in each column (blank = missing).
 | `intl_tournament_key_passes` | 210 | 217 | 1 |
 | `apps` | 0 | 0 | 0 |
 | `minutes` | 0 | 0 | 0 |
-| `goals` | 0 | 60 | 23 |
+| `goals` | 127 | 119 | 23 |
 | `assists` | 0 | 0 | 0 |
 | `decisive_ga` | 0 | 0 | 0 |
 | `yellow_cards` | 0 | 0 | 0 |

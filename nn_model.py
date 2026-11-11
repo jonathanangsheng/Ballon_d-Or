@@ -19,6 +19,7 @@ from split import HIDDEN_YEAR, TEST_YEARS, TRAIN_YEARS, load_year, score
 TROPHIES = ["trophies_league", "trophies_cup", "trophies_ucl", "trophies_uel", "trophies_world_cup",
             "trophies_euro", "trophies_copa_america", "trophies_intl_other", "trophies_club_intl_other"]
 BASE = TROPHIES + ["intl_stage"]
+CLUB_GOALS = ["league_goals", "ucl_goals", "club_other_goals"]
 POSITIONS = ["goalkeeper", "defender", "midfielder", "forward"]
 SEEDS = [8, 18, 28, 38, 48]
 EPOCHS = 2000
@@ -35,6 +36,8 @@ RUNS = {  # name: (extra inputs, hidden layer sizes, activation, learning rate)
     "9 nn4x4 softplus":  ([], (4, 4), "softplus", 0.01),
     "10 +national_goals": (["national_goals"], (4,), "softplus", 0.01),
     "11 linear +nat_goals": (["national_goals"], (), None, 0.1),
+    "12 +nat,club goals": (["national_goals", "club_goals"], (4,), "softplus", 0.01),
+    "13 linear +nat,club goals": (["national_goals", "club_goals"], (), None, 0.1),
 }
 
 
@@ -48,7 +51,7 @@ def load(years):
             f = feats[r["name"]]
             rows.append({"year": y, "name": r["name"], "y": max(0.0, (11 - r["rank"]) / 10),
                          "age": r["age"], "position": r["position"],
-                         **{c: float(f[c]) if f[c] != "" else None for c in BASE + ["ucl_stage", "national_goals"]}})
+                         **{c: float(f[c]) if f[c] != "" else None for c in BASE + ["ucl_stage", "national_goals"] + CLUB_GOALS}})
     return rows
 
 
@@ -70,6 +73,8 @@ def raw_matrix(rows, extra):
             x.append(r["ucl_stage"])
         if "national_goals" in extra:
             x.append(r["national_goals"])
+        if "club_goals" in extra:
+            x += [r[c] for c in CLUB_GOALS]
         if "centred" in extra:
             x += [None if r[c] is None else r[c] - means[r["year"]][c] for c in BASE]
         out.append(x)
