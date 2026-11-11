@@ -284,7 +284,7 @@ def football_box_dates(wt):
     (boxes under a friendlies / pre-season heading are skipped)."""
     out = []
     heads = [(m.start(), m.group(1)) for m in re.finditer(r"^=+\s*(.*?)\s*=+\s*$", wt, re.M)]
-    for m in re.finditer(r"\{\{\s*Football box", wt, re.I):
+    for m in re.finditer(r"\{\{\s*Football ?box", wt, re.I):
         head = next((h for pos, h in reversed(heads) if pos < m.start()), "")
         if re.search(r"friendl|pre-?season|tour|exhibition", head, re.I):
             continue
@@ -321,7 +321,7 @@ def league_season_dates(title):
 
 SKIP_COMP = re.compile(r"friendl|pre-?season|\btour\b|exhibition|testimonial|charity match|"
                        r"International Champions Cup|Audi Cup|Emirates Cup|Joan Gamper|Trofeo", re.I)
-OTHER_COMP = re.compile(r"Cup|Copa|Coppa|Coupe|Pokal|Super|Shield|Trophy|Taça|Taca|Europa|UEFA|"
+OTHER_COMP = re.compile(r"Cup|Copa|Coppa|Coupe|Pokal|Super|Shield|Trophy|Trophée|Taça|Taca|Europa|UEFA|"
                         r"Intercontinental|Club World|Play-?off|Supercopa|Supercoppa|Intertoto|Recopa", re.I)
 LEAGUE_COMP = re.compile(r"League|Liga|Serie A|Bundesliga|Ligue 1|Eredivisie|Primeira|Premier|"
                          r"Division|Championship|Süper Lig|Primera|Brasileir|Série A|MLS|Pro League")
@@ -332,6 +332,8 @@ def comp_bucket(text):
     h = plain(text)
     if SKIP_COMP.search(h):
         return "skip"
+    if re.fullmatch(r"\W*(league|group|knockout) (phase|stage)\W*", h, re.I):
+        return None  # a stage of a cup competition (UCL league phase from 2024-25): the outer heading names it
     if re.search(r"Champions League|European Cup", h) and not re.search(r"AFC|CAF|CONCACAF|OFC|Asian|African", h):
         return "ucl"
     if OTHER_COMP.search(h):
@@ -412,6 +414,11 @@ def goals_in(text, names, bare_is_one=False):
 def _match_date(text, season):
     """First date in text; a date written without a year takes the season's first year from
     July on, else its last year."""
+    full = {m[:3]: m.capitalize() for m in MONTHS}
+    text = re.sub(r"\b(Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)\b\.?",
+                  lambda m: full[m.group(1)[:3].lower()], text)  # '12 Aug 2023'
+    text = re.sub(r"\b([A-Z][a-z]+) (\d{1,2})\b(?!,? \d{4})",
+                  lambda m: f"{m.group(2)} {m.group(1)}" if m.group(1).lower() in MONTHS else m.group(0), text)  # 'August 26'
     ds = [d for d in _dates_in(text, 0) if d.year > 1900]
     if ds or not season:
         return ds[0] if ds else None
@@ -428,7 +435,7 @@ def club_match_goals(wt, player_titles, season=None):
     heads = [(m.start(), len(m.group(1)), m.group(2))
              for m in re.finditer(r"^(=+)\s*(.*?)\s*=+\s*$", wt, re.M)]
     out = []
-    for m in re.finditer(r"\{\{\s*Football box", wt, re.I):
+    for m in re.finditer(r"\{\{\s*Football ?box", wt, re.I):
         box = wt[m.start():_template_end(wt, m.start())]
         par = lambda k: (re.search(r"\|\s*" + k + r"\s*=(.*?)(?=\n\s*\||\}\}\s*$)", box, re.S) or [None, ""])[1]
         text = par("goals1") + "\n" + par("goals2")

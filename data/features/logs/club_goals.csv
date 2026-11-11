@@ -1,6 +1,10 @@
 year,name,bucket,goals,seasons,source
+2000,Luís Figo,league,7,2,https://en.wikipedia.org/wiki/1999–2000_FC_Barcelona_season https://en.wikipedia.org/wiki/2000–01_Real_Madrid_CF_season
+2000,Luís Figo,ucl,3,2,https://en.wikipedia.org/wiki/1999–2000_FC_Barcelona_season https://en.wikipedia.org/wiki/2000–01_Real_Madrid_CF_season
 2000,Luís Figo,club_other,0,2,https://en.wikipedia.org/wiki/1999–2000_FC_Barcelona_season https://en.wikipedia.org/wiki/2000–01_Real_Madrid_CF_season
 2000,Zinedine Zidane,league,4,2,https://en.wikipedia.org/wiki/1999–2000_Juventus_FC_season https://en.wikipedia.org/wiki/2000–01_Juventus_FC_season
+2000,Andriy Shevchenko,ucl,7,2,https://en.wikipedia.org/wiki/1999–2000_AC_Milan_season https://en.wikipedia.org/wiki/2000–01_AC_Milan_season
+2000,Andriy Shevchenko,club_other,3,2,https://en.wikipedia.org/wiki/1999–2000_AC_Milan_season https://en.wikipedia.org/wiki/2000–01_AC_Milan_season
 2000,Alessandro Nesta,league,0,2,https://en.wikipedia.org/wiki/1999–2000_SS_Lazio_season https://en.wikipedia.org/wiki/2000–01_SS_Lazio_season
 2000,Alessandro Nesta,ucl,0,2,https://en.wikipedia.org/wiki/1999–2000_SS_Lazio_season https://en.wikipedia.org/wiki/2000–01_SS_Lazio_season
 2000,Alessandro Nesta,club_other,0,2,https://en.wikipedia.org/wiki/1999–2000_SS_Lazio_season https://en.wikipedia.org/wiki/2000–01_SS_Lazio_season
@@ -8,6 +12,7 @@ year,name,bucket,goals,seasons,source
 2000,Gabriel Batistuta,league,24,2,https://en.wikipedia.org/wiki/1999–2000_AC_Fiorentina_season https://en.wikipedia.org/wiki/2000–01_AS_Roma_season
 2000,Gabriel Batistuta,ucl,2,2,https://en.wikipedia.org/wiki/1999–2000_AC_Fiorentina_season https://en.wikipedia.org/wiki/2000–01_AS_Roma_season
 2000,Gabriel Batistuta,club_other,1,2,https://en.wikipedia.org/wiki/1999–2000_AC_Fiorentina_season https://en.wikipedia.org/wiki/2000–01_AS_Roma_season
+2000,Raúl,league,12,2,https://en.wikipedia.org/wiki/1999–2000_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2000–01_Real_Madrid_CF_season
 2000,Paolo Maldini,ucl,0,2,https://en.wikipedia.org/wiki/1999–2000_AC_Milan_season https://en.wikipedia.org/wiki/2000–01_AC_Milan_season
 2000,Paolo Maldini,club_other,0,2,https://en.wikipedia.org/wiki/1999–2000_AC_Milan_season https://en.wikipedia.org/wiki/2000–01_AC_Milan_season
 2000,David Beckham,league,13,2,https://en.wikipedia.org/wiki/1999–2000_Manchester_United_F.C._season https://en.wikipedia.org/wiki/2000–01_Manchester_United_F.C._season
@@ -22,6 +27,9 @@ year,name,bucket,goals,seasons,source
 2000,Francesco Totti,league,8,2,https://en.wikipedia.org/wiki/1999–2000_AS_Roma_season https://en.wikipedia.org/wiki/2000–01_AS_Roma_season
 2000,Francesco Totti,ucl,0,2,https://en.wikipedia.org/wiki/1999–2000_AS_Roma_season https://en.wikipedia.org/wiki/2000–01_AS_Roma_season
 2000,Francesco Totti,club_other,3,2,https://en.wikipedia.org/wiki/1999–2000_AS_Roma_season https://en.wikipedia.org/wiki/2000–01_AS_Roma_season
+2000,Roberto Carlos,league,5,2,https://en.wikipedia.org/wiki/1999–2000_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2000–01_Real_Madrid_CF_season
+2000,Roberto Carlos,ucl,4,2,https://en.wikipedia.org/wiki/1999–2000_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2000–01_Real_Madrid_CF_season
+2000,Roberto Carlos,club_other,0,2,https://en.wikipedia.org/wiki/1999–2000_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2000–01_Real_Madrid_CF_season
 2000,Patrick Kluivert,league,13,2,https://en.wikipedia.org/wiki/1999–2000_FC_Barcelona_season https://en.wikipedia.org/wiki/2000–01_FC_Barcelona_season
 2000,Edgar Davids,league,1,2,https://en.wikipedia.org/wiki/1999–2000_Juventus_FC_season https://en.wikipedia.org/wiki/2000–01_Juventus_FC_season
 2000,Edgar Davids,ucl,0,2,https://en.wikipedia.org/wiki/1999–2000_Juventus_FC_season https://en.wikipedia.org/wiki/2000–01_Juventus_FC_season
@@ -35,6 +43,7 @@ year,name,bucket,goals,seasons,source
 2000,Oliver Kahn,club_other,0,2,https://en.wikipedia.org/wiki/1999–2000_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2000–01_FC_Bayern_Munich_season
 2000,Rui Costa,league,5,2,https://en.wikipedia.org/wiki/1999–2000_AC_Fiorentina_season https://en.wikipedia.org/wiki/2000–01_AC_Fiorentina_season
 2000,Rui Costa,ucl,1,2,https://en.wikipedia.org/wiki/1999–2000_AC_Fiorentina_season https://en.wikipedia.org/wiki/2000–01_AC_Fiorentina_season
+2000,Rui Costa,club_other,0,2,https://en.wikipedia.org/wiki/1999–2000_AC_Fiorentina_season https://en.wikipedia.org/wiki/2000–01_AC_Fiorentina_season
 2000,Laurent Blanc,league,4,2,https://en.wikipedia.org/wiki/1999–2000_Inter_Milan_season https://en.wikipedia.org/wiki/2000–01_Inter_Milan_season
 2000,Roy Keane,league,0,2,https://en.wikipedia.org/wiki/1999–2000_Manchester_United_F.C._season https://en.wikipedia.org/wiki/2000–01_Manchester_United_F.C._season
 2000,Roy Keane,ucl,2,2,https://en.wikipedia.org/wiki/1999–2000_Manchester_United_F.C._season https://en.wikipedia.org/wiki/2000–01_Manchester_United_F.C._season
@@ -44,6 +53,7 @@ year,name,bucket,goals,seasons,source
 2001,Michael Owen,league,15,2,https://en.wikipedia.org/wiki/2000–01_Liverpool_F.C._season https://en.wikipedia.org/wiki/2001–02_Liverpool_F.C._season
 2001,Michael Owen,ucl,4,2,https://en.wikipedia.org/wiki/2000–01_Liverpool_F.C._season https://en.wikipedia.org/wiki/2001–02_Liverpool_F.C._season
 2001,Michael Owen,club_other,8,2,https://en.wikipedia.org/wiki/2000–01_Liverpool_F.C._season https://en.wikipedia.org/wiki/2001–02_Liverpool_F.C._season
+2001,Raúl,league,22,2,https://en.wikipedia.org/wiki/2000–01_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2001–02_Real_Madrid_CF_season
 2001,Oliver Kahn,league,0,2,https://en.wikipedia.org/wiki/2000–01_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2001–02_FC_Bayern_Munich_season
 2001,Oliver Kahn,ucl,0,2,https://en.wikipedia.org/wiki/2000–01_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2001–02_FC_Bayern_Munich_season
 2001,Oliver Kahn,club_other,0,2,https://en.wikipedia.org/wiki/2000–01_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2001–02_FC_Bayern_Munich_season
@@ -53,8 +63,12 @@ year,name,bucket,goals,seasons,source
 2001,Francesco Totti,league,11,2,https://en.wikipedia.org/wiki/2000–01_AS_Roma_season https://en.wikipedia.org/wiki/2001–02_AS_Roma_season
 2001,Francesco Totti,ucl,3,2,https://en.wikipedia.org/wiki/2000–01_AS_Roma_season https://en.wikipedia.org/wiki/2001–02_AS_Roma_season
 2001,Francesco Totti,club_other,1,2,https://en.wikipedia.org/wiki/2000–01_AS_Roma_season https://en.wikipedia.org/wiki/2001–02_AS_Roma_season
+2001,Luís Figo,league,7,2,https://en.wikipedia.org/wiki/2000–01_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2001–02_Real_Madrid_CF_season
+2001,Luís Figo,ucl,6,2,https://en.wikipedia.org/wiki/2000–01_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2001–02_Real_Madrid_CF_season
 2001,Luís Figo,club_other,0,2,https://en.wikipedia.org/wiki/2000–01_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2001–02_Real_Madrid_CF_season
 2001,Rivaldo,league,16,2,https://en.wikipedia.org/wiki/2000–01_FC_Barcelona_season https://en.wikipedia.org/wiki/2001–02_FC_Barcelona_season
+2001,Andriy Shevchenko,ucl,1,2,https://en.wikipedia.org/wiki/2000–01_AC_Milan_season https://en.wikipedia.org/wiki/2001–02_AC_Milan_season
+2001,Andriy Shevchenko,club_other,2,2,https://en.wikipedia.org/wiki/2000–01_AC_Milan_season https://en.wikipedia.org/wiki/2001–02_AC_Milan_season
 2001,Thierry Henry,club_other,1,2,https://en.wikipedia.org/wiki/2000–01_Arsenal_F.C._season https://en.wikipedia.org/wiki/2001–02_Arsenal_F.C._season
 2001,Zinedine Zidane,league,7,2,https://en.wikipedia.org/wiki/2000–01_Juventus_FC_season https://en.wikipedia.org/wiki/2001–02_Real_Madrid_CF_season
 2001,Bixente Lizarazu,ucl,0,2,https://en.wikipedia.org/wiki/2000–01_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2001–02_FC_Bayern_Munich_season
@@ -65,21 +79,28 @@ year,name,bucket,goals,seasons,source
 2001,Alessandro Nesta,club_other,0,2,https://en.wikipedia.org/wiki/2000–01_SS_Lazio_season https://en.wikipedia.org/wiki/2001–02_SS_Lazio_season
 2001,Juan Sebastián Verón,ucl,0,2,https://en.wikipedia.org/wiki/2000–01_SS_Lazio_season https://en.wikipedia.org/wiki/2001–02_Manchester_United_F.C._season
 2001,Juan Sebastián Verón,club_other,0,2,https://en.wikipedia.org/wiki/2000–01_SS_Lazio_season https://en.wikipedia.org/wiki/2001–02_Manchester_United_F.C._season
+2001,Hernán Crespo,ucl,5,2,https://en.wikipedia.org/wiki/2000–01_SS_Lazio_season https://en.wikipedia.org/wiki/2001–02_SS_Lazio_season
 2001,Hernán Crespo,club_other,2,2,https://en.wikipedia.org/wiki/2000–01_SS_Lazio_season https://en.wikipedia.org/wiki/2001–02_SS_Lazio_season
+2001,Roberto Carlos,league,5,2,https://en.wikipedia.org/wiki/2000–01_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2001–02_Real_Madrid_CF_season
+2001,Roberto Carlos,ucl,2,2,https://en.wikipedia.org/wiki/2000–01_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2001–02_Real_Madrid_CF_season
+2001,Roberto Carlos,club_other,0,2,https://en.wikipedia.org/wiki/2000–01_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2001–02_Real_Madrid_CF_season
 2001,Sami Hyypiä,league,2,2,https://en.wikipedia.org/wiki/2000–01_Liverpool_F.C._season https://en.wikipedia.org/wiki/2001–02_Liverpool_F.C._season
 2001,Roberto Baggio,ucl,0,2,https://en.wikipedia.org/wiki/2000–01_Brescia_Calcio_season https://en.wikipedia.org/wiki/2001–02_Brescia_Calcio_season
 2001,Roberto Baggio,club_other,1,2,https://en.wikipedia.org/wiki/2000–01_Brescia_Calcio_season https://en.wikipedia.org/wiki/2001–02_Brescia_Calcio_season
 2001,Steven Gerrard,league,6,2,https://en.wikipedia.org/wiki/2000–01_Liverpool_F.C._season https://en.wikipedia.org/wiki/2001–02_Liverpool_F.C._season
 2001,Rui Costa,league,3,2,https://en.wikipedia.org/wiki/2000–01_AC_Fiorentina_season https://en.wikipedia.org/wiki/2001–02_AC_Milan_season
 2001,Rui Costa,ucl,0,2,https://en.wikipedia.org/wiki/2000–01_AC_Fiorentina_season https://en.wikipedia.org/wiki/2001–02_AC_Milan_season
+2001,Rui Costa,club_other,3,2,https://en.wikipedia.org/wiki/2000–01_AC_Fiorentina_season https://en.wikipedia.org/wiki/2001–02_AC_Milan_season
 2002,Ronaldo,ucl,0,2,https://en.wikipedia.org/wiki/2001–02_Inter_Milan_season https://en.wikipedia.org/wiki/2002–03_Real_Madrid_CF_season
 2002,Ronaldo,club_other,0,2,https://en.wikipedia.org/wiki/2001–02_Inter_Milan_season https://en.wikipedia.org/wiki/2002–03_Real_Madrid_CF_season
 2002,Roberto Carlos,league,2,2,https://en.wikipedia.org/wiki/2001–02_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2002–03_Real_Madrid_CF_season
+2002,Roberto Carlos,ucl,0,2,https://en.wikipedia.org/wiki/2001–02_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2002–03_Real_Madrid_CF_season
 2002,Roberto Carlos,club_other,2,2,https://en.wikipedia.org/wiki/2001–02_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2002–03_Real_Madrid_CF_season
 2002,Oliver Kahn,league,0,2,https://en.wikipedia.org/wiki/2001–02_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2002–03_FC_Bayern_Munich_season
 2002,Oliver Kahn,ucl,0,2,https://en.wikipedia.org/wiki/2001–02_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2002–03_FC_Bayern_Munich_season
 2002,Oliver Kahn,club_other,0,2,https://en.wikipedia.org/wiki/2001–02_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2002–03_FC_Bayern_Munich_season
 2002,Zinedine Zidane,league,5,2,https://en.wikipedia.org/wiki/2001–02_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2002–03_Real_Madrid_CF_season
+2002,Michael Ballack,club_other,1,2,https://en.wikipedia.org/wiki/2001–02_Bayer_04_Leverkusen_season https://en.wikipedia.org/wiki/2002–03_FC_Bayern_Munich_season
 2002,Thierry Henry,league,14,2,https://en.wikipedia.org/wiki/2001–02_Arsenal_F.C._season https://en.wikipedia.org/wiki/2002–03_Arsenal_F.C._season
 2002,Thierry Henry,club_other,1,2,https://en.wikipedia.org/wiki/2001–02_Arsenal_F.C._season https://en.wikipedia.org/wiki/2002–03_Arsenal_F.C._season
 2002,Raúl,league,8,2,https://en.wikipedia.org/wiki/2001–02_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2002–03_Real_Madrid_CF_season
@@ -117,6 +138,7 @@ year,name,bucket,goals,seasons,source
 2003,Ruud van Nistelrooy,ucl,7,2,https://en.wikipedia.org/wiki/2002–03_Manchester_United_F.C._season https://en.wikipedia.org/wiki/2003–04_Manchester_United_F.C._season
 2003,Raúl,league,14,2,https://en.wikipedia.org/wiki/2002–03_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2003–04_Real_Madrid_CF_season
 2003,Roberto Carlos,league,5,2,https://en.wikipedia.org/wiki/2002–03_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2003–04_Real_Madrid_CF_season
+2003,Roberto Carlos,ucl,2,2,https://en.wikipedia.org/wiki/2002–03_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2003–04_Real_Madrid_CF_season
 2003,Roberto Carlos,club_other,0,2,https://en.wikipedia.org/wiki/2002–03_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2003–04_Real_Madrid_CF_season
 2003,Gianluigi Buffon,league,0,2,https://en.wikipedia.org/wiki/2002–03_Juventus_FC_season https://en.wikipedia.org/wiki/2003–04_Juventus_FC_season
 2003,Gianluigi Buffon,ucl,0,2,https://en.wikipedia.org/wiki/2002–03_Juventus_FC_season https://en.wikipedia.org/wiki/2003–04_Juventus_FC_season
@@ -141,6 +163,8 @@ year,name,bucket,goals,seasons,source
 2003,Francesco Totti,league,7,2,https://en.wikipedia.org/wiki/2002–03_AS_Roma_season https://en.wikipedia.org/wiki/2003–04_AS_Roma_season
 2003,Francesco Totti,ucl,2,2,https://en.wikipedia.org/wiki/2002–03_AS_Roma_season https://en.wikipedia.org/wiki/2003–04_AS_Roma_season
 2003,Francesco Totti,club_other,3,2,https://en.wikipedia.org/wiki/2002–03_AS_Roma_season https://en.wikipedia.org/wiki/2003–04_AS_Roma_season
+2003,Michael Ballack,ucl,0,2,https://en.wikipedia.org/wiki/2002–03_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2003–04_FC_Bayern_Munich_season
+2003,Michael Ballack,club_other,6,2,https://en.wikipedia.org/wiki/2002–03_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2003–04_FC_Bayern_Munich_season
 2003,Filippo Inzaghi,league,11,2,https://en.wikipedia.org/wiki/2002–03_AC_Milan_season https://en.wikipedia.org/wiki/2003–04_AC_Milan_season
 2003,Filippo Inzaghi,ucl,2,2,https://en.wikipedia.org/wiki/2002–03_AC_Milan_season https://en.wikipedia.org/wiki/2003–04_AC_Milan_season
 2003,Filippo Inzaghi,club_other,1,2,https://en.wikipedia.org/wiki/2002–03_AC_Milan_season https://en.wikipedia.org/wiki/2003–04_AC_Milan_season
@@ -163,6 +187,7 @@ year,name,bucket,goals,seasons,source
 2004,Cristiano Ronaldo,league,3,2,https://en.wikipedia.org/wiki/2003–04_Manchester_United_F.C._season https://en.wikipedia.org/wiki/2004–05_Manchester_United_F.C._season
 2004,Cristiano Ronaldo,ucl,0,2,https://en.wikipedia.org/wiki/2003–04_Manchester_United_F.C._season https://en.wikipedia.org/wiki/2004–05_Manchester_United_F.C._season
 2004,Cristiano Ronaldo,club_other,2,2,https://en.wikipedia.org/wiki/2003–04_Manchester_United_F.C._season https://en.wikipedia.org/wiki/2004–05_Manchester_United_F.C._season
+2004,Milan Baroš,club_other,3,2,https://en.wikipedia.org/wiki/2003–04_Liverpool_F.C._season https://en.wikipedia.org/wiki/2004–05_Liverpool_F.C._season
 2004,Samuel Eto'o,ucl,2,2,https://en.wikipedia.org/wiki/2003–04_La_Liga https://en.wikipedia.org/wiki/2004–05_FC_Barcelona_season
 2004,Kaká,league,10,2,https://en.wikipedia.org/wiki/2003–04_AC_Milan_season https://en.wikipedia.org/wiki/2004–05_AC_Milan_season
 2004,Kaká,club_other,0,2,https://en.wikipedia.org/wiki/2003–04_AC_Milan_season https://en.wikipedia.org/wiki/2004–05_AC_Milan_season
@@ -170,7 +195,6 @@ year,name,bucket,goals,seasons,source
 2004,Frank Lampard,league,8,2,https://en.wikipedia.org/wiki/2003–04_Chelsea_F.C._season https://en.wikipedia.org/wiki/2004–05_Chelsea_F.C._season
 2004,Frank Lampard,ucl,2,2,https://en.wikipedia.org/wiki/2003–04_Chelsea_F.C._season https://en.wikipedia.org/wiki/2004–05_Chelsea_F.C._season
 2004,Frank Lampard,club_other,1,2,https://en.wikipedia.org/wiki/2003–04_Chelsea_F.C._season https://en.wikipedia.org/wiki/2004–05_Chelsea_F.C._season
-2004,Didier Drogba,ucl,3,2,https://en.wikipedia.org/wiki/2003–04_Olympique_de_Marseille_season https://en.wikipedia.org/wiki/2004–05_Chelsea_F.C._season
 2004,Gianluigi Buffon,league,0,2,https://en.wikipedia.org/wiki/2003–04_Juventus_FC_season https://en.wikipedia.org/wiki/2004–05_Juventus_FC_season
 2004,Gianluigi Buffon,ucl,0,2,https://en.wikipedia.org/wiki/2003–04_Juventus_FC_season https://en.wikipedia.org/wiki/2004–05_Juventus_FC_season
 2004,Gianluigi Buffon,club_other,0,2,https://en.wikipedia.org/wiki/2003–04_Juventus_FC_season https://en.wikipedia.org/wiki/2004–05_Juventus_FC_season
@@ -178,6 +202,7 @@ year,name,bucket,goals,seasons,source
 2004,Luís Figo,ucl,3,2,https://en.wikipedia.org/wiki/2003–04_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2004–05_Real_Madrid_CF_season
 2004,Luís Figo,club_other,2,2,https://en.wikipedia.org/wiki/2003–04_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2004–05_Real_Madrid_CF_season
 2004,Zinedine Zidane,league,3,2,https://en.wikipedia.org/wiki/2003–04_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2004–05_Real_Madrid_CF_season
+2004,Ludovic Giuly,league,6,2,https://en.wikipedia.org/wiki/2003–04_AS_Monaco_FC_season https://en.wikipedia.org/wiki/2004–05_FC_Barcelona_season
 2004,Ludovic Giuly,ucl,3,2,https://en.wikipedia.org/wiki/2003–04_AS_Monaco_FC_season https://en.wikipedia.org/wiki/2004–05_FC_Barcelona_season
 2004,Ludovic Giuly,club_other,1,2,https://en.wikipedia.org/wiki/2003–04_AS_Monaco_FC_season https://en.wikipedia.org/wiki/2004–05_FC_Barcelona_season
 2004,Antonios Nikopolidis,league,0,2,https://en.wikipedia.org/wiki/2003–04_Panathinaikos_F.C._season https://en.wikipedia.org/wiki/2004–05_Olympiacos_F.C._season
@@ -196,12 +221,14 @@ year,name,bucket,goals,seasons,source
 2005,Paolo Maldini,league,2,2,https://en.wikipedia.org/wiki/2004–05_AC_Milan_season https://en.wikipedia.org/wiki/2005–06_AC_Milan_season
 2005,Paolo Maldini,ucl,1,2,https://en.wikipedia.org/wiki/2004–05_AC_Milan_season https://en.wikipedia.org/wiki/2005–06_AC_Milan_season
 2005,Paolo Maldini,club_other,0,2,https://en.wikipedia.org/wiki/2004–05_AC_Milan_season https://en.wikipedia.org/wiki/2005–06_AC_Milan_season
+2005,Adriano,league,7,2,https://en.wikipedia.org/wiki/2004–05_Inter_Milan_season https://en.wikipedia.org/wiki/2005–06_Inter_Milan_season
 2005,Adriano,ucl,4,2,https://en.wikipedia.org/wiki/2004–05_Inter_Milan_season https://en.wikipedia.org/wiki/2005–06_Inter_Milan_season
 2005,Adriano,club_other,2,2,https://en.wikipedia.org/wiki/2004–05_Inter_Milan_season https://en.wikipedia.org/wiki/2005–06_Inter_Milan_season
 2005,Kaká,league,7,2,https://en.wikipedia.org/wiki/2004–05_AC_Milan_season https://en.wikipedia.org/wiki/2005–06_AC_Milan_season
 2005,Kaká,ucl,2,2,https://en.wikipedia.org/wiki/2004–05_AC_Milan_season https://en.wikipedia.org/wiki/2005–06_AC_Milan_season
 2005,Kaká,club_other,0,2,https://en.wikipedia.org/wiki/2004–05_AC_Milan_season https://en.wikipedia.org/wiki/2005–06_AC_Milan_season
 2005,Samuel Eto'o,ucl,1,2,https://en.wikipedia.org/wiki/2004–05_FC_Barcelona_season https://en.wikipedia.org/wiki/2005–06_FC_Barcelona_season
+2005,Samuel Eto'o,club_other,2,2,https://en.wikipedia.org/wiki/2004–05_FC_Barcelona_season https://en.wikipedia.org/wiki/2005–06_FC_Barcelona_season
 2005,John Terry,league,0,2,https://en.wikipedia.org/wiki/2004–05_Chelsea_F.C._season https://en.wikipedia.org/wiki/2005–06_Chelsea_F.C._season
 2005,John Terry,ucl,1,2,https://en.wikipedia.org/wiki/2004–05_Chelsea_F.C._season https://en.wikipedia.org/wiki/2005–06_Chelsea_F.C._season
 2005,John Terry,club_other,2,2,https://en.wikipedia.org/wiki/2004–05_Chelsea_F.C._season https://en.wikipedia.org/wiki/2005–06_Chelsea_F.C._season
@@ -225,10 +252,12 @@ year,name,bucket,goals,seasons,source
 2005,Cristiano Ronaldo,league,5,2,https://en.wikipedia.org/wiki/2004–05_Manchester_United_F.C._season https://en.wikipedia.org/wiki/2005–06_Manchester_United_F.C._season
 2005,Cristiano Ronaldo,ucl,1,2,https://en.wikipedia.org/wiki/2004–05_Manchester_United_F.C._season https://en.wikipedia.org/wiki/2005–06_Manchester_United_F.C._season
 2005,Cristiano Ronaldo,club_other,4,2,https://en.wikipedia.org/wiki/2004–05_Manchester_United_F.C._season https://en.wikipedia.org/wiki/2005–06_Manchester_United_F.C._season
+2005,Michael Essien,league,2,2,https://en.wikipedia.org/wiki/2004–05_Olympique_Lyonnais_season https://en.wikipedia.org/wiki/2005–06_Chelsea_F.C._season
 2006,Fabio Cannavaro,league,3,2,https://en.wikipedia.org/wiki/2005–06_Juventus_FC_season https://en.wikipedia.org/wiki/2006–07_Real_Madrid_CF_season
 2006,Thierry Henry,league,22,2,https://en.wikipedia.org/wiki/2005–06_Arsenal_F.C._season https://en.wikipedia.org/wiki/2006–07_Arsenal_F.C._season
 2006,Thierry Henry,ucl,3,2,https://en.wikipedia.org/wiki/2005–06_Arsenal_F.C._season https://en.wikipedia.org/wiki/2006–07_Arsenal_F.C._season
 2006,Thierry Henry,club_other,1,2,https://en.wikipedia.org/wiki/2005–06_Arsenal_F.C._season https://en.wikipedia.org/wiki/2006–07_Arsenal_F.C._season
+2006,Samuel Eto'o,league,13,2,https://en.wikipedia.org/wiki/2005–06_FC_Barcelona_season https://en.wikipedia.org/wiki/2006–07_FC_Barcelona_season
 2006,Samuel Eto'o,ucl,4,2,https://en.wikipedia.org/wiki/2005–06_FC_Barcelona_season https://en.wikipedia.org/wiki/2006–07_FC_Barcelona_season
 2006,Didier Drogba,league,11,2,https://en.wikipedia.org/wiki/2005–06_Chelsea_F.C._season https://en.wikipedia.org/wiki/2006–07_Chelsea_F.C._season
 2006,Didier Drogba,ucl,4,2,https://en.wikipedia.org/wiki/2005–06_Chelsea_F.C._season https://en.wikipedia.org/wiki/2006–07_Chelsea_F.C._season
@@ -251,20 +280,22 @@ year,name,bucket,goals,seasons,source
 2006,Frank Lampard,league,9,2,https://en.wikipedia.org/wiki/2005–06_Chelsea_F.C._season https://en.wikipedia.org/wiki/2006–07_Chelsea_F.C._season
 2006,Frank Lampard,ucl,1,2,https://en.wikipedia.org/wiki/2005–06_Chelsea_F.C._season https://en.wikipedia.org/wiki/2006–07_Chelsea_F.C._season
 2006,Frank Lampard,club_other,2,2,https://en.wikipedia.org/wiki/2005–06_Chelsea_F.C._season https://en.wikipedia.org/wiki/2006–07_Chelsea_F.C._season
+2006,Carles Puyol,league,1,2,https://en.wikipedia.org/wiki/2005–06_FC_Barcelona_season https://en.wikipedia.org/wiki/2006–07_FC_Barcelona_season
 2006,Juninho,league,10,2,https://en.wikipedia.org/wiki/2005–06_Olympique_Lyonnais_season https://en.wikipedia.org/wiki/2006–07_Olympique_Lyonnais_season
 2006,Juninho,ucl,2,2,https://en.wikipedia.org/wiki/2005–06_Olympique_Lyonnais_season https://en.wikipedia.org/wiki/2006–07_Olympique_Lyonnais_season
 2006,Juninho,club_other,1,2,https://en.wikipedia.org/wiki/2005–06_Olympique_Lyonnais_season https://en.wikipedia.org/wiki/2006–07_Olympique_Lyonnais_season
+2006,Lionel Messi,league,8,2,https://en.wikipedia.org/wiki/2005–06_FC_Barcelona_season https://en.wikipedia.org/wiki/2006–07_FC_Barcelona_season
 2006,Luca Toni,league,19,2,https://en.wikipedia.org/wiki/2005–06_ACF_Fiorentina_season https://en.wikipedia.org/wiki/2006–07_ACF_Fiorentina_season
 2006,Luca Toni,ucl,0,2,https://en.wikipedia.org/wiki/2005–06_ACF_Fiorentina_season https://en.wikipedia.org/wiki/2006–07_ACF_Fiorentina_season
 2006,Luca Toni,club_other,0,2,https://en.wikipedia.org/wiki/2005–06_ACF_Fiorentina_season https://en.wikipedia.org/wiki/2006–07_ACF_Fiorentina_season
 2006,John Terry,league,3,2,https://en.wikipedia.org/wiki/2005–06_Chelsea_F.C._season https://en.wikipedia.org/wiki/2006–07_Chelsea_F.C._season
 2006,John Terry,ucl,0,2,https://en.wikipedia.org/wiki/2005–06_Chelsea_F.C._season https://en.wikipedia.org/wiki/2006–07_Chelsea_F.C._season
 2006,John Terry,club_other,2,2,https://en.wikipedia.org/wiki/2005–06_Chelsea_F.C._season https://en.wikipedia.org/wiki/2006–07_Chelsea_F.C._season
+2006,Gianluca Zambrotta,league,0,2,https://en.wikipedia.org/wiki/2005–06_Juventus_FC_season https://en.wikipedia.org/wiki/2006–07_FC_Barcelona_season
 2006,Gianluca Zambrotta,ucl,0,2,https://en.wikipedia.org/wiki/2005–06_Juventus_FC_season https://en.wikipedia.org/wiki/2006–07_FC_Barcelona_season
 2006,Gianluca Zambrotta,club_other,0,2,https://en.wikipedia.org/wiki/2005–06_Juventus_FC_season https://en.wikipedia.org/wiki/2006–07_FC_Barcelona_season
 2007,Kaká,league,10,2,https://en.wikipedia.org/wiki/2006–07_AC_Milan_season https://en.wikipedia.org/wiki/2007–08_AC_Milan_season
 2007,Kaká,ucl,6,2,https://en.wikipedia.org/wiki/2006–07_AC_Milan_season https://en.wikipedia.org/wiki/2007–08_AC_Milan_season
-2007,Kaká,club_other,1,2,https://en.wikipedia.org/wiki/2006–07_AC_Milan_season https://en.wikipedia.org/wiki/2007–08_AC_Milan_season
 2007,Cristiano Ronaldo,league,8,2,https://en.wikipedia.org/wiki/2006–07_Manchester_United_F.C._season https://en.wikipedia.org/wiki/2007–08_Manchester_United_F.C._season
 2007,Cristiano Ronaldo,ucl,6,2,https://en.wikipedia.org/wiki/2006–07_Manchester_United_F.C._season https://en.wikipedia.org/wiki/2007–08_Manchester_United_F.C._season
 2007,Didier Drogba,league,11,2,https://en.wikipedia.org/wiki/2006–07_Chelsea_F.C._season https://en.wikipedia.org/wiki/2007–08_Chelsea_F.C._season
@@ -296,7 +327,6 @@ year,name,bucket,goals,seasons,source
 2007,Gennaro Gattuso,club_other,0,2,https://en.wikipedia.org/wiki/2006–07_AC_Milan_season https://en.wikipedia.org/wiki/2007–08_AC_Milan_season
 2007,Clarence Seedorf,league,8,2,https://en.wikipedia.org/wiki/2006–07_AC_Milan_season https://en.wikipedia.org/wiki/2007–08_AC_Milan_season
 2007,Clarence Seedorf,ucl,4,2,https://en.wikipedia.org/wiki/2006–07_AC_Milan_season https://en.wikipedia.org/wiki/2007–08_AC_Milan_season
-2007,Clarence Seedorf,club_other,0,2,https://en.wikipedia.org/wiki/2006–07_AC_Milan_season https://en.wikipedia.org/wiki/2007–08_AC_Milan_season
 2007,Fabio Cannavaro,league,0,2,https://en.wikipedia.org/wiki/2006–07_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2007–08_Real_Madrid_CF_season
 2007,Michael Essien,league,3,2,https://en.wikipedia.org/wiki/2006–07_Chelsea_F.C._season https://en.wikipedia.org/wiki/2007–08_Chelsea_F.C._season
 2007,Wayne Rooney,league,10,2,https://en.wikipedia.org/wiki/2006–07_Manchester_United_F.C._season https://en.wikipedia.org/wiki/2007–08_Manchester_United_F.C._season
@@ -322,8 +352,8 @@ year,name,bucket,goals,seasons,source
 2008,Andrey Arshavin,club_other,3,1,https://en.wikipedia.org/wiki/2008_FC_Zenit_Saint_Petersburg_season
 2008,Zlatan Ibrahimović,league,13,2,https://en.wikipedia.org/wiki/2007–08_Inter_Milan_season https://en.wikipedia.org/wiki/2008–09_Inter_Milan_season
 2008,Zlatan Ibrahimović,ucl,0,2,https://en.wikipedia.org/wiki/2007–08_Inter_Milan_season https://en.wikipedia.org/wiki/2008–09_Inter_Milan_season
+2008,Kaká,league,11,2,https://en.wikipedia.org/wiki/2007–08_AC_Milan_season https://en.wikipedia.org/wiki/2008–09_AC_Milan_season
 2008,Kaká,ucl,0,2,https://en.wikipedia.org/wiki/2007–08_AC_Milan_season https://en.wikipedia.org/wiki/2008–09_AC_Milan_season
-2008,Kaká,club_other,0,2,https://en.wikipedia.org/wiki/2007–08_AC_Milan_season https://en.wikipedia.org/wiki/2008–09_AC_Milan_season
 2008,Steven Gerrard,club_other,3,2,https://en.wikipedia.org/wiki/2007–08_Liverpool_F.C._season https://en.wikipedia.org/wiki/2008–09_Liverpool_F.C._season
 2008,Emmanuel Adebayor,club_other,3,2,https://en.wikipedia.org/wiki/2007–08_Arsenal_F.C._season https://en.wikipedia.org/wiki/2008–09_Arsenal_F.C._season
 2008,Wayne Rooney,league,10,2,https://en.wikipedia.org/wiki/2007–08_Manchester_United_F.C._season https://en.wikipedia.org/wiki/2008–09_Manchester_United_F.C._season
@@ -358,6 +388,7 @@ year,name,bucket,goals,seasons,source
 2009,Samuel Eto'o,league,20,2,https://en.wikipedia.org/wiki/2008–09_FC_Barcelona_season https://en.wikipedia.org/wiki/2009–10_Inter_Milan_season
 2009,Samuel Eto'o,ucl,3,2,https://en.wikipedia.org/wiki/2008–09_FC_Barcelona_season https://en.wikipedia.org/wiki/2009–10_Inter_Milan_season
 2009,Samuel Eto'o,club_other,1,2,https://en.wikipedia.org/wiki/2008–09_FC_Barcelona_season https://en.wikipedia.org/wiki/2009–10_Inter_Milan_season
+2009,Kaká,league,11,2,https://en.wikipedia.org/wiki/2008–09_AC_Milan_season https://en.wikipedia.org/wiki/2009–10_Real_Madrid_CF_season
 2009,Kaká,ucl,1,2,https://en.wikipedia.org/wiki/2008–09_AC_Milan_season https://en.wikipedia.org/wiki/2009–10_Real_Madrid_CF_season
 2009,Kaká,club_other,0,2,https://en.wikipedia.org/wiki/2008–09_AC_Milan_season https://en.wikipedia.org/wiki/2009–10_Real_Madrid_CF_season
 2009,Zlatan Ibrahimović,league,22,2,https://en.wikipedia.org/wiki/2008–09_Inter_Milan_season https://en.wikipedia.org/wiki/2009–10_FC_Barcelona_season
@@ -441,6 +472,7 @@ year,name,bucket,goals,seasons,source
 2011,Andrés Iniesta,club_other,2,2,https://en.wikipedia.org/wiki/2010–11_FC_Barcelona_season https://en.wikipedia.org/wiki/2011–12_FC_Barcelona_season
 2011,Luis Suárez,league,9,3,https://en.wikipedia.org/wiki/2010–11_AFC_Ajax_season https://en.wikipedia.org/wiki/2010–11_Liverpool_F.C._season https://en.wikipedia.org/wiki/2011–12_Liverpool_F.C._season
 2011,Diego Forlán,league,3,3,https://en.wikipedia.org/wiki/2010–11_Atlético_Madrid_season https://en.wikipedia.org/wiki/2011–12_Atlético_Madrid_season https://en.wikipedia.org/wiki/2011–12_Inter_Milan_season
+2011,Samuel Eto'o,league,20,3,https://en.wikipedia.org/wiki/2010–11_Inter_Milan_season https://en.wikipedia.org/wiki/2011–12_Inter_Milan_season https://en.wikipedia.org/wiki/2011–12_FC_Anzhi_Makhachkala_season
 2011,Iker Casillas,league,0,2,https://en.wikipedia.org/wiki/2010–11_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2011–12_Real_Madrid_CF_season
 2011,Iker Casillas,ucl,0,2,https://en.wikipedia.org/wiki/2010–11_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2011–12_Real_Madrid_CF_season
 2011,Iker Casillas,club_other,0,2,https://en.wikipedia.org/wiki/2010–11_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2011–12_Real_Madrid_CF_season
@@ -568,6 +600,9 @@ year,name,bucket,goals,seasons,source
 2014,Gareth Bale,league,15,2,https://en.wikipedia.org/wiki/2013–14_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2014–15_Real_Madrid_CF_season
 2014,Gareth Bale,ucl,6,2,https://en.wikipedia.org/wiki/2013–14_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2014–15_Real_Madrid_CF_season
 2014,Gareth Bale,club_other,1,2,https://en.wikipedia.org/wiki/2013–14_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2014–15_Real_Madrid_CF_season
+2014,Zlatan Ibrahimović,league,19,2,https://en.wikipedia.org/wiki/2013–14_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2014–15_Paris_Saint-Germain_FC_season
+2014,Zlatan Ibrahimović,ucl,4,2,https://en.wikipedia.org/wiki/2013–14_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2014–15_Paris_Saint-Germain_FC_season
+2014,Zlatan Ibrahimović,club_other,7,2,https://en.wikipedia.org/wiki/2013–14_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2014–15_Paris_Saint-Germain_FC_season
 2014,Yaya Touré,league,15,2,https://en.wikipedia.org/wiki/2013–14_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2014–15_Manchester_City_F.C._season
 2014,Yaya Touré,ucl,1,2,https://en.wikipedia.org/wiki/2013–14_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2014–15_Manchester_City_F.C._season
 2014,Yaya Touré,club_other,3,2,https://en.wikipedia.org/wiki/2013–14_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2014–15_Manchester_City_F.C._season
@@ -606,6 +641,8 @@ year,name,bucket,goals,seasons,source
 2015,Andrés Iniesta,ucl,0,2,https://en.wikipedia.org/wiki/2014–15_FC_Barcelona_season https://en.wikipedia.org/wiki/2015–16_FC_Barcelona_season
 2015,Andrés Iniesta,club_other,1,2,https://en.wikipedia.org/wiki/2014–15_FC_Barcelona_season https://en.wikipedia.org/wiki/2015–16_FC_Barcelona_season
 2015,Alexis Sánchez,league,12,2,https://en.wikipedia.org/wiki/2014–15_Arsenal_F.C._season https://en.wikipedia.org/wiki/2015–16_Arsenal_F.C._season
+2015,Zlatan Ibrahimović,league,23,2,https://en.wikipedia.org/wiki/2014–15_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2015–16_Paris_Saint-Germain_FC_season
+2015,Zlatan Ibrahimović,ucl,2,2,https://en.wikipedia.org/wiki/2014–15_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2015–16_Paris_Saint-Germain_FC_season
 2015,Yaya Touré,league,6,2,https://en.wikipedia.org/wiki/2014–15_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2015–16_Manchester_City_F.C._season
 2015,Yaya Touré,ucl,0,2,https://en.wikipedia.org/wiki/2014–15_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2015–16_Manchester_City_F.C._season
 2015,Yaya Touré,club_other,1,2,https://en.wikipedia.org/wiki/2014–15_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2015–16_Manchester_City_F.C._season
@@ -670,7 +707,9 @@ year,name,bucket,goals,seasons,source
 2016,Luka Modrić,league,3,2,https://en.wikipedia.org/wiki/2015–16_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2016–17_Real_Madrid_CF_season
 2016,Luka Modrić,ucl,0,2,https://en.wikipedia.org/wiki/2015–16_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2016–17_Real_Madrid_CF_season
 2016,Luka Modrić,club_other,0,2,https://en.wikipedia.org/wiki/2015–16_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2016–17_Real_Madrid_CF_season
+2016,Dimitri Payet,league,5,3,https://en.wikipedia.org/wiki/2015–16_West_Ham_United_F.C._season https://en.wikipedia.org/wiki/2016–17_West_Ham_United_F.C._season https://en.wikipedia.org/wiki/2016–17_Olympique_de_Marseille_season
 2016,Dimitri Payet,ucl,0,3,https://en.wikipedia.org/wiki/2015–16_West_Ham_United_F.C._season https://en.wikipedia.org/wiki/2016–17_West_Ham_United_F.C._season https://en.wikipedia.org/wiki/2016–17_Olympique_de_Marseille_season
+2016,Dimitri Payet,club_other,4,3,https://en.wikipedia.org/wiki/2015–16_West_Ham_United_F.C._season https://en.wikipedia.org/wiki/2016–17_West_Ham_United_F.C._season https://en.wikipedia.org/wiki/2016–17_Olympique_de_Marseille_season
 2016,Kevin De Bruyne,ucl,3,3,https://en.wikipedia.org/wiki/2015–16_VfL_Wolfsburg_season https://en.wikipedia.org/wiki/2015–16_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2016–17_Manchester_City_F.C._season
 2016,Kevin De Bruyne,club_other,2,3,https://en.wikipedia.org/wiki/2015–16_VfL_Wolfsburg_season https://en.wikipedia.org/wiki/2015–16_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2016–17_Manchester_City_F.C._season
 2016,Paulo Dybala,league,14,2,https://en.wikipedia.org/wiki/2015–16_Juventus_FC_season https://en.wikipedia.org/wiki/2016–17_Juventus_FC_season
@@ -806,6 +845,9 @@ year,name,bucket,goals,seasons,source
 2019,Mohamed Salah,league,14,2,https://en.wikipedia.org/wiki/2018–19_Liverpool_F.C._season https://en.wikipedia.org/wiki/2019–20_Liverpool_F.C._season
 2019,Mohamed Salah,ucl,5,2,https://en.wikipedia.org/wiki/2018–19_Liverpool_F.C._season https://en.wikipedia.org/wiki/2019–20_Liverpool_F.C._season
 2019,Mohamed Salah,club_other,0,2,https://en.wikipedia.org/wiki/2018–19_Liverpool_F.C._season https://en.wikipedia.org/wiki/2019–20_Liverpool_F.C._season
+2019,Kylian Mbappé,league,25,2,https://en.wikipedia.org/wiki/2018–19_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2019–20_Paris_Saint-Germain_FC_season
+2019,Kylian Mbappé,ucl,4,2,https://en.wikipedia.org/wiki/2018–19_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2019–20_Paris_Saint-Germain_FC_season
+2019,Kylian Mbappé,club_other,3,2,https://en.wikipedia.org/wiki/2018–19_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2019–20_Paris_Saint-Germain_FC_season
 2019,Alisson,league,0,2,https://en.wikipedia.org/wiki/2018–19_Liverpool_F.C._season https://en.wikipedia.org/wiki/2019–20_Liverpool_F.C._season
 2019,Alisson,ucl,0,2,https://en.wikipedia.org/wiki/2018–19_Liverpool_F.C._season https://en.wikipedia.org/wiki/2019–20_Liverpool_F.C._season
 2019,Alisson,club_other,0,2,https://en.wikipedia.org/wiki/2018–19_Liverpool_F.C._season https://en.wikipedia.org/wiki/2019–20_Liverpool_F.C._season
@@ -861,9 +903,13 @@ year,name,bucket,goals,seasons,source
 2019,Marquinhos,club_other,0,2,https://en.wikipedia.org/wiki/2018–19_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2019–20_Paris_Saint-Germain_FC_season
 2019,Donny van de Beek,league,8,2,https://en.wikipedia.org/wiki/2018–19_AFC_Ajax_season https://en.wikipedia.org/wiki/2019–20_AFC_Ajax_season
 2021,Lionel Messi,league,23,2,https://en.wikipedia.org/wiki/2020–21_FC_Barcelona_season https://en.wikipedia.org/wiki/2021–22_Paris_Saint-Germain_FC_season
+2021,Robert Lewandowski,ucl,7,2,https://en.wikipedia.org/wiki/2020–21_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2021–22_FC_Bayern_Munich_season
 2021,Robert Lewandowski,club_other,4,2,https://en.wikipedia.org/wiki/2020–21_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2021–22_FC_Bayern_Munich_season
 2021,Jorginho,club_other,0,2,https://en.wikipedia.org/wiki/2020–21_Chelsea_F.C._season https://en.wikipedia.org/wiki/2021–22_Chelsea_F.C._season
+2021,Karim Benzema,league,24,2,https://en.wikipedia.org/wiki/2020–21_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season
+2021,Karim Benzema,ucl,4,2,https://en.wikipedia.org/wiki/2020–21_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season
 2021,Karim Benzema,club_other,1,2,https://en.wikipedia.org/wiki/2020–21_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season
+2021,N'Golo Kanté,league,1,2,https://en.wikipedia.org/wiki/2020–21_Chelsea_F.C._season https://en.wikipedia.org/wiki/2021–22_Chelsea_F.C._season
 2021,N'Golo Kanté,ucl,0,2,https://en.wikipedia.org/wiki/2020–21_Chelsea_F.C._season https://en.wikipedia.org/wiki/2021–22_Chelsea_F.C._season
 2021,N'Golo Kanté,club_other,0,2,https://en.wikipedia.org/wiki/2020–21_Chelsea_F.C._season https://en.wikipedia.org/wiki/2021–22_Chelsea_F.C._season
 2021,Cristiano Ronaldo,league,21,3,https://en.wikipedia.org/wiki/2020–21_Juventus_FC_season https://en.wikipedia.org/wiki/2021–22_Juventus_FC_season https://en.wikipedia.org/wiki/2021–22_Manchester_United_F.C._season
@@ -871,12 +917,18 @@ year,name,bucket,goals,seasons,source
 2021,Cristiano Ronaldo,club_other,3,3,https://en.wikipedia.org/wiki/2020–21_Juventus_FC_season https://en.wikipedia.org/wiki/2021–22_Juventus_FC_season https://en.wikipedia.org/wiki/2021–22_Manchester_United_F.C._season
 2021,Mohamed Salah,ucl,8,2,https://en.wikipedia.org/wiki/2020–21_Liverpool_F.C._season https://en.wikipedia.org/wiki/2021–22_Liverpool_F.C._season
 2021,Mohamed Salah,club_other,3,2,https://en.wikipedia.org/wiki/2020–21_Liverpool_F.C._season https://en.wikipedia.org/wiki/2021–22_Liverpool_F.C._season
+2021,Kevin De Bruyne,ucl,3,2,https://en.wikipedia.org/wiki/2020–21_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2021–22_Manchester_City_F.C._season
 2021,Kevin De Bruyne,club_other,2,2,https://en.wikipedia.org/wiki/2020–21_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2021–22_Manchester_City_F.C._season
+2021,Kylian Mbappé,league,20,2,https://en.wikipedia.org/wiki/2020–21_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2021–22_Paris_Saint-Germain_FC_season
+2021,Kylian Mbappé,ucl,7,2,https://en.wikipedia.org/wiki/2020–21_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2021–22_Paris_Saint-Germain_FC_season
+2021,Kylian Mbappé,club_other,7,2,https://en.wikipedia.org/wiki/2020–21_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2021–22_Paris_Saint-Germain_FC_season
 2021,Gianluigi Donnarumma,league,0,2,https://en.wikipedia.org/wiki/2020–21_AC_Milan_season https://en.wikipedia.org/wiki/2021–22_Paris_Saint-Germain_FC_season
 2021,Gianluigi Donnarumma,ucl,0,2,https://en.wikipedia.org/wiki/2020–21_AC_Milan_season https://en.wikipedia.org/wiki/2021–22_Paris_Saint-Germain_FC_season
 2021,Gianluigi Donnarumma,club_other,0,2,https://en.wikipedia.org/wiki/2020–21_AC_Milan_season https://en.wikipedia.org/wiki/2021–22_Paris_Saint-Germain_FC_season
 2021,Erling Haaland,ucl,5,2,https://en.wikipedia.org/wiki/2020–21_Borussia_Dortmund_season https://en.wikipedia.org/wiki/2021–22_Borussia_Dortmund_season
 2021,Erling Haaland,club_other,6,2,https://en.wikipedia.org/wiki/2020–21_Borussia_Dortmund_season https://en.wikipedia.org/wiki/2021–22_Borussia_Dortmund_season
+2021,Romelu Lukaku,league,16,2,https://en.wikipedia.org/wiki/2020–21_Inter_Milan_season https://en.wikipedia.org/wiki/2021–22_Chelsea_F.C._season
+2021,Romelu Lukaku,ucl,1,2,https://en.wikipedia.org/wiki/2020–21_Inter_Milan_season https://en.wikipedia.org/wiki/2021–22_Chelsea_F.C._season
 2021,Romelu Lukaku,club_other,2,2,https://en.wikipedia.org/wiki/2020–21_Inter_Milan_season https://en.wikipedia.org/wiki/2021–22_Chelsea_F.C._season
 2021,Giorgio Chiellini,league,0,2,https://en.wikipedia.org/wiki/2020–21_Juventus_FC_season https://en.wikipedia.org/wiki/2021–22_Juventus_FC_season
 2021,Giorgio Chiellini,ucl,0,2,https://en.wikipedia.org/wiki/2020–21_Juventus_FC_season https://en.wikipedia.org/wiki/2021–22_Juventus_FC_season
@@ -886,11 +938,14 @@ year,name,bucket,goals,seasons,source
 2021,Leonardo Bonucci,club_other,0,2,https://en.wikipedia.org/wiki/2020–21_Juventus_FC_season https://en.wikipedia.org/wiki/2021–22_Juventus_FC_season
 2021,Raheem Sterling,ucl,0,2,https://en.wikipedia.org/wiki/2020–21_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2021–22_Manchester_City_F.C._season
 2021,Raheem Sterling,club_other,1,2,https://en.wikipedia.org/wiki/2020–21_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2021–22_Manchester_City_F.C._season
+2021,Neymar,ucl,0,2,https://en.wikipedia.org/wiki/2020–21_Paris_Saint-Germain_F.C._season https://en.wikipedia.org/wiki/2021–22_Paris_Saint-Germain_F.C._season
+2021,Neymar,club_other,2,2,https://en.wikipedia.org/wiki/2020–21_Paris_Saint-Germain_F.C._season https://en.wikipedia.org/wiki/2021–22_Paris_Saint-Germain_F.C._season
 2021,Simon Kjær,league,0,2,https://en.wikipedia.org/wiki/2020–21_AC_Milan_season https://en.wikipedia.org/wiki/2021–22_AC_Milan_season
 2021,Simon Kjær,ucl,0,2,https://en.wikipedia.org/wiki/2020–21_AC_Milan_season https://en.wikipedia.org/wiki/2021–22_AC_Milan_season
 2021,Simon Kjær,club_other,1,2,https://en.wikipedia.org/wiki/2020–21_AC_Milan_season https://en.wikipedia.org/wiki/2021–22_AC_Milan_season
+2021,Mason Mount,league,8,2,https://en.wikipedia.org/wiki/2020–21_Chelsea_F.C._season https://en.wikipedia.org/wiki/2021–22_Chelsea_F.C._season
+2021,Mason Mount,ucl,2,2,https://en.wikipedia.org/wiki/2020–21_Chelsea_F.C._season https://en.wikipedia.org/wiki/2021–22_Chelsea_F.C._season
 2021,Mason Mount,club_other,1,2,https://en.wikipedia.org/wiki/2020–21_Chelsea_F.C._season https://en.wikipedia.org/wiki/2021–22_Chelsea_F.C._season
-2021,Riyad Mahrez,league,6,2,https://en.wikipedia.org/wiki/2020–21_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2021–22_Manchester_City_F.C._season
 2021,Riyad Mahrez,ucl,7,2,https://en.wikipedia.org/wiki/2020–21_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2021–22_Manchester_City_F.C._season
 2021,Riyad Mahrez,club_other,2,2,https://en.wikipedia.org/wiki/2020–21_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2021–22_Manchester_City_F.C._season
 2021,Bruno Fernandes,league,12,2,https://en.wikipedia.org/wiki/2020–21_Manchester_United_F.C._season https://en.wikipedia.org/wiki/2021–22_Manchester_United_F.C._season
@@ -898,6 +953,7 @@ year,name,bucket,goals,seasons,source
 2021,Lautaro Martínez,club_other,1,2,https://en.wikipedia.org/wiki/2020–21_Inter_Milan_season https://en.wikipedia.org/wiki/2021–22_Inter_Milan_season
 2021,Harry Kane,league,15,2,https://en.wikipedia.org/wiki/2020–21_Tottenham_Hotspur_F.C._season https://en.wikipedia.org/wiki/2021–22_Tottenham_Hotspur_F.C._season
 2021,Harry Kane,ucl,0,2,https://en.wikipedia.org/wiki/2020–21_Tottenham_Hotspur_F.C._season https://en.wikipedia.org/wiki/2021–22_Tottenham_Hotspur_F.C._season
+2021,Harry Kane,club_other,9,2,https://en.wikipedia.org/wiki/2020–21_Tottenham_Hotspur_F.C._season https://en.wikipedia.org/wiki/2021–22_Tottenham_Hotspur_F.C._season
 2021,Pedri,league,2,2,https://en.wikipedia.org/wiki/2020–21_FC_Barcelona_season https://en.wikipedia.org/wiki/2021–22_FC_Barcelona_season
 2021,Pedri,ucl,0,2,https://en.wikipedia.org/wiki/2020–21_FC_Barcelona_season https://en.wikipedia.org/wiki/2021–22_FC_Barcelona_season
 2021,Pedri,club_other,0,2,https://en.wikipedia.org/wiki/2020–21_FC_Barcelona_season https://en.wikipedia.org/wiki/2021–22_FC_Barcelona_season
@@ -908,7 +964,317 @@ year,name,bucket,goals,seasons,source
 2021,Rúben Dias,league,1,3,https://en.wikipedia.org/wiki/2020–21_S.L._Benfica_season https://en.wikipedia.org/wiki/2020–21_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2021–22_Manchester_City_F.C._season
 2021,Rúben Dias,ucl,0,3,https://en.wikipedia.org/wiki/2020–21_S.L._Benfica_season https://en.wikipedia.org/wiki/2020–21_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2021–22_Manchester_City_F.C._season
 2021,Rúben Dias,club_other,0,3,https://en.wikipedia.org/wiki/2020–21_S.L._Benfica_season https://en.wikipedia.org/wiki/2020–21_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2021–22_Manchester_City_F.C._season
+2021,Luka Modrić,league,2,2,https://en.wikipedia.org/wiki/2020–21_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season
 2021,Luka Modrić,ucl,0,2,https://en.wikipedia.org/wiki/2020–21_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season
 2021,Luka Modrić,club_other,0,2,https://en.wikipedia.org/wiki/2020–21_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season
+2021,Cesar Azpilicueta,league,1,2,https://en.wikipedia.org/wiki/2020–21_Chelsea_F.C._season https://en.wikipedia.org/wiki/2021–22_Chelsea_F.C._season
 2021,Cesar Azpilicueta,ucl,0,2,https://en.wikipedia.org/wiki/2020–21_Chelsea_F.C._season https://en.wikipedia.org/wiki/2021–22_Chelsea_F.C._season
 2021,Cesar Azpilicueta,club_other,0,2,https://en.wikipedia.org/wiki/2020–21_Chelsea_F.C._season https://en.wikipedia.org/wiki/2021–22_Chelsea_F.C._season
+2022,Karim Benzema,league,27,2,https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2022–23_Real_Madrid_CF_season
+2022,Karim Benzema,ucl,15,2,https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2022–23_Real_Madrid_CF_season
+2022,Karim Benzema,club_other,2,2,https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2022–23_Real_Madrid_CF_season
+2022,Sadio Mané,league,16,2,https://en.wikipedia.org/wiki/2021–22_Liverpool_F.C._season https://en.wikipedia.org/wiki/2022–23_FC_Bayern_Munich_season
+2022,Sadio Mané,ucl,5,2,https://en.wikipedia.org/wiki/2021–22_Liverpool_F.C._season https://en.wikipedia.org/wiki/2022–23_FC_Bayern_Munich_season
+2022,Sadio Mané,club_other,3,2,https://en.wikipedia.org/wiki/2021–22_Liverpool_F.C._season https://en.wikipedia.org/wiki/2022–23_FC_Bayern_Munich_season
+2022,Kevin De Bruyne,league,15,2,https://en.wikipedia.org/wiki/2021–22_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2022–23_Manchester_City_F.C._season
+2022,Kevin De Bruyne,ucl,2,2,https://en.wikipedia.org/wiki/2021–22_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2022–23_Manchester_City_F.C._season
+2022,Kevin De Bruyne,club_other,2,2,https://en.wikipedia.org/wiki/2021–22_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2022–23_Manchester_City_F.C._season
+2022,Mohamed Salah,ucl,8,2,https://en.wikipedia.org/wiki/2021–22_Liverpool_F.C._season https://en.wikipedia.org/wiki/2022–23_Liverpool_F.C._season
+2022,Kylian Mbappé,ucl,6,2,https://en.wikipedia.org/wiki/2021–22_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2022–23_Paris_Saint-Germain_FC_season
+2022,Thibaut Courtois,league,0,2,https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2022–23_Real_Madrid_CF_season
+2022,Thibaut Courtois,ucl,0,2,https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2022–23_Real_Madrid_CF_season
+2022,Thibaut Courtois,club_other,0,2,https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2022–23_Real_Madrid_CF_season
+2022,Vinícius Júnior,league,17,2,https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2022–23_Real_Madrid_CF_season
+2022,Vinícius Júnior,ucl,4,2,https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2022–23_Real_Madrid_CF_season
+2022,Vinícius Júnior,club_other,1,2,https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2022–23_Real_Madrid_CF_season
+2022,Luka Modrić,league,2,2,https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2022–23_Real_Madrid_CF_season
+2022,Luka Modrić,ucl,0,2,https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2022–23_Real_Madrid_CF_season
+2022,Luka Modrić,club_other,1,2,https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2022–23_Real_Madrid_CF_season
+2022,Erling Haaland,league,22,2,https://en.wikipedia.org/wiki/2021–22_Borussia_Dortmund_season https://en.wikipedia.org/wiki/2022–23_Manchester_City_F.C._season
+2022,Erling Haaland,ucl,3,2,https://en.wikipedia.org/wiki/2021–22_Borussia_Dortmund_season https://en.wikipedia.org/wiki/2022–23_Manchester_City_F.C._season
+2022,Erling Haaland,club_other,4,2,https://en.wikipedia.org/wiki/2021–22_Borussia_Dortmund_season https://en.wikipedia.org/wiki/2022–23_Manchester_City_F.C._season
+2022,Son Heung-min,league,23,2,https://en.wikipedia.org/wiki/2021–22_Tottenham_Hotspur_F.C._season https://en.wikipedia.org/wiki/2022–23_Tottenham_Hotspur_F.C._season
+2022,Son Heung-min,ucl,0,2,https://en.wikipedia.org/wiki/2021–22_Tottenham_Hotspur_F.C._season https://en.wikipedia.org/wiki/2022–23_Tottenham_Hotspur_F.C._season
+2022,Son Heung-min,club_other,1,2,https://en.wikipedia.org/wiki/2021–22_Tottenham_Hotspur_F.C._season https://en.wikipedia.org/wiki/2022–23_Tottenham_Hotspur_F.C._season
+2022,Riyad Mahrez,club_other,6,2,https://en.wikipedia.org/wiki/2021–22_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2022–23_Manchester_City_F.C._season
+2022,Sébastien Haller,ucl,11,2,https://en.wikipedia.org/wiki/2021–22_AFC_Ajax_season https://en.wikipedia.org/wiki/2022–23_Borussia_Dortmund_season
+2022,Sébastien Haller,club_other,2,2,https://en.wikipedia.org/wiki/2021–22_AFC_Ajax_season https://en.wikipedia.org/wiki/2022–23_Borussia_Dortmund_season
+2022,Fabinho,league,5,2,https://en.wikipedia.org/wiki/2021–22_Liverpool_F.C._season https://en.wikipedia.org/wiki/2022–23_Liverpool_F.C._season
+2022,Fabinho,ucl,1,2,https://en.wikipedia.org/wiki/2021–22_Liverpool_F.C._season https://en.wikipedia.org/wiki/2022–23_Liverpool_F.C._season
+2022,Fabinho,club_other,2,2,https://en.wikipedia.org/wiki/2021–22_Liverpool_F.C._season https://en.wikipedia.org/wiki/2022–23_Liverpool_F.C._season
+2022,Rafael Leão,league,11,2,https://en.wikipedia.org/wiki/2021–22_AC_Milan_season https://en.wikipedia.org/wiki/2022–23_AC_Milan_season
+2022,Rafael Leão,ucl,1,2,https://en.wikipedia.org/wiki/2021–22_AC_Milan_season https://en.wikipedia.org/wiki/2022–23_AC_Milan_season
+2022,Rafael Leão,club_other,2,2,https://en.wikipedia.org/wiki/2021–22_AC_Milan_season https://en.wikipedia.org/wiki/2022–23_AC_Milan_season
+2022,Virgil van Dijk,league,3,2,https://en.wikipedia.org/wiki/2021–22_Liverpool_F.C._season https://en.wikipedia.org/wiki/2022–23_Liverpool_F.C._season
+2022,Virgil van Dijk,ucl,0,2,https://en.wikipedia.org/wiki/2021–22_Liverpool_F.C._season https://en.wikipedia.org/wiki/2022–23_Liverpool_F.C._season
+2022,Virgil van Dijk,club_other,0,2,https://en.wikipedia.org/wiki/2021–22_Liverpool_F.C._season https://en.wikipedia.org/wiki/2022–23_Liverpool_F.C._season
+2022,Casemiro,league,1,3,https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2022–23_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2022–23_Manchester_United_F.C._season
+2022,Luis Díaz,ucl,4,3,https://en.wikipedia.org/wiki/2021–22_FC_Porto_season https://en.wikipedia.org/wiki/2021–22_Liverpool_F.C._season https://en.wikipedia.org/wiki/2022–23_Liverpool_F.C._season
+2022,Luis Díaz,club_other,0,3,https://en.wikipedia.org/wiki/2021–22_FC_Porto_season https://en.wikipedia.org/wiki/2021–22_Liverpool_F.C._season https://en.wikipedia.org/wiki/2022–23_Liverpool_F.C._season
+2022,Cristiano Ronaldo,league,18,4,https://en.wikipedia.org/wiki/2021–22_Juventus_FC_season https://en.wikipedia.org/wiki/2021–22_Manchester_United_F.C._season https://en.wikipedia.org/wiki/2022–23_Manchester_United_F.C._season https://en.wikipedia.org/wiki/2022–23_Al-Nassr_FC_season
+2022,Cristiano Ronaldo,ucl,6,4,https://en.wikipedia.org/wiki/2021–22_Juventus_FC_season https://en.wikipedia.org/wiki/2021–22_Manchester_United_F.C._season https://en.wikipedia.org/wiki/2022–23_Manchester_United_F.C._season https://en.wikipedia.org/wiki/2022–23_Al-Nassr_FC_season
+2022,Harry Kane,league,17,2,https://en.wikipedia.org/wiki/2021–22_Tottenham_Hotspur_F.C._season https://en.wikipedia.org/wiki/2022–23_Tottenham_Hotspur_F.C._season
+2022,Harry Kane,ucl,0,2,https://en.wikipedia.org/wiki/2021–22_Tottenham_Hotspur_F.C._season https://en.wikipedia.org/wiki/2022–23_Tottenham_Hotspur_F.C._season
+2022,Trent Alexander-Arnold,league,2,2,https://en.wikipedia.org/wiki/2021–22_Liverpool_F.C._season https://en.wikipedia.org/wiki/2022–23_Liverpool_F.C._season
+2022,Trent Alexander-Arnold,ucl,0,2,https://en.wikipedia.org/wiki/2021–22_Liverpool_F.C._season https://en.wikipedia.org/wiki/2022–23_Liverpool_F.C._season
+2022,Trent Alexander-Arnold,club_other,1,2,https://en.wikipedia.org/wiki/2021–22_Liverpool_F.C._season https://en.wikipedia.org/wiki/2022–23_Liverpool_F.C._season
+2022,Phil Foden,league,9,2,https://en.wikipedia.org/wiki/2021–22_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2022–23_Manchester_City_F.C._season
+2022,Phil Foden,ucl,3,2,https://en.wikipedia.org/wiki/2021–22_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2022–23_Manchester_City_F.C._season
+2022,Phil Foden,club_other,2,2,https://en.wikipedia.org/wiki/2021–22_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2022–23_Manchester_City_F.C._season
+2022,Bernardo Silva,league,8,2,https://en.wikipedia.org/wiki/2021–22_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2022–23_Manchester_City_F.C._season
+2022,Bernardo Silva,ucl,3,2,https://en.wikipedia.org/wiki/2021–22_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2022–23_Manchester_City_F.C._season
+2022,Bernardo Silva,club_other,2,2,https://en.wikipedia.org/wiki/2021–22_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2022–23_Manchester_City_F.C._season
+2022,João Cancelo,league,1,3,https://en.wikipedia.org/wiki/2021–22_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2022–23_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2022–23_FC_Bayern_Munich_season
+2022,João Cancelo,ucl,2,3,https://en.wikipedia.org/wiki/2021–22_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2022–23_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2022–23_FC_Bayern_Munich_season
+2022,João Cancelo,club_other,0,3,https://en.wikipedia.org/wiki/2021–22_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2022–23_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2022–23_FC_Bayern_Munich_season
+2022,Joshua Kimmich,league,3,2,https://en.wikipedia.org/wiki/2021–22_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2022–23_FC_Bayern_Munich_season
+2022,Joshua Kimmich,ucl,0,2,https://en.wikipedia.org/wiki/2021–22_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2022–23_FC_Bayern_Munich_season
+2022,Joshua Kimmich,club_other,0,2,https://en.wikipedia.org/wiki/2021–22_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2022–23_FC_Bayern_Munich_season
+2022,Mike Maignan,league,0,2,https://en.wikipedia.org/wiki/2021–22_AC_Milan_season https://en.wikipedia.org/wiki/2022–23_AC_Milan_season
+2022,Mike Maignan,ucl,0,2,https://en.wikipedia.org/wiki/2021–22_AC_Milan_season https://en.wikipedia.org/wiki/2022–23_AC_Milan_season
+2022,Mike Maignan,club_other,0,2,https://en.wikipedia.org/wiki/2021–22_AC_Milan_season https://en.wikipedia.org/wiki/2022–23_AC_Milan_season
+2022,Christopher Nkunku,league,20,2,https://en.wikipedia.org/wiki/2021–22_RB_Leipzig_season https://en.wikipedia.org/wiki/2022–23_RB_Leipzig_season
+2022,Darwin Núñez,league,26,2,https://en.wikipedia.org/wiki/2021–22_S.L._Benfica_season https://en.wikipedia.org/wiki/2022–23_Liverpool_F.C._season
+2022,Darwin Núñez,ucl,6,2,https://en.wikipedia.org/wiki/2021–22_S.L._Benfica_season https://en.wikipedia.org/wiki/2022–23_Liverpool_F.C._season
+2022,Antonio Rüdiger,league,3,2,https://en.wikipedia.org/wiki/2021–22_Chelsea_F.C._season https://en.wikipedia.org/wiki/2022–23_Real_Madrid_CF_season
+2022,Antonio Rüdiger,ucl,1,2,https://en.wikipedia.org/wiki/2021–22_Chelsea_F.C._season https://en.wikipedia.org/wiki/2022–23_Real_Madrid_CF_season
+2022,Antonio Rüdiger,club_other,1,2,https://en.wikipedia.org/wiki/2021–22_Chelsea_F.C._season https://en.wikipedia.org/wiki/2022–23_Real_Madrid_CF_season
+2023,Lionel Messi,league,16,2,https://en.wikipedia.org/wiki/2022–23_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2023_Inter_Miami_CF_season
+2023,Erling Haaland,ucl,12,2,https://en.wikipedia.org/wiki/2022–23_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2023–24_Manchester_City_F.C._season
+2023,Erling Haaland,club_other,4,2,https://en.wikipedia.org/wiki/2022–23_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2023–24_Manchester_City_F.C._season
+2023,Kylian Mbappé,ucl,7,2,https://en.wikipedia.org/wiki/2022–23_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2023–24_Paris_Saint-Germain_FC_season
+2023,Kevin De Bruyne,league,7,2,https://en.wikipedia.org/wiki/2022–23_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2023–24_Manchester_City_F.C._season
+2023,Kevin De Bruyne,ucl,2,2,https://en.wikipedia.org/wiki/2022–23_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2023–24_Manchester_City_F.C._season
+2023,Kevin De Bruyne,club_other,1,2,https://en.wikipedia.org/wiki/2022–23_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2023–24_Manchester_City_F.C._season
+2023,Rodri,ucl,2,2,https://en.wikipedia.org/wiki/2022–23_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2023–24_Manchester_City_F.C._season
+2023,Rodri,club_other,0,2,https://en.wikipedia.org/wiki/2022–23_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2023–24_Manchester_City_F.C._season
+2023,Vinícius Júnior,league,10,2,https://en.wikipedia.org/wiki/2022–23_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2023–24_Real_Madrid_CF_season
+2023,Vinícius Júnior,ucl,7,2,https://en.wikipedia.org/wiki/2022–23_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2023–24_Real_Madrid_CF_season
+2023,Vinícius Júnior,club_other,6,2,https://en.wikipedia.org/wiki/2022–23_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2023–24_Real_Madrid_CF_season
+2023,Victor Osimhen,club_other,0,2,https://en.wikipedia.org/wiki/2022–23_SSC_Napoli_season https://en.wikipedia.org/wiki/2023–24_SSC_Napoli_season
+2023,Bernardo Silva,league,4,2,https://en.wikipedia.org/wiki/2022–23_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2023–24_Manchester_City_F.C._season
+2023,Bernardo Silva,ucl,3,2,https://en.wikipedia.org/wiki/2022–23_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2023–24_Manchester_City_F.C._season
+2023,Bernardo Silva,club_other,0,2,https://en.wikipedia.org/wiki/2022–23_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2023–24_Manchester_City_F.C._season
+2023,Luka Modrić,league,4,2,https://en.wikipedia.org/wiki/2022–23_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2023–24_Real_Madrid_CF_season
+2023,Luka Modrić,ucl,2,2,https://en.wikipedia.org/wiki/2022–23_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2023–24_Real_Madrid_CF_season
+2023,Luka Modrić,club_other,0,2,https://en.wikipedia.org/wiki/2022–23_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2023–24_Real_Madrid_CF_season
+2023,Mohamed Salah,ucl,8,2,https://en.wikipedia.org/wiki/2022–23_Liverpool_F.C._season https://en.wikipedia.org/wiki/2023–24_Liverpool_F.C._season
+2023,Yassine Bounou,league,0,3,https://en.wikipedia.org/wiki/2022–23_Sevilla_FC_season https://en.wikipedia.org/wiki/2023–24_Sevilla_FC_season https://en.wikipedia.org/wiki/2023–24_Al_Hilal_SFC_season
+2023,Yassine Bounou,ucl,0,3,https://en.wikipedia.org/wiki/2022–23_Sevilla_FC_season https://en.wikipedia.org/wiki/2023–24_Sevilla_FC_season https://en.wikipedia.org/wiki/2023–24_Al_Hilal_SFC_season
+2023,Yassine Bounou,club_other,0,3,https://en.wikipedia.org/wiki/2022–23_Sevilla_FC_season https://en.wikipedia.org/wiki/2023–24_Sevilla_FC_season https://en.wikipedia.org/wiki/2023–24_Al_Hilal_SFC_season
+2023,İlkay Gündoğan,ucl,1,2,https://en.wikipedia.org/wiki/2022–23_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2023–24_FC_Barcelona_season
+2023,İlkay Gündoğan,club_other,2,2,https://en.wikipedia.org/wiki/2022–23_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2023–24_FC_Barcelona_season
+2023,Emiliano Martínez,league,0,2,https://en.wikipedia.org/wiki/2022–23_Aston_Villa_F.C._season https://en.wikipedia.org/wiki/2023–24_Aston_Villa_F.C._season
+2023,Emiliano Martínez,ucl,0,2,https://en.wikipedia.org/wiki/2022–23_Aston_Villa_F.C._season https://en.wikipedia.org/wiki/2023–24_Aston_Villa_F.C._season
+2023,Emiliano Martínez,club_other,0,2,https://en.wikipedia.org/wiki/2022–23_Aston_Villa_F.C._season https://en.wikipedia.org/wiki/2023–24_Aston_Villa_F.C._season
+2023,Karim Benzema,league,19,2,https://en.wikipedia.org/wiki/2022–23_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2023–24_Al-Ittihad_Club_season
+2023,Karim Benzema,ucl,4,2,https://en.wikipedia.org/wiki/2022–23_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2023–24_Al-Ittihad_Club_season
+2023,Karim Benzema,club_other,10,2,https://en.wikipedia.org/wiki/2022–23_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2023–24_Al-Ittihad_Club_season
+2023,Khvicha Kvaratskhelia,club_other,0,3,https://en.wikipedia.org/wiki/2022_Erovnuli_Liga https://en.wikipedia.org/wiki/2022–23_SSC_Napoli_season https://en.wikipedia.org/wiki/2023–24_SSC_Napoli_season
+2023,Jude Bellingham,league,8,2,https://en.wikipedia.org/wiki/2022–23_Borussia_Dortmund_season https://en.wikipedia.org/wiki/2023–24_Real_Madrid_CF_season
+2023,Jude Bellingham,ucl,4,2,https://en.wikipedia.org/wiki/2022–23_Borussia_Dortmund_season https://en.wikipedia.org/wiki/2023–24_Real_Madrid_CF_season
+2023,Jude Bellingham,club_other,1,2,https://en.wikipedia.org/wiki/2022–23_Borussia_Dortmund_season https://en.wikipedia.org/wiki/2023–24_Real_Madrid_CF_season
+2023,Harry Kane,league,30,2,https://en.wikipedia.org/wiki/2022–23_Tottenham_Hotspur_F.C._season https://en.wikipedia.org/wiki/2023–24_FC_Bayern_Munich_season
+2023,Harry Kane,ucl,1,2,https://en.wikipedia.org/wiki/2022–23_Tottenham_Hotspur_F.C._season https://en.wikipedia.org/wiki/2023–24_FC_Bayern_Munich_season
+2023,Lautaro Martínez,ucl,3,2,https://en.wikipedia.org/wiki/2022–23_Inter_Milan_season https://en.wikipedia.org/wiki/2023–24_Inter_Milan_season
+2023,Antoine Griezmann,league,15,2,https://en.wikipedia.org/wiki/2022–23_Atlético_Madrid_season https://en.wikipedia.org/wiki/2023–24_Atlético_Madrid_season
+2023,Kim Min-jae,league,2,2,https://en.wikipedia.org/wiki/2022–23_S.S.C._Napoli_season https://en.wikipedia.org/wiki/2023–24_FC_Bayern_Munich_season
+2023,Kim Min-jae,ucl,0,2,https://en.wikipedia.org/wiki/2022–23_S.S.C._Napoli_season https://en.wikipedia.org/wiki/2023–24_FC_Bayern_Munich_season
+2023,Kim Min-jae,club_other,0,2,https://en.wikipedia.org/wiki/2022–23_S.S.C._Napoli_season https://en.wikipedia.org/wiki/2023–24_FC_Bayern_Munich_season
+2023,André Onana,league,0,2,https://en.wikipedia.org/wiki/2022–23_Inter_Milan_season https://en.wikipedia.org/wiki/2023–24_Manchester_United_F.C._season
+2023,André Onana,ucl,0,2,https://en.wikipedia.org/wiki/2022–23_Inter_Milan_season https://en.wikipedia.org/wiki/2023–24_Manchester_United_F.C._season
+2023,André Onana,club_other,0,2,https://en.wikipedia.org/wiki/2022–23_Inter_Milan_season https://en.wikipedia.org/wiki/2023–24_Manchester_United_F.C._season
+2023,Bukayo Saka,ucl,0,2,https://en.wikipedia.org/wiki/2022–23_Arsenal_F.C._season https://en.wikipedia.org/wiki/2023–24_Arsenal_F.C._season
+2023,Joško Gvardiol,league,1,2,https://en.wikipedia.org/wiki/2022–23_RB_Leipzig_season https://en.wikipedia.org/wiki/2023–24_Manchester_City_F.C._season
+2023,Joško Gvardiol,ucl,2,2,https://en.wikipedia.org/wiki/2022–23_RB_Leipzig_season https://en.wikipedia.org/wiki/2023–24_Manchester_City_F.C._season
+2023,Joško Gvardiol,club_other,0,2,https://en.wikipedia.org/wiki/2022–23_RB_Leipzig_season https://en.wikipedia.org/wiki/2023–24_Manchester_City_F.C._season
+2023,Jamal Musiala,league,12,2,https://en.wikipedia.org/wiki/2022–23_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2023–24_FC_Bayern_Munich_season
+2023,Jamal Musiala,ucl,0,2,https://en.wikipedia.org/wiki/2022–23_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2023–24_FC_Bayern_Munich_season
+2023,Jamal Musiala,club_other,3,2,https://en.wikipedia.org/wiki/2022–23_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2023–24_FC_Bayern_Munich_season
+2023,Nicolò Barella,league,6,2,https://en.wikipedia.org/wiki/2022–23_Inter_Milan_season https://en.wikipedia.org/wiki/2023–24_Inter_Milan_season
+2023,Randal Kolo Muani,league,15,3,https://en.wikipedia.org/wiki/2022–23_Eintracht_Frankfurt_season https://en.wikipedia.org/wiki/2023–24_Eintracht_Frankfurt_season https://en.wikipedia.org/wiki/2023–24_Paris_Saint-Germain_FC_season
+2023,Randal Kolo Muani,ucl,2,3,https://en.wikipedia.org/wiki/2022–23_Eintracht_Frankfurt_season https://en.wikipedia.org/wiki/2023–24_Eintracht_Frankfurt_season https://en.wikipedia.org/wiki/2023–24_Paris_Saint-Germain_FC_season
+2023,Randal Kolo Muani,club_other,6,3,https://en.wikipedia.org/wiki/2022–23_Eintracht_Frankfurt_season https://en.wikipedia.org/wiki/2023–24_Eintracht_Frankfurt_season https://en.wikipedia.org/wiki/2023–24_Paris_Saint-Germain_FC_season
+2023,Martin Ødegaard,league,15,2,https://en.wikipedia.org/wiki/2022–23_Arsenal_F.C._season https://en.wikipedia.org/wiki/2023–24_Arsenal_F.C._season
+2023,Martin Ødegaard,ucl,0,2,https://en.wikipedia.org/wiki/2022–23_Arsenal_F.C._season https://en.wikipedia.org/wiki/2023–24_Arsenal_F.C._season
+2023,Rúben Dias,league,0,2,https://en.wikipedia.org/wiki/2022–23_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2023–24_Manchester_City_F.C._season
+2023,Rúben Dias,ucl,1,2,https://en.wikipedia.org/wiki/2022–23_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2023–24_Manchester_City_F.C._season
+2023,Rúben Dias,club_other,0,2,https://en.wikipedia.org/wiki/2022–23_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2023–24_Manchester_City_F.C._season
+2024,Rodri,ucl,1,2,https://en.wikipedia.org/wiki/2023–24_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2024–25_Manchester_City_F.C._season
+2024,Rodri,club_other,0,2,https://en.wikipedia.org/wiki/2023–24_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2024–25_Manchester_City_F.C._season
+2024,Vinícius Júnior,league,15,2,https://en.wikipedia.org/wiki/2023–24_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2024–25_Real_Madrid_CF_season
+2024,Vinícius Júnior,ucl,6,2,https://en.wikipedia.org/wiki/2023–24_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2024–25_Real_Madrid_CF_season
+2024,Vinícius Júnior,club_other,3,2,https://en.wikipedia.org/wiki/2023–24_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2024–25_Real_Madrid_CF_season
+2024,Jude Bellingham,league,19,2,https://en.wikipedia.org/wiki/2023–24_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2024–25_Real_Madrid_CF_season
+2024,Dani Carvajal,league,4,2,https://en.wikipedia.org/wiki/2023–24_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2024–25_Real_Madrid_CF_season
+2024,Kylian Mbappé,league,27,2,https://en.wikipedia.org/wiki/2023–24_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2024–25_Real_Madrid_CF_season
+2024,Lautaro Martínez,league,24,2,https://en.wikipedia.org/wiki/2023–24_Inter_Milan_season https://en.wikipedia.org/wiki/2024–25_Inter_Milan_season
+2024,Lautaro Martínez,ucl,2,2,https://en.wikipedia.org/wiki/2023–24_Inter_Milan_season https://en.wikipedia.org/wiki/2024–25_Inter_Milan_season
+2024,Lamine Yamal,league,5,2,https://en.wikipedia.org/wiki/2023–24_FC_Barcelona_season https://en.wikipedia.org/wiki/2024–25_FC_Barcelona_season
+2024,Lamine Yamal,ucl,0,2,https://en.wikipedia.org/wiki/2023–24_FC_Barcelona_season https://en.wikipedia.org/wiki/2024–25_FC_Barcelona_season
+2024,Lamine Yamal,club_other,2,2,https://en.wikipedia.org/wiki/2023–24_FC_Barcelona_season https://en.wikipedia.org/wiki/2024–25_FC_Barcelona_season
+2024,Harry Kane,league,36,2,https://en.wikipedia.org/wiki/2023–24_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2024–25_FC_Bayern_Munich_season
+2024,Phil Foden,league,19,2,https://en.wikipedia.org/wiki/2023–24_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2024–25_Manchester_City_F.C._season
+2024,Phil Foden,ucl,5,2,https://en.wikipedia.org/wiki/2023–24_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2024–25_Manchester_City_F.C._season
+2024,Phil Foden,club_other,3,2,https://en.wikipedia.org/wiki/2023–24_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2024–25_Manchester_City_F.C._season
+2024,Florian Wirtz,ucl,0,2,https://en.wikipedia.org/wiki/2023–24_Bayer_04_Leverkusen_season https://en.wikipedia.org/wiki/2024–25_Bayer_04_Leverkusen_season
+2024,Florian Wirtz,club_other,7,2,https://en.wikipedia.org/wiki/2023–24_Bayer_04_Leverkusen_season https://en.wikipedia.org/wiki/2024–25_Bayer_04_Leverkusen_season
+2024,Dani Olmo,league,4,2,https://en.wikipedia.org/wiki/2023–24_RB_Leipzig_season https://en.wikipedia.org/wiki/2024–25_FC_Barcelona_season
+2024,Dani Olmo,ucl,1,2,https://en.wikipedia.org/wiki/2023–24_RB_Leipzig_season https://en.wikipedia.org/wiki/2024–25_FC_Barcelona_season
+2024,Dani Olmo,club_other,3,2,https://en.wikipedia.org/wiki/2023–24_RB_Leipzig_season https://en.wikipedia.org/wiki/2024–25_FC_Barcelona_season
+2024,Ademola Lookman,league,11,2,https://en.wikipedia.org/wiki/2023–24_Atalanta_BC_season https://en.wikipedia.org/wiki/2024–25_Atalanta_BC_season
+2024,Nico Williams,league,5,2,https://en.wikipedia.org/wiki/2023–24_Athletic_Bilbao_season https://en.wikipedia.org/wiki/2024–25_Athletic_Bilbao_season
+2024,Nico Williams,ucl,0,2,https://en.wikipedia.org/wiki/2023–24_Athletic_Bilbao_season https://en.wikipedia.org/wiki/2024–25_Athletic_Bilbao_season
+2024,Nico Williams,club_other,3,2,https://en.wikipedia.org/wiki/2023–24_Athletic_Bilbao_season https://en.wikipedia.org/wiki/2024–25_Athletic_Bilbao_season
+2024,Granit Xhaka,league,3,2,https://en.wikipedia.org/wiki/2023–24_Bayer_04_Leverkusen_season https://en.wikipedia.org/wiki/2024–25_Bayer_04_Leverkusen_season
+2024,Granit Xhaka,ucl,0,2,https://en.wikipedia.org/wiki/2023–24_Bayer_04_Leverkusen_season https://en.wikipedia.org/wiki/2024–25_Bayer_04_Leverkusen_season
+2024,Granit Xhaka,club_other,1,2,https://en.wikipedia.org/wiki/2023–24_Bayer_04_Leverkusen_season https://en.wikipedia.org/wiki/2024–25_Bayer_04_Leverkusen_season
+2024,Federico Valverde,league,2,2,https://en.wikipedia.org/wiki/2023–24_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2024–25_Real_Madrid_CF_season
+2024,Federico Valverde,ucl,1,2,https://en.wikipedia.org/wiki/2023–24_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2024–25_Real_Madrid_CF_season
+2024,Federico Valverde,club_other,0,2,https://en.wikipedia.org/wiki/2023–24_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2024–25_Real_Madrid_CF_season
+2024,Emiliano Martínez,league,0,2,https://en.wikipedia.org/wiki/2023–24_Aston_Villa_F.C._season https://en.wikipedia.org/wiki/2024–25_Aston_Villa_F.C._season
+2024,Emiliano Martínez,ucl,0,2,https://en.wikipedia.org/wiki/2023–24_Aston_Villa_F.C._season https://en.wikipedia.org/wiki/2024–25_Aston_Villa_F.C._season
+2024,Emiliano Martínez,club_other,0,2,https://en.wikipedia.org/wiki/2023–24_Aston_Villa_F.C._season https://en.wikipedia.org/wiki/2024–25_Aston_Villa_F.C._season
+2024,Martin Ødegaard,league,8,2,https://en.wikipedia.org/wiki/2023–24_Arsenal_F.C._season https://en.wikipedia.org/wiki/2024–25_Arsenal_F.C._season
+2024,Martin Ødegaard,ucl,2,2,https://en.wikipedia.org/wiki/2023–24_Arsenal_F.C._season https://en.wikipedia.org/wiki/2024–25_Arsenal_F.C._season
+2024,Hakan Çalhanoğlu,league,13,2,https://en.wikipedia.org/wiki/2023–24_Inter_Milan_season https://en.wikipedia.org/wiki/2024–25_Inter_Milan_season
+2024,Hakan Çalhanoğlu,ucl,1,2,https://en.wikipedia.org/wiki/2023–24_Inter_Milan_season https://en.wikipedia.org/wiki/2024–25_Inter_Milan_season
+2024,Hakan Çalhanoğlu,club_other,1,2,https://en.wikipedia.org/wiki/2023–24_Inter_Milan_season https://en.wikipedia.org/wiki/2024–25_Inter_Milan_season
+2024,Bukayo Saka,league,16,2,https://en.wikipedia.org/wiki/2023–24_Arsenal_F.C._season https://en.wikipedia.org/wiki/2024–25_Arsenal_F.C._season
+2024,Bukayo Saka,ucl,4,2,https://en.wikipedia.org/wiki/2023–24_Arsenal_F.C._season https://en.wikipedia.org/wiki/2024–25_Arsenal_F.C._season
+2024,Bukayo Saka,club_other,0,2,https://en.wikipedia.org/wiki/2023–24_Arsenal_F.C._season https://en.wikipedia.org/wiki/2024–25_Arsenal_F.C._season
+2024,Antonio Rüdiger,league,1,2,https://en.wikipedia.org/wiki/2023–24_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2024–25_Real_Madrid_CF_season
+2024,Antonio Rüdiger,ucl,0,2,https://en.wikipedia.org/wiki/2023–24_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2024–25_Real_Madrid_CF_season
+2024,Antonio Rüdiger,club_other,1,2,https://en.wikipedia.org/wiki/2023–24_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2024–25_Real_Madrid_CF_season
+2024,Rúben Dias,league,0,2,https://en.wikipedia.org/wiki/2023–24_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2024–25_Manchester_City_F.C._season
+2024,Rúben Dias,ucl,0,2,https://en.wikipedia.org/wiki/2023–24_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2024–25_Manchester_City_F.C._season
+2024,Rúben Dias,club_other,0,2,https://en.wikipedia.org/wiki/2023–24_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2024–25_Manchester_City_F.C._season
+2024,William Saliba,league,2,2,https://en.wikipedia.org/wiki/2023–24_Arsenal_F.C._season https://en.wikipedia.org/wiki/2024–25_Arsenal_F.C._season
+2024,William Saliba,ucl,0,2,https://en.wikipedia.org/wiki/2023–24_Arsenal_F.C._season https://en.wikipedia.org/wiki/2024–25_Arsenal_F.C._season
+2024,William Saliba,club_other,0,2,https://en.wikipedia.org/wiki/2023–24_Arsenal_F.C._season https://en.wikipedia.org/wiki/2024–25_Arsenal_F.C._season
+2024,Cole Palmer,ucl,0,3,https://en.wikipedia.org/wiki/2023–24_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2023–24_Chelsea_F.C._season https://en.wikipedia.org/wiki/2024–25_Chelsea_F.C._season
+2024,Cole Palmer,club_other,5,3,https://en.wikipedia.org/wiki/2023–24_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2023–24_Chelsea_F.C._season https://en.wikipedia.org/wiki/2024–25_Chelsea_F.C._season
+2024,Declan Rice,league,7,2,https://en.wikipedia.org/wiki/2023–24_Arsenal_F.C._season https://en.wikipedia.org/wiki/2024–25_Arsenal_F.C._season
+2024,Declan Rice,ucl,0,2,https://en.wikipedia.org/wiki/2023–24_Arsenal_F.C._season https://en.wikipedia.org/wiki/2024–25_Arsenal_F.C._season
+2024,Declan Rice,club_other,0,2,https://en.wikipedia.org/wiki/2023–24_Arsenal_F.C._season https://en.wikipedia.org/wiki/2024–25_Arsenal_F.C._season
+2024,Vitinha,league,7,2,https://en.wikipedia.org/wiki/2023–24_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2024–25_Paris_Saint-Germain_FC_season
+2024,Álex Grimaldo,league,10,2,https://en.wikipedia.org/wiki/2023–24_Bayer_04_Leverkusen_season https://en.wikipedia.org/wiki/2024–25_Bayer_04_Leverkusen_season
+2024,Álex Grimaldo,ucl,0,2,https://en.wikipedia.org/wiki/2023–24_Bayer_04_Leverkusen_season https://en.wikipedia.org/wiki/2024–25_Bayer_04_Leverkusen_season
+2024,Álex Grimaldo,club_other,2,2,https://en.wikipedia.org/wiki/2023–24_Bayer_04_Leverkusen_season https://en.wikipedia.org/wiki/2024–25_Bayer_04_Leverkusen_season
+2024,Artem Dovbyk,league,24,2,https://en.wikipedia.org/wiki/2023–24_Girona_FC_season https://en.wikipedia.org/wiki/2024–25_AS_Roma_season
+2024,Artem Dovbyk,ucl,0,2,https://en.wikipedia.org/wiki/2023–24_Girona_FC_season https://en.wikipedia.org/wiki/2024–25_AS_Roma_season
+2024,Artem Dovbyk,club_other,0,2,https://en.wikipedia.org/wiki/2023–24_Girona_FC_season https://en.wikipedia.org/wiki/2024–25_AS_Roma_season
+2024,Mats Hummels,league,3,2,https://en.wikipedia.org/wiki/2023–24_Borussia_Dortmund_season https://en.wikipedia.org/wiki/2024–25_AS_Roma_season
+2024,Mats Hummels,ucl,1,2,https://en.wikipedia.org/wiki/2023–24_Borussia_Dortmund_season https://en.wikipedia.org/wiki/2024–25_AS_Roma_season
+2024,Mats Hummels,club_other,0,2,https://en.wikipedia.org/wiki/2023–24_Borussia_Dortmund_season https://en.wikipedia.org/wiki/2024–25_AS_Roma_season
+2025,Lamine Yamal,ucl,5,2,https://en.wikipedia.org/wiki/2024–25_FC_Barcelona_season https://en.wikipedia.org/wiki/2025–26_FC_Barcelona_season
+2025,Lamine Yamal,club_other,4,2,https://en.wikipedia.org/wiki/2024–25_FC_Barcelona_season https://en.wikipedia.org/wiki/2025–26_FC_Barcelona_season
+2025,Vitinha,league,5,2,https://en.wikipedia.org/wiki/2024–25_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season
+2025,Mohamed Salah,league,29,2,https://en.wikipedia.org/wiki/2024–25_Liverpool_F.C._season https://en.wikipedia.org/wiki/2025–26_Liverpool_F.C._season
+2025,Raphinha,league,18,2,https://en.wikipedia.org/wiki/2024–25_FC_Barcelona_season https://en.wikipedia.org/wiki/2025–26_FC_Barcelona_season
+2025,Raphinha,ucl,13,2,https://en.wikipedia.org/wiki/2024–25_FC_Barcelona_season https://en.wikipedia.org/wiki/2025–26_FC_Barcelona_season
+2025,Raphinha,club_other,3,2,https://en.wikipedia.org/wiki/2024–25_FC_Barcelona_season https://en.wikipedia.org/wiki/2025–26_FC_Barcelona_season
+2025,Achraf Hakimi,league,4,2,https://en.wikipedia.org/wiki/2024–25_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season
+2025,Kylian Mbappé,league,31,2,https://en.wikipedia.org/wiki/2024–25_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2025–26_Real_Madrid_CF_season
+2025,Cole Palmer,ucl,0,2,https://en.wikipedia.org/wiki/2024–25_Chelsea_F.C._season https://en.wikipedia.org/wiki/2025–26_Chelsea_F.C._season
+2025,Cole Palmer,club_other,3,2,https://en.wikipedia.org/wiki/2024–25_Chelsea_F.C._season https://en.wikipedia.org/wiki/2025–26_Chelsea_F.C._season
+2025,Gianluigi Donnarumma,league,0,2,https://en.wikipedia.org/wiki/2024–25_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2025–26_Manchester_City_F.C._season
+2025,Gianluigi Donnarumma,ucl,0,2,https://en.wikipedia.org/wiki/2024–25_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2025–26_Manchester_City_F.C._season
+2025,Gianluigi Donnarumma,club_other,0,2,https://en.wikipedia.org/wiki/2024–25_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2025–26_Manchester_City_F.C._season
+2025,Nuno Mendes,league,1,2,https://en.wikipedia.org/wiki/2024–25_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season
+2025,Pedri,league,4,2,https://en.wikipedia.org/wiki/2024–25_FC_Barcelona_season https://en.wikipedia.org/wiki/2025–26_FC_Barcelona_season
+2025,Khvicha Kvaratskhelia,league,9,3,https://en.wikipedia.org/wiki/2024–25_SSC_Napoli_season https://en.wikipedia.org/wiki/2024–25_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season
+2025,Harry Kane,league,26,2,https://en.wikipedia.org/wiki/2024–25_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2025–26_FC_Bayern_Munich_season
+2025,Viktor Gyökeres,league,39,2,https://en.wikipedia.org/wiki/2024–25_Sporting_CP_season https://en.wikipedia.org/wiki/2025–26_Arsenal_F.C._season
+2025,Viktor Gyökeres,ucl,6,2,https://en.wikipedia.org/wiki/2024–25_Sporting_CP_season https://en.wikipedia.org/wiki/2025–26_Arsenal_F.C._season
+2025,Viktor Gyökeres,club_other,9,2,https://en.wikipedia.org/wiki/2024–25_Sporting_CP_season https://en.wikipedia.org/wiki/2025–26_Arsenal_F.C._season
+2025,Vinícius Júnior,league,11,2,https://en.wikipedia.org/wiki/2024–25_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2025–26_Real_Madrid_CF_season
+2025,Robert Lewandowski,ucl,11,2,https://en.wikipedia.org/wiki/2024–25_FC_Barcelona_season https://en.wikipedia.org/wiki/2025–26_FC_Barcelona_season
+2025,Robert Lewandowski,club_other,4,2,https://en.wikipedia.org/wiki/2024–25_FC_Barcelona_season https://en.wikipedia.org/wiki/2025–26_FC_Barcelona_season
+2025,Scott McTominay,league,12,3,https://en.wikipedia.org/wiki/2024–25_Manchester_United_F.C._season https://en.wikipedia.org/wiki/2024–25_SSC_Napoli_season https://en.wikipedia.org/wiki/2025–26_SSC_Napoli_season
+2025,Scott McTominay,ucl,0,3,https://en.wikipedia.org/wiki/2024–25_Manchester_United_F.C._season https://en.wikipedia.org/wiki/2024–25_SSC_Napoli_season https://en.wikipedia.org/wiki/2025–26_SSC_Napoli_season
+2025,Scott McTominay,club_other,1,3,https://en.wikipedia.org/wiki/2024–25_Manchester_United_F.C._season https://en.wikipedia.org/wiki/2024–25_SSC_Napoli_season https://en.wikipedia.org/wiki/2025–26_SSC_Napoli_season
+2025,João Neves,league,3,2,https://en.wikipedia.org/wiki/2024–25_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season
+2025,João Neves,ucl,1,2,https://en.wikipedia.org/wiki/2024–25_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season
+2025,João Neves,club_other,3,2,https://en.wikipedia.org/wiki/2024–25_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season
+2025,Lautaro Martínez,league,12,2,https://en.wikipedia.org/wiki/2024–25_Inter_Milan_season https://en.wikipedia.org/wiki/2025–26_Inter_Milan_season
+2025,Lautaro Martínez,ucl,9,2,https://en.wikipedia.org/wiki/2024–25_Inter_Milan_season https://en.wikipedia.org/wiki/2025–26_Inter_Milan_season
+2025,Lautaro Martínez,club_other,3,2,https://en.wikipedia.org/wiki/2024–25_Inter_Milan_season https://en.wikipedia.org/wiki/2025–26_Inter_Milan_season
+2025,Serhou Guirassy,league,21,2,https://en.wikipedia.org/wiki/2024–25_Borussia_Dortmund_season https://en.wikipedia.org/wiki/2025–26_Borussia_Dortmund_season
+2025,Alexis Mac Allister,league,5,2,https://en.wikipedia.org/wiki/2024–25_Liverpool_F.C._season https://en.wikipedia.org/wiki/2025–26_Liverpool_F.C._season
+2025,Alexis Mac Allister,ucl,2,2,https://en.wikipedia.org/wiki/2024–25_Liverpool_F.C._season https://en.wikipedia.org/wiki/2025–26_Liverpool_F.C._season
+2025,Alexis Mac Allister,club_other,0,2,https://en.wikipedia.org/wiki/2024–25_Liverpool_F.C._season https://en.wikipedia.org/wiki/2025–26_Liverpool_F.C._season
+2025,Jude Bellingham,league,9,2,https://en.wikipedia.org/wiki/2024–25_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2025–26_Real_Madrid_CF_season
+2025,Fabián Ruiz,league,4,2,https://en.wikipedia.org/wiki/2024–25_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season
+2025,Fabián Ruiz,ucl,1,2,https://en.wikipedia.org/wiki/2024–25_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season
+2025,Fabián Ruiz,club_other,3,2,https://en.wikipedia.org/wiki/2024–25_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season
+2025,Denzel Dumfries,league,7,2,https://en.wikipedia.org/wiki/2024–25_Inter_Milan_season https://en.wikipedia.org/wiki/2025–26_Inter_Milan_season
+2025,Declan Rice,league,4,2,https://en.wikipedia.org/wiki/2024–25_Arsenal_F.C._season https://en.wikipedia.org/wiki/2025–26_Arsenal_F.C._season
+2025,Declan Rice,ucl,4,2,https://en.wikipedia.org/wiki/2024–25_Arsenal_F.C._season https://en.wikipedia.org/wiki/2025–26_Arsenal_F.C._season
+2025,Declan Rice,club_other,1,2,https://en.wikipedia.org/wiki/2024–25_Arsenal_F.C._season https://en.wikipedia.org/wiki/2025–26_Arsenal_F.C._season
+2025,Virgil van Dijk,league,3,2,https://en.wikipedia.org/wiki/2024–25_Liverpool_F.C._season https://en.wikipedia.org/wiki/2025–26_Liverpool_F.C._season
+2025,Virgil van Dijk,ucl,1,2,https://en.wikipedia.org/wiki/2024–25_Liverpool_F.C._season https://en.wikipedia.org/wiki/2025–26_Liverpool_F.C._season
+2025,Virgil van Dijk,club_other,1,2,https://en.wikipedia.org/wiki/2024–25_Liverpool_F.C._season https://en.wikipedia.org/wiki/2025–26_Liverpool_F.C._season
+2025,Florian Wirtz,ucl,6,2,https://en.wikipedia.org/wiki/2024–25_Bayer_04_Leverkusen_season https://en.wikipedia.org/wiki/2025–26_Liverpool_F.C._season
+2025,Florian Wirtz,club_other,0,2,https://en.wikipedia.org/wiki/2024–25_Bayer_04_Leverkusen_season https://en.wikipedia.org/wiki/2025–26_Liverpool_F.C._season
+2025,Michael Olise,league,12,2,https://en.wikipedia.org/wiki/2024–25_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2025–26_FC_Bayern_Munich_season
+2026,Harry Kane,league,36,2,https://en.wikipedia.org/wiki/2025–26_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2026–27_FC_Bayern_Munich_season
+2026,Harry Kane,ucl,14,2,https://en.wikipedia.org/wiki/2025–26_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2026–27_FC_Bayern_Munich_season
+2026,Kylian Mbappé,league,25,2,https://en.wikipedia.org/wiki/2025–26_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2026–27_Real_Madrid_CF_season
+2026,Kylian Mbappé,ucl,15,2,https://en.wikipedia.org/wiki/2025–26_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2026–27_Real_Madrid_CF_season
+2026,Kylian Mbappé,club_other,2,2,https://en.wikipedia.org/wiki/2025–26_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2026–27_Real_Madrid_CF_season
+2026,Lamine Yamal,club_other,2,2,https://en.wikipedia.org/wiki/2025–26_FC_Barcelona_season https://en.wikipedia.org/wiki/2026–27_FC_Barcelona_season
+2026,Rodri,league,1,2,https://en.wikipedia.org/wiki/2025–26_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2026–27_FC_Barcelona_season
+2026,Rodri,ucl,0,2,https://en.wikipedia.org/wiki/2025–26_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2026–27_FC_Barcelona_season
+2026,Rodri,club_other,1,2,https://en.wikipedia.org/wiki/2025–26_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2026–27_FC_Barcelona_season
+2026,Khvicha Kvaratskhelia,league,8,2,https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2026–27_Paris_Saint-Germain_FC_season
+2026,Ousmane Dembélé,club_other,2,2,https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2026–27_Paris_Saint-Germain_FC_season
+2026,Erling Haaland,league,27,2,https://en.wikipedia.org/wiki/2025–26_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2026–27_Manchester_City_F.C._season
+2026,Erling Haaland,ucl,8,2,https://en.wikipedia.org/wiki/2025–26_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2026–27_Manchester_City_F.C._season
+2026,Michael Olise,league,15,2,https://en.wikipedia.org/wiki/2025–26_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2026–27_FC_Bayern_Munich_season
+2026,Michael Olise,ucl,5,2,https://en.wikipedia.org/wiki/2025–26_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2026–27_FC_Bayern_Munich_season
+2026,Michael Olise,club_other,2,2,https://en.wikipedia.org/wiki/2025–26_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2026–27_FC_Bayern_Munich_season
+2026,Fabián Ruiz,league,1,2,https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2026–27_Paris_Saint-Germain_FC_season
+2026,Fabián Ruiz,ucl,1,2,https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2026–27_Paris_Saint-Germain_FC_season
+2026,Fabián Ruiz,club_other,0,2,https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2026–27_Paris_Saint-Germain_FC_season
+2026,Jude Bellingham,league,6,2,https://en.wikipedia.org/wiki/2025–26_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2026–27_Real_Madrid_CF_season
+2026,Jude Bellingham,ucl,2,2,https://en.wikipedia.org/wiki/2025–26_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2026–27_Real_Madrid_CF_season
+2026,Jude Bellingham,club_other,0,2,https://en.wikipedia.org/wiki/2025–26_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2026–27_Real_Madrid_CF_season
+2026,Pau Cubarsí,league,1,2,https://en.wikipedia.org/wiki/2025–26_FC_Barcelona_season https://en.wikipedia.org/wiki/2026–27_FC_Barcelona_season
+2026,Achraf Hakimi,league,2,2,https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2026–27_Paris_Saint-Germain_FC_season
+2026,Vitinha,league,1,2,https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2026–27_Paris_Saint-Germain_FC_season
+2026,Vitinha,ucl,6,2,https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2026–27_Paris_Saint-Germain_FC_season
+2026,Declan Rice,league,4,2,https://en.wikipedia.org/wiki/2025–26_Arsenal_F.C._season https://en.wikipedia.org/wiki/2026–27_Arsenal_F.C._season
+2026,Declan Rice,ucl,1,2,https://en.wikipedia.org/wiki/2025–26_Arsenal_F.C._season https://en.wikipedia.org/wiki/2026–27_Arsenal_F.C._season
+2026,Declan Rice,club_other,0,2,https://en.wikipedia.org/wiki/2025–26_Arsenal_F.C._season https://en.wikipedia.org/wiki/2026–27_Arsenal_F.C._season
+2026,Ferran Torres,league,16,2,https://en.wikipedia.org/wiki/2025–26_FC_Barcelona_season https://en.wikipedia.org/wiki/2026–27_Paris_Saint-Germain_FC_season
+2026,Ferran Torres,club_other,2,2,https://en.wikipedia.org/wiki/2025–26_FC_Barcelona_season https://en.wikipedia.org/wiki/2026–27_Paris_Saint-Germain_FC_season
+2026,Vinícius Júnior,league,16,2,https://en.wikipedia.org/wiki/2025–26_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2026–27_Real_Madrid_CF_season
+2026,Marc Cucurella,league,1,2,https://en.wikipedia.org/wiki/2025–26_Chelsea_F.C._season https://en.wikipedia.org/wiki/2026–27_Real_Madrid_CF_season
+2026,Marc Cucurella,ucl,0,2,https://en.wikipedia.org/wiki/2025–26_Chelsea_F.C._season https://en.wikipedia.org/wiki/2026–27_Real_Madrid_CF_season
+2026,Marc Cucurella,club_other,0,2,https://en.wikipedia.org/wiki/2025–26_Chelsea_F.C._season https://en.wikipedia.org/wiki/2026–27_Real_Madrid_CF_season
+2026,João Neves,league,5,2,https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2026–27_Paris_Saint-Germain_FC_season
+2026,João Neves,ucl,2,2,https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2026–27_Paris_Saint-Germain_FC_season
+2026,João Neves,club_other,0,2,https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2026–27_Paris_Saint-Germain_FC_season
+2026,Willian Pacho,league,0,2,https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2026–27_Paris_Saint-Germain_FC_season
+2026,Willian Pacho,ucl,2,2,https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2026–27_Paris_Saint-Germain_FC_season
+2026,Willian Pacho,club_other,0,2,https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2026–27_Paris_Saint-Germain_FC_season
+2026,Gabriel Magalhães,league,3,2,https://en.wikipedia.org/wiki/2025–26_Arsenal_F.C._season https://en.wikipedia.org/wiki/2026–27_Arsenal_F.C._season
+2026,Gabriel Magalhães,ucl,1,2,https://en.wikipedia.org/wiki/2025–26_Arsenal_F.C._season https://en.wikipedia.org/wiki/2026–27_Arsenal_F.C._season
+2026,Gabriel Magalhães,club_other,0,2,https://en.wikipedia.org/wiki/2025–26_Arsenal_F.C._season https://en.wikipedia.org/wiki/2026–27_Arsenal_F.C._season
+2026,Lautaro Martínez,league,17,2,https://en.wikipedia.org/wiki/2025–26_Inter_Milan_season https://en.wikipedia.org/wiki/2026–27_Inter_Milan_season
+2026,Lautaro Martínez,ucl,4,2,https://en.wikipedia.org/wiki/2025–26_Inter_Milan_season https://en.wikipedia.org/wiki/2026–27_Inter_Milan_season
+2026,Lautaro Martínez,club_other,1,2,https://en.wikipedia.org/wiki/2025–26_Inter_Milan_season https://en.wikipedia.org/wiki/2026–27_Inter_Milan_season
+2026,Nuno Mendes,league,4,2,https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2026–27_Paris_Saint-Germain_FC_season
+2026,Nuno Mendes,ucl,2,2,https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2026–27_Paris_Saint-Germain_FC_season
+2026,Nuno Mendes,club_other,0,2,https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2026–27_Paris_Saint-Germain_FC_season
+2026,Luis Díaz,league,15,2,https://en.wikipedia.org/wiki/2025–26_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2026–27_FC_Bayern_Munich_season
+2026,Luis Díaz,ucl,7,2,https://en.wikipedia.org/wiki/2025–26_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2026–27_FC_Bayern_Munich_season
+2026,Marquinhos,league,0,2,https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2026–27_Paris_Saint-Germain_FC_season
+2026,Dayot Upamecano,league,1,2,https://en.wikipedia.org/wiki/2025–26_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2026–27_FC_Bayern_Munich_season
+2026,Dayot Upamecano,ucl,1,2,https://en.wikipedia.org/wiki/2025–26_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2026–27_FC_Bayern_Munich_season
+2026,Dayot Upamecano,club_other,0,2,https://en.wikipedia.org/wiki/2025–26_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2026–27_FC_Bayern_Munich_season
+2026,Bruno Fernandes,ucl,0,2,https://en.wikipedia.org/wiki/2025–26_Manchester_United_F.C._season https://en.wikipedia.org/wiki/2026–27_Manchester_United_F.C._season
+2026,Bruno Fernandes,club_other,0,2,https://en.wikipedia.org/wiki/2025–26_Manchester_United_F.C._season https://en.wikipedia.org/wiki/2026–27_Manchester_United_F.C._season
+2026,Julián Quiñones,club_other,4,2,https://en.wikipedia.org/wiki/2025–26_Al-Qadsiah_FC_season https://en.wikipedia.org/wiki/2026–27_Saudi_Pro_League
+2026,Sadio Mané,club_other,1,2,https://en.wikipedia.org/wiki/2025–26_Al-Nassr_FC_season https://en.wikipedia.org/wiki/2026–27_Al-Nassr_FC_season

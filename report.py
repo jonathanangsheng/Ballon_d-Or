@@ -58,13 +58,14 @@ DEFINITIONS = """## Definitions and rules
   row naming the player and year, by the edition it links to (e.g. a Golden Ball by the
   tournament's final). Ballon d'Or and its ceremony awards are never counted. Club-internal awards
   (linked only to a club-season article) are not counted. One undated award blanks the count.
-- **Club apps/goals from Wikipedia** (Aug–Jul windows only): the player's career-statistics row
+- **Club apps from Wikipedia** (Aug–Jul windows only): the player's career-statistics row
   for that season. League counts when the league season's dates (its article's infobox) lie in
   the window; UCL and cups count when the club-season article dates at least as many competitive
   matches as his appearances, all in the window. A "Europe" column counts as UCL only when its
   footnote names the Champions League alone. Minutes, assists and cards are not in these tables.
-- **Club goals match by match** (calendar-year windows, 2000–2021): every club-season article
-  linked from the player's career table for a season overlapping the year is read match by
+- **Club goals match by match** (every window): every club-season article linked from the
+  player's career table for a season overlapping the window (a split season counts as 1 Jul –
+  30 Jun, so July qualifiers fall in the Aug–Jul window that holds them) is read match by
   match (Football boxes, or results tables with a Scorers column), and goals dated inside the
   window are counted. A bucket counts only when, for every such season, the article's goals for
   the player in that competition equal his career-table season total; own goals and friendlies
@@ -108,7 +109,7 @@ def main():
             "and goals only |",
             "| club apps for 2000–2021 | Calendar-year windows split two seasons; season totals "
             "cannot be cut at the voting deadline, and match lists give scorers, not line-ups. "
-            "Club goals are filled where the match lists pass the season-total check |",
+            "Club goals (all years) are filled where the match lists pass the season-total check |",
             "| `national_apps` for 2022+ | Year totals do not split at 1 August |",
             "| `apps`, `minutes`, `assists`, `decisive_ga`, cards, `gk_*` totals | Need club and "
             "national values in the same window, which only `goals` reaches (2022+) |",

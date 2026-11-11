@@ -168,3 +168,33 @@ def wiki_prefetch(titles):
                 wiki_wikitext(t)
             break
         todo = left
+
+
+def wiki_redirects(titles):
+    """{title: set of titles that redirect to it (incl. the title itself)}, 50 titles per request,
+    cached per title under data/raw/wikipedia/redirects/."""
+    def cache_path(t):
+        return RAW_DIR / "wikipedia" / "redirects" / f"{hashlib.sha1(t.encode('utf-8')).hexdigest()[:16]}.json"
+
+    titles = sorted({t for t in titles if t})
+    todo = [t for t in titles if not cache_path(t).exists()]
+    for i in range(0, len(todo), 50):
+        batch, found, cont = todo[i:i + 50], {}, {}
+        while True:
+            params = {"action": "query", "prop": "redirects", "rdlimit": "max", "titles": "|".join(batch),
+                      "format": "json", "formatversion": 2, **cont}
+            url = "https://en.wikipedia.org/w/api.php?" + urllib.parse.urlencode(params)
+            reply = json.loads(_get(url))
+            q = reply.get("query", {})
+            alias = {n["to"]: n["from"] for n in q.get("normalized", [])}
+            for p in q.get("pages", []):
+                found.setdefault(alias.get(p["title"], p["title"]), set()).update(r["title"] for r in p.get("redirects", []))
+            if "continue" not in reply:
+                break
+            cont = reply["continue"]
+        for t in batch:
+            path = cache_path(t)
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.write_text(json.dumps({"title": t, "fetched_date": date.today().isoformat(),
+                                        "redirects": sorted(found.get(t, set()))}, ensure_ascii=False), encoding="utf-8")
+    return {t: {t, *json.loads(cache_path(t).read_text(encoding="utf-8"))["redirects"]} for t in titles}

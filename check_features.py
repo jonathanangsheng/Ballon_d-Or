@@ -93,15 +93,14 @@ season = {(int(s["year"]), s["name"], s["bucket"]): s for s in log_rows("season_
 for (y, n, b), s in season.items():
     if not (in_window(y, s["first_match"]) and in_window(y, s["last_match"])):
         fail(f"season total outside window: {s}")
-    for stat in ("apps", "goals"):
-        if num(features[(y, n)][f"{b}_{stat}"]) != float(s[stat]):
-            fail(f"{y} {n} {b}_{stat} != logged season total")
+    if num(features[(y, n)][f"{b}_apps"]) != float(s["apps"]):
+        fail(f"{y} {n} {b}_apps != logged season total")
 for (y, n), r in features.items():
     for b in ("league", "ucl", "club_other"):
         if r[f"{b}_apps"] != "" and (y, n, b) not in logged and (y, n, b) not in season:
             fail(f"{y} {n} {b}_apps filled without logged matches or season total")
-# club goals counted match by match (calendar-year windows): each scoring match inside the
-# window, and the matches sum to the column
+# club goals counted match by match (every window): each scoring match inside the window, and
+# the matches sum to the column
 club_goals = {(int(s["year"]), s["name"], s["bucket"]): int(s["goals"]) for s in log_rows("club_goals")}
 by_match = defaultdict(int)
 for m in log_rows("club_goal_matches"):
@@ -111,11 +110,9 @@ for m in log_rows("club_goal_matches"):
 for k, v in club_goals.items():
     if by_match[k] != v or num(features[k[:2]][f"{k[2]}_goals"]) != v:
         fail(f"{k} club goals: column {features[k[:2]][f'{k[2]}_goals']}, log {v}, matches {by_match[k]}")
-    if windows[k[0]]["window_start"].month != 1:
-        fail(f"{k} match-by-match club goals used for an Aug-Jul window")
 for (y, n), r in features.items():
     for b in ("league", "ucl", "club_other"):
-        if r[f"{b}_goals"] != "" and not ({(y, n, b)} & (logged | set(season) | set(club_goals))):
+        if r[f"{b}_goals"] != "" and not ({(y, n, b)} & (logged | set(club_goals))):
             fail(f"{y} {n} {b}_goals filled without a logged source")
 # national stats: goal-list dates inside the window; year-table values only when the country
 # played nothing between the window end and 31 December

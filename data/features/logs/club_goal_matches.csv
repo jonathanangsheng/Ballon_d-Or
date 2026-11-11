@@ -1,8 +1,23 @@
 year,name,bucket,date,goals
+2000,Luís Figo,league,2000-01-05,2
+2000,Luís Figo,league,2000-01-09,1
+2000,Luís Figo,league,2000-03-04,1
+2000,Luís Figo,league,2000-03-11,1
+2000,Luís Figo,league,2000-09-09,1
+2000,Luís Figo,league,2000-10-29,1
+2000,Luís Figo,ucl,2000-04-05,1
+2000,Luís Figo,ucl,2000-04-18,1
+2000,Luís Figo,ucl,2000-10-17,1
 2000,Zinedine Zidane,league,2000-01-16,1
 2000,Zinedine Zidane,league,2000-01-23,1
 2000,Zinedine Zidane,league,2000-02-13,1
 2000,Zinedine Zidane,league,2000-10-15,1
+2000,Andriy Shevchenko,ucl,2000-08-09,2
+2000,Andriy Shevchenko,ucl,2000-08-22,2
+2000,Andriy Shevchenko,ucl,2000-09-13,2
+2000,Andriy Shevchenko,ucl,2000-10-24,1
+2000,Andriy Shevchenko,club_other,2000-01-12,2
+2000,Andriy Shevchenko,club_other,2000-01-27,1
 2000,Alessandro Nesta,ucl,2000-03-08,0
 2000,Alessandro Nesta,ucl,2000-10-17,0
 2000,Rivaldo,league,2000-01-09,1
@@ -34,6 +49,18 @@ year,name,bucket,date,goals
 2000,Gabriel Batistuta,ucl,2000-03-21,1
 2000,Gabriel Batistuta,club_other,2000-09-28,1
 2000,Gabriel Batistuta,club_other,2000-11-09,0
+2000,Raúl,league,2000-01-16,1
+2000,Raúl,league,2000-01-29,1
+2000,Raúl,league,2000-03-03,1
+2000,Raúl,league,2000-03-10,1
+2000,Raúl,league,2000-04-08,1
+2000,Raúl,league,2000-04-14,1
+2000,Raúl,league,2000-04-28,1
+2000,Raúl,league,2000-09-09,1
+2000,Raúl,league,2000-09-16,1
+2000,Raúl,league,2000-10-14,1
+2000,Raúl,league,2000-11-04,1
+2000,Raúl,league,2000-11-12,1
 2000,David Beckham,league,2000-01-29,1
 2000,David Beckham,league,2000-03-18,1
 2000,David Beckham,league,2000-03-25,1
@@ -63,6 +90,14 @@ year,name,bucket,date,goals
 2000,Francesco Totti,club_other,2000-03-09,0
 2000,Francesco Totti,club_other,2000-09-22,1
 2000,Francesco Totti,club_other,2000-09-28,2
+2000,Roberto Carlos,league,2000-01-16,1
+2000,Roberto Carlos,league,2000-02-26,1
+2000,Roberto Carlos,league,2000-04-21,1
+2000,Roberto Carlos,league,2000-05-13,1
+2000,Roberto Carlos,league,2000-09-23,1
+2000,Roberto Carlos,ucl,2000-03-14,1
+2000,Roberto Carlos,ucl,2000-09-12,1
+2000,Roberto Carlos,ucl,2000-09-27,2
 2000,Patrick Kluivert,league,2000-01-29,1
 2000,Patrick Kluivert,league,2000-02-13,1
 2000,Patrick Kluivert,league,2000-03-11,1
@@ -113,6 +148,23 @@ year,name,bucket,date,goals
 2001,Michael Owen,club_other,2001-03-15,1
 2001,Michael Owen,club_other,2001-08-12,1
 2001,Michael Owen,club_other,2001-08-24,1
+2001,Raúl,league,2001-01-07,1
+2001,Raúl,league,2001-01-24,1
+2001,Raúl,league,2001-01-28,1
+2001,Raúl,league,2001-02-04,2
+2001,Raúl,league,2001-02-17,1
+2001,Raúl,league,2001-03-03,2
+2001,Raúl,league,2001-03-11,1
+2001,Raúl,league,2001-04-22,2
+2001,Raúl,league,2001-04-28,1
+2001,Raúl,league,2001-05-13,1
+2001,Raúl,league,2001-05-26,2
+2001,Raúl,league,2001-06-17,2
+2001,Raúl,league,2001-09-22,1
+2001,Raúl,league,2001-09-29,1
+2001,Raúl,league,2001-10-06,1
+2001,Raúl,league,2001-10-27,1
+2001,Raúl,league,2001-11-11,1
 2001,Oliver Kahn,ucl,2001-05-01,0
 2001,David Beckham,league,2001-04-28,1
 2001,David Beckham,league,2001-08-19,1
@@ -135,6 +187,19 @@ year,name,bucket,date,goals
 2001,Francesco Totti,ucl,2001-10-03,1
 2001,Francesco Totti,ucl,2001-10-31,1
 2001,Francesco Totti,club_other,2001-08-19,1
+2001,Luís Figo,league,2001-01-14,1
+2001,Luís Figo,league,2001-02-24,1
+2001,Luís Figo,league,2001-03-31,1
+2001,Luís Figo,league,2001-05-13,1
+2001,Luís Figo,league,2001-09-22,1
+2001,Luís Figo,league,2001-10-27,1
+2001,Luís Figo,league,2001-11-04,1
+2001,Luís Figo,ucl,2001-02-21,1
+2001,Luís Figo,ucl,2001-03-06,1
+2001,Luís Figo,ucl,2001-05-09,1
+2001,Luís Figo,ucl,2001-09-11,1
+2001,Luís Figo,ucl,2001-09-19,1
+2001,Luís Figo,ucl,2001-10-24,1
 2001,Rivaldo,league,2001-01-07,1
 2001,Rivaldo,league,2001-01-13,1
 2001,Rivaldo,league,2001-02-17,1
@@ -147,6 +212,9 @@ year,name,bucket,date,goals
 2001,Rivaldo,league,2001-06-16,3
 2001,Rivaldo,league,2001-10-21,1
 2001,Rivaldo,league,2001-10-27,2
+2001,Andriy Shevchenko,ucl,2001-03-13,1
+2001,Andriy Shevchenko,club_other,2001-09-20,1
+2001,Andriy Shevchenko,club_other,2001-10-18,1
 2001,Thierry Henry,club_other,2001-02-18,1
 2001,Zinedine Zidane,league,2001-02-25,1
 2001,Zinedine Zidane,league,2001-05-06,1
@@ -173,7 +241,18 @@ year,name,bucket,date,goals
 2001,Henrik Larsson,league,2001-10-13,1
 2001,Henrik Larsson,league,2001-11-03,1
 2001,Henrik Larsson,league,2001-11-17,1
+2001,Hernán Crespo,ucl,2001-02-13,1
+2001,Hernán Crespo,ucl,2001-02-21,1
+2001,Hernán Crespo,ucl,2001-08-08,1
+2001,Hernán Crespo,ucl,2001-08-21,2
 2001,Hernán Crespo,club_other,2001-11-11,2
+2001,Roberto Carlos,league,2001-01-21,1
+2001,Roberto Carlos,league,2001-01-24,1
+2001,Roberto Carlos,league,2001-04-15,1
+2001,Roberto Carlos,league,2001-09-08,1
+2001,Roberto Carlos,league,2001-09-22,1
+2001,Roberto Carlos,ucl,2001-09-19,1
+2001,Roberto Carlos,ucl,2001-10-16,1
 2001,Sami Hyypiä,league,2001-04-28,1
 2001,Sami Hyypiä,league,2001-10-20,1
 2001,Roberto Baggio,club_other,2001-08-21,1
@@ -186,15 +265,20 @@ year,name,bucket,date,goals
 2001,Rui Costa,league,2001-01-13,1
 2001,Rui Costa,league,2001-03-04,1
 2001,Rui Costa,league,2001-03-31,1
+2001,Rui Costa,club_other,2001-02-07,1
+2001,Rui Costa,club_other,2001-09-27,1
+2001,Rui Costa,club_other,2001-10-18,1
 2002,Roberto Carlos,league,2002-04-20,1
 2002,Roberto Carlos,league,2002-11-09,1
 2002,Roberto Carlos,club_other,2002-01-08,1
 2002,Roberto Carlos,club_other,2002-08-30,1
+2002,Oliver Kahn,club_other,2002-11-06,0
 2002,Zinedine Zidane,league,2002-01-05,1
 2002,Zinedine Zidane,league,2002-02-10,1
 2002,Zinedine Zidane,league,2002-03-16,1
 2002,Zinedine Zidane,league,2002-10-06,1
 2002,Zinedine Zidane,league,2002-10-26,1
+2002,Michael Ballack,club_other,2002-08-31,1
 2002,Thierry Henry,league,2002-01-23,1
 2002,Thierry Henry,league,2002-01-30,1
 2002,Thierry Henry,league,2002-02-23,2
@@ -350,6 +434,8 @@ year,name,bucket,date,goals
 2003,Roberto Carlos,league,2003-05-31,0
 2003,Roberto Carlos,league,2003-06-22,1
 2003,Roberto Carlos,league,2003-10-18,1
+2003,Roberto Carlos,ucl,2003-05-06,1
+2003,Roberto Carlos,ucl,2003-09-16,1
 2003,Gianluigi Buffon,ucl,2003-04-22,0
 2003,David Beckham,league,2003-01-01,1
 2003,David Beckham,league,2003-03-15,1
@@ -408,6 +494,10 @@ year,name,bucket,date,goals
 2003,Francesco Totti,ucl,2003-03-11,0
 2003,Francesco Totti,club_other,2003-05-20,1
 2003,Francesco Totti,club_other,2003-05-31,2
+2003,Michael Ballack,club_other,2003-03-05,1
+2003,Michael Ballack,club_other,2003-05-31,2
+2003,Michael Ballack,club_other,2003-08-30,1
+2003,Michael Ballack,club_other,2003-07-22,2
 2003,Filippo Inzaghi,league,2003-02-02,1
 2003,Filippo Inzaghi,league,2003-02-16,1
 2003,Filippo Inzaghi,league,2003-02-22,1
@@ -500,6 +590,8 @@ year,name,bucket,date,goals
 2004,Cristiano Ronaldo,league,2004-05-15,1
 2004,Cristiano Ronaldo,club_other,2004-02-14,1
 2004,Cristiano Ronaldo,club_other,2004-05-22,1
+2004,Milan Baroš,club_other,2004-03-11,1
+2004,Milan Baroš,club_other,2004-10-26,2
 2004,Samuel Eto'o,ucl,2004-09-29,1
 2004,Samuel Eto'o,ucl,2004-11-02,1
 2004,Kaká,league,2004-01-11,2
@@ -521,8 +613,6 @@ year,name,bucket,date,goals
 2004,Frank Lampard,ucl,2004-04-06,1
 2004,Frank Lampard,ucl,2004-05-05,1
 2004,Frank Lampard,club_other,2004-01-03,1
-2004,Didier Drogba,ucl,2004-09-14,2
-2004,Didier Drogba,ucl,2004-09-29,1
 2004,Luís Figo,league,2004-02-01,1
 2004,Luís Figo,league,2004-02-15,1
 2004,Luís Figo,league,2004-02-29,1
@@ -537,6 +627,11 @@ year,name,bucket,date,goals
 2004,Luís Figo,club_other,2004-01-21,1
 2004,Zinedine Zidane,league,2004-02-29,2
 2004,Zinedine Zidane,league,2004-03-28,1
+2004,Ludovic Giuly,league,2004-01-09,2
+2004,Ludovic Giuly,league,2004-04-30,1
+2004,Ludovic Giuly,league,2004-05-09,1
+2004,Ludovic Giuly,league,2004-08-29,1
+2004,Ludovic Giuly,league,2004-09-11,1
 2004,Ludovic Giuly,ucl,2004-04-06,2
 2004,Ludovic Giuly,ucl,2004-09-14,1
 2004,Ludovic Giuly,club_other,2004-01-04,1
@@ -583,6 +678,11 @@ year,name,bucket,date,goals
 2005,Andriy Shevchenko,ucl,2005-09-28,1
 2005,Paolo Maldini,league,2005-10-02,2
 2005,Paolo Maldini,ucl,2005-05-25,1
+2005,Adriano,league,2005-03-06,1
+2005,Adriano,league,2005-03-12,0
+2005,Adriano,league,2005-05-22,1
+2005,Adriano,league,2005-08-28,3
+2005,Adriano,league,2005-10-26,2
 2005,Adriano,ucl,2005-03-15,3
 2005,Adriano,ucl,2005-08-10,1
 2005,Adriano,club_other,2005-06-12,2
@@ -596,6 +696,8 @@ year,name,bucket,date,goals
 2005,Kaká,ucl,2005-09-13,2
 2005,Kaká,ucl,2005-09-28,0
 2005,Samuel Eto'o,ucl,2005-02-23,1
+2005,Samuel Eto'o,club_other,2005-08-13,1
+2005,Samuel Eto'o,club_other,2005-08-20,1
 2005,John Terry,ucl,2005-03-08,1
 2005,John Terry,club_other,2005-01-30,1
 2005,John Terry,club_other,2005-10-26,1
@@ -643,6 +745,11 @@ year,name,bucket,date,goals
 2005,Cristiano Ronaldo,club_other,2005-02-19,1
 2005,Cristiano Ronaldo,club_other,2005-03-12,1
 2005,Cristiano Ronaldo,club_other,2005-04-17,1
+2005,Michael Essien,league,2005-02-01,1
+2005,Michael Essien,league,2005-02-18,0
+2005,Michael Essien,league,2005-04-24,1
+2005,Michael Essien,league,2005-08-27,0
+2005,Michael Essien,league,2005-10-15,0
 2006,Fabio Cannavaro,league,2006-01-22,2
 2006,Fabio Cannavaro,league,2006-04-15,1
 2006,Thierry Henry,league,2006-01-14,3
@@ -664,6 +771,17 @@ year,name,bucket,date,goals
 2006,Thierry Henry,ucl,2006-05-17,0
 2006,Thierry Henry,ucl,2006-09-26,1
 2006,Thierry Henry,club_other,2006-01-24,1
+2006,Samuel Eto'o,league,2006-01-07,1
+2006,Samuel Eto'o,league,2006-03-04,1
+2006,Samuel Eto'o,league,2006-03-18,1
+2006,Samuel Eto'o,league,2006-03-21,2
+2006,Samuel Eto'o,league,2006-04-09,1
+2006,Samuel Eto'o,league,2006-04-14,1
+2006,Samuel Eto'o,league,2006-05-03,1
+2006,Samuel Eto'o,league,2006-05-20,1
+2006,Samuel Eto'o,league,2006-08-28,1
+2006,Samuel Eto'o,league,2006-09-09,2
+2006,Samuel Eto'o,league,2006-09-17,1
 2006,Samuel Eto'o,ucl,2006-02-22,1
 2006,Samuel Eto'o,ucl,2006-04-05,1
 2006,Samuel Eto'o,ucl,2006-05-17,1
@@ -726,6 +844,7 @@ year,name,bucket,date,goals
 2006,Frank Lampard,club_other,2006-01-29,1
 2006,Frank Lampard,club_other,2006-02-08,1
 2006,Frank Lampard,club_other,2006-08-13,0
+2006,Carles Puyol,league,2006-09-30,1
 2006,Juninho,league,2006-02-17,1
 2006,Juninho,league,2006-02-25,1
 2006,Juninho,league,2006-03-04,1
@@ -738,6 +857,13 @@ year,name,bucket,date,goals
 2006,Juninho,ucl,2006-02-21,1
 2006,Juninho,ucl,2006-10-17,1
 2006,Juninho,club_other,2006-03-21,1
+2006,Lionel Messi,league,2006-01-15,1
+2006,Lionel Messi,league,2006-01-22,1
+2006,Lionel Messi,league,2006-01-29,2
+2006,Lionel Messi,league,2006-02-18,1
+2006,Lionel Messi,league,2006-08-28,1
+2006,Lionel Messi,league,2006-09-09,1
+2006,Lionel Messi,league,2006-10-15,1
 2006,Luca Toni,league,2006-01-15,2
 2006,Luca Toni,league,2006-01-18,1
 2006,Luca Toni,league,2006-01-22,2
@@ -775,7 +901,6 @@ year,name,bucket,date,goals
 2007,Kaká,ucl,2007-04-24,2
 2007,Kaká,ucl,2007-05-02,1
 2007,Kaká,ucl,2007-10-03,1
-2007,Kaká,club_other,2007-08-31,1
 2007,Cristiano Ronaldo,league,2007-01-13,1
 2007,Cristiano Ronaldo,league,2007-01-31,1
 2007,Cristiano Ronaldo,league,2007-02-04,1
@@ -968,6 +1093,15 @@ year,name,bucket,date,goals
 2008,Zlatan Ibrahimović,league,2008-10-04,1
 2008,Zlatan Ibrahimović,league,2008-10-19,2
 2008,Zlatan Ibrahimović,league,2008-10-26,0
+2008,Kaká,league,2008-01-13,1
+2008,Kaká,league,2008-03-09,1
+2008,Kaká,league,2008-03-15,1
+2008,Kaká,league,2008-04-05,1
+2008,Kaká,league,2008-04-20,3
+2008,Kaká,league,2008-05-04,1
+2008,Kaká,league,2008-09-21,1
+2008,Kaká,league,2008-10-26,1
+2008,Kaká,league,2008-10-29,1
 2008,Kaká,ucl,2008-03-04,0
 2008,Steven Gerrard,club_other,2008-01-15,3
 2008,Emmanuel Adebayor,club_other,2008-01-26,2
@@ -1085,6 +1219,16 @@ year,name,bucket,date,goals
 2009,Samuel Eto'o,ucl,2009-05-06,0
 2009,Samuel Eto'o,ucl,2009-05-27,1
 2009,Samuel Eto'o,club_other,2009-08-08,1
+2009,Kaká,league,2009-01-25,2
+2009,Kaká,league,2009-02-01,1
+2009,Kaká,league,2009-02-07,1
+2009,Kaká,league,2009-04-19,1
+2009,Kaká,league,2009-04-26,2
+2009,Kaká,league,2009-05-03,1
+2009,Kaká,league,2009-05-31,1
+2009,Kaká,league,2009-09-23,1
+2009,Kaká,league,2009-09-26,1
+2009,Kaká,league,2009-10-04,0
 2009,Kaká,ucl,2009-09-15,0
 2009,Kaká,ucl,2009-09-30,1
 2009,Zlatan Ibrahimović,league,2009-01-10,1
@@ -1460,6 +1604,24 @@ year,name,bucket,date,goals
 2011,Diego Forlán,league,2011-01-17,1
 2011,Diego Forlán,league,2011-03-05,1
 2011,Diego Forlán,league,2011-09-11,1
+2011,Samuel Eto'o,league,2011-01-19,1
+2011,Samuel Eto'o,league,2011-01-15,2
+2011,Samuel Eto'o,league,2011-01-30,1
+2011,Samuel Eto'o,league,2011-02-03,0
+2011,Samuel Eto'o,league,2011-02-06,2
+2011,Samuel Eto'o,league,2011-02-27,1
+2011,Samuel Eto'o,league,2011-03-06,2
+2011,Samuel Eto'o,league,2011-03-11,1
+2011,Samuel Eto'o,league,2011-04-23,1
+2011,Samuel Eto'o,league,2011-05-15,1
+2011,Samuel Eto'o,league,2011-08-27,1
+2011,Samuel Eto'o,league,2011-09-11,1
+2011,Samuel Eto'o,league,2011-09-26,1
+2011,Samuel Eto'o,league,2011-10-02,0
+2011,Samuel Eto'o,league,2011-10-23,1
+2011,Samuel Eto'o,league,2011-10-27,1
+2011,Samuel Eto'o,league,2011-11-05,2
+2011,Samuel Eto'o,league,2011-11-27,1
 2011,Iker Casillas,league,2011-02-13,0
 2011,Iker Casillas,league,2011-04-09,0
 2011,Iker Casillas,ucl,2011-02-22,0
@@ -1909,6 +2071,7 @@ year,name,bucket,date,goals
 2013,Andrés Iniesta,league,2013-05-26,0
 2013,Andrés Iniesta,league,2013-06-01,1
 2013,Andrés Iniesta,league,2013-11-23,1
+2013,Andrés Iniesta,ucl,2013-04-23,0
 2013,Andrés Iniesta,ucl,2013-11-26,0
 2013,Andrés Iniesta,club_other,2013-01-24,1
 2013,Robin van Persie,league,2013-01-01,2
@@ -2201,6 +2364,23 @@ year,name,bucket,date,goals
 2014,Gareth Bale,ucl,2014-09-16,1
 2014,Gareth Bale,ucl,2014-12-09,1
 2014,Gareth Bale,club_other,2014-04-15,1
+2014,Zlatan Ibrahimović,league,2014-01-19,2
+2014,Zlatan Ibrahimović,league,2014-01-31,1
+2014,Zlatan Ibrahimović,league,2014-02-14,1
+2014,Zlatan Ibrahimović,league,2014-02-23,3
+2014,Zlatan Ibrahimović,league,2014-03-08,1
+2014,Zlatan Ibrahimović,league,2014-03-16,2
+2014,Zlatan Ibrahimović,league,2014-05-17,1
+2014,Zlatan Ibrahimović,league,2014-08-08,2
+2014,Zlatan Ibrahimović,league,2014-08-31,3
+2014,Zlatan Ibrahimović,league,2014-11-29,1
+2014,Zlatan Ibrahimović,league,2014-12-06,2
+2014,Zlatan Ibrahimović,ucl,2014-02-18,2
+2014,Zlatan Ibrahimović,ucl,2014-11-25,1
+2014,Zlatan Ibrahimović,ucl,2014-12-10,1
+2014,Zlatan Ibrahimović,club_other,2014-01-08,3
+2014,Zlatan Ibrahimović,club_other,2014-02-04,2
+2014,Zlatan Ibrahimović,club_other,2014-08-02,2
 2014,Yaya Touré,league,2014-01-01,1
 2014,Yaya Touré,league,2014-01-18,1
 2014,Yaya Touré,league,2014-01-29,1
@@ -2407,6 +2587,24 @@ year,name,bucket,date,goals
 2015,Alexis Sánchez,league,2015-09-26,3
 2015,Alexis Sánchez,league,2015-10-04,2
 2015,Alexis Sánchez,league,2015-10-17,1
+2015,Zlatan Ibrahimović,league,2015-01-25,1
+2015,Zlatan Ibrahimović,league,2015-02-08,1
+2015,Zlatan Ibrahimović,league,2015-02-14,1
+2015,Zlatan Ibrahimović,league,2015-03-07,1
+2015,Zlatan Ibrahimović,league,2015-03-15,2
+2015,Zlatan Ibrahimović,league,2015-03-20,3
+2015,Zlatan Ibrahimović,league,2015-05-08,2
+2015,Zlatan Ibrahimović,league,2015-09-22,1
+2015,Zlatan Ibrahimović,league,2015-09-26,1
+2015,Zlatan Ibrahimović,league,2015-10-04,2
+2015,Zlatan Ibrahimović,league,2015-10-17,2
+2015,Zlatan Ibrahimović,league,2015-10-25,1
+2015,Zlatan Ibrahimović,league,2015-11-07,2
+2015,Zlatan Ibrahimović,league,2015-11-28,1
+2015,Zlatan Ibrahimović,league,2015-12-04,2
+2015,Zlatan Ibrahimović,ucl,2015-09-30,0
+2015,Zlatan Ibrahimović,ucl,2015-11-25,1
+2015,Zlatan Ibrahimović,ucl,2015-12-08,1
 2015,Yaya Touré,league,2015-01-01,1
 2015,Yaya Touré,league,2015-02-21,0
 2015,Yaya Touré,league,2015-04-06,1
@@ -2743,6 +2941,15 @@ year,name,bucket,date,goals
 2016,Luka Modrić,league,2016-04-20,1
 2016,Luka Modrić,league,2016-04-30,0
 2016,Luka Modrić,league,2016-09-10,1
+2016,Dimitri Payet,league,2016-01-12,1
+2016,Dimitri Payet,league,2016-02-13,1
+2016,Dimitri Payet,league,2016-03-05,1
+2016,Dimitri Payet,league,2016-04-02,1
+2016,Dimitri Payet,league,2016-09-25,0
+2016,Dimitri Payet,league,2016-10-01,1
+2016,Dimitri Payet,club_other,2016-02-21,2
+2016,Dimitri Payet,club_other,2016-03-13,1
+2016,Dimitri Payet,club_other,2016-09-21,1
 2016,Kevin De Bruyne,ucl,2016-04-06,1
 2016,Kevin De Bruyne,ucl,2016-04-12,1
 2016,Kevin De Bruyne,ucl,2016-05-04,0
@@ -3347,6 +3554,30 @@ year,name,bucket,date,goals
 2019,Mohamed Salah,ucl,2019-06-01,1
 2019,Mohamed Salah,ucl,2019-10-02,2
 2019,Mohamed Salah,ucl,2019-10-23,1
+2019,Kylian Mbappé,league,2019-01-12,1
+2019,Kylian Mbappé,league,2019-01-19,3
+2019,Kylian Mbappé,league,2019-01-27,1
+2019,Kylian Mbappé,league,2019-02-17,1
+2019,Kylian Mbappé,league,2019-02-20,1
+2019,Kylian Mbappé,league,2019-02-23,2
+2019,Kylian Mbappé,league,2019-03-02,2
+2019,Kylian Mbappé,league,2019-03-12,1
+2019,Kylian Mbappé,league,2019-03-17,1
+2019,Kylian Mbappé,league,2019-03-31,1
+2019,Kylian Mbappé,league,2019-04-14,0
+2019,Kylian Mbappé,league,2019-04-21,3
+2019,Kylian Mbappé,league,2019-05-18,2
+2019,Kylian Mbappé,league,2019-05-24,1
+2019,Kylian Mbappé,league,2019-08-11,1
+2019,Kylian Mbappé,league,2019-10-18,1
+2019,Kylian Mbappé,league,2019-10-27,2
+2019,Kylian Mbappé,league,2019-11-01,1
+2019,Kylian Mbappé,ucl,2019-02-12,1
+2019,Kylian Mbappé,ucl,2019-10-22,3
+2019,Kylian Mbappé,club_other,2019-01-06,1
+2019,Kylian Mbappé,club_other,2019-04-03,1
+2019,Kylian Mbappé,club_other,2019-04-27,0
+2019,Kylian Mbappé,club_other,2019-08-03,1
 2019,Alisson,league,2019-03-10,0
 2019,Bernardo Silva,league,2019-01-03,0
 2019,Bernardo Silva,league,2019-03-30,1
@@ -3513,6 +3744,7 @@ year,name,bucket,date,goals
 2019,Karim Benzema,club_other,2019-01-31,2
 2019,Georginio Wijnaldum,league,2019-01-03,0
 2019,Georginio Wijnaldum,league,2019-02-09,1
+2019,Georginio Wijnaldum,league,2019-02-24,0
 2019,Georginio Wijnaldum,league,2019-04-21,1
 2019,Georginio Wijnaldum,league,2019-09-28,1
 2019,Georginio Wijnaldum,ucl,2019-05-07,2
@@ -3570,9 +3802,39 @@ year,name,bucket,date,goals
 2021,Lionel Messi,league,2021-05-02,2
 2021,Lionel Messi,league,2021-05-11,1
 2021,Lionel Messi,league,2021-05-16,1
+2021,Robert Lewandowski,ucl,2021-02-23,1
+2021,Robert Lewandowski,ucl,2021-03-17,1
+2021,Robert Lewandowski,ucl,2021-09-14,2
+2021,Robert Lewandowski,ucl,2021-09-29,2
+2021,Robert Lewandowski,ucl,2021-10-20,1
 2021,Robert Lewandowski,club_other,2021-02-08,2
 2021,Robert Lewandowski,club_other,2021-08-17,2
+2021,Karim Benzema,league,2021-01-23,2
+2021,Karim Benzema,league,2021-02-09,1
+2021,Karim Benzema,league,2021-02-14,1
+2021,Karim Benzema,league,2021-03-07,1
+2021,Karim Benzema,league,2021-03-13,2
+2021,Karim Benzema,league,2021-03-20,2
+2021,Karim Benzema,league,2021-04-03,1
+2021,Karim Benzema,league,2021-04-10,1
+2021,Karim Benzema,league,2021-04-21,2
+2021,Karim Benzema,league,2021-05-13,1
+2021,Karim Benzema,league,2021-05-22,1
+2021,Karim Benzema,league,2021-08-14,2
+2021,Karim Benzema,league,2021-09-12,3
+2021,Karim Benzema,league,2021-09-19,1
+2021,Karim Benzema,league,2021-09-22,2
+2021,Karim Benzema,league,2021-10-03,1
+2021,Karim Benzema,ucl,2021-03-16,1
+2021,Karim Benzema,ucl,2021-04-27,1
+2021,Karim Benzema,ucl,2021-09-28,1
+2021,Karim Benzema,ucl,2021-10-19,1
 2021,Karim Benzema,club_other,2021-01-14,1
+2021,N'Golo Kanté,league,2021-01-03,0
+2021,N'Golo Kanté,league,2021-02-04,0
+2021,N'Golo Kanté,league,2021-04-24,0
+2021,N'Golo Kanté,league,2021-09-19,1
+2021,N'Golo Kanté,league,2021-10-30,0
 2021,Cristiano Ronaldo,league,2021-01-03,2
 2021,Cristiano Ronaldo,league,2021-01-10,1
 2021,Cristiano Ronaldo,league,2021-02-06,1
@@ -3602,8 +3864,40 @@ year,name,bucket,date,goals
 2021,Mohamed Salah,ucl,2021-10-19,2
 2021,Mohamed Salah,club_other,2021-01-08,1
 2021,Mohamed Salah,club_other,2021-01-24,2
+2021,Kevin De Bruyne,ucl,2021-03-16,1
+2021,Kevin De Bruyne,ucl,2021-04-06,1
+2021,Kevin De Bruyne,ucl,2021-04-28,1
+2021,Kevin De Bruyne,ucl,2021-05-04,0
+2021,Kevin De Bruyne,ucl,2021-09-28,0
 2021,Kevin De Bruyne,club_other,2021-03-20,1
 2021,Kevin De Bruyne,club_other,2021-09-21,1
+2021,Kylian Mbappé,league,2021-01-22,2
+2021,Kylian Mbappé,league,2021-02-03,1
+2021,Kylian Mbappé,league,2021-02-07,1
+2021,Kylian Mbappé,league,2021-02-13,0
+2021,Kylian Mbappé,league,2021-02-21,0
+2021,Kylian Mbappé,league,2021-02-27,2
+2021,Kylian Mbappé,league,2021-03-21,2
+2021,Kylian Mbappé,league,2021-04-03,0
+2021,Kylian Mbappé,league,2021-04-10,1
+2021,Kylian Mbappé,league,2021-04-18,2
+2021,Kylian Mbappé,league,2021-04-24,2
+2021,Kylian Mbappé,league,2021-05-16,1
+2021,Kylian Mbappé,league,2021-05-23,1
+2021,Kylian Mbappé,league,2021-08-20,1
+2021,Kylian Mbappé,league,2021-08-29,2
+2021,Kylian Mbappé,league,2021-09-11,1
+2021,Kylian Mbappé,league,2021-10-03,0
+2021,Kylian Mbappé,league,2021-10-15,1
+2021,Kylian Mbappé,ucl,2021-02-16,3
+2021,Kylian Mbappé,ucl,2021-03-10,1
+2021,Kylian Mbappé,ucl,2021-04-07,2
+2021,Kylian Mbappé,ucl,2021-10-19,1
+2021,Kylian Mbappé,club_other,2021-03-06,2
+2021,Kylian Mbappé,club_other,2021-03-17,2
+2021,Kylian Mbappé,club_other,2021-05-12,2
+2021,Kylian Mbappé,club_other,2021-05-19,1
+2021,Kylian Mbappé,club_other,2021-01-13,0
 2021,Gianluigi Donnarumma,league,2021-10-03,0
 2021,Gianluigi Donnarumma,club_other,2021-01-12,0
 2021,Gianluigi Donnarumma,club_other,2021-02-18,0
@@ -3613,6 +3907,21 @@ year,name,bucket,date,goals
 2021,Erling Haaland,club_other,2021-02-02,1
 2021,Erling Haaland,club_other,2021-05-13,2
 2021,Erling Haaland,club_other,2021-08-07,3
+2021,Romelu Lukaku,league,2021-01-03,1
+2021,Romelu Lukaku,league,2021-01-10,0
+2021,Romelu Lukaku,league,2021-01-30,2
+2021,Romelu Lukaku,league,2021-02-14,2
+2021,Romelu Lukaku,league,2021-02-21,1
+2021,Romelu Lukaku,league,2021-02-28,1
+2021,Romelu Lukaku,league,2021-03-14,1
+2021,Romelu Lukaku,league,2021-04-03,1
+2021,Romelu Lukaku,league,2021-04-07,1
+2021,Romelu Lukaku,league,2021-05-12,1
+2021,Romelu Lukaku,league,2021-05-15,1
+2021,Romelu Lukaku,league,2021-05-23,1
+2021,Romelu Lukaku,league,2021-08-22,1
+2021,Romelu Lukaku,league,2021-09-11,2
+2021,Romelu Lukaku,ucl,2021-09-14,1
 2021,Romelu Lukaku,club_other,2021-01-13,1
 2021,Romelu Lukaku,club_other,2021-01-26,1
 2021,Giorgio Chiellini,league,2021-05-15,0
@@ -3620,18 +3929,26 @@ year,name,bucket,date,goals
 2021,Giorgio Chiellini,league,2021-10-24,0
 2021,Leonardo Bonucci,league,2021-09-26,1
 2021,Raheem Sterling,club_other,2021-02-10,1
+2021,Neymar,ucl,2021-04-28,0
+2021,Neymar,club_other,2021-04-21,1
+2021,Neymar,club_other,2021-05-12,0
+2021,Neymar,club_other,2021-01-13,1
 2021,Simon Kjær,league,2021-02-21,0
 2021,Simon Kjær,league,2021-05-16,0
 2021,Simon Kjær,league,2021-08-23,0
 2021,Simon Kjær,club_other,2021-01-26,0
 2021,Simon Kjær,club_other,2021-03-11,1
 2021,Simon Kjær,club_other,2021-03-18,0
+2021,Mason Mount,league,2021-01-16,1
+2021,Mason Mount,league,2021-02-07,1
+2021,Mason Mount,league,2021-02-20,1
+2021,Mason Mount,league,2021-03-04,1
+2021,Mason Mount,league,2021-04-03,1
+2021,Mason Mount,league,2021-10-23,3
+2021,Mason Mount,ucl,2021-02-23,0
+2021,Mason Mount,ucl,2021-04-07,1
+2021,Mason Mount,ucl,2021-05-05,1
 2021,Mason Mount,club_other,2021-01-10,1
-2021,Riyad Mahrez,league,2021-01-26,1
-2021,Riyad Mahrez,league,2021-02-17,1
-2021,Riyad Mahrez,league,2021-03-02,1
-2021,Riyad Mahrez,league,2021-03-10,2
-2021,Riyad Mahrez,league,2021-10-23,1
 2021,Riyad Mahrez,ucl,2021-04-14,1
 2021,Riyad Mahrez,ucl,2021-04-28,1
 2021,Riyad Mahrez,ucl,2021-05-04,2
@@ -3661,7 +3978,14 @@ year,name,bucket,date,goals
 2021,Harry Kane,league,2021-04-16,2
 2021,Harry Kane,league,2021-05-16,1
 2021,Harry Kane,league,2021-05-23,1
+2021,Harry Kane,league,2021-08-22,0
+2021,Harry Kane,league,2021-08-29,0
 2021,Harry Kane,league,2021-10-17,1
+2021,Harry Kane,club_other,2021-02-10,1
+2021,Harry Kane,club_other,2021-03-11,2
+2021,Harry Kane,club_other,2021-09-22,1
+2021,Harry Kane,club_other,2021-08-26,2
+2021,Harry Kane,club_other,2021-09-30,3
 2021,Pedri,league,2021-01-06,1
 2021,Pedri,league,2021-04-10,0
 2021,Pedri,league,2021-05-11,1
@@ -3691,6 +4015,1656 @@ year,name,bucket,date,goals
 2021,Rúben Dias,league,2021-02-27,1
 2021,Rúben Dias,league,2021-05-23,0
 2021,Rúben Dias,league,2021-09-25,0
+2021,Rúben Dias,league,2021-10-03,0
 2021,Rúben Dias,club_other,2021-04-17,0
 2021,Rúben Dias,club_other,2021-08-07,0
+2021,Luka Modrić,league,2021-03-20,0
+2021,Luka Modrić,league,2021-05-13,1
+2021,Luka Modrić,league,2021-05-22,1
+2021,Cesar Azpilicueta,league,2021-01-16,0
+2021,Cesar Azpilicueta,league,2021-01-31,1
+2021,Cesar Azpilicueta,league,2021-02-04,0
+2021,Cesar Azpilicueta,league,2021-05-18,0
+2021,Cesar Azpilicueta,league,2021-05-23,0
+2021,Cesar Azpilicueta,ucl,2021-09-14,0
 2021,Cesar Azpilicueta,club_other,2021-04-17,0
+2022,Karim Benzema,league,2021-08-14,2
+2022,Karim Benzema,league,2021-09-12,3
+2022,Karim Benzema,league,2021-09-19,1
+2022,Karim Benzema,league,2021-09-22,2
+2022,Karim Benzema,league,2021-10-03,1
+2022,Karim Benzema,league,2021-11-06,1
+2022,Karim Benzema,league,2021-11-28,1
+2022,Karim Benzema,league,2021-12-01,1
+2022,Karim Benzema,league,2021-12-12,1
+2022,Karim Benzema,league,2021-12-22,2
+2022,Karim Benzema,league,2022-01-08,2
+2022,Karim Benzema,league,2022-02-19,1
+2022,Karim Benzema,league,2022-02-26,1
+2022,Karim Benzema,league,2022-03-05,1
+2022,Karim Benzema,league,2022-03-14,2
+2022,Karim Benzema,league,2022-04-02,2
+2022,Karim Benzema,league,2022-04-17,1
+2022,Karim Benzema,league,2022-04-30,1
+2022,Karim Benzema,league,2022-05-12,1
+2022,Karim Benzema,ucl,2021-09-28,1
+2022,Karim Benzema,ucl,2021-10-19,1
+2022,Karim Benzema,ucl,2021-11-03,2
+2022,Karim Benzema,ucl,2021-11-24,1
+2022,Karim Benzema,ucl,2022-03-09,3
+2022,Karim Benzema,ucl,2022-04-06,3
+2022,Karim Benzema,ucl,2022-04-12,1
+2022,Karim Benzema,ucl,2022-04-26,2
+2022,Karim Benzema,ucl,2022-05-04,1
+2022,Karim Benzema,club_other,2022-01-12,1
+2022,Karim Benzema,club_other,2022-01-16,1
+2022,Sadio Mané,league,2021-08-21,1
+2022,Sadio Mané,league,2021-09-12,1
+2022,Sadio Mané,league,2021-09-18,1
+2022,Sadio Mané,league,2021-10-03,1
+2022,Sadio Mané,league,2021-10-16,1
+2022,Sadio Mané,league,2021-10-30,1
+2022,Sadio Mané,league,2021-11-20,1
+2022,Sadio Mané,league,2022-01-02,1
+2022,Sadio Mané,league,2022-02-19,1
+2022,Sadio Mané,league,2022-02-23,2
+2022,Sadio Mané,league,2022-03-05,1
+2022,Sadio Mané,league,2022-04-10,1
+2022,Sadio Mané,league,2022-04-19,1
+2022,Sadio Mané,league,2022-04-24,0
+2022,Sadio Mané,league,2022-04-30,0
+2022,Sadio Mané,league,2022-05-10,1
+2022,Sadio Mané,league,2022-05-22,1
+2022,Sadio Mané,ucl,2021-09-28,1
+2022,Sadio Mané,ucl,2021-11-03,1
+2022,Sadio Mané,ucl,2022-03-08,0
+2022,Sadio Mané,ucl,2022-04-05,1
+2022,Sadio Mané,ucl,2022-04-27,1
+2022,Sadio Mané,ucl,2022-05-03,1
+2022,Sadio Mané,club_other,2022-04-16,2
+2022,Sadio Mané,club_other,2022-07-30,1
+2022,Kevin De Bruyne,league,2021-10-03,1
+2022,Kevin De Bruyne,league,2021-10-16,1
+2022,Kevin De Bruyne,league,2021-12-14,2
+2022,Kevin De Bruyne,league,2021-12-26,1
+2022,Kevin De Bruyne,league,2022-01-15,1
+2022,Kevin De Bruyne,league,2022-02-09,1
+2022,Kevin De Bruyne,league,2022-03-06,2
+2022,Kevin De Bruyne,league,2022-04-02,1
+2022,Kevin De Bruyne,league,2022-04-10,1
+2022,Kevin De Bruyne,league,2022-05-08,0
+2022,Kevin De Bruyne,league,2022-05-11,4
+2022,Kevin De Bruyne,ucl,2021-09-28,0
+2022,Kevin De Bruyne,ucl,2021-12-07,0
+2022,Kevin De Bruyne,ucl,2022-04-05,1
+2022,Kevin De Bruyne,ucl,2022-04-26,1
+2022,Kevin De Bruyne,club_other,2022-03-20,1
+2022,Kevin De Bruyne,club_other,2021-09-21,1
+2022,Mohamed Salah,ucl,2021-09-15,1
+2022,Mohamed Salah,ucl,2021-09-28,2
+2022,Mohamed Salah,ucl,2021-10-19,2
+2022,Mohamed Salah,ucl,2021-11-24,1
+2022,Mohamed Salah,ucl,2021-12-07,1
+2022,Mohamed Salah,ucl,2022-02-16,1
+2022,Kylian Mbappé,ucl,2021-10-19,1
+2022,Kylian Mbappé,ucl,2021-11-24,1
+2022,Kylian Mbappé,ucl,2021-12-07,2
+2022,Kylian Mbappé,ucl,2022-02-15,1
+2022,Kylian Mbappé,ucl,2022-03-09,1
+2022,Vinícius Júnior,league,2021-08-14,1
+2022,Vinícius Júnior,league,2021-08-22,2
+2022,Vinícius Júnior,league,2021-09-12,1
+2022,Vinícius Júnior,league,2021-09-19,1
+2022,Vinícius Júnior,league,2021-10-30,2
+2022,Vinícius Júnior,league,2021-11-21,1
+2022,Vinícius Júnior,league,2021-11-28,1
+2022,Vinícius Júnior,league,2021-12-04,1
+2022,Vinícius Júnior,league,2022-01-08,2
+2022,Vinícius Júnior,league,2022-02-19,1
+2022,Vinícius Júnior,league,2022-03-14,1
+2022,Vinícius Júnior,league,2022-05-12,3
+2022,Vinícius Júnior,ucl,2021-10-19,2
+2022,Vinícius Júnior,ucl,2022-04-26,1
+2022,Vinícius Júnior,ucl,2022-05-28,1
+2022,Vinícius Júnior,club_other,2022-01-12,1
+2022,Luka Modrić,league,2022-01-23,1
+2022,Luka Modrić,league,2022-03-05,1
+2022,Luka Modrić,club_other,2022-01-16,1
+2022,Erling Haaland,league,2021-08-14,2
+2022,Erling Haaland,league,2021-08-27,1
+2022,Erling Haaland,league,2021-09-11,2
+2022,Erling Haaland,league,2021-09-19,2
+2022,Erling Haaland,league,2021-10-16,2
+2022,Erling Haaland,league,2021-11-27,1
+2022,Erling Haaland,league,2021-12-04,1
+2022,Erling Haaland,league,2021-12-15,2
+2022,Erling Haaland,league,2022-01-08,0
+2022,Erling Haaland,league,2022-01-14,2
+2022,Erling Haaland,league,2022-01-22,1
+2022,Erling Haaland,league,2022-04-16,2
+2022,Erling Haaland,league,2022-04-30,3
+2022,Erling Haaland,league,2022-05-14,1
+2022,Erling Haaland,ucl,2021-09-15,1
+2022,Erling Haaland,ucl,2021-12-07,2
+2022,Erling Haaland,club_other,2021-08-07,3
+2022,Erling Haaland,club_other,2022-01-18,1
+2022,Son Heung-min,league,2021-08-15,1
+2022,Son Heung-min,league,2021-08-29,1
+2022,Son Heung-min,league,2021-09-26,1
+2022,Son Heung-min,league,2021-10-17,1
+2022,Son Heung-min,league,2021-12-02,1
+2022,Son Heung-min,league,2021-12-05,1
+2022,Son Heung-min,league,2021-12-19,1
+2022,Son Heung-min,league,2021-12-26,1
+2022,Son Heung-min,league,2022-02-09,1
+2022,Son Heung-min,league,2022-02-26,1
+2022,Son Heung-min,league,2022-03-07,1
+2022,Son Heung-min,league,2022-03-20,2
+2022,Son Heung-min,league,2022-04-03,1
+2022,Son Heung-min,league,2022-04-09,3
+2022,Son Heung-min,league,2022-05-01,2
+2022,Son Heung-min,league,2022-05-07,1
+2022,Son Heung-min,league,2022-05-12,1
+2022,Son Heung-min,league,2022-05-22,2
+2022,Son Heung-min,club_other,2021-10-27,0
+2022,Son Heung-min,club_other,2021-11-04,1
+2022,Riyad Mahrez,club_other,2022-02-05,2
+2022,Riyad Mahrez,club_other,2022-03-01,1
+2022,Riyad Mahrez,club_other,2022-03-20,1
+2022,Riyad Mahrez,club_other,2021-09-21,2
+2022,Sébastien Haller,ucl,2021-09-15,4
+2022,Sébastien Haller,ucl,2021-09-28,1
+2022,Sébastien Haller,ucl,2021-10-19,1
+2022,Sébastien Haller,ucl,2021-11-03,1
+2022,Sébastien Haller,ucl,2021-11-24,2
+2022,Sébastien Haller,ucl,2021-12-07,1
+2022,Sébastien Haller,ucl,2022-02-23,1
+2022,Sébastien Haller,club_other,2022-02-09,2
+2022,Sébastien Haller,club_other,2022-03-03,0
+2022,Fabinho,league,2021-09-12,1
+2022,Fabinho,league,2021-10-03,0
+2022,Fabinho,league,2021-11-20,0
+2022,Fabinho,league,2021-12-04,0
+2022,Fabinho,league,2022-01-16,1
+2022,Fabinho,league,2022-01-23,1
+2022,Fabinho,league,2022-02-13,1
+2022,Fabinho,league,2022-03-12,0
+2022,Fabinho,league,2022-04-02,1
+2022,Fabinho,league,2022-04-10,0
+2022,Fabinho,league,2022-05-07,0
+2022,Fabinho,ucl,2022-05-03,1
+2022,Fabinho,ucl,2022-05-28,0
+2022,Fabinho,club_other,2022-01-09,2
+2022,Fabinho,club_other,2022-04-16,0
+2022,Rafael Leão,league,2021-08-29,1
+2022,Rafael Leão,league,2021-09-12,1
+2022,Rafael Leão,league,2021-10-03,1
+2022,Rafael Leão,league,2021-10-23,1
+2022,Rafael Leão,league,2022-01-06,1
+2022,Rafael Leão,league,2022-01-17,1
+2022,Rafael Leão,league,2022-01-23,0
+2022,Rafael Leão,league,2022-02-13,1
+2022,Rafael Leão,league,2022-02-25,1
+2022,Rafael Leão,league,2022-04-15,1
+2022,Rafael Leão,league,2022-05-01,1
+2022,Rafael Leão,league,2022-05-08,0
+2022,Rafael Leão,league,2022-05-15,1
+2022,Rafael Leão,ucl,2021-09-28,1
+2022,Rafael Leão,ucl,2021-10-19,0
+2022,Rafael Leão,club_other,2022-01-13,1
+2022,Rafael Leão,club_other,2022-02-09,1
+2022,Virgil van Dijk,league,2021-11-27,1
+2022,Virgil van Dijk,league,2021-12-01,0
+2022,Virgil van Dijk,league,2021-12-11,0
+2022,Virgil van Dijk,league,2022-01-23,1
+2022,Virgil van Dijk,league,2022-02-23,1
+2022,Virgil van Dijk,league,2022-04-10,0
+2022,Virgil van Dijk,ucl,2022-04-27,0
+2022,Casemiro,league,2022-04-09,1
+2022,Luis Díaz,ucl,2021-09-15,0
+2022,Luis Díaz,ucl,2021-10-19,1
+2022,Luis Díaz,ucl,2021-11-03,1
+2022,Luis Díaz,ucl,2022-04-05,1
+2022,Luis Díaz,ucl,2022-05-03,1
+2022,Cristiano Ronaldo,league,2021-08-22,0
+2022,Cristiano Ronaldo,league,2021-09-11,2
+2022,Cristiano Ronaldo,league,2021-09-19,1
+2022,Cristiano Ronaldo,league,2021-10-30,1
+2022,Cristiano Ronaldo,league,2021-12-02,2
+2022,Cristiano Ronaldo,league,2021-12-11,1
+2022,Cristiano Ronaldo,league,2021-12-30,1
+2022,Cristiano Ronaldo,league,2022-02-15,1
+2022,Cristiano Ronaldo,league,2022-03-12,3
+2022,Cristiano Ronaldo,league,2022-04-16,3
+2022,Cristiano Ronaldo,league,2022-04-23,1
+2022,Cristiano Ronaldo,league,2022-04-28,1
+2022,Cristiano Ronaldo,league,2022-05-02,1
+2022,Cristiano Ronaldo,ucl,2021-09-14,1
+2022,Cristiano Ronaldo,ucl,2021-09-29,1
+2022,Cristiano Ronaldo,ucl,2021-10-20,1
+2022,Cristiano Ronaldo,ucl,2021-11-02,2
+2022,Cristiano Ronaldo,ucl,2021-11-23,1
+2022,Harry Kane,league,2021-08-22,0
+2022,Harry Kane,league,2021-08-29,0
+2022,Harry Kane,league,2021-10-17,1
+2022,Harry Kane,league,2021-12-19,1
+2022,Harry Kane,league,2021-12-26,1
+2022,Harry Kane,league,2021-12-28,1
+2022,Harry Kane,league,2022-01-19,1
+2022,Harry Kane,league,2022-02-19,2
+2022,Harry Kane,league,2022-02-26,1
+2022,Harry Kane,league,2022-03-07,2
+2022,Harry Kane,league,2022-03-12,1
+2022,Harry Kane,league,2022-03-16,1
+2022,Harry Kane,league,2022-04-03,0
+2022,Harry Kane,league,2022-04-09,0
+2022,Harry Kane,league,2022-05-01,1
+2022,Harry Kane,league,2022-05-12,2
+2022,Harry Kane,league,2022-05-15,1
+2022,Harry Kane,league,2022-05-22,1
+2022,Trent Alexander-Arnold,league,2021-11-07,1
+2022,Trent Alexander-Arnold,league,2021-12-16,1
+2022,Trent Alexander-Arnold,league,2022-04-24,0
+2022,Trent Alexander-Arnold,ucl,2021-10-19,0
+2022,Trent Alexander-Arnold,ucl,2022-05-03,0
+2022,Trent Alexander-Arnold,club_other,2022-02-27,0
+2022,Trent Alexander-Arnold,club_other,2022-07-30,1
+2022,Phil Foden,league,2021-10-03,1
+2022,Phil Foden,league,2021-10-23,2
+2022,Phil Foden,league,2021-12-14,1
+2022,Phil Foden,league,2021-12-29,1
+2022,Phil Foden,league,2022-02-12,1
+2022,Phil Foden,league,2022-02-26,1
+2022,Phil Foden,league,2022-04-20,1
+2022,Phil Foden,league,2022-05-08,1
+2022,Phil Foden,ucl,2021-11-03,1
+2022,Phil Foden,ucl,2022-02-15,1
+2022,Phil Foden,ucl,2022-04-13,0
+2022,Phil Foden,ucl,2022-04-26,1
+2022,Phil Foden,club_other,2022-03-20,1
+2022,Phil Foden,club_other,2021-09-21,1
+2022,Bernardo Silva,league,2021-09-11,1
+2022,Bernardo Silva,league,2021-10-03,0
+2022,Bernardo Silva,league,2021-10-16,1
+2022,Bernardo Silva,league,2021-10-30,0
+2022,Bernardo Silva,league,2021-11-06,1
+2022,Bernardo Silva,league,2021-11-21,1
+2022,Bernardo Silva,league,2021-12-01,1
+2022,Bernardo Silva,league,2021-12-04,2
+2022,Bernardo Silva,league,2021-12-19,0
+2022,Bernardo Silva,league,2022-01-01,0
+2022,Bernardo Silva,league,2022-04-10,0
+2022,Bernardo Silva,league,2022-04-20,1
+2022,Bernardo Silva,ucl,2022-02-15,2
+2022,Bernardo Silva,ucl,2022-04-26,1
+2022,Bernardo Silva,club_other,2022-01-07,1
+2022,Bernardo Silva,club_other,2022-04-16,1
+2022,João Cancelo,league,2021-10-03,0
+2022,João Cancelo,league,2021-10-23,0
+2022,João Cancelo,league,2021-11-06,0
+2022,João Cancelo,league,2021-11-28,0
+2022,João Cancelo,league,2021-12-11,0
+2022,João Cancelo,league,2021-12-19,1
+2022,João Cancelo,league,2022-04-23,0
+2022,João Cancelo,league,2022-04-30,0
+2022,João Cancelo,ucl,2021-09-15,1
+2022,João Cancelo,ucl,2021-09-28,0
+2022,João Cancelo,ucl,2021-10-19,1
+2022,João Cancelo,ucl,2021-11-24,0
+2022,João Cancelo,ucl,2022-04-13,0
+2022,Joshua Kimmich,league,2021-09-18,2
+2022,Joshua Kimmich,league,2021-09-24,1
+2022,Joshua Kimmich,league,2022-02-20,0
+2022,Joshua Kimmich,league,2022-02-26,0
+2022,Joshua Kimmich,league,2022-04-17,0
+2022,Joshua Kimmich,league,2022-04-30,0
+2022,Joshua Kimmich,ucl,2021-09-14,0
+2022,Joshua Kimmich,club_other,2022-07-30,0
+2022,Mike Maignan,league,2022-03-06,0
+2022,Christopher Nkunku,league,2021-09-25,2
+2022,Christopher Nkunku,league,2021-10-02,2
+2022,Christopher Nkunku,league,2021-11-06,1
+2022,Christopher Nkunku,league,2021-12-03,1
+2022,Christopher Nkunku,league,2021-12-11,1
+2022,Christopher Nkunku,league,2022-01-08,1
+2022,Christopher Nkunku,league,2022-01-15,1
+2022,Christopher Nkunku,league,2022-02-05,1
+2022,Christopher Nkunku,league,2022-02-11,1
+2022,Christopher Nkunku,league,2022-02-20,2
+2022,Christopher Nkunku,league,2022-02-27,1
+2022,Christopher Nkunku,league,2022-03-13,1
+2022,Christopher Nkunku,league,2022-04-02,1
+2022,Christopher Nkunku,league,2022-04-10,1
+2022,Christopher Nkunku,league,2022-05-02,1
+2022,Christopher Nkunku,league,2022-05-08,2
+2022,Darwin Núñez,league,2021-08-21,0
+2022,Darwin Núñez,league,2021-09-11,2
+2022,Darwin Núñez,league,2021-09-20,2
+2022,Darwin Núñez,league,2021-10-03,0
+2022,Darwin Núñez,league,2021-11-07,1
+2022,Darwin Núñez,league,2021-11-27,3
+2022,Darwin Núñez,league,2021-12-12,3
+2022,Darwin Núñez,league,2021-12-19,2
+2022,Darwin Núñez,league,2022-01-15,1
+2022,Darwin Núñez,league,2022-01-21,1
+2022,Darwin Núñez,league,2022-02-07,1
+2022,Darwin Núñez,league,2022-02-12,2
+2022,Darwin Núñez,league,2022-02-27,2
+2022,Darwin Núñez,league,2022-03-11,0
+2022,Darwin Núñez,league,2022-04-01,1
+2022,Darwin Núñez,league,2022-04-09,3
+2022,Darwin Núñez,league,2022-04-17,1
+2022,Darwin Núñez,league,2022-04-30,1
+2022,Darwin Núñez,league,2022-05-07,0
+2022,Darwin Núñez,ucl,2021-09-29,2
+2022,Darwin Núñez,ucl,2021-11-02,1
+2022,Darwin Núñez,ucl,2022-02-23,0
+2022,Darwin Núñez,ucl,2022-03-15,1
+2022,Darwin Núñez,ucl,2022-04-05,1
+2022,Darwin Núñez,ucl,2022-04-13,1
+2022,Antonio Rüdiger,league,2021-08-28,0
+2022,Antonio Rüdiger,league,2021-09-19,1
+2022,Antonio Rüdiger,league,2021-09-25,0
+2022,Antonio Rüdiger,league,2021-11-20,1
+2022,Antonio Rüdiger,league,2021-12-19,0
+2022,Antonio Rüdiger,league,2021-12-29,0
+2022,Antonio Rüdiger,league,2022-01-18,0
+2022,Antonio Rüdiger,league,2022-03-13,0
+2022,Antonio Rüdiger,league,2022-04-02,1
+2022,Antonio Rüdiger,league,2022-04-28,0
+2022,Antonio Rüdiger,league,2022-05-01,0
+2022,Antonio Rüdiger,league,2022-05-19,0
+2022,Antonio Rüdiger,ucl,2021-09-29,0
+2022,Antonio Rüdiger,ucl,2022-04-06,0
+2022,Antonio Rüdiger,ucl,2022-04-12,1
+2022,Antonio Rüdiger,club_other,2022-01-12,1
+2022,Antonio Rüdiger,club_other,2021-08-11,0
+2023,Lionel Messi,league,2022-08-06,2
+2023,Lionel Messi,league,2022-08-21,1
+2023,Lionel Messi,league,2022-09-18,1
+2023,Lionel Messi,league,2022-10-01,1
+2023,Lionel Messi,league,2022-10-21,1
+2023,Lionel Messi,league,2022-10-29,1
+2023,Lionel Messi,league,2023-01-11,1
+2023,Lionel Messi,league,2023-02-01,1
+2023,Lionel Messi,league,2023-02-04,1
+2023,Lionel Messi,league,2023-02-19,1
+2023,Lionel Messi,league,2023-02-26,1
+2023,Lionel Messi,league,2023-03-04,1
+2023,Lionel Messi,league,2023-04-08,1
+2023,Lionel Messi,league,2023-04-15,1
+2023,Lionel Messi,league,2023-05-27,1
+2023,Erling Haaland,ucl,2022-09-06,2
+2023,Erling Haaland,ucl,2022-09-14,1
+2023,Erling Haaland,ucl,2022-10-05,2
+2023,Erling Haaland,ucl,2023-03-14,5
+2023,Erling Haaland,ucl,2023-04-11,1
+2023,Erling Haaland,ucl,2023-04-19,1
+2023,Erling Haaland,ucl,2023-06-10,0
+2023,Erling Haaland,club_other,2023-03-18,3
+2023,Erling Haaland,club_other,2022-12-22,1
+2023,Kylian Mbappé,ucl,2022-09-06,2
+2023,Kylian Mbappé,ucl,2022-09-14,1
+2023,Kylian Mbappé,ucl,2022-10-11,1
+2023,Kylian Mbappé,ucl,2022-10-25,2
+2023,Kylian Mbappé,ucl,2022-11-02,1
+2023,Kevin De Bruyne,league,2022-08-13,1
+2023,Kevin De Bruyne,league,2022-10-22,1
+2023,Kevin De Bruyne,league,2022-10-29,1
+2023,Kevin De Bruyne,league,2022-12-31,0
+2023,Kevin De Bruyne,league,2023-02-15,1
+2023,Kevin De Bruyne,league,2023-04-01,1
+2023,Kevin De Bruyne,league,2023-04-26,2
+2023,Kevin De Bruyne,ucl,2023-03-14,1
+2023,Kevin De Bruyne,ucl,2023-05-09,1
+2023,Kevin De Bruyne,club_other,2023-02-28,1
+2023,Rodri,ucl,2022-09-14,0
+2023,Rodri,ucl,2023-04-11,1
+2023,Rodri,ucl,2023-06-10,1
+2023,Rodri,club_other,2023-01-08,0
+2023,Rodri,club_other,2023-06-03,0
+2023,Rodri,club_other,2022-12-22,0
+2023,Vinícius Júnior,league,2022-08-20,1
+2023,Vinícius Júnior,league,2022-08-28,1
+2023,Vinícius Júnior,league,2022-09-03,1
+2023,Vinícius Júnior,league,2022-09-11,1
+2023,Vinícius Júnior,league,2022-10-02,1
+2023,Vinícius Júnior,league,2022-10-30,1
+2023,Vinícius Júnior,league,2023-02-02,1
+2023,Vinícius Júnior,league,2023-03-11,1
+2023,Vinícius Júnior,league,2023-04-08,1
+2023,Vinícius Júnior,league,2023-04-25,1
+2023,Vinícius Júnior,league,2023-05-21,0
+2023,Vinícius Júnior,ucl,2022-09-06,1
+2023,Vinícius Júnior,ucl,2022-10-05,1
+2023,Vinícius Júnior,ucl,2022-10-25,1
+2023,Vinícius Júnior,ucl,2022-11-02,1
+2023,Vinícius Júnior,ucl,2023-02-21,2
+2023,Vinícius Júnior,ucl,2023-05-09,1
+2023,Vinícius Júnior,club_other,2023-01-19,1
+2023,Vinícius Júnior,club_other,2023-01-26,1
+2023,Vinícius Júnior,club_other,2023-04-05,1
+2023,Vinícius Júnior,club_other,2023-02-08,1
+2023,Vinícius Júnior,club_other,2023-02-11,2
+2023,Bernardo Silva,league,2022-08-21,1
+2023,Bernardo Silva,league,2022-08-27,1
+2023,Bernardo Silva,league,2022-11-05,0
+2023,Bernardo Silva,league,2022-12-31,0
+2023,Bernardo Silva,league,2023-02-15,0
+2023,Bernardo Silva,league,2023-02-18,1
+2023,Bernardo Silva,league,2023-03-04,1
+2023,Bernardo Silva,league,2023-04-15,0
+2023,Bernardo Silva,league,2023-05-24,0
+2023,Bernardo Silva,ucl,2023-04-11,1
+2023,Bernardo Silva,ucl,2023-05-09,0
+2023,Bernardo Silva,ucl,2023-05-17,2
+2023,Bernardo Silva,club_other,2023-01-08,0
+2023,Bernardo Silva,club_other,2023-02-28,0
+2023,Luka Modrić,league,2022-08-20,1
+2023,Luka Modrić,league,2022-10-22,1
+2023,Luka Modrić,league,2022-11-07,1
+2023,Luka Modrić,league,2023-02-15,1
+2023,Luka Modrić,ucl,2022-09-06,1
+2023,Luka Modrić,ucl,2022-11-02,1
+2023,Mohamed Salah,ucl,2022-09-13,1
+2023,Mohamed Salah,ucl,2022-10-04,1
+2023,Mohamed Salah,ucl,2022-10-12,3
+2023,Mohamed Salah,ucl,2022-10-26,1
+2023,Mohamed Salah,ucl,2022-11-01,1
+2023,Mohamed Salah,ucl,2023-02-21,1
+2023,Yassine Bounou,league,2022-09-18,0
+2023,Yassine Bounou,league,2022-10-29,0
+2023,Yassine Bounou,ucl,2022-10-11,0
+2023,Yassine Bounou,club_other,2023-04-20,0
+2023,İlkay Gündoğan,ucl,2022-10-25,0
+2023,İlkay Gündoğan,ucl,2023-03-14,1
+2023,İlkay Gündoğan,ucl,2023-04-19,0
+2023,İlkay Gündoğan,ucl,2023-05-09,0
+2023,İlkay Gündoğan,ucl,2023-05-17,0
+2023,İlkay Gündoğan,club_other,2023-01-27,0
+2023,İlkay Gündoğan,club_other,2023-06-03,2
+2023,Emiliano Martínez,league,2022-11-06,0
+2023,Emiliano Martínez,league,2022-11-13,0
+2023,Emiliano Martínez,league,2023-01-13,0
+2023,Emiliano Martínez,league,2023-02-18,0
+2023,Emiliano Martínez,league,2023-02-25,0
+2023,Emiliano Martínez,league,2023-04-25,0
+2023,Emiliano Martínez,league,2023-05-20,0
+2023,Karim Benzema,league,2022-08-20,1
+2023,Karim Benzema,league,2022-08-28,2
+2023,Karim Benzema,league,2022-10-16,1
+2023,Karim Benzema,league,2022-10-19,1
+2023,Karim Benzema,league,2022-12-30,2
+2023,Karim Benzema,league,2023-01-07,1
+2023,Karim Benzema,league,2023-01-22,1
+2023,Karim Benzema,league,2023-02-15,2
+2023,Karim Benzema,league,2023-04-02,3
+2023,Karim Benzema,league,2023-04-29,3
+2023,Karim Benzema,league,2023-05-24,1
+2023,Karim Benzema,league,2023-06-04,1
+2023,Karim Benzema,ucl,2023-02-21,2
+2023,Karim Benzema,ucl,2023-03-15,1
+2023,Karim Benzema,ucl,2023-04-12,1
+2023,Karim Benzema,club_other,2023-01-26,1
+2023,Karim Benzema,club_other,2023-04-05,3
+2023,Karim Benzema,club_other,2023-01-11,1
+2023,Karim Benzema,club_other,2023-01-15,1
+2023,Karim Benzema,club_other,2022-08-10,1
+2023,Karim Benzema,club_other,2023-02-11,1
+2023,Karim Benzema,club_other,2023-07-27,1
+2023,Karim Benzema,club_other,2023-07-30,1
+2023,Jude Bellingham,league,2022-08-12,0
+2023,Jude Bellingham,league,2022-09-02,0
+2023,Jude Bellingham,league,2022-10-08,0
+2023,Jude Bellingham,league,2022-10-22,2
+2023,Jude Bellingham,league,2022-10-29,1
+2023,Jude Bellingham,league,2023-01-22,1
+2023,Jude Bellingham,league,2023-02-25,0
+2023,Jude Bellingham,league,2023-04-15,0
+2023,Jude Bellingham,league,2023-04-22,1
+2023,Jude Bellingham,league,2023-05-07,2
+2023,Jude Bellingham,league,2023-05-13,1
+2023,Jude Bellingham,ucl,2022-09-06,1
+2023,Jude Bellingham,ucl,2022-09-14,1
+2023,Jude Bellingham,ucl,2022-10-05,1
+2023,Jude Bellingham,ucl,2022-10-11,1
+2023,Jude Bellingham,ucl,2023-02-15,0
+2023,Jude Bellingham,ucl,2023-03-07,0
+2023,Jude Bellingham,club_other,2022-10-19,1
+2023,Jude Bellingham,club_other,2023-04-05,0
+2023,Harry Kane,league,2022-08-14,1
+2023,Harry Kane,league,2022-08-20,1
+2023,Harry Kane,league,2022-08-28,2
+2023,Harry Kane,league,2022-09-03,1
+2023,Harry Kane,league,2022-09-17,1
+2023,Harry Kane,league,2022-10-01,1
+2023,Harry Kane,league,2022-10-08,1
+2023,Harry Kane,league,2022-10-15,1
+2023,Harry Kane,league,2022-10-23,1
+2023,Harry Kane,league,2022-10-29,0
+2023,Harry Kane,league,2022-11-06,1
+2023,Harry Kane,league,2022-11-12,1
+2023,Harry Kane,league,2022-12-26,1
+2023,Harry Kane,league,2023-01-04,2
+2023,Harry Kane,league,2023-01-23,1
+2023,Harry Kane,league,2023-02-05,1
+2023,Harry Kane,league,2023-02-26,1
+2023,Harry Kane,league,2023-03-11,2
+2023,Harry Kane,league,2023-03-18,1
+2023,Harry Kane,league,2023-04-03,1
+2023,Harry Kane,league,2023-04-08,1
+2023,Harry Kane,league,2023-04-23,1
+2023,Harry Kane,league,2023-04-30,1
+2023,Harry Kane,league,2023-05-06,1
+2023,Harry Kane,league,2023-05-13,1
+2023,Harry Kane,league,2023-05-20,1
+2023,Harry Kane,league,2023-05-28,2
+2023,Harry Kane,ucl,2022-10-04,0
+2023,Harry Kane,ucl,2022-10-12,1
+2023,Lautaro Martínez,ucl,2022-10-04,0
+2023,Lautaro Martínez,ucl,2022-10-12,1
+2023,Lautaro Martínez,ucl,2023-04-19,1
+2023,Lautaro Martínez,ucl,2023-05-16,1
+2023,Antoine Griezmann,league,2022-08-15,1
+2023,Antoine Griezmann,league,2022-08-29,1
+2023,Antoine Griezmann,league,2022-10-15,1
+2023,Antoine Griezmann,league,2022-10-23,2
+2023,Antoine Griezmann,league,2023-01-21,1
+2023,Antoine Griezmann,league,2023-02-19,1
+2023,Antoine Griezmann,league,2023-03-04,1
+2023,Antoine Griezmann,league,2023-03-18,1
+2023,Antoine Griezmann,league,2023-04-16,2
+2023,Antoine Griezmann,league,2023-04-23,0
+2023,Antoine Griezmann,league,2023-05-03,2
+2023,Antoine Griezmann,league,2023-05-24,1
+2023,Antoine Griezmann,league,2023-05-28,1
+2023,Kim Min-jae,league,2022-08-15,0
+2023,Kim Min-jae,league,2022-08-21,1
+2023,Kim Min-jae,league,2022-09-03,1
+2023,Kim Min-jae,league,2022-11-05,0
+2023,Kim Min-jae,league,2023-01-04,0
+2023,Kim Min-jae,league,2023-01-21,0
+2023,Kim Min-jae,league,2023-05-28,0
+2023,Kim Min-jae,ucl,2022-10-26,0
+2023,Kim Min-jae,ucl,2023-02-21,0
+2023,Kim Min-jae,ucl,2023-04-12,0
+2023,André Onana,league,2022-11-13,0
+2023,André Onana,league,2023-05-27,0
+2023,André Onana,ucl,2022-10-04,0
+2023,André Onana,ucl,2023-06-10,0
+2023,André Onana,club_other,2023-01-31,0
+2023,Joško Gvardiol,league,2022-08-13,0
+2023,Joško Gvardiol,league,2023-02-04,0
+2023,Joško Gvardiol,league,2023-03-11,1
+2023,Joško Gvardiol,league,2023-05-20,0
+2023,Joško Gvardiol,ucl,2022-10-25,1
+2023,Joško Gvardiol,ucl,2023-02-22,1
+2023,Joško Gvardiol,club_other,2023-05-02,0
+2023,Jamal Musiala,league,2022-08-05,2
+2023,Jamal Musiala,league,2022-08-14,1
+2023,Jamal Musiala,league,2022-09-10,1
+2023,Jamal Musiala,league,2022-09-30,1
+2023,Jamal Musiala,league,2022-10-22,1
+2023,Jamal Musiala,league,2022-10-29,1
+2023,Jamal Musiala,league,2022-11-05,1
+2023,Jamal Musiala,league,2022-11-08,1
+2023,Jamal Musiala,league,2023-01-20,0
+2023,Jamal Musiala,league,2023-02-05,1
+2023,Jamal Musiala,league,2023-02-26,1
+2023,Jamal Musiala,league,2023-05-27,1
+2023,Jamal Musiala,club_other,2022-08-31,1
+2023,Jamal Musiala,club_other,2022-10-19,1
+2023,Jamal Musiala,club_other,2023-02-01,1
+2023,Jamal Musiala,club_other,2023-04-04,0
+2023,Nicolò Barella,league,2022-08-30,1
+2023,Nicolò Barella,league,2022-09-18,1
+2023,Nicolò Barella,league,2022-10-01,0
+2023,Nicolò Barella,league,2022-10-16,1
+2023,Nicolò Barella,league,2022-10-22,1
+2023,Nicolò Barella,league,2022-10-29,1
+2023,Nicolò Barella,league,2023-01-04,0
+2023,Nicolò Barella,league,2023-01-23,0
+2023,Nicolò Barella,league,2023-03-19,0
+2023,Nicolò Barella,league,2023-04-23,0
+2023,Nicolò Barella,league,2023-05-27,1
+2023,Randal Kolo Muani,league,2022-08-05,1
+2023,Randal Kolo Muani,league,2022-08-28,1
+2023,Randal Kolo Muani,league,2022-10-01,0
+2023,Randal Kolo Muani,league,2022-10-15,1
+2023,Randal Kolo Muani,league,2022-11-09,1
+2023,Randal Kolo Muani,league,2022-11-13,1
+2023,Randal Kolo Muani,league,2023-01-25,1
+2023,Randal Kolo Muani,league,2023-01-28,1
+2023,Randal Kolo Muani,league,2023-02-04,2
+2023,Randal Kolo Muani,league,2023-02-18,1
+2023,Randal Kolo Muani,league,2023-03-05,1
+2023,Randal Kolo Muani,league,2023-03-19,0
+2023,Randal Kolo Muani,league,2023-03-31,1
+2023,Randal Kolo Muani,league,2023-04-15,1
+2023,Randal Kolo Muani,league,2023-04-22,0
+2023,Randal Kolo Muani,league,2023-05-13,1
+2023,Randal Kolo Muani,league,2023-05-27,1
+2023,Randal Kolo Muani,ucl,2022-10-26,1
+2023,Randal Kolo Muani,ucl,2022-11-01,1
+2023,Randal Kolo Muani,ucl,2023-02-21,0
+2023,Randal Kolo Muani,club_other,2022-10-18,1
+2023,Randal Kolo Muani,club_other,2023-02-07,2
+2023,Randal Kolo Muani,club_other,2023-04-04,2
+2023,Randal Kolo Muani,club_other,2023-05-03,1
+2023,Randal Kolo Muani,club_other,2023-06-03,0
+2023,Martin Ødegaard,league,2022-08-20,2
+2023,Martin Ødegaard,league,2022-08-27,1
+2023,Martin Ødegaard,league,2022-08-31,0
+2023,Martin Ødegaard,league,2022-10-09,0
+2023,Martin Ødegaard,league,2022-10-30,1
+2023,Martin Ødegaard,league,2022-11-12,2
+2023,Martin Ødegaard,league,2022-12-31,1
+2023,Martin Ødegaard,league,2023-01-03,0
+2023,Martin Ødegaard,league,2023-01-15,1
+2023,Martin Ødegaard,league,2023-03-01,1
+2023,Martin Ødegaard,league,2023-03-12,1
+2023,Martin Ødegaard,league,2023-04-16,1
+2023,Martin Ødegaard,league,2023-04-21,1
+2023,Martin Ødegaard,league,2023-05-02,2
+2023,Martin Ødegaard,league,2023-05-07,1
+2023,Rúben Dias,league,2023-02-12,0
+2023,Rúben Dias,league,2023-03-11,0
+2023,Rúben Dias,league,2023-04-26,0
+2023,Rúben Dias,ucl,2022-09-06,1
+2023,Rúben Dias,ucl,2022-10-11,0
+2023,Rúben Dias,ucl,2023-05-17,0
+2024,Rodri,ucl,2023-09-19,1
+2024,Rodri,ucl,2024-04-17,0
+2024,Vinícius Júnior,league,2023-08-19,1
+2024,Vinícius Júnior,league,2023-10-07,1
+2024,Vinícius Júnior,league,2023-11-11,2
+2024,Vinícius Júnior,league,2024-01-21,1
+2024,Vinícius Júnior,league,2024-01-27,1
+2024,Vinícius Júnior,league,2024-02-10,1
+2024,Vinícius Júnior,league,2024-03-02,2
+2024,Vinícius Júnior,league,2024-03-10,1
+2024,Vinícius Júnior,league,2024-03-16,2
+2024,Vinícius Júnior,league,2024-04-21,1
+2024,Vinícius Júnior,league,2024-05-14,2
+2024,Vinícius Júnior,ucl,2023-10-03,1
+2024,Vinícius Júnior,ucl,2023-11-08,1
+2024,Vinícius Júnior,ucl,2024-03-06,1
+2024,Vinícius Júnior,ucl,2024-04-30,2
+2024,Vinícius Júnior,ucl,2024-06-01,1
+2024,Vinícius Júnior,club_other,2024-01-14,3
+2024,Jude Bellingham,league,2023-08-12,1
+2024,Jude Bellingham,league,2023-08-19,2
+2024,Jude Bellingham,league,2023-08-25,1
+2024,Jude Bellingham,league,2023-09-02,1
+2024,Jude Bellingham,league,2023-09-30,1
+2024,Jude Bellingham,league,2023-10-07,2
+2024,Jude Bellingham,league,2023-10-28,2
+2024,Jude Bellingham,league,2023-11-26,1
+2024,Jude Bellingham,league,2023-12-09,1
+2024,Jude Bellingham,league,2023-12-17,1
+2024,Jude Bellingham,league,2024-01-21,1
+2024,Jude Bellingham,league,2024-02-10,2
+2024,Jude Bellingham,league,2024-03-02,0
+2024,Jude Bellingham,league,2024-04-21,1
+2024,Jude Bellingham,league,2024-05-04,1
+2024,Jude Bellingham,league,2024-05-14,1
+2024,Dani Carvajal,league,2023-10-21,1
+2024,Dani Carvajal,league,2023-11-11,1
+2024,Dani Carvajal,league,2024-01-21,1
+2024,Dani Carvajal,league,2024-02-18,0
+2024,Dani Carvajal,league,2024-03-16,1
+2024,Kylian Mbappé,league,2023-08-19,1
+2024,Kylian Mbappé,league,2023-08-26,2
+2024,Kylian Mbappé,league,2023-09-03,2
+2024,Kylian Mbappé,league,2023-09-15,2
+2024,Kylian Mbappé,league,2023-09-30,0
+2024,Kylian Mbappé,league,2023-10-21,1
+2024,Kylian Mbappé,league,2023-10-29,2
+2024,Kylian Mbappé,league,2023-11-11,3
+2024,Kylian Mbappé,league,2023-11-24,1
+2024,Kylian Mbappé,league,2023-12-03,1
+2024,Kylian Mbappé,league,2023-12-17,1
+2024,Kylian Mbappé,league,2023-12-20,2
+2024,Kylian Mbappé,league,2024-01-14,1
+2024,Kylian Mbappé,league,2024-01-28,0
+2024,Kylian Mbappé,league,2024-02-02,1
+2024,Kylian Mbappé,league,2024-02-17,1
+2024,Kylian Mbappé,league,2024-03-17,3
+2024,Kylian Mbappé,league,2024-04-24,2
+2024,Kylian Mbappé,league,2024-04-27,0
+2024,Kylian Mbappé,league,2024-05-12,1
+2024,Lautaro Martínez,league,2023-08-19,2
+2024,Lautaro Martínez,league,2023-08-28,1
+2024,Lautaro Martínez,league,2023-09-03,2
+2024,Lautaro Martínez,league,2023-09-30,4
+2024,Lautaro Martínez,league,2023-10-07,1
+2024,Lautaro Martínez,league,2023-10-21,1
+2024,Lautaro Martínez,league,2023-11-04,1
+2024,Lautaro Martínez,league,2023-11-26,1
+2024,Lautaro Martínez,league,2023-12-09,1
+2024,Lautaro Martínez,league,2023-12-17,1
+2024,Lautaro Martínez,league,2024-01-06,1
+2024,Lautaro Martínez,league,2024-01-13,2
+2024,Lautaro Martínez,league,2024-01-28,1
+2024,Lautaro Martínez,league,2024-02-16,1
+2024,Lautaro Martínez,league,2024-02-25,2
+2024,Lautaro Martínez,league,2024-02-28,1
+2024,Lautaro Martínez,league,2024-03-04,0
+2024,Lautaro Martínez,league,2024-04-08,0
+2024,Lautaro Martínez,league,2024-04-22,0
+2024,Lautaro Martínez,league,2024-05-10,1
+2024,Lautaro Martínez,ucl,2023-09-20,1
+2024,Lautaro Martínez,ucl,2023-10-03,0
+2024,Lautaro Martínez,ucl,2023-11-08,1
+2024,Lautaro Martínez,ucl,2023-12-12,0
+2024,Lamine Yamal,league,2023-08-27,0
+2024,Lamine Yamal,league,2023-10-08,1
+2024,Lamine Yamal,league,2024-01-04,0
+2024,Lamine Yamal,league,2024-02-11,2
+2024,Lamine Yamal,league,2024-03-08,1
+2024,Lamine Yamal,league,2024-05-13,1
+2024,Lamine Yamal,league,2024-05-19,0
+2024,Lamine Yamal,ucl,2023-12-13,0
+2024,Lamine Yamal,ucl,2024-03-12,0
+2024,Lamine Yamal,club_other,2024-01-24,1
+2024,Lamine Yamal,club_other,2024-01-11,1
+2024,Harry Kane,league,2023-08-18,1
+2024,Harry Kane,league,2023-08-27,2
+2024,Harry Kane,league,2023-09-15,1
+2024,Harry Kane,league,2023-09-23,3
+2024,Harry Kane,league,2023-09-30,1
+2024,Harry Kane,league,2023-10-21,1
+2024,Harry Kane,league,2023-10-28,3
+2024,Harry Kane,league,2023-11-04,3
+2024,Harry Kane,league,2023-11-11,2
+2024,Harry Kane,league,2023-11-25,1
+2024,Harry Kane,league,2023-12-17,2
+2024,Harry Kane,league,2023-12-20,1
+2024,Harry Kane,league,2024-01-12,1
+2024,Harry Kane,league,2024-01-24,0
+2024,Harry Kane,league,2024-01-27,1
+2024,Harry Kane,league,2024-02-03,1
+2024,Harry Kane,league,2024-02-18,1
+2024,Harry Kane,league,2024-02-24,2
+2024,Harry Kane,league,2024-03-09,3
+2024,Harry Kane,league,2024-03-16,1
+2024,Harry Kane,league,2024-04-06,1
+2024,Harry Kane,league,2024-04-20,1
+2024,Harry Kane,league,2024-04-27,2
+2024,Harry Kane,league,2024-05-04,1
+2024,Phil Foden,league,2023-09-23,1
+2024,Phil Foden,league,2023-10-29,1
+2024,Phil Foden,league,2023-11-04,1
+2024,Phil Foden,league,2023-12-03,1
+2024,Phil Foden,league,2023-12-27,1
+2024,Phil Foden,league,2024-02-05,3
+2024,Phil Foden,league,2024-02-24,1
+2024,Phil Foden,league,2024-03-03,2
+2024,Phil Foden,league,2024-04-03,3
+2024,Phil Foden,league,2024-04-25,2
+2024,Phil Foden,league,2024-05-11,1
+2024,Phil Foden,league,2024-05-14,0
+2024,Phil Foden,league,2024-05-19,2
+2024,Phil Foden,ucl,2023-10-04,1
+2024,Phil Foden,ucl,2023-11-07,1
+2024,Phil Foden,ucl,2023-11-28,1
+2024,Phil Foden,ucl,2024-02-13,1
+2024,Phil Foden,ucl,2024-04-09,1
+2024,Phil Foden,club_other,2024-01-07,2
+2024,Phil Foden,club_other,2024-04-20,0
+2024,Phil Foden,club_other,2023-12-22,1
+2024,Florian Wirtz,club_other,2023-08-12,1
+2024,Florian Wirtz,club_other,2024-04-03,2
+2024,Florian Wirtz,club_other,2023-09-21,1
+2024,Florian Wirtz,club_other,2023-10-26,1
+2024,Florian Wirtz,club_other,2023-11-09,0
+2024,Florian Wirtz,club_other,2024-03-07,1
+2024,Florian Wirtz,club_other,2024-05-02,1
+2024,Florian Wirtz,club_other,2024-05-09,0
+2024,Florian Wirtz,club_other,2024-05-22,0
+2024,Dani Olmo,league,2023-08-19,1
+2024,Dani Olmo,league,2023-08-25,1
+2024,Dani Olmo,league,2024-03-02,1
+2024,Dani Olmo,league,2024-04-13,1
+2024,Dani Olmo,ucl,2023-10-25,1
+2024,Dani Olmo,club_other,2023-08-12,3
+2024,Ademola Lookman,league,2023-08-26,0
+2024,Ademola Lookman,league,2023-09-17,1
+2024,Ademola Lookman,league,2023-09-24,1
+2024,Ademola Lookman,league,2023-10-22,1
+2024,Ademola Lookman,league,2023-11-25,1
+2024,Ademola Lookman,league,2023-12-09,2
+2024,Ademola Lookman,league,2023-12-30,1
+2024,Ademola Lookman,league,2024-02-25,0
+2024,Ademola Lookman,league,2024-02-28,0
+2024,Ademola Lookman,league,2024-03-03,1
+2024,Ademola Lookman,league,2024-04-28,1
+2024,Ademola Lookman,league,2024-05-26,1
+2024,Ademola Lookman,league,2024-06-02,1
+2024,Nico Williams,league,2023-11-05,1
+2024,Nico Williams,league,2023-12-02,1
+2024,Nico Williams,league,2023-12-10,0
+2024,Nico Williams,league,2023-12-16,1
+2024,Nico Williams,league,2024-01-20,0
+2024,Nico Williams,league,2024-02-25,0
+2024,Nico Williams,league,2024-03-16,0
+2024,Nico Williams,league,2024-04-27,1
+2024,Nico Williams,league,2024-05-25,1
+2024,Nico Williams,club_other,2023-12-07,1
+2024,Nico Williams,club_other,2024-01-24,1
+2024,Nico Williams,club_other,2024-02-29,1
+2024,Granit Xhaka,league,2023-09-02,0
+2024,Granit Xhaka,league,2023-09-30,0
+2024,Granit Xhaka,league,2023-10-21,0
+2024,Granit Xhaka,league,2024-01-27,0
+2024,Granit Xhaka,league,2024-02-23,1
+2024,Granit Xhaka,league,2024-04-14,1
+2024,Granit Xhaka,league,2024-04-21,0
+2024,Granit Xhaka,league,2024-05-05,1
+2024,Granit Xhaka,club_other,2024-05-25,1
+2024,Granit Xhaka,club_other,2023-11-09,0
+2024,Granit Xhaka,club_other,2024-05-02,0
+2024,Federico Valverde,league,2023-09-17,1
+2024,Federico Valverde,league,2024-05-14,1
+2024,Federico Valverde,ucl,2024-04-09,1
+2024,Emiliano Martínez,league,2023-08-12,0
+2024,Emiliano Martínez,league,2023-09-24,0
+2024,Emiliano Martínez,league,2023-10-29,0
+2024,Emiliano Martínez,league,2023-12-17,0
+2024,Emiliano Martínez,league,2023-12-30,0
+2024,Emiliano Martínez,league,2024-05-13,0
+2024,Emiliano Martínez,club_other,2024-04-11,0
+2024,Emiliano Martínez,club_other,2024-04-18,0
+2024,Martin Ødegaard,league,2023-08-21,1
+2024,Martin Ødegaard,league,2023-09-03,1
+2024,Martin Ødegaard,league,2023-09-24,0
+2024,Martin Ødegaard,league,2023-09-30,1
+2024,Martin Ødegaard,league,2023-12-02,1
+2024,Martin Ødegaard,league,2024-02-17,1
+2024,Martin Ødegaard,league,2024-02-24,0
+2024,Martin Ødegaard,league,2024-03-04,1
+2024,Martin Ødegaard,league,2024-04-03,1
+2024,Martin Ødegaard,league,2024-04-20,1
+2024,Martin Ødegaard,ucl,2023-09-20,1
+2024,Martin Ødegaard,ucl,2023-11-29,1
+2024,Hakan Çalhanoğlu,league,2023-09-03,1
+2024,Hakan Çalhanoğlu,league,2023-09-16,1
+2024,Hakan Çalhanoğlu,league,2023-09-30,0
+2024,Hakan Çalhanoğlu,league,2023-10-21,1
+2024,Hakan Çalhanoğlu,league,2023-10-29,0
+2024,Hakan Çalhanoğlu,league,2023-11-04,1
+2024,Hakan Çalhanoğlu,league,2023-11-12,1
+2024,Hakan Çalhanoğlu,league,2023-12-03,1
+2024,Hakan Çalhanoğlu,league,2023-12-09,1
+2024,Hakan Çalhanoğlu,league,2023-12-23,0
+2024,Hakan Çalhanoğlu,league,2024-01-13,2
+2024,Hakan Çalhanoğlu,league,2024-04-08,1
+2024,Hakan Çalhanoğlu,league,2024-04-14,1
+2024,Hakan Çalhanoğlu,league,2024-04-28,2
+2024,Hakan Çalhanoğlu,ucl,2023-10-24,1
+2024,Hakan Çalhanoğlu,ucl,2023-11-08,0
+2024,Hakan Çalhanoğlu,ucl,2024-03-13,0
+2024,Hakan Çalhanoğlu,club_other,2024-01-19,1
+2024,Hakan Çalhanoğlu,club_other,2024-01-22,0
+2024,Bukayo Saka,league,2023-08-12,1
+2024,Bukayo Saka,league,2023-08-26,1
+2024,Bukayo Saka,league,2023-09-03,0
+2024,Bukayo Saka,league,2023-09-24,1
+2024,Bukayo Saka,league,2023-09-30,1
+2024,Bukayo Saka,league,2023-12-02,1
+2024,Bukayo Saka,league,2023-12-23,0
+2024,Bukayo Saka,league,2023-12-31,1
+2024,Bukayo Saka,league,2024-01-30,1
+2024,Bukayo Saka,league,2024-02-04,1
+2024,Bukayo Saka,league,2024-02-11,2
+2024,Bukayo Saka,league,2024-02-17,2
+2024,Bukayo Saka,league,2024-02-24,1
+2024,Bukayo Saka,league,2024-04-06,1
+2024,Bukayo Saka,league,2024-04-28,1
+2024,Bukayo Saka,league,2024-05-04,1
+2024,Bukayo Saka,league,2024-05-12,0
+2024,Bukayo Saka,ucl,2023-09-20,1
+2024,Bukayo Saka,ucl,2023-11-08,1
+2024,Bukayo Saka,ucl,2023-11-29,1
+2024,Bukayo Saka,ucl,2024-04-09,1
+2024,Antonio Rüdiger,league,2024-01-03,1
+2024,Antonio Rüdiger,club_other,2024-01-10,1
+2024,Rúben Dias,league,2023-09-30,0
+2024,Rúben Dias,ucl,2023-09-19,0
+2024,Rúben Dias,ucl,2023-11-28,0
+2024,Rúben Dias,ucl,2024-04-09,0
+2024,Rúben Dias,club_other,2024-01-26,0
+2024,William Saliba,league,2023-11-11,1
+2024,William Saliba,league,2023-12-02,0
+2024,William Saliba,league,2023-12-31,0
+2024,William Saliba,league,2024-02-04,0
+2024,William Saliba,league,2024-02-11,1
+2024,William Saliba,league,2024-04-06,0
+2024,William Saliba,ucl,2024-03-12,0
+2024,William Saliba,club_other,2024-01-07,0
+2024,Cole Palmer,club_other,2023-08-06,1
+2024,Cole Palmer,club_other,2023-08-16,1
+2024,Cole Palmer,club_other,2024-03-17,1
+2024,Cole Palmer,club_other,2024-01-23,2
+2024,Cole Palmer,club_other,2024-02-25,0
+2024,Declan Rice,league,2023-09-03,1
+2024,Declan Rice,league,2023-10-21,1
+2024,Declan Rice,league,2023-12-05,1
+2024,Declan Rice,league,2023-12-09,0
+2024,Declan Rice,league,2023-12-23,0
+2024,Declan Rice,league,2024-02-04,0
+2024,Declan Rice,league,2024-02-11,1
+2024,Declan Rice,league,2024-03-04,1
+2024,Declan Rice,league,2024-03-09,1
+2024,Declan Rice,league,2024-04-20,0
+2024,Declan Rice,league,2024-05-04,1
+2024,Declan Rice,league,2024-05-19,0
+2024,Declan Rice,ucl,2023-11-08,0
+2024,Declan Rice,ucl,2024-02-21,0
+2024,Vitinha,league,2023-10-08,1
+2024,Vitinha,league,2023-11-03,1
+2024,Vitinha,league,2023-11-24,1
+2024,Vitinha,league,2023-12-03,1
+2024,Vitinha,league,2023-12-20,1
+2024,Vitinha,league,2024-03-17,1
+2024,Vitinha,league,2024-03-31,1
+2024,Álex Grimaldo,league,2023-09-15,1
+2024,Álex Grimaldo,league,2023-09-30,1
+2024,Álex Grimaldo,league,2023-10-21,1
+2024,Álex Grimaldo,league,2023-11-04,2
+2024,Álex Grimaldo,league,2023-11-12,1
+2024,Álex Grimaldo,league,2023-11-25,1
+2024,Álex Grimaldo,league,2024-02-10,1
+2024,Álex Grimaldo,league,2024-03-03,1
+2024,Álex Grimaldo,league,2024-05-12,1
+2024,Álex Grimaldo,club_other,2023-11-01,0
+2024,Álex Grimaldo,club_other,2023-10-26,2
+2024,Álex Grimaldo,club_other,2023-12-14,0
+2024,Artem Dovbyk,league,2023-08-12,1
+2024,Artem Dovbyk,league,2023-09-23,1
+2024,Artem Dovbyk,league,2023-09-27,1
+2024,Artem Dovbyk,league,2023-10-22,2
+2024,Artem Dovbyk,league,2023-11-04,1
+2024,Artem Dovbyk,league,2023-11-11,1
+2024,Artem Dovbyk,league,2023-12-10,1
+2024,Artem Dovbyk,league,2023-12-18,2
+2024,Artem Dovbyk,league,2023-12-21,1
+2024,Artem Dovbyk,league,2024-01-21,3
+2024,Artem Dovbyk,league,2024-03-31,2
+2024,Artem Dovbyk,league,2024-04-13,1
+2024,Artem Dovbyk,league,2024-04-20,1
+2024,Artem Dovbyk,league,2024-04-27,1
+2024,Artem Dovbyk,league,2024-05-04,1
+2024,Artem Dovbyk,league,2024-05-19,1
+2024,Artem Dovbyk,league,2024-05-24,3
+2024,Mats Hummels,league,2023-09-16,2
+2024,Mats Hummels,league,2023-09-29,0
+2024,Mats Hummels,league,2023-10-07,0
+2024,Mats Hummels,league,2023-11-04,0
+2024,Mats Hummels,league,2023-12-03,0
+2024,Mats Hummels,league,2023-12-09,0
+2024,Mats Hummels,league,2024-03-17,1
+2024,Mats Hummels,ucl,2023-10-04,0
+2024,Mats Hummels,ucl,2023-12-13,0
+2024,Mats Hummels,ucl,2024-04-16,0
+2024,Mats Hummels,ucl,2024-05-07,1
+2024,Mats Hummels,ucl,2024-06-01,0
+2025,Lamine Yamal,ucl,2024-09-19,1
+2025,Lamine Yamal,ucl,2025-01-29,1
+2025,Lamine Yamal,ucl,2025-03-11,1
+2025,Lamine Yamal,ucl,2025-04-09,1
+2025,Lamine Yamal,ucl,2025-04-30,1
+2025,Lamine Yamal,club_other,2025-01-15,1
+2025,Lamine Yamal,club_other,2025-02-06,1
+2025,Lamine Yamal,club_other,2025-01-08,1
+2025,Lamine Yamal,club_other,2025-01-12,1
+2025,Vitinha,league,2024-09-01,1
+2025,Vitinha,league,2024-11-22,1
+2025,Vitinha,league,2024-12-15,1
+2025,Vitinha,league,2025-01-18,0
+2025,Vitinha,league,2025-02-07,1
+2025,Vitinha,league,2025-04-22,1
+2025,Mohamed Salah,league,2024-08-17,1
+2025,Mohamed Salah,league,2024-08-25,1
+2025,Mohamed Salah,league,2024-09-01,1
+2025,Mohamed Salah,league,2024-09-28,1
+2025,Mohamed Salah,league,2024-10-20,1
+2025,Mohamed Salah,league,2024-10-27,1
+2025,Mohamed Salah,league,2024-11-02,1
+2025,Mohamed Salah,league,2024-11-09,1
+2025,Mohamed Salah,league,2024-11-24,2
+2025,Mohamed Salah,league,2024-12-01,1
+2025,Mohamed Salah,league,2024-12-04,2
+2025,Mohamed Salah,league,2024-12-22,2
+2025,Mohamed Salah,league,2024-12-26,1
+2025,Mohamed Salah,league,2024-12-29,1
+2025,Mohamed Salah,league,2025-01-05,1
+2025,Mohamed Salah,league,2025-01-25,1
+2025,Mohamed Salah,league,2025-02-01,2
+2025,Mohamed Salah,league,2025-02-12,1
+2025,Mohamed Salah,league,2025-02-16,1
+2025,Mohamed Salah,league,2025-02-19,1
+2025,Mohamed Salah,league,2025-02-23,1
+2025,Mohamed Salah,league,2025-03-08,2
+2025,Mohamed Salah,league,2025-04-27,1
+2025,Mohamed Salah,league,2025-05-25,1
+2025,Raphinha,league,2024-08-31,3
+2025,Raphinha,league,2024-09-22,2
+2025,Raphinha,league,2024-09-25,0
+2025,Raphinha,league,2024-10-26,1
+2025,Raphinha,league,2024-11-03,1
+2025,Raphinha,league,2024-11-23,1
+2025,Raphinha,league,2024-11-30,1
+2025,Raphinha,league,2024-12-03,2
+2025,Raphinha,league,2025-01-18,0
+2025,Raphinha,league,2025-01-26,1
+2025,Raphinha,league,2025-02-02,0
+2025,Raphinha,league,2025-02-09,1
+2025,Raphinha,league,2025-04-19,2
+2025,Raphinha,league,2025-05-03,1
+2025,Raphinha,league,2025-05-11,2
+2025,Raphinha,ucl,2024-10-01,1
+2025,Raphinha,ucl,2024-10-23,3
+2025,Raphinha,ucl,2024-11-06,1
+2025,Raphinha,ucl,2024-12-11,1
+2025,Raphinha,ucl,2025-01-21,2
+2025,Raphinha,ucl,2025-03-05,1
+2025,Raphinha,ucl,2025-03-11,2
+2025,Raphinha,ucl,2025-04-09,1
+2025,Raphinha,ucl,2025-05-06,1
+2025,Raphinha,club_other,2025-01-15,1
+2025,Raphinha,club_other,2025-04-26,0
+2025,Raphinha,club_other,2025-01-12,2
+2025,Achraf Hakimi,league,2024-08-23,1
+2025,Achraf Hakimi,league,2024-10-06,0
+2025,Achraf Hakimi,league,2024-11-22,0
+2025,Achraf Hakimi,league,2024-11-30,1
+2025,Achraf Hakimi,league,2025-02-23,2
+2025,Achraf Hakimi,league,2025-03-08,0
+2025,Kylian Mbappé,league,2024-09-01,2
+2025,Kylian Mbappé,league,2024-09-14,1
+2025,Kylian Mbappé,league,2024-09-21,1
+2025,Kylian Mbappé,league,2024-09-24,1
+2025,Kylian Mbappé,league,2024-10-19,1
+2025,Kylian Mbappé,league,2024-11-24,1
+2025,Kylian Mbappé,league,2024-12-01,1
+2025,Kylian Mbappé,league,2024-12-07,1
+2025,Kylian Mbappé,league,2024-12-22,1
+2025,Kylian Mbappé,league,2025-01-19,2
+2025,Kylian Mbappé,league,2025-01-25,3
+2025,Kylian Mbappé,league,2025-02-08,1
+2025,Kylian Mbappé,league,2025-02-15,1
+2025,Kylian Mbappé,league,2025-03-09,1
+2025,Kylian Mbappé,league,2025-03-15,2
+2025,Kylian Mbappé,league,2025-03-29,2
+2025,Kylian Mbappé,league,2025-04-13,0
+2025,Kylian Mbappé,league,2025-05-04,2
+2025,Kylian Mbappé,league,2025-05-11,3
+2025,Kylian Mbappé,league,2025-05-14,1
+2025,Kylian Mbappé,league,2025-05-18,1
+2025,Kylian Mbappé,league,2025-05-24,2
+2025,Cole Palmer,club_other,2025-05-28,0
+2025,Cole Palmer,club_other,2025-06-28,0
+2025,Cole Palmer,club_other,2025-07-04,1
+2025,Cole Palmer,club_other,2025-07-13,2
+2025,Gianluigi Donnarumma,league,2024-09-01,0
+2025,Gianluigi Donnarumma,league,2024-12-15,0
+2025,Nuno Mendes,league,2024-09-14,0
+2025,Nuno Mendes,league,2025-03-16,1
+2025,Nuno Mendes,league,2025-04-25,0
+2025,Pedri,league,2024-08-27,1
+2025,Pedri,league,2024-09-15,1
+2025,Pedri,league,2024-09-28,0
+2025,Pedri,league,2024-10-20,1
+2025,Pedri,league,2024-12-03,0
+2025,Pedri,league,2024-12-21,1
+2025,Pedri,league,2025-05-11,0
+2025,Khvicha Kvaratskhelia,league,2024-08-25,1
+2025,Khvicha Kvaratskhelia,league,2024-09-15,1
+2025,Khvicha Kvaratskhelia,league,2024-09-29,1
+2025,Khvicha Kvaratskhelia,league,2024-10-20,1
+2025,Khvicha Kvaratskhelia,league,2024-10-29,1
+2025,Khvicha Kvaratskhelia,league,2025-02-07,1
+2025,Khvicha Kvaratskhelia,league,2025-03-29,1
+2025,Khvicha Kvaratskhelia,league,2025-05-17,2
+2025,Harry Kane,league,2024-08-25,0
+2025,Harry Kane,league,2024-09-01,1
+2025,Harry Kane,league,2024-09-14,3
+2025,Harry Kane,league,2024-09-21,1
+2025,Harry Kane,league,2024-10-19,3
+2025,Harry Kane,league,2024-10-27,1
+2025,Harry Kane,league,2024-11-02,2
+2025,Harry Kane,league,2024-11-22,3
+2025,Harry Kane,league,2024-12-20,0
+2025,Harry Kane,league,2025-01-11,1
+2025,Harry Kane,league,2025-01-15,1
+2025,Harry Kane,league,2025-01-25,1
+2025,Harry Kane,league,2025-02-01,2
+2025,Harry Kane,league,2025-02-07,2
+2025,Harry Kane,league,2025-02-28,0
+2025,Harry Kane,league,2025-03-29,1
+2025,Harry Kane,league,2025-04-04,1
+2025,Harry Kane,league,2025-04-19,1
+2025,Harry Kane,league,2025-04-26,0
+2025,Harry Kane,league,2025-05-10,1
+2025,Harry Kane,league,2025-05-17,1
+2025,Viktor Gyökeres,league,2024-08-09,1
+2025,Viktor Gyökeres,league,2024-08-17,2
+2025,Viktor Gyökeres,league,2024-08-23,3
+2025,Viktor Gyökeres,league,2024-08-31,1
+2025,Viktor Gyökeres,league,2024-09-13,1
+2025,Viktor Gyökeres,league,2024-09-22,2
+2025,Viktor Gyökeres,league,2024-10-05,1
+2025,Viktor Gyökeres,league,2024-10-26,1
+2025,Viktor Gyökeres,league,2024-11-01,4
+2025,Viktor Gyökeres,league,2024-12-05,1
+2025,Viktor Gyökeres,league,2024-12-14,1
+2025,Viktor Gyökeres,league,2025-01-03,3
+2025,Viktor Gyökeres,league,2025-01-18,1
+2025,Viktor Gyökeres,league,2025-02-23,1
+2025,Viktor Gyökeres,league,2025-03-03,2
+2025,Viktor Gyökeres,league,2025-03-09,2
+2025,Viktor Gyökeres,league,2025-03-15,1
+2025,Viktor Gyökeres,league,2025-03-29,2
+2025,Viktor Gyökeres,league,2025-04-07,1
+2025,Viktor Gyökeres,league,2025-04-18,3
+2025,Viktor Gyökeres,league,2025-04-27,4
+2025,Viktor Gyökeres,league,2025-05-17,1
+2025,Viktor Gyökeres,ucl,2024-09-17,1
+2025,Viktor Gyökeres,ucl,2024-10-22,1
+2025,Viktor Gyökeres,ucl,2024-11-05,3
+2025,Viktor Gyökeres,ucl,2025-01-22,1
+2025,Viktor Gyökeres,club_other,2024-11-22,1
+2025,Viktor Gyökeres,club_other,2024-12-18,1
+2025,Viktor Gyökeres,club_other,2025-04-03,1
+2025,Viktor Gyökeres,club_other,2025-04-22,1
+2025,Viktor Gyökeres,club_other,2025-05-25,1
+2025,Viktor Gyökeres,club_other,2024-10-29,2
+2025,Viktor Gyökeres,club_other,2025-01-07,1
+2025,Viktor Gyökeres,club_other,2025-01-11,1
+2025,Vinícius Júnior,league,2024-08-29,1
+2025,Vinícius Júnior,league,2024-09-14,1
+2025,Vinícius Júnior,league,2024-09-21,1
+2025,Vinícius Júnior,league,2024-10-05,1
+2025,Vinícius Júnior,league,2024-10-19,1
+2025,Vinícius Júnior,league,2024-11-09,3
+2025,Vinícius Júnior,league,2025-01-03,0
+2025,Vinícius Júnior,league,2025-02-23,1
+2025,Vinícius Júnior,league,2025-03-09,1
+2025,Vinícius Júnior,league,2025-04-05,1
+2025,Robert Lewandowski,ucl,2024-10-01,2
+2025,Robert Lewandowski,ucl,2024-10-23,1
+2025,Robert Lewandowski,ucl,2024-11-06,2
+2025,Robert Lewandowski,ucl,2024-11-26,2
+2025,Robert Lewandowski,ucl,2025-01-21,2
+2025,Robert Lewandowski,ucl,2025-04-09,2
+2025,Robert Lewandowski,club_other,2025-01-04,2
+2025,Robert Lewandowski,club_other,2025-02-25,1
+2025,Robert Lewandowski,club_other,2025-01-12,1
+2025,Scott McTominay,league,2024-10-04,1
+2025,Scott McTominay,league,2024-11-10,1
+2025,Scott McTominay,league,2024-12-01,1
+2025,Scott McTominay,league,2024-12-08,0
+2025,Scott McTominay,league,2025-01-04,1
+2025,Scott McTominay,league,2025-01-18,1
+2025,Scott McTominay,league,2025-02-09,1
+2025,Scott McTominay,league,2025-02-23,0
+2025,Scott McTominay,league,2025-04-14,2
+2025,Scott McTominay,league,2025-04-19,1
+2025,Scott McTominay,league,2025-04-27,2
+2025,Scott McTominay,league,2025-05-23,1
+2025,Scott McTominay,club_other,2024-09-26,1
+2025,João Neves,league,2024-10-27,1
+2025,João Neves,league,2024-11-22,1
+2025,João Neves,league,2025-03-29,1
+2025,João Neves,league,2025-04-25,0
+2025,João Neves,ucl,2025-01-22,1
+2025,João Neves,ucl,2025-01-29,0
+2025,João Neves,ucl,2025-04-29,0
+2025,João Neves,club_other,2025-01-15,0
+2025,João Neves,club_other,2025-02-26,1
+2025,João Neves,club_other,2025-06-23,0
+2025,João Neves,club_other,2025-06-29,2
+2025,João Neves,club_other,2025-07-09,0
+2025,João Neves,club_other,2025-07-13,0
+2025,Lautaro Martínez,league,2024-09-28,2
+2025,Lautaro Martínez,league,2024-10-20,1
+2025,Lautaro Martínez,league,2024-10-30,1
+2025,Lautaro Martínez,league,2024-11-03,1
+2025,Lautaro Martínez,league,2024-12-28,1
+2025,Lautaro Martínez,league,2025-01-15,1
+2025,Lautaro Martínez,league,2025-01-19,1
+2025,Lautaro Martínez,league,2025-01-26,1
+2025,Lautaro Martínez,league,2025-02-22,1
+2025,Lautaro Martínez,league,2025-03-16,1
+2025,Lautaro Martínez,league,2025-04-12,1
+2025,Lautaro Martínez,league,2025-04-27,0
+2025,Lautaro Martínez,ucl,2024-10-01,1
+2025,Lautaro Martínez,ucl,2024-11-06,0
+2025,Lautaro Martínez,ucl,2025-01-22,1
+2025,Lautaro Martínez,ucl,2025-01-29,3
+2025,Lautaro Martínez,ucl,2025-03-05,1
+2025,Lautaro Martínez,ucl,2025-04-08,1
+2025,Lautaro Martínez,ucl,2025-04-16,1
+2025,Lautaro Martínez,ucl,2025-05-06,1
+2025,Lautaro Martínez,club_other,2025-01-06,1
+2025,Lautaro Martínez,club_other,2025-06-17,1
+2025,Lautaro Martínez,club_other,2025-06-21,1
+2025,Serhou Guirassy,league,2024-09-22,1
+2025,Serhou Guirassy,league,2024-09-27,2
+2025,Serhou Guirassy,league,2024-10-18,1
+2025,Serhou Guirassy,league,2024-11-02,1
+2025,Serhou Guirassy,league,2024-11-09,1
+2025,Serhou Guirassy,league,2025-01-10,1
+2025,Serhou Guirassy,league,2025-01-17,0
+2025,Serhou Guirassy,league,2025-01-25,1
+2025,Serhou Guirassy,league,2025-02-01,1
+2025,Serhou Guirassy,league,2025-02-22,4
+2025,Serhou Guirassy,league,2025-03-01,1
+2025,Serhou Guirassy,league,2025-03-08,0
+2025,Serhou Guirassy,league,2025-04-05,1
+2025,Serhou Guirassy,league,2025-04-20,1
+2025,Serhou Guirassy,league,2025-04-26,1
+2025,Serhou Guirassy,league,2025-05-03,2
+2025,Serhou Guirassy,league,2025-05-11,1
+2025,Serhou Guirassy,league,2025-05-17,1
+2025,Alexis Mac Allister,league,2024-10-05,0
+2025,Alexis Mac Allister,league,2024-10-20,0
+2025,Alexis Mac Allister,league,2024-10-27,0
+2025,Alexis Mac Allister,league,2024-11-02,0
+2025,Alexis Mac Allister,league,2024-12-04,0
+2025,Alexis Mac Allister,league,2024-12-22,1
+2025,Alexis Mac Allister,league,2025-02-01,0
+2025,Alexis Mac Allister,league,2025-02-12,1
+2025,Alexis Mac Allister,league,2025-02-26,1
+2025,Alexis Mac Allister,league,2025-04-06,1
+2025,Alexis Mac Allister,league,2025-04-27,1
+2025,Alexis Mac Allister,ucl,2024-09-17,0
+2025,Alexis Mac Allister,ucl,2024-10-02,1
+2025,Alexis Mac Allister,ucl,2024-10-23,0
+2025,Alexis Mac Allister,ucl,2024-11-27,1
+2025,Alexis Mac Allister,ucl,2025-01-21,0
+2025,Alexis Mac Allister,ucl,2025-03-11,0
+2025,Jude Bellingham,league,2024-11-09,1
+2025,Jude Bellingham,league,2024-11-24,1
+2025,Jude Bellingham,league,2024-12-01,1
+2025,Jude Bellingham,league,2024-12-04,1
+2025,Jude Bellingham,league,2024-12-07,1
+2025,Jude Bellingham,league,2024-12-14,1
+2025,Jude Bellingham,league,2025-01-03,1
+2025,Jude Bellingham,league,2025-02-15,0
+2025,Jude Bellingham,league,2025-03-29,1
+2025,Jude Bellingham,league,2025-05-18,1
+2025,Fabián Ruiz,league,2024-09-14,1
+2025,Fabián Ruiz,league,2025-01-18,1
+2025,Fabián Ruiz,league,2025-02-15,1
+2025,Fabián Ruiz,league,2025-04-25,1
+2025,Fabián Ruiz,league,2025-05-03,0
+2025,Fabián Ruiz,ucl,2024-10-01,0
+2025,Fabián Ruiz,ucl,2024-11-26,0
+2025,Fabián Ruiz,ucl,2025-05-07,1
+2025,Fabián Ruiz,club_other,2025-06-15,1
+2025,Fabián Ruiz,club_other,2025-07-09,2
+2025,Denzel Dumfries,league,2024-09-15,1
+2025,Denzel Dumfries,league,2024-10-27,1
+2025,Denzel Dumfries,league,2024-11-10,0
+2025,Denzel Dumfries,league,2024-12-16,1
+2025,Denzel Dumfries,league,2025-01-15,1
+2025,Denzel Dumfries,league,2025-01-19,1
+2025,Denzel Dumfries,league,2025-01-26,1
+2025,Denzel Dumfries,league,2025-02-02,0
+2025,Denzel Dumfries,league,2025-05-18,1
+2025,Declan Rice,league,2024-08-24,0
+2025,Declan Rice,league,2024-08-31,0
+2025,Declan Rice,league,2024-09-22,0
+2025,Declan Rice,league,2024-12-08,0
+2025,Declan Rice,league,2024-12-21,1
+2025,Declan Rice,league,2025-03-09,1
+2025,Declan Rice,league,2025-04-01,0
+2025,Declan Rice,league,2025-04-23,0
+2025,Declan Rice,league,2025-05-03,1
+2025,Declan Rice,league,2025-05-18,1
+2025,Declan Rice,ucl,2025-01-22,1
+2025,Declan Rice,ucl,2025-01-29,0
+2025,Declan Rice,ucl,2025-03-12,1
+2025,Declan Rice,ucl,2025-04-08,2
+2025,Declan Rice,ucl,2025-05-07,0
+2025,Declan Rice,club_other,2024-09-25,1
+2025,Virgil van Dijk,league,2024-09-01,0
+2025,Virgil van Dijk,league,2024-10-27,1
+2025,Virgil van Dijk,league,2025-02-01,0
+2025,Virgil van Dijk,league,2025-02-16,0
+2025,Virgil van Dijk,league,2025-04-13,1
+2025,Virgil van Dijk,league,2025-05-04,1
+2025,Virgil van Dijk,league,2025-05-25,0
+2025,Virgil van Dijk,ucl,2024-09-17,1
+2025,Virgil van Dijk,ucl,2024-10-02,0
+2025,Virgil van Dijk,ucl,2025-03-05,0
+2025,Virgil van Dijk,club_other,2025-02-06,1
+2025,Florian Wirtz,ucl,2024-09-19,2
+2025,Florian Wirtz,ucl,2024-10-23,1
+2025,Florian Wirtz,ucl,2024-11-26,2
+2025,Florian Wirtz,ucl,2025-01-21,0
+2025,Florian Wirtz,ucl,2025-01-29,1
+2025,Florian Wirtz,club_other,2024-12-03,0
+2025,Florian Wirtz,club_other,2025-02-05,0
+2025,Florian Wirtz,club_other,2024-08-17,0
+2025,Michael Olise,league,2024-09-14,1
+2025,Michael Olise,league,2024-09-21,2
+2025,Michael Olise,league,2024-10-06,1
+2025,Michael Olise,league,2024-10-27,1
+2025,Michael Olise,league,2024-12-20,0
+2025,Michael Olise,league,2025-01-18,1
+2025,Michael Olise,league,2025-02-23,1
+2025,Michael Olise,league,2025-02-28,1
+2025,Michael Olise,league,2025-03-29,0
+2025,Michael Olise,league,2025-04-26,1
+2025,Michael Olise,league,2025-05-03,1
+2025,Michael Olise,league,2025-05-10,1
+2025,Michael Olise,league,2025-05-17,1
+2026,Harry Kane,league,2025-08-22,3
+2026,Harry Kane,league,2025-09-13,2
+2026,Harry Kane,league,2025-09-20,3
+2026,Harry Kane,league,2025-09-26,2
+2026,Harry Kane,league,2025-10-04,1
+2026,Harry Kane,league,2025-10-18,1
+2026,Harry Kane,league,2025-11-08,1
+2026,Harry Kane,league,2025-11-22,1
+2026,Harry Kane,league,2025-12-06,3
+2026,Harry Kane,league,2025-12-14,1
+2026,Harry Kane,league,2025-12-21,1
+2026,Harry Kane,league,2026-01-11,1
+2026,Harry Kane,league,2026-01-17,1
+2026,Harry Kane,league,2026-01-31,1
+2026,Harry Kane,league,2026-02-08,2
+2026,Harry Kane,league,2026-02-14,2
+2026,Harry Kane,league,2026-02-21,2
+2026,Harry Kane,league,2026-02-28,2
+2026,Harry Kane,league,2026-03-21,1
+2026,Harry Kane,league,2026-04-19,1
+2026,Harry Kane,league,2026-04-25,1
+2026,Harry Kane,league,2026-05-16,3
+2026,Harry Kane,ucl,2025-09-17,2
+2026,Harry Kane,ucl,2025-09-30,2
+2026,Harry Kane,ucl,2025-10-22,1
+2026,Harry Kane,ucl,2026-01-21,2
+2026,Harry Kane,ucl,2026-01-28,1
+2026,Harry Kane,ucl,2026-03-18,2
+2026,Harry Kane,ucl,2026-04-07,1
+2026,Harry Kane,ucl,2026-04-15,1
+2026,Harry Kane,ucl,2026-04-28,1
+2026,Harry Kane,ucl,2026-05-06,1
+2026,Kylian Mbappé,league,2025-08-19,1
+2026,Kylian Mbappé,league,2025-08-24,2
+2026,Kylian Mbappé,league,2025-09-13,1
+2026,Kylian Mbappé,league,2025-09-20,1
+2026,Kylian Mbappé,league,2025-09-23,2
+2026,Kylian Mbappé,league,2025-09-27,1
+2026,Kylian Mbappé,league,2025-10-04,1
+2026,Kylian Mbappé,league,2025-10-19,1
+2026,Kylian Mbappé,league,2025-10-26,1
+2026,Kylian Mbappé,league,2025-11-01,2
+2026,Kylian Mbappé,league,2025-11-30,1
+2026,Kylian Mbappé,league,2025-12-03,2
+2026,Kylian Mbappé,league,2025-12-14,1
+2026,Kylian Mbappé,league,2025-12-20,1
+2026,Kylian Mbappé,league,2026-01-17,1
+2026,Kylian Mbappé,league,2026-01-24,2
+2026,Kylian Mbappé,league,2026-02-01,1
+2026,Kylian Mbappé,league,2026-02-08,1
+2026,Kylian Mbappé,league,2026-04-21,1
+2026,Kylian Mbappé,league,2026-05-23,1
+2026,Kylian Mbappé,ucl,2025-09-16,2
+2026,Kylian Mbappé,ucl,2025-09-30,3
+2026,Kylian Mbappé,ucl,2025-11-26,4
+2026,Kylian Mbappé,ucl,2026-01-20,2
+2026,Kylian Mbappé,ucl,2026-01-28,2
+2026,Kylian Mbappé,ucl,2026-04-07,1
+2026,Kylian Mbappé,ucl,2026-04-15,1
+2026,Kylian Mbappé,club_other,2025-12-17,2
+2026,Lamine Yamal,club_other,2026-01-15,1
+2026,Lamine Yamal,club_other,2026-02-03,1
+2026,Lamine Yamal,club_other,2026-03-03,0
+2026,Rodri,league,2026-01-17,0
+2026,Rodri,league,2026-02-01,0
+2026,Rodri,league,2026-03-04,1
+2026,Rodri,league,2026-05-19,0
+2026,Rodri,ucl,2025-10-01,0
+2026,Rodri,ucl,2026-01-20,0
+2026,Rodri,club_other,2026-01-10,1
+2026,Rodri,club_other,2026-04-04,0
+2026,Rodri,club_other,2026-02-04,0
+2026,Khvicha Kvaratskhelia,league,2025-11-01,0
+2026,Khvicha Kvaratskhelia,league,2025-11-09,1
+2026,Khvicha Kvaratskhelia,league,2025-12-06,2
+2026,Khvicha Kvaratskhelia,league,2026-02-08,1
+2026,Khvicha Kvaratskhelia,league,2026-04-19,1
+2026,Khvicha Kvaratskhelia,league,2026-04-22,2
+2026,Khvicha Kvaratskhelia,league,2026-05-13,1
+2026,Ousmane Dembélé,club_other,2025-12-20,1
+2026,Ousmane Dembélé,club_other,2026-01-08,1
+2026,Ousmane Dembélé,club_other,2025-08-13,0
+2026,Erling Haaland,league,2025-08-16,2
+2026,Erling Haaland,league,2025-08-31,1
+2026,Erling Haaland,league,2025-09-14,2
+2026,Erling Haaland,league,2025-09-21,1
+2026,Erling Haaland,league,2025-09-27,2
+2026,Erling Haaland,league,2025-10-05,1
+2026,Erling Haaland,league,2025-10-18,2
+2026,Erling Haaland,league,2025-11-02,2
+2026,Erling Haaland,league,2025-11-09,1
+2026,Erling Haaland,league,2025-12-02,1
+2026,Erling Haaland,league,2025-12-14,2
+2026,Erling Haaland,league,2025-12-20,2
+2026,Erling Haaland,league,2026-01-07,1
+2026,Erling Haaland,league,2026-02-08,1
+2026,Erling Haaland,league,2026-02-11,1
+2026,Erling Haaland,league,2026-04-19,1
+2026,Erling Haaland,league,2026-04-22,1
+2026,Erling Haaland,league,2026-05-04,1
+2026,Erling Haaland,league,2026-05-09,1
+2026,Erling Haaland,league,2026-05-19,1
+2026,Erling Haaland,ucl,2025-09-18,1
+2026,Erling Haaland,ucl,2025-10-01,2
+2026,Erling Haaland,ucl,2025-10-21,1
+2026,Erling Haaland,ucl,2025-11-05,1
+2026,Erling Haaland,ucl,2025-12-10,1
+2026,Erling Haaland,ucl,2026-01-28,1
+2026,Erling Haaland,ucl,2026-03-17,1
+2026,Michael Olise,league,2025-08-22,2
+2026,Michael Olise,league,2025-08-30,1
+2026,Michael Olise,league,2025-10-18,1
+2026,Michael Olise,league,2025-11-08,0
+2026,Michael Olise,league,2025-11-22,2
+2026,Michael Olise,league,2025-12-21,1
+2026,Michael Olise,league,2026-01-11,2
+2026,Michael Olise,league,2026-01-17,1
+2026,Michael Olise,league,2026-01-31,0
+2026,Michael Olise,league,2026-02-08,0
+2026,Michael Olise,league,2026-03-21,1
+2026,Michael Olise,league,2026-04-04,0
+2026,Michael Olise,league,2026-04-11,1
+2026,Michael Olise,league,2026-04-25,1
+2026,Michael Olise,league,2026-05-02,1
+2026,Michael Olise,league,2026-05-09,1
+2026,Michael Olise,ucl,2025-09-17,0
+2026,Michael Olise,ucl,2025-09-30,1
+2026,Michael Olise,ucl,2026-01-21,0
+2026,Michael Olise,ucl,2026-03-10,2
+2026,Michael Olise,ucl,2026-04-15,1
+2026,Michael Olise,ucl,2026-04-28,1
+2026,Michael Olise,club_other,2025-08-27,1
+2026,Michael Olise,club_other,2025-10-29,1
+2026,Michael Olise,club_other,2025-08-16,0
+2026,Fabián Ruiz,league,2025-08-22,1
+2026,Fabián Ruiz,league,2026-04-19,0
+2026,Fabián Ruiz,ucl,2025-11-26,1
+2026,Fabián Ruiz,ucl,2026-04-28,0
+2026,Fabián Ruiz,club_other,2025-12-17,0
+2026,Jude Bellingham,league,2025-10-26,1
+2026,Jude Bellingham,league,2025-11-01,1
+2026,Jude Bellingham,league,2025-11-23,1
+2026,Jude Bellingham,league,2025-12-20,1
+2026,Jude Bellingham,league,2026-05-14,1
+2026,Jude Bellingham,league,2026-05-23,1
+2026,Jude Bellingham,ucl,2025-10-22,1
+2026,Jude Bellingham,ucl,2026-01-20,1
+2026,Pau Cubarsí,league,2025-11-09,0
+2026,Pau Cubarsí,league,2026-02-16,1
+2026,Pau Cubarsí,league,2026-03-07,0
+2026,Pau Cubarsí,league,2026-03-22,0
+2026,Achraf Hakimi,league,2025-08-17,0
+2026,Achraf Hakimi,league,2025-10-25,2
+2026,Achraf Hakimi,league,2026-02-01,0
+2026,Achraf Hakimi,league,2026-03-06,0
+2026,Vitinha,league,2025-08-17,1
+2026,Vitinha,league,2025-11-29,0
+2026,Vitinha,league,2026-02-08,0
+2026,Vitinha,ucl,2025-10-21,1
+2026,Vitinha,ucl,2025-11-26,3
+2026,Vitinha,ucl,2026-01-28,1
+2026,Vitinha,ucl,2026-03-11,1
+2026,Declan Rice,league,2025-10-04,1
+2026,Declan Rice,league,2025-11-01,1
+2026,Declan Rice,league,2025-11-23,0
+2026,Declan Rice,league,2026-01-03,2
+2026,Declan Rice,league,2026-01-25,0
+2026,Declan Rice,league,2026-04-25,0
+2026,Declan Rice,ucl,2025-09-16,0
+2026,Declan Rice,ucl,2025-10-01,0
+2026,Declan Rice,ucl,2026-01-20,0
+2026,Declan Rice,ucl,2026-03-17,1
+2026,Declan Rice,ucl,2026-05-30,0
+2026,Ferran Torres,league,2025-08-16,1
+2026,Ferran Torres,league,2025-08-23,1
+2026,Ferran Torres,league,2025-09-21,2
+2026,Ferran Torres,league,2025-10-05,0
+2026,Ferran Torres,league,2025-10-26,0
+2026,Ferran Torres,league,2025-11-02,1
+2026,Ferran Torres,league,2025-11-22,2
+2026,Ferran Torres,league,2025-12-02,1
+2026,Ferran Torres,league,2025-12-06,3
+2026,Ferran Torres,league,2026-01-31,1
+2026,Ferran Torres,league,2026-04-11,2
+2026,Ferran Torres,league,2026-05-02,1
+2026,Ferran Torres,league,2026-05-10,1
+2026,Ferran Torres,club_other,2026-01-15,1
+2026,Ferran Torres,club_other,2026-01-07,1
+2026,Vinícius Júnior,league,2025-08-24,1
+2026,Vinícius Júnior,league,2025-08-30,1
+2026,Vinícius Júnior,league,2025-09-23,1
+2026,Vinícius Júnior,league,2025-10-04,2
+2026,Vinícius Júnior,league,2026-02-01,1
+2026,Vinícius Júnior,league,2026-02-14,2
+2026,Vinícius Júnior,league,2026-02-21,1
+2026,Vinícius Júnior,league,2026-03-22,2
+2026,Vinícius Júnior,league,2026-04-21,1
+2026,Vinícius Júnior,league,2026-04-24,1
+2026,Vinícius Júnior,league,2026-05-03,2
+2026,Vinícius Júnior,league,2026-05-17,1
+2026,Marc Cucurella,league,2025-09-20,0
+2026,Marc Cucurella,league,2025-09-27,0
+2026,Marc Cucurella,league,2025-11-30,0
+2026,Marc Cucurella,league,2026-01-07,0
+2026,Marc Cucurella,league,2026-01-17,0
+2026,Marc Cucurella,league,2026-01-31,1
+2026,Marc Cucurella,league,2026-02-07,0
+2026,Marc Cucurella,league,2026-04-12,0
+2026,Marc Cucurella,league,2026-05-09,0
+2026,Marc Cucurella,league,2026-05-19,0
+2026,Marc Cucurella,club_other,2026-05-16,0
+2026,Marc Cucurella,club_other,2025-09-23,0
+2026,Marc Cucurella,club_other,2025-10-29,0
+2026,Marc Cucurella,club_other,2026-01-14,0
+2026,João Neves,league,2025-08-30,3
+2026,João Neves,league,2025-11-09,1
+2026,João Neves,league,2025-11-22,1
+2026,João Neves,ucl,2025-11-04,1
+2026,João Neves,ucl,2026-04-28,1
+2026,João Neves,ucl,2026-05-30,0
+2026,Willian Pacho,ucl,2025-10-21,1
+2026,Willian Pacho,ucl,2025-11-26,1
+2026,Willian Pacho,club_other,2026-01-08,0
+2026,Willian Pacho,club_other,2025-08-13,0
+2026,Willian Pacho,club_other,2025-12-17,0
+2026,Gabriel Magalhães,league,2025-09-28,1
+2026,Gabriel Magalhães,league,2025-11-01,0
+2026,Gabriel Magalhães,league,2025-12-30,1
+2026,Gabriel Magalhães,league,2026-01-03,1
+2026,Gabriel Magalhães,league,2026-02-12,0
+2026,Gabriel Magalhães,league,2026-03-01,0
+2026,Gabriel Magalhães,league,2026-04-19,0
+2026,Gabriel Magalhães,ucl,2025-10-01,0
+2026,Gabriel Magalhães,ucl,2025-10-21,1
+2026,Lautaro Martínez,league,2025-08-25,1
+2026,Lautaro Martínez,league,2025-08-31,0
+2026,Lautaro Martínez,league,2025-09-27,1
+2026,Lautaro Martínez,league,2025-10-04,1
+2026,Lautaro Martínez,league,2025-10-18,0
+2026,Lautaro Martínez,league,2025-11-09,1
+2026,Lautaro Martínez,league,2025-11-30,2
+2026,Lautaro Martínez,league,2025-12-06,1
+2026,Lautaro Martínez,league,2025-12-14,1
+2026,Lautaro Martínez,league,2025-12-28,1
+2026,Lautaro Martínez,league,2026-01-04,1
+2026,Lautaro Martínez,league,2026-01-17,1
+2026,Lautaro Martínez,league,2026-01-23,1
+2026,Lautaro Martínez,league,2026-02-01,1
+2026,Lautaro Martínez,league,2026-02-08,1
+2026,Lautaro Martínez,league,2026-04-05,2
+2026,Lautaro Martínez,league,2026-05-09,1
+2026,Lautaro Martínez,league,2026-05-23,0
+2026,Lautaro Martínez,ucl,2025-09-30,2
+2026,Lautaro Martínez,ucl,2025-10-21,1
+2026,Lautaro Martínez,ucl,2025-11-05,1
+2026,Lautaro Martínez,ucl,2025-12-09,0
+2026,Lautaro Martínez,club_other,2026-05-13,1
+2026,Nuno Mendes,league,2025-10-05,1
+2026,Nuno Mendes,league,2025-10-29,1
+2026,Nuno Mendes,league,2025-11-22,0
+2026,Nuno Mendes,league,2026-02-01,1
+2026,Nuno Mendes,league,2026-03-21,1
+2026,Nuno Mendes,ucl,2025-09-17,1
+2026,Nuno Mendes,ucl,2025-10-01,0
+2026,Nuno Mendes,ucl,2025-10-21,1
+2026,Nuno Mendes,ucl,2025-11-04,0
+2026,Nuno Mendes,ucl,2026-05-06,0
+2026,Nuno Mendes,ucl,2026-05-30,0
+2026,Luis Díaz,league,2025-08-22,1
+2026,Luis Díaz,league,2025-08-30,1
+2026,Luis Díaz,league,2025-09-13,1
+2026,Luis Díaz,league,2025-09-20,0
+2026,Luis Díaz,league,2025-10-04,2
+2026,Luis Díaz,league,2025-10-25,0
+2026,Luis Díaz,league,2025-11-08,1
+2026,Luis Díaz,league,2025-11-29,1
+2026,Luis Díaz,league,2025-12-06,0
+2026,Luis Díaz,league,2025-12-21,1
+2026,Luis Díaz,league,2026-01-11,1
+2026,Luis Díaz,league,2026-01-31,1
+2026,Luis Díaz,league,2026-02-08,3
+2026,Luis Díaz,league,2026-03-06,1
+2026,Luis Díaz,league,2026-03-14,1
+2026,Luis Díaz,ucl,2025-10-22,1
+2026,Luis Díaz,ucl,2025-11-04,2
+2026,Luis Díaz,ucl,2026-03-18,1
+2026,Luis Díaz,ucl,2026-04-07,1
+2026,Luis Díaz,ucl,2026-04-15,1
+2026,Luis Díaz,ucl,2026-04-28,1
+2026,Luis Díaz,ucl,2026-05-06,0
+2026,Marquinhos,league,2025-09-22,0
+2026,Dayot Upamecano,league,2025-09-13,0
+2026,Dayot Upamecano,league,2025-10-25,0
+2026,Dayot Upamecano,league,2025-11-22,1
+2026,Dayot Upamecano,league,2025-12-06,0
+2026,Dayot Upamecano,league,2026-03-21,0
+2026,Dayot Upamecano,ucl,2025-11-26,0
+2026,Dayot Upamecano,ucl,2026-01-28,0
+2026,Dayot Upamecano,ucl,2026-04-28,1
+2026,Dayot Upamecano,club_other,2025-10-29,0
+2026,Dayot Upamecano,club_other,2025-12-03,0
+2026,Dayot Upamecano,club_other,2025-08-16,0
+2026,Julián Quiñones,club_other,2025-09-24,1
+2026,Julián Quiñones,club_other,2025-10-28,2
+2026,Julián Quiñones,club_other,2025-11-28,1
+2026,Sadio Mané,club_other,2025-08-19,1
