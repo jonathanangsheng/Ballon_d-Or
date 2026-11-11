@@ -81,3 +81,81 @@ python build_windows.py && python build_features.py && python report.py && pytho
 - Tournament rounds and Champions League results: [openfootball](https://github.com/openfootball)
   (public domain).
 - Trophies, awards, squads and edition dates: English Wikipedia (CC BY-SA), fetched November 2026.
+
+## Model
+
+[`nn_model.py`](nn_model.py) predicts each edition's top 10 from the performance features. It uses
+only the Python standard library and is a small dense network, as in the DSA312 lectures: one
+hidden layer, a linear output and full-batch gradient descent. A linear model (no hidden layer)
+is trained the same way as a baseline.
+
+```bash
+python nn_model.py           # choose the model on 2000–2015, report 2016–2025
+python nn_model.py --final   # also refit on 2000–2025 and score 2026
+```
+
+### Setup
+
+- **Split** ([`split.py`](split.py)): train 2000–2015 (421 rows), test 2016–2025 (270 rows, no
+  2020), hidden 2026. Nothing is tuned by looking at 2026.
+- **Inputs**: trophies won in the window (9 columns) and international tournament stage. Some runs
+  add national goals, club goals (league, UCL, other cups), UCL stage, age and position. Blanks
+  get the training median plus a missing flag; every column is standardised on the training
+  rows only.
+- **Target**: `(11 − rank) / 10` for the top 10, 0 below, trained with MSE. Ranking runs train
+  instead on pairs from the same edition whose better player made the top 10. They use a
+  logistic loss on the difference between the two scores.
+- **Scoring** (`split.score`): each edition's predictions are sorted. *Hits* = how many of the
+  predicted top 10 are in the real top 10; *exact* = how many are at their real rank.
+- **Choosing a model**: leave-one-year-out on 2000–2015, holding out each training year in turn.
+  The training length (epoch) is set where the mean validation loss is lowest. The best network
+  and best linear model are those with the lowest validation loss. The network is kept only if
+  it beats the linear model on test hits by more than its own spread over 5 seeds. A ranking run
+  replaces that pick only if it has more top-10 hits on the held-out training years, because its
+  loss is on a different scale. All of these rules were set before the results were seen.
+  Each time the script runs, backprop is first checked against finite differences.
+
+### Results
+
+Seed 8; networks also show the mean ± sd over seeds 8, 18, 28, 38 and 48 (the linear models
+start from zero, so seeds don't change them). Learning curves per run:
+`results/nn_loyo_curves.csv`.
+
+| Run | Held-out 2000–2015: hits / exact | Test 2016–2025: hits / exact | Test hits, 5 seeds |
+|---|---|---|---|
+| Heuristic (sort by trophies, then stage; no learning) | – | 4.89 / 0.78 | – |
+| 1 linear | 4.62 / 0.62 | 5.11 / 0.89 | – |
+| 3 network, 4 softplus nodes | 4.88 / 0.50 | 3.89 / 0.44 | 4.89 ± 0.51 |
+| 6 network + age, position | 5.19 / 0.50 | 5.33 / 0.89 | 5.04 ± 0.33 |
+| 9 network, two layers of 4 | 4.38 / 0.56 | 4.56 / 1.33 | 4.82 ± 0.18 |
+| 11 linear + national goals | 4.69 / 0.44 | 5.56 / 0.89 | – |
+| 12 network + national, club goals | 5.69 / 1.06 | 5.00 / 1.22 | 5.11 ± 0.16 |
+| 13 linear + national, club goals | 5.75 / 0.69 | 5.44 / 0.89 | – |
+| 14 ranking network + national, club goals | 5.62 / 0.62 | 5.33 / 0.89 | 5.16 ± 0.13 |
+| **15 ranking linear + national, club goals** | **5.88 / 0.81** | **5.00 / 0.56** | – |
+
+- **Final model: run 15**, chosen by the rules above. On test it is weaker than run 13, the
+  previous pick (5.00 vs 5.44 hits). It is kept anyway: switching back after seeing that would
+  let the test result change a rule fixed in advance.
+- Club goals were the biggest gain on the held-out years: Spearman rose from 0.21 to 0.37 (runs 11 →
+  13). On test, they and training to rank roughly tie with national goals alone.
+- Networks never clearly beat the linear models. Wider or deeper networks did worse, and results
+  vary between seeds by up to half a hit per edition.
+- Blanks are not spread the same way in training and test. In 2016–2025 a missing club-goal value
+  is more often a top-10 player than in 2000–2015 (45% vs 30%). Some of the gain on the held-out
+  years may not carry over to test for that reason.
+
+### 2026
+
+2026 has been scored once, with an earlier model: run 11, refit on 2000–2025 before the
+2000–2015 rankings were extended past the top 10 and before club goals were added. It got 7 hits,
+0 exact and Spearman 0.43.
+
+It was then scored a second time, once, with the final model (run 15, refit on 2000–2025 at the
+epoch chosen on 2000–2015): **6 hits, 2 exact, Spearman 0.51.** Nothing was changed after this
+result.
+
+| | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Predicted (actual rank) | Kane (1) | Mbappé (2) | Haaland (8) | Fabián Ruiz (10) | Dembélé (7) | Ferran Torres (16) | Lautaro Martínez (22) | Kvaratskhelia (6) | Vitinha (14) | Nuno Mendes (23) |
+| Actual | Kane | Mbappé | Yamal | Rodri | Messi | Kvaratskhelia | Dembélé | Haaland | Olise | Fabián Ruiz |

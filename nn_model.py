@@ -4,6 +4,11 @@ one Dense hidden layer, linear output, full-batch gradient descent on MSE). Stan
 Target: (11 - rank) / 10 for the top 10, 0 below; each year's prediction is sorted and the top
 10 scored with split.score(). Model choice uses leave-one-year-out on 2000-2015 only.
 
+Ranking runs (RANK_RUNS) train on pairs instead: within a year, every (better, worse) pair whose
+better player made the top 10, with a logistic loss on the score difference. Their epoch is
+chosen on the same pairwise loss; one replaces the MSE pick only if it has more leave-one-year-out
+top-10 hits.
+
     python nn_model.py           # select on 2000-2015, evaluate on 2016-2025
     python nn_model.py --final   # also refit on 2000-2025 and score 2026 (do this once)
 """
@@ -38,7 +43,10 @@ RUNS = {  # name: (extra inputs, hidden layer sizes, activation, learning rate)
     "11 linear +nat_goals": (["national_goals"], (), None, 0.1),
     "12 +nat,club goals": (["national_goals", "club_goals"], (4,), "softplus", 0.01),
     "13 linear +nat,club goals": (["national_goals", "club_goals"], (), None, 0.1),
+    "14 rank nn +nat,club": (["national_goals", "club_goals"], (4,), "softplus", 0.01),
+    "15 rank linear +nat,club": (["national_goals", "club_goals"], (), None, 0.1),
 }
+RANK_RUNS = {"14 rank nn +nat,club", "15 rank linear +nat,club"}
 
 
 # ---------- data ----------
@@ -49,7 +57,7 @@ def load(years):
         feats = {r["name"]: r for r in csv.DictReader(open(ROOT / f"data/features/{y}.csv", encoding="utf-8"))}
         for r in load_year(y):
             f = feats[r["name"]]
-            rows.append({"year": y, "name": r["name"], "y": max(0.0, (11 - r["rank"]) / 10),
+            rows.append({"year": y, "name": r["name"], "rank": r["rank"], "y": max(0.0, (11 - r["rank"]) / 10),
                          "age": r["age"], "position": r["position"],
                          **{c: float(f[c]) if f[c] != "" else None for c in BASE + ["ucl_stage", "national_goals"] + CLUB_GOALS}})
     return rows
@@ -131,14 +139,34 @@ def predict(p, X, act):
     return [forward(p, x, act)[2] for x in X]
 
 
-def grads(p, X, Y, act):
-    """MSE loss and its gradients for the whole batch (full-batch gradient descent)."""
+def rank_pairs(rows):
+    """(better, worse) row-index pairs within a year whose better player made the top 10."""
+    return [(i, j) for i, a in enumerate(rows) for j, b in enumerate(rows)
+            if a["year"] == b["year"] and a["rank"] <= 10 and a["rank"] < b["rank"]]
+
+
+def pair_loss(preds, pairs):
+    """Mean logistic loss log(1 + exp(-(s_better - s_worse))) over the pairs."""
+    return statistics.fmean(ACT["softplus"][0](preds[j] - preds[i]) for i, j in pairs)
+
+
+def grads(p, X, Y, act, pairs=None):
+    """Loss and its gradients for the whole batch (full-batch gradient descent): MSE on Y, or,
+    with pairs, the mean pairwise logistic loss."""
     g = [{"W": [[0.0] * len(r) for r in L["W"]], "b": [0.0] * len(L["b"])} for L in p]
-    loss, n = 0.0, len(X)
-    for x, y in zip(X, Y):
-        hs, zs, out = forward(p, x, act)
-        loss += (out - y) ** 2 / n
-        d = [2 * (out - y) / n]  # dLoss/dz for the output layer
+    fw = [forward(p, x, act) for x in X]
+    outs, n = [f[2] for f in fw], len(X)
+    if pairs is None:
+        loss = sum((o - y) ** 2 for o, y in zip(outs, Y)) / n
+        dout = [2 * (o - y) / n for o, y in zip(outs, Y)]
+    else:
+        loss, dout = pair_loss(outs, pairs), [0.0] * n
+        for i, j in pairs:
+            s = ACT["softplus"][1](outs[j] - outs[i]) / len(pairs)  # sigmoid(-(s_i - s_j))
+            dout[i] -= s
+            dout[j] += s
+    for (hs, zs, _), d0 in zip(fw, dout):
+        d = [d0]  # dLoss/dz for the output layer
         for k in range(len(p) - 1, -1, -1):
             for j, dj in enumerate(d):
                 g[k]["b"][j] += dj
@@ -150,14 +178,14 @@ def grads(p, X, Y, act):
     return loss, g
 
 
-def train(X, Y, hidden, act, lr, epochs, seed, Xv=None):
+def train(X, Y, hidden, act, lr, epochs, seed, Xv=None, pairs=None):
     """Returns params, training-loss curve and (if Xv) validation predictions after every epoch."""
     p = init(len(X[0]), hidden, seed)
     sizes = [len(X[0]), *hidden, 1]
     assert n_params(p) == sum(a * b + b for a, b in zip(sizes, sizes[1:]))
     losses, val_preds = [], []
     for _ in range(epochs):
-        loss, g = grads(p, X, Y, act)
+        loss, g = grads(p, X, Y, act, pairs)
         losses.append(loss)
         for L, G in zip(p, g):
             L["b"] = [b - lr * gb for b, gb in zip(L["b"], G["b"])]
@@ -174,15 +202,16 @@ def grad_check():
     Y = [rnd.random() for _ in range(5)]
     for act in ACT:
         for hidden in [(2,), (2, 2)]:
-            p = init(3, hidden, 1)
-            _, g = grads(p, X, Y, act)
-            for k, L in enumerate(p):
-                for i, j in [(len(L["W"]) - 1, 0)]:
-                    v0, eps = L["W"][i][j], 1e-6
-                    L["W"][i][j] = v0 + eps; up = grads(p, X, Y, act)[0]
-                    L["W"][i][j] = v0 - eps; down = grads(p, X, Y, act)[0]
-                    L["W"][i][j] = v0
-                    assert abs((up - down) / (2 * eps) - g[k]["W"][i][j]) < 1e-6, (act, hidden, k)
+            for pairs in [None, [(0, 1), (0, 2), (3, 4), (1, 4)]]:
+                p = init(3, hidden, 1)
+                _, g = grads(p, X, Y, act, pairs)
+                for k, L in enumerate(p):
+                    for i, j in [(len(L["W"]) - 1, 0)]:
+                        v0, eps = L["W"][i][j], 1e-6
+                        L["W"][i][j] = v0 + eps; up = grads(p, X, Y, act, pairs)[0]
+                        L["W"][i][j] = v0 - eps; down = grads(p, X, Y, act, pairs)[0]
+                        L["W"][i][j] = v0
+                        assert abs((up - down) / (2 * eps) - g[k]["W"][i][j]) < 1e-6, (act, hidden, k, pairs)
 
 
 # ---------- evaluation ----------
@@ -199,7 +228,7 @@ def mse(preds, rows):
     return statistics.fmean((p - r["y"]) ** 2 for p, r in zip(preds, rows))
 
 
-def loyo(rows, extra, hidden, act, lr, seed):
+def loyo(rows, extra, hidden, act, lr, seed, rank=False):
     """Leave-one-year-out on the training years. Returns mean train/val loss curves and the
     per-year metrics at the epoch with the lowest mean validation loss."""
     years = sorted({r["year"] for r in rows})
@@ -209,9 +238,10 @@ def loyo(rows, extra, hidden, act, lr, seed):
         va = [r for r in rows if r["year"] == y]
         prep = fit_prep(raw_matrix(tr, extra))
         _, losses, vp = train(prep(raw_matrix(tr, extra)), [r["y"] for r in tr], hidden, act, lr, EPOCHS,
-                              seed, prep(raw_matrix(va, extra)))
+                              seed, prep(raw_matrix(va, extra)), rank_pairs(tr) if rank else None)
         tr_curves.append(losses)
-        va_curves.append([mse(p, va) for p in vp])
+        va_pairs = rank_pairs(va)
+        va_curves.append([pair_loss(p, va_pairs) if rank else mse(p, va) for p in vp])
         folds.append((va, vp))
     tr_mean = [statistics.fmean(c) for c in zip(*tr_curves)]
     va_mean = [statistics.fmean(c) for c in zip(*va_curves)]
@@ -220,10 +250,10 @@ def loyo(rows, extra, hidden, act, lr, seed):
     return tr_mean, va_mean, best + 1, per_year
 
 
-def test_eval(train_rows, test_rows, extra, hidden, act, lr, epochs, seed):
+def test_eval(train_rows, test_rows, extra, hidden, act, lr, epochs, seed, rank=False):
     prep = fit_prep(raw_matrix(train_rows, extra))
     p, _, _ = train(prep(raw_matrix(train_rows, extra)), [r["y"] for r in train_rows], hidden, act, lr,
-                    epochs, seed)
+                    epochs, seed, pairs=rank_pairs(train_rows) if rank else None)
     preds = predict(p, prep(raw_matrix(test_rows, extra)), act)
     by_year = {}
     for r, v in zip(test_rows, preds):
@@ -231,7 +261,7 @@ def test_eval(train_rows, test_rows, extra, hidden, act, lr, epochs, seed):
         by_year[r["year"]][0].append(r)
         by_year[r["year"]][1].append(v)
     per_year = {y: year_metrics(rs, vs) for y, (rs, vs) in sorted(by_year.items())}
-    return mse(preds, test_rows), per_year, n_params(p)
+    return (None if rank else mse(preds, test_rows)), per_year, n_params(p)
 
 
 def heuristic(test_rows):
@@ -254,12 +284,14 @@ def main():
     out.mkdir(exist_ok=True)
 
     print(f"Leave-one-year-out on {TRAIN_YEARS[0]}-{TRAIN_YEARS[-1]} ({len(train_rows)} rows), seed 8")
-    print(f"{'run':22s} {'epoch':>5s} {'val MSE':>8s} {'exact':>6s} {'spearman':>8s}")
-    chosen, curves = {}, {}
+    print(f"{'run':26s} {'epoch':>5s} {'val loss':>8s} {'hits':>6s} {'exact':>6s} {'spearman':>8s}"
+          "   (val loss: MSE, or pairwise loss for rank runs)")
+    chosen, curves, loyo_hits = {}, {}, {}
     for name, (extra, hidden, act, lr) in RUNS.items():
-        tr, va, ep, per_year = loyo(train_rows, extra, hidden, act, lr, 8)
-        chosen[name], curves[name] = ep, (tr, va)
-        print(f"{name:22s} {ep:5d} {va[ep - 1]:8.4f} {avg(per_year, 1):6.2f} {avg(per_year, 2):8.3f}")
+        tr, va, ep, per_year = loyo(train_rows, extra, hidden, act, lr, 8, name in RANK_RUNS)
+        chosen[name], curves[name], loyo_hits[name] = ep, (tr, va), avg(per_year, 0)
+        print(f"{name:26s} {ep:5d} {va[ep - 1]:8.4f} {avg(per_year, 0):6.2f} {avg(per_year, 1):6.2f} "
+              f"{avg(per_year, 2):8.3f}")
     with open(out / "nn_loyo_curves.csv", "w", newline="") as f:
         w = csv.writer(f)
         w.writerow(["epoch"] + [f"{n} {k}" for n in RUNS for k in ("train", "val")])
@@ -280,18 +312,20 @@ def main():
     print(f"80/20 by year: validation years {sorted(val_years)}; curves in results/nn_8020_curves.csv")
 
     print(f"\nTest {TEST_YEARS[0]}-{TEST_YEARS[-1]} ({len(test_rows)} rows): seed 8, then mean ± sd over seeds {SEEDS}")
-    print(f"{'run':22s} {'params':>6s} {'MSE':>7s} {'hits':>6s} {'exact':>6s}   {'hits mean±sd':>13s} {'exact mean±sd':>13s}")
+    print(f"{'run':26s} {'params':>6s} {'MSE':>7s} {'hits':>6s} {'exact':>6s}   {'hits mean±sd':>13s} {'exact mean±sd':>13s}")
     h = heuristic(test_rows)
-    print(f"{'2 heuristic':22s} {0:6d} {'-':>7s} {avg(h.values(), 0):6.2f} {avg(h.values(), 1):6.2f}")
+    print(f"{'2 heuristic':26s} {0:6d} {'-':>7s} {avg(h.values(), 0):6.2f} {avg(h.values(), 1):6.2f}")
     results = {}
     for name, (extra, hidden, act, lr) in RUNS.items():
         seeds = SEEDS if hidden else [8]  # the linear model starts from zeros: seed-independent
-        runs = [test_eval(train_rows, test_rows, extra, hidden, act, lr, chosen[name], s) for s in seeds]
+        runs = [test_eval(train_rows, test_rows, extra, hidden, act, lr, chosen[name], s, name in RANK_RUNS)
+                for s in seeds]
         hits = [avg(r[1].values(), 0) for r in runs]
         exact = [avg(r[1].values(), 1) for r in runs]
         sd = (statistics.pstdev(hits), statistics.pstdev(exact))
         results[name] = (hits, exact, sd)
-        print(f"{name:22s} {runs[0][2]:6d} {runs[0][0]:7.4f} {hits[0]:6.2f} {exact[0]:6.2f}   "
+        mse_txt = "-" if runs[0][0] is None else f"{runs[0][0]:.4f}"
+        print(f"{name:26s} {runs[0][2]:6d} {mse_txt:>7s} {hits[0]:6.2f} {exact[0]:6.2f}   "
               f"{statistics.fmean(hits):6.2f}±{sd[0]:.2f}   {statistics.fmean(exact):6.2f}±{sd[1]:.2f}")
         if name == "3 nn4 softplus":
             per_year = runs[0][1]
@@ -302,18 +336,25 @@ def main():
     # network only if it beats that linear model on test hits by more than its own seed spread
     def best(group):
         return min(group, key=lambda n: curves[n][1][chosen[n] - 1])
-    nn = best([n for n in RUNS if RUNS[n][1]])
-    lin = best([n for n in RUNS if not RUNS[n][1]])
+    nn = best([n for n in RUNS if RUNS[n][1] and n not in RANK_RUNS])
+    lin = best([n for n in RUNS if not RUNS[n][1] and n not in RANK_RUNS])
     lin_hits = results[lin][0][0]
     nn_hits, _, nn_sd = results[nn]
     final = nn if statistics.fmean(nn_hits) - lin_hits > nn_sd[0] else lin
     print(f"\nBest on validation: network {nn}, linear {lin}. Test hits {statistics.fmean(nn_hits):.2f}"
-          f"±{nn_sd[0]:.2f} vs {lin_hits:.2f} -> final model: {final}")
+          f"±{nn_sd[0]:.2f} vs {lin_hits:.2f} -> MSE pick: {final}")
+    # a ranking run replaces it only with more leave-one-year-out hits (the losses differ in scale)
+    rk = best(list(RANK_RUNS))
+    print(f"Best ranking run on validation: {rk}. LOYO hits {loyo_hits[rk]:.2f} vs {loyo_hits[final]:.2f} "
+          f"for {final} -> final model: {rk if loyo_hits[rk] > loyo_hits[final] else final}")
+    if loyo_hits[rk] > loyo_hits[final]:
+        final = rk
 
     if "--final" in sys.argv:
         extra, hidden, act, lr = RUNS[final]
         full, hidden_rows = train_rows + test_rows, load([HIDDEN_YEAR])
-        _, per_year, _ = test_eval(full, hidden_rows, extra, hidden, act, lr, chosen[final], 8)
+        _, per_year, _ = test_eval(full, hidden_rows, extra, hidden, act, lr, chosen[final], 8,
+                                   final in RANK_RUNS)
         hits, exact, rho = per_year[HIDDEN_YEAR]
         print(f"{HIDDEN_YEAR} (refit on {TRAIN_YEARS[0]}-{TEST_YEARS[-1]}): {hits} hits, {exact} exact, "
               f"spearman {rho:.3f}")
