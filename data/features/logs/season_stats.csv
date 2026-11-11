@@ -1,0 +1,312 @@
+year,name,bucket,apps,goals,first_match,last_match,source
+2022,Karim Benzema,league,32,27,2021-08-13,2022-05-22,https://en.wikipedia.org/wiki/2021%E2%80%9322_La_Liga
+2022,Kevin De Bruyne,ucl,10,2,2021-08-07,2022-05-22,https://en.wikipedia.org/wiki/2021–22_Manchester_City_F.C._season
+2022,Kevin De Bruyne,club_other,5,2,2021-08-07,2022-05-22,https://en.wikipedia.org/wiki/2021–22_Manchester_City_F.C._season
+2022,Robert Lewandowski,league,34,35,2021-08-13,2022-05-14,https://en.wikipedia.org/wiki/2021%E2%80%9322_Bundesliga
+2022,Kylian Mbappé,league,35,28,2021-08-06,2022-05-21,https://en.wikipedia.org/wiki/2021%E2%80%9322_Ligue_1
+2022,Kylian Mbappé,ucl,8,6,2021-08-01,2022-05-21,https://en.wikipedia.org/wiki/2021–22_Paris_Saint-Germain_FC_season
+2022,Kylian Mbappé,club_other,3,5,2021-08-01,2022-05-21,https://en.wikipedia.org/wiki/2021–22_Paris_Saint-Germain_FC_season
+2022,Thibaut Courtois,league,36,0,2021-08-13,2022-05-22,https://en.wikipedia.org/wiki/2021%E2%80%9322_La_Liga
+2022,Vinícius Júnior,league,35,17,2021-08-13,2022-05-22,https://en.wikipedia.org/wiki/2021%E2%80%9322_La_Liga
+2022,Luka Modrić,league,28,2,2021-08-13,2022-05-22,https://en.wikipedia.org/wiki/2021%E2%80%9322_La_Liga
+2022,Erling Haaland,league,24,22,2021-08-13,2022-05-14,https://en.wikipedia.org/wiki/2021%E2%80%9322_Bundesliga
+2022,Erling Haaland,ucl,3,3,2021-08-07,2022-05-14,https://en.wikipedia.org/wiki/2021–22_Borussia_Dortmund_season
+2022,Erling Haaland,club_other,3,4,2021-08-07,2022-05-14,https://en.wikipedia.org/wiki/2021–22_Borussia_Dortmund_season
+2022,Riyad Mahrez,ucl,12,7,2021-08-07,2022-05-22,https://en.wikipedia.org/wiki/2021–22_Manchester_City_F.C._season
+2022,Riyad Mahrez,club_other,7,6,2021-08-07,2022-05-22,https://en.wikipedia.org/wiki/2021–22_Manchester_City_F.C._season
+2022,Sébastien Haller,league,31,21,2021-08-13,2022-05-15,https://en.wikipedia.org/wiki/2021%E2%80%9322_Eredivisie
+2022,Sébastien Haller,ucl,8,11,2021-08-07,2022-05-20,https://en.wikipedia.org/wiki/2021–22_AFC_Ajax_season
+2022,Sébastien Haller,club_other,4,2,2021-08-07,2022-05-20,https://en.wikipedia.org/wiki/2021–22_AFC_Ajax_season
+2022,Rafael Leão,league,34,11,2021-08-21,2022-05-22,https://en.wikipedia.org/wiki/2021%E2%80%9322_Serie_A
+2022,Rafael Leão,ucl,4,1,2021-08-23,2022-05-22,https://en.wikipedia.org/wiki/2021–22_AC_Milan_season
+2022,Rafael Leão,club_other,4,2,2021-08-23,2022-05-22,https://en.wikipedia.org/wiki/2021–22_AC_Milan_season
+2022,Casemiro,league,32,1,2021-08-13,2022-05-22,https://en.wikipedia.org/wiki/2021%E2%80%9322_La_Liga
+2022,Dušan Vlahović,league,36,24,2021-08-21,2022-05-22,https://en.wikipedia.org/wiki/2021%E2%80%9322_Serie_A
+2022,Dušan Vlahović,ucl,2,1,2021-08-13,2022-05-21,https://en.wikipedia.org/wiki/2021–22_ACF_Fiorentina_season
+2022,Dušan Vlahović,club_other,7,4,2021-08-13,2022-05-21,https://en.wikipedia.org/wiki/2021–22_ACF_Fiorentina_season
+2022,Phil Foden,ucl,11,3,2021-08-07,2022-05-22,https://en.wikipedia.org/wiki/2021–22_Manchester_City_F.C._season
+2022,Phil Foden,club_other,6,2,2021-08-07,2022-05-22,https://en.wikipedia.org/wiki/2021–22_Manchester_City_F.C._season
+2022,Bernardo Silva,ucl,11,3,2021-08-07,2022-05-22,https://en.wikipedia.org/wiki/2021–22_Manchester_City_F.C._season
+2022,Bernardo Silva,club_other,4,2,2021-08-07,2022-05-22,https://en.wikipedia.org/wiki/2021–22_Manchester_City_F.C._season
+2022,João Cancelo,ucl,9,2,2021-08-07,2022-05-22,https://en.wikipedia.org/wiki/2021–22_Manchester_City_F.C._season
+2022,João Cancelo,club_other,7,0,2021-08-07,2022-05-22,https://en.wikipedia.org/wiki/2021–22_Manchester_City_F.C._season
+2022,Joshua Kimmich,league,28,3,2021-08-13,2022-05-14,https://en.wikipedia.org/wiki/2021%E2%80%9322_Bundesliga
+2022,Joshua Kimmich,ucl,8,0,2021-08-13,2022-05-14,https://en.wikipedia.org/wiki/2021–22_FC_Bayern_Munich_season
+2022,Joshua Kimmich,club_other,3,0,2021-08-13,2022-05-14,https://en.wikipedia.org/wiki/2021–22_FC_Bayern_Munich_season
+2022,Mike Maignan,league,32,0,2021-08-21,2022-05-22,https://en.wikipedia.org/wiki/2021%E2%80%9322_Serie_A
+2022,Mike Maignan,ucl,3,0,2021-08-23,2022-05-22,https://en.wikipedia.org/wiki/2021–22_AC_Milan_season
+2022,Mike Maignan,club_other,4,0,2021-08-23,2022-05-22,https://en.wikipedia.org/wiki/2021–22_AC_Milan_season
+2022,Christopher Nkunku,league,34,20,2021-08-13,2022-05-14,https://en.wikipedia.org/wiki/2021%E2%80%9322_Bundesliga
+2022,Christopher Nkunku,ucl,0,0,2021-08-07,2022-05-21,https://en.wikipedia.org/wiki/2021–22_RB_Leipzig_season
+2022,Christopher Nkunku,club_other,18,15,2021-08-07,2022-05-21,https://en.wikipedia.org/wiki/2021–22_RB_Leipzig_season
+2022,Darwin Núñez,league,28,26,2021-08-06,2022-05-15,https://en.wikipedia.org/wiki/2021%E2%80%9322_Primeira_Liga
+2022,Darwin Núñez,ucl,10,6,2021-08-04,2022-05-13,https://en.wikipedia.org/wiki/2021–22_S.L._Benfica_season
+2022,Darwin Núñez,club_other,3,2,2021-08-04,2022-05-13,https://en.wikipedia.org/wiki/2021–22_S.L._Benfica_season
+2023,Lionel Messi,league,32,16,2022-08-05,2023-06-03,https://en.wikipedia.org/wiki/2022%E2%80%9323_Ligue_1
+2023,Erling Haaland,league,35,36,2022-08-05,2023-05-28,https://en.wikipedia.org/wiki/2022%E2%80%9323_Premier_League
+2023,Kylian Mbappé,league,34,29,2022-08-05,2023-06-03,https://en.wikipedia.org/wiki/2022%E2%80%9323_Ligue_1
+2023,Kevin De Bruyne,league,32,7,2022-08-05,2023-05-28,https://en.wikipedia.org/wiki/2022%E2%80%9323_Premier_League
+2023,Rodri,league,36,2,2022-08-05,2023-05-28,https://en.wikipedia.org/wiki/2022%E2%80%9323_Premier_League
+2023,Vinícius Júnior,league,33,10,2022-08-12,2023-06-04,https://en.wikipedia.org/wiki/2022%E2%80%9323_La_Liga
+2023,Julián Álvarez,league,31,9,2022-08-05,2023-05-28,https://en.wikipedia.org/wiki/2022%E2%80%9323_Premier_League
+2023,Victor Osimhen,league,32,26,2022-08-13,2023-06-04,https://en.wikipedia.org/wiki/2022%E2%80%9323_Serie_A
+2023,Victor Osimhen,ucl,6,5,2022-08-15,2023-06-04,https://en.wikipedia.org/wiki/2022–23_SSC_Napoli_season
+2023,Victor Osimhen,club_other,1,0,2022-08-15,2023-06-04,https://en.wikipedia.org/wiki/2022–23_SSC_Napoli_season
+2023,Bernardo Silva,league,34,4,2022-08-05,2023-05-28,https://en.wikipedia.org/wiki/2022%E2%80%9323_Premier_League
+2023,Luka Modrić,league,33,4,2022-08-12,2023-06-04,https://en.wikipedia.org/wiki/2022%E2%80%9323_La_Liga
+2023,Mohamed Salah,league,38,19,2022-08-05,2023-05-28,https://en.wikipedia.org/wiki/2022%E2%80%9323_Premier_League
+2023,Robert Lewandowski,league,34,23,2022-08-12,2023-06-04,https://en.wikipedia.org/wiki/2022%E2%80%9323_La_Liga
+2023,Robert Lewandowski,ucl,0,0,2022-08-13,2023-06-04,https://en.wikipedia.org/wiki/2022–23_FC_Barcelona_season
+2023,Robert Lewandowski,club_other,12,10,2022-08-13,2023-06-04,https://en.wikipedia.org/wiki/2022–23_FC_Barcelona_season
+2023,Yassine Bounou,league,25,0,2022-08-12,2023-06-04,https://en.wikipedia.org/wiki/2022%E2%80%9323_La_Liga
+2023,Yassine Bounou,ucl,0,0,2022-08-12,2023-06-04,https://en.wikipedia.org/wiki/2022–23_Sevilla_FC_season
+2023,Yassine Bounou,club_other,11,0,2022-08-12,2023-06-04,https://en.wikipedia.org/wiki/2022–23_Sevilla_FC_season
+2023,İlkay Gündoğan,league,31,8,2022-08-05,2023-05-28,https://en.wikipedia.org/wiki/2022%E2%80%9323_Premier_League
+2023,Emiliano Martínez,league,36,0,2022-08-05,2023-05-28,https://en.wikipedia.org/wiki/2022%E2%80%9323_Premier_League
+2023,Emiliano Martínez,ucl,0,0,2022-08-06,2023-05-28,https://en.wikipedia.org/wiki/2022–23_Aston_Villa_F.C._season
+2023,Emiliano Martínez,club_other,1,0,2022-08-06,2023-05-28,https://en.wikipedia.org/wiki/2022–23_Aston_Villa_F.C._season
+2023,Karim Benzema,league,24,19,2022-08-12,2023-06-04,https://en.wikipedia.org/wiki/2022%E2%80%9323_La_Liga
+2023,Khvicha Kvaratskhelia,league,34,12,2022-08-13,2023-06-04,https://en.wikipedia.org/wiki/2022%E2%80%9323_Serie_A
+2023,Khvicha Kvaratskhelia,ucl,9,2,2022-08-15,2023-06-04,https://en.wikipedia.org/wiki/2022–23_SSC_Napoli_season
+2023,Khvicha Kvaratskhelia,club_other,0,0,2022-08-15,2023-06-04,https://en.wikipedia.org/wiki/2022–23_SSC_Napoli_season
+2023,Jude Bellingham,league,31,8,2022-08-05,2023-05-27,https://en.wikipedia.org/wiki/2022%E2%80%9323_Bundesliga
+2023,Harry Kane,league,38,30,2022-08-05,2023-05-28,https://en.wikipedia.org/wiki/2022%E2%80%9323_Premier_League
+2023,Harry Kane,ucl,8,1,2022-08-06,2023-05-28,https://en.wikipedia.org/wiki/2022–23_Tottenham_Hotspur_F.C._season
+2023,Harry Kane,club_other,3,1,2022-08-06,2023-05-28,https://en.wikipedia.org/wiki/2022–23_Tottenham_Hotspur_F.C._season
+2023,Lautaro Martínez,league,38,21,2022-08-13,2023-06-04,https://en.wikipedia.org/wiki/2022%E2%80%9323_Serie_A
+2023,Lautaro Martínez,ucl,13,3,2022-08-13,2023-06-10,https://en.wikipedia.org/wiki/2022–23_Inter_Milan_season
+2023,Lautaro Martínez,club_other,6,4,2022-08-13,2023-06-10,https://en.wikipedia.org/wiki/2022–23_Inter_Milan_season
+2023,Antoine Griezmann,league,38,15,2022-08-12,2023-06-04,https://en.wikipedia.org/wiki/2022%E2%80%9323_La_Liga
+2023,Antoine Griezmann,ucl,6,1,2022-08-15,2023-06-04,https://en.wikipedia.org/wiki/2022–23_Atlético_Madrid_season
+2023,Antoine Griezmann,club_other,4,0,2022-08-15,2023-06-04,https://en.wikipedia.org/wiki/2022–23_Atlético_Madrid_season
+2023,Kim Min-jae,league,35,2,2022-08-13,2023-06-04,https://en.wikipedia.org/wiki/2022%E2%80%9323_Serie_A
+2023,Kim Min-jae,ucl,9,0,2022-08-15,2023-06-04,https://en.wikipedia.org/wiki/2022–23_S.S.C._Napoli_season
+2023,Kim Min-jae,club_other,1,0,2022-08-15,2023-06-04,https://en.wikipedia.org/wiki/2022–23_S.S.C._Napoli_season
+2023,André Onana,league,24,0,2022-08-13,2023-06-04,https://en.wikipedia.org/wiki/2022%E2%80%9323_Serie_A
+2023,André Onana,ucl,13,0,2022-08-13,2023-06-10,https://en.wikipedia.org/wiki/2022–23_Inter_Milan_season
+2023,André Onana,club_other,4,0,2022-08-13,2023-06-10,https://en.wikipedia.org/wiki/2022–23_Inter_Milan_season
+2023,Bukayo Saka,league,38,14,2022-08-05,2023-05-28,https://en.wikipedia.org/wiki/2022%E2%80%9323_Premier_League
+2023,Joško Gvardiol,league,30,1,2022-08-05,2023-05-27,https://en.wikipedia.org/wiki/2022%E2%80%9323_Bundesliga
+2023,Jamal Musiala,league,33,12,2022-08-05,2023-05-27,https://en.wikipedia.org/wiki/2022%E2%80%9323_Bundesliga
+2023,Nicolò Barella,league,35,6,2022-08-13,2023-06-04,https://en.wikipedia.org/wiki/2022%E2%80%9323_Serie_A
+2023,Randal Kolo Muani,league,32,15,2022-08-05,2023-05-27,https://en.wikipedia.org/wiki/2022%E2%80%9323_Bundesliga
+2023,Martin Ødegaard,league,37,15,2022-08-05,2023-05-28,https://en.wikipedia.org/wiki/2022%E2%80%9323_Premier_League
+2023,Rúben Dias,league,26,0,2022-08-05,2023-05-28,https://en.wikipedia.org/wiki/2022%E2%80%9323_Premier_League
+2024,Rodri,league,34,8,2023-08-11,2024-05-19,https://en.wikipedia.org/wiki/2023%E2%80%9324_Premier_League
+2024,Rodri,ucl,8,1,2023-08-06,2024-05-25,https://en.wikipedia.org/wiki/2023–24_Manchester_City_F.C._season
+2024,Rodri,club_other,8,0,2023-08-06,2024-05-25,https://en.wikipedia.org/wiki/2023–24_Manchester_City_F.C._season
+2024,Vinícius Júnior,league,26,15,2023-08-11,2024-05-26,https://en.wikipedia.org/wiki/2023%E2%80%9324_La_Liga
+2024,Jude Bellingham,league,28,19,2023-08-11,2024-05-26,https://en.wikipedia.org/wiki/2023%E2%80%9324_La_Liga
+2024,Dani Carvajal,league,28,4,2023-08-11,2024-05-26,https://en.wikipedia.org/wiki/2023%E2%80%9324_La_Liga
+2024,Erling Haaland,league,31,27,2023-08-11,2024-05-19,https://en.wikipedia.org/wiki/2023%E2%80%9324_Premier_League
+2024,Erling Haaland,ucl,9,6,2023-08-06,2024-05-25,https://en.wikipedia.org/wiki/2023–24_Manchester_City_F.C._season
+2024,Erling Haaland,club_other,5,5,2023-08-06,2024-05-25,https://en.wikipedia.org/wiki/2023–24_Manchester_City_F.C._season
+2024,Kylian Mbappé,league,29,27,2023-08-11,2024-05-19,https://en.wikipedia.org/wiki/2023%E2%80%9324_Ligue_1
+2024,Kylian Mbappé,ucl,12,8,2023-08-12,2024-05-25,https://en.wikipedia.org/wiki/2023–24_Paris_Saint-Germain_FC_season
+2024,Kylian Mbappé,club_other,7,9,2023-08-12,2024-05-25,https://en.wikipedia.org/wiki/2023–24_Paris_Saint-Germain_FC_season
+2024,Lautaro Martínez,league,33,24,2023-08-19,2024-06-02,https://en.wikipedia.org/wiki/2023%E2%80%9324_Serie_A
+2024,Lautaro Martínez,ucl,8,2,2023-08-19,2024-05-26,https://en.wikipedia.org/wiki/2023–24_Inter_Milan_season
+2024,Lautaro Martínez,club_other,3,1,2023-08-19,2024-05-26,https://en.wikipedia.org/wiki/2023–24_Inter_Milan_season
+2024,Lamine Yamal,league,37,5,2023-08-11,2024-05-26,https://en.wikipedia.org/wiki/2023%E2%80%9324_La_Liga
+2024,Lamine Yamal,ucl,10,0,2023-08-13,2024-05-26,https://en.wikipedia.org/wiki/2023–24_FC_Barcelona_season
+2024,Lamine Yamal,club_other,3,2,2023-08-13,2024-05-26,https://en.wikipedia.org/wiki/2023–24_FC_Barcelona_season
+2024,Toni Kroos,league,33,1,2023-08-11,2024-05-26,https://en.wikipedia.org/wiki/2023%E2%80%9324_La_Liga
+2024,Harry Kane,league,32,36,2023-08-18,2024-05-18,https://en.wikipedia.org/wiki/2023%E2%80%9324_Bundesliga
+2024,Harry Kane,ucl,12,8,2023-08-12,2024-05-18,https://en.wikipedia.org/wiki/2023–24_FC_Bayern_Munich_season
+2024,Harry Kane,club_other,1,0,2023-08-12,2024-05-18,https://en.wikipedia.org/wiki/2023–24_FC_Bayern_Munich_season
+2024,Phil Foden,league,35,19,2023-08-11,2024-05-19,https://en.wikipedia.org/wiki/2023%E2%80%9324_Premier_League
+2024,Phil Foden,ucl,8,5,2023-08-06,2024-05-25,https://en.wikipedia.org/wiki/2023–24_Manchester_City_F.C._season
+2024,Phil Foden,club_other,10,3,2023-08-06,2024-05-25,https://en.wikipedia.org/wiki/2023–24_Manchester_City_F.C._season
+2024,Florian Wirtz,ucl,0,0,2023-08-12,2024-05-25,https://en.wikipedia.org/wiki/2023–24_Bayer_04_Leverkusen_season
+2024,Florian Wirtz,club_other,17,7,2023-08-12,2024-05-25,https://en.wikipedia.org/wiki/2023–24_Bayer_04_Leverkusen_season
+2024,Dani Olmo,league,21,4,2023-08-18,2024-05-18,https://en.wikipedia.org/wiki/2023%E2%80%9324_Bundesliga
+2024,Dani Olmo,ucl,3,1,2023-08-12,2024-05-18,https://en.wikipedia.org/wiki/2023–24_RB_Leipzig_season
+2024,Dani Olmo,club_other,1,3,2023-08-12,2024-05-18,https://en.wikipedia.org/wiki/2023–24_RB_Leipzig_season
+2024,Ademola Lookman,league,31,11,2023-08-19,2024-06-02,https://en.wikipedia.org/wiki/2023%E2%80%9324_Serie_A
+2024,Ademola Lookman,ucl,0,0,2023-08-20,2024-06-02,https://en.wikipedia.org/wiki/2023–24_Atalanta_BC_season
+2024,Ademola Lookman,club_other,14,6,2023-08-20,2024-06-02,https://en.wikipedia.org/wiki/2023–24_Atalanta_BC_season
+2024,Nico Williams,league,31,5,2023-08-11,2024-05-26,https://en.wikipedia.org/wiki/2023%E2%80%9324_La_Liga
+2024,Nico Williams,ucl,0,0,2023-08-12,2024-05-25,https://en.wikipedia.org/wiki/2023–24_Athletic_Bilbao_season
+2024,Nico Williams,club_other,6,3,2023-08-12,2024-05-25,https://en.wikipedia.org/wiki/2023–24_Athletic_Bilbao_season
+2024,Granit Xhaka,league,33,3,2023-08-18,2024-05-18,https://en.wikipedia.org/wiki/2023%E2%80%9324_Bundesliga
+2024,Granit Xhaka,ucl,0,0,2023-08-12,2024-05-25,https://en.wikipedia.org/wiki/2023–24_Bayer_04_Leverkusen_season
+2024,Granit Xhaka,club_other,17,1,2023-08-12,2024-05-25,https://en.wikipedia.org/wiki/2023–24_Bayer_04_Leverkusen_season
+2024,Federico Valverde,league,37,2,2023-08-11,2024-05-26,https://en.wikipedia.org/wiki/2023%E2%80%9324_La_Liga
+2024,Emiliano Martínez,league,34,0,2023-08-11,2024-05-19,https://en.wikipedia.org/wiki/2023%E2%80%9324_Premier_League
+2024,Emiliano Martínez,ucl,0,0,2023-08-12,2024-05-19,https://en.wikipedia.org/wiki/2023–24_Aston_Villa_F.C._season
+2024,Emiliano Martínez,club_other,13,0,2023-08-12,2024-05-19,https://en.wikipedia.org/wiki/2023–24_Aston_Villa_F.C._season
+2024,Martin Ødegaard,league,35,8,2023-08-11,2024-05-19,https://en.wikipedia.org/wiki/2023%E2%80%9324_Premier_League
+2024,Hakan Çalhanoğlu,league,32,13,2023-08-19,2024-06-02,https://en.wikipedia.org/wiki/2023%E2%80%9324_Serie_A
+2024,Hakan Çalhanoğlu,ucl,6,1,2023-08-19,2024-05-26,https://en.wikipedia.org/wiki/2023–24_Inter_Milan_season
+2024,Hakan Çalhanoğlu,club_other,2,1,2023-08-19,2024-05-26,https://en.wikipedia.org/wiki/2023–24_Inter_Milan_season
+2024,Bukayo Saka,league,35,16,2023-08-11,2024-05-19,https://en.wikipedia.org/wiki/2023%E2%80%9324_Premier_League
+2024,Antonio Rüdiger,league,33,1,2023-08-11,2024-05-26,https://en.wikipedia.org/wiki/2023%E2%80%9324_La_Liga
+2024,Rúben Dias,league,30,0,2023-08-11,2024-05-19,https://en.wikipedia.org/wiki/2023%E2%80%9324_Premier_League
+2024,Rúben Dias,ucl,9,0,2023-08-06,2024-05-25,https://en.wikipedia.org/wiki/2023–24_Manchester_City_F.C._season
+2024,Rúben Dias,club_other,6,0,2023-08-06,2024-05-25,https://en.wikipedia.org/wiki/2023–24_Manchester_City_F.C._season
+2024,William Saliba,league,38,2,2023-08-11,2024-05-19,https://en.wikipedia.org/wiki/2023%E2%80%9324_Premier_League
+2024,Cole Palmer,league,34,22,2023-08-11,2024-05-19,https://en.wikipedia.org/wiki/2023%E2%80%9324_Premier_League
+2024,Cole Palmer,ucl,0,0,2023-08-06,2024-05-25,https://en.wikipedia.org/wiki/2023–24_Manchester_City_F.C._season
+2024,Cole Palmer,club_other,14,5,2023-08-06,2024-05-25,https://en.wikipedia.org/wiki/2023–24_Manchester_City_F.C._season
+2024,Declan Rice,league,38,7,2023-08-11,2024-05-19,https://en.wikipedia.org/wiki/2023%E2%80%9324_Premier_League
+2024,Vitinha,league,28,7,2023-08-11,2024-05-19,https://en.wikipedia.org/wiki/2023%E2%80%9324_Ligue_1
+2024,Vitinha,ucl,12,2,2023-08-12,2024-05-25,https://en.wikipedia.org/wiki/2023–24_Paris_Saint-Germain_FC_season
+2024,Vitinha,club_other,6,0,2023-08-12,2024-05-25,https://en.wikipedia.org/wiki/2023–24_Paris_Saint-Germain_FC_season
+2024,Álex Grimaldo,league,33,10,2023-08-18,2024-05-18,https://en.wikipedia.org/wiki/2023%E2%80%9324_Bundesliga
+2024,Álex Grimaldo,ucl,0,0,2023-08-12,2024-05-25,https://en.wikipedia.org/wiki/2023–24_Bayer_04_Leverkusen_season
+2024,Álex Grimaldo,club_other,18,2,2023-08-12,2024-05-25,https://en.wikipedia.org/wiki/2023–24_Bayer_04_Leverkusen_season
+2024,Artem Dovbyk,league,36,24,2023-08-11,2024-05-26,https://en.wikipedia.org/wiki/2023%E2%80%9324_La_Liga
+2024,Artem Dovbyk,ucl,0,0,2023-08-12,2024-05-24,https://en.wikipedia.org/wiki/2023–24_Girona_FC_season
+2024,Artem Dovbyk,club_other,3,0,2023-08-12,2024-05-24,https://en.wikipedia.org/wiki/2023–24_Girona_FC_season
+2024,Mats Hummels,league,25,3,2023-08-18,2024-05-18,https://en.wikipedia.org/wiki/2023%E2%80%9324_Bundesliga
+2024,Mats Hummels,ucl,13,1,2023-08-12,2024-06-01,https://en.wikipedia.org/wiki/2023–24_Borussia_Dortmund_season
+2024,Mats Hummels,club_other,2,0,2023-08-12,2024-06-01,https://en.wikipedia.org/wiki/2023–24_Borussia_Dortmund_season
+2025,Ousmane Dembélé,league,29,21,2024-08-16,2025-05-17,https://en.wikipedia.org/wiki/2024%E2%80%9325_Ligue_1
+2025,Ousmane Dembélé,ucl,15,8,2024-08-16,2025-07-13,https://en.wikipedia.org/wiki/2024–25_Paris_Saint-Germain_FC_season
+2025,Ousmane Dembélé,club_other,9,6,2024-08-16,2025-07-13,https://en.wikipedia.org/wiki/2024–25_Paris_Saint-Germain_FC_season
+2025,Lamine Yamal,league,35,9,2024-08-15,2025-05-25,https://en.wikipedia.org/wiki/2024%E2%80%9325_La_Liga
+2025,Lamine Yamal,ucl,13,5,2024-08-17,2025-05-25,https://en.wikipedia.org/wiki/2024–25_FC_Barcelona_season
+2025,Lamine Yamal,club_other,7,4,2024-08-17,2025-05-25,https://en.wikipedia.org/wiki/2024–25_FC_Barcelona_season
+2025,Vitinha,league,29,5,2024-08-16,2025-05-17,https://en.wikipedia.org/wiki/2024%E2%80%9325_Ligue_1
+2025,Vitinha,ucl,17,2,2024-08-16,2025-07-13,https://en.wikipedia.org/wiki/2024–25_Paris_Saint-Germain_FC_season
+2025,Vitinha,club_other,13,1,2024-08-16,2025-07-13,https://en.wikipedia.org/wiki/2024–25_Paris_Saint-Germain_FC_season
+2025,Mohamed Salah,league,38,29,2024-08-16,2025-05-25,https://en.wikipedia.org/wiki/2024%E2%80%9325_Premier_League
+2025,Mohamed Salah,ucl,9,3,2024-08-17,2025-05-25,https://en.wikipedia.org/wiki/2024–25_Liverpool_F.C._season
+2025,Mohamed Salah,club_other,5,2,2024-08-17,2025-05-25,https://en.wikipedia.org/wiki/2024–25_Liverpool_F.C._season
+2025,Raphinha,league,36,18,2024-08-15,2025-05-25,https://en.wikipedia.org/wiki/2024%E2%80%9325_La_Liga
+2025,Raphinha,ucl,14,13,2024-08-17,2025-05-25,https://en.wikipedia.org/wiki/2024–25_FC_Barcelona_season
+2025,Raphinha,club_other,7,3,2024-08-17,2025-05-25,https://en.wikipedia.org/wiki/2024–25_FC_Barcelona_season
+2025,Achraf Hakimi,league,25,4,2024-08-16,2025-05-17,https://en.wikipedia.org/wiki/2024%E2%80%9325_Ligue_1
+2025,Achraf Hakimi,ucl,17,4,2024-08-16,2025-07-13,https://en.wikipedia.org/wiki/2024–25_Paris_Saint-Germain_FC_season
+2025,Achraf Hakimi,club_other,13,3,2024-08-16,2025-07-13,https://en.wikipedia.org/wiki/2024–25_Paris_Saint-Germain_FC_season
+2025,Kylian Mbappé,league,34,31,2024-08-15,2025-05-25,https://en.wikipedia.org/wiki/2024%E2%80%9325_La_Liga
+2025,Cole Palmer,league,37,15,2024-08-16,2025-05-25,https://en.wikipedia.org/wiki/2024%E2%80%9325_Premier_League
+2025,Cole Palmer,ucl,0,0,2024-08-18,2025-07-13,https://en.wikipedia.org/wiki/2024–25_Chelsea_F.C._season
+2025,Cole Palmer,club_other,15,3,2024-08-18,2025-07-13,https://en.wikipedia.org/wiki/2024–25_Chelsea_F.C._season
+2025,Gianluigi Donnarumma,league,24,0,2024-08-16,2025-05-17,https://en.wikipedia.org/wiki/2024%E2%80%9325_Ligue_1
+2025,Gianluigi Donnarumma,ucl,15,0,2024-08-16,2025-07-13,https://en.wikipedia.org/wiki/2024–25_Paris_Saint-Germain_FC_season
+2025,Gianluigi Donnarumma,club_other,8,0,2024-08-16,2025-07-13,https://en.wikipedia.org/wiki/2024–25_Paris_Saint-Germain_FC_season
+2025,Nuno Mendes,league,24,1,2024-08-16,2025-05-17,https://en.wikipedia.org/wiki/2024%E2%80%9325_Ligue_1
+2025,Nuno Mendes,ucl,16,4,2024-08-16,2025-07-13,https://en.wikipedia.org/wiki/2024–25_Paris_Saint-Germain_FC_season
+2025,Nuno Mendes,club_other,13,0,2024-08-16,2025-07-13,https://en.wikipedia.org/wiki/2024–25_Paris_Saint-Germain_FC_season
+2025,Pedri,league,37,4,2024-08-15,2025-05-25,https://en.wikipedia.org/wiki/2024%E2%80%9325_La_Liga
+2025,Khvicha Kvaratskhelia,league,31,9,2024-08-16,2025-05-25,https://en.wikipedia.org/wiki/2024%E2%80%9325_Ligue_1
+2025,Khvicha Kvaratskhelia,ucl,9,3,2024-08-10,2025-07-13,https://en.wikipedia.org/wiki/2024–25_SSC_Napoli_season
+2025,Khvicha Kvaratskhelia,club_other,11,1,2024-08-10,2025-07-13,https://en.wikipedia.org/wiki/2024–25_SSC_Napoli_season
+2025,Harry Kane,league,31,26,2024-08-23,2025-05-17,https://en.wikipedia.org/wiki/2024%E2%80%9325_Bundesliga
+2025,Harry Kane,ucl,13,11,2024-08-16,2025-05-17,https://en.wikipedia.org/wiki/2024–25_FC_Bayern_Munich_season
+2025,Harry Kane,club_other,7,4,2024-08-16,2025-05-17,https://en.wikipedia.org/wiki/2024–25_FC_Bayern_Munich_season
+2025,Désiré Doué,league,31,6,2024-08-16,2025-05-17,https://en.wikipedia.org/wiki/2024%E2%80%9325_Ligue_1
+2025,Désiré Doué,ucl,16,5,2024-08-16,2025-07-13,https://en.wikipedia.org/wiki/2024–25_Paris_Saint-Germain_FC_season
+2025,Désiré Doué,club_other,14,5,2024-08-16,2025-07-13,https://en.wikipedia.org/wiki/2024–25_Paris_Saint-Germain_FC_season
+2025,Viktor Gyökeres,league,33,39,2024-08-09,2025-05-17,https://en.wikipedia.org/wiki/2024%E2%80%9325_Primeira_Liga
+2025,Viktor Gyökeres,ucl,8,6,2024-08-03,2025-05-25,https://en.wikipedia.org/wiki/2024–25_Sporting_CP_season
+2025,Viktor Gyökeres,club_other,11,9,2024-08-03,2025-05-25,https://en.wikipedia.org/wiki/2024–25_Sporting_CP_season
+2025,Vinícius Júnior,league,30,11,2024-08-15,2025-05-25,https://en.wikipedia.org/wiki/2024%E2%80%9325_La_Liga
+2025,Robert Lewandowski,league,34,27,2024-08-15,2025-05-25,https://en.wikipedia.org/wiki/2024%E2%80%9325_La_Liga
+2025,Robert Lewandowski,ucl,13,11,2024-08-17,2025-05-25,https://en.wikipedia.org/wiki/2024–25_FC_Barcelona_season
+2025,Robert Lewandowski,club_other,5,4,2024-08-17,2025-05-25,https://en.wikipedia.org/wiki/2024–25_FC_Barcelona_season
+2025,Scott McTominay,league,36,12,2024-08-16,2025-05-25,https://en.wikipedia.org/wiki/2024%E2%80%9325_Serie_A
+2025,João Neves,league,29,3,2024-08-16,2025-05-17,https://en.wikipedia.org/wiki/2024%E2%80%9325_Ligue_1
+2025,João Neves,ucl,17,1,2024-08-16,2025-07-13,https://en.wikipedia.org/wiki/2024–25_Paris_Saint-Germain_FC_season
+2025,João Neves,club_other,13,3,2024-08-16,2025-07-13,https://en.wikipedia.org/wiki/2024–25_Paris_Saint-Germain_FC_season
+2025,Lautaro Martínez,league,31,12,2024-08-17,2025-05-25,https://en.wikipedia.org/wiki/2024%E2%80%9325_Serie_A
+2025,Lautaro Martínez,ucl,14,9,2024-08-17,2025-06-30,https://en.wikipedia.org/wiki/2024–25_Inter_Milan_season
+2025,Lautaro Martínez,club_other,8,3,2024-08-17,2025-06-30,https://en.wikipedia.org/wiki/2024–25_Inter_Milan_season
+2025,Serhou Guirassy,league,30,21,2024-08-23,2025-05-17,https://en.wikipedia.org/wiki/2024%E2%80%9325_Bundesliga
+2025,Alexis Mac Allister,league,35,5,2024-08-16,2025-05-25,https://en.wikipedia.org/wiki/2024%E2%80%9325_Premier_League
+2025,Alexis Mac Allister,ucl,8,2,2024-08-17,2025-05-25,https://en.wikipedia.org/wiki/2024–25_Liverpool_F.C._season
+2025,Alexis Mac Allister,club_other,6,0,2024-08-17,2025-05-25,https://en.wikipedia.org/wiki/2024–25_Liverpool_F.C._season
+2025,Jude Bellingham,league,31,9,2024-08-15,2025-05-25,https://en.wikipedia.org/wiki/2024%E2%80%9325_La_Liga
+2025,Fabián Ruiz,league,30,4,2024-08-16,2025-05-17,https://en.wikipedia.org/wiki/2024%E2%80%9325_Ligue_1
+2025,Fabián Ruiz,ucl,17,1,2024-08-16,2025-07-13,https://en.wikipedia.org/wiki/2024–25_Paris_Saint-Germain_FC_season
+2025,Fabián Ruiz,club_other,14,3,2024-08-16,2025-07-13,https://en.wikipedia.org/wiki/2024–25_Paris_Saint-Germain_FC_season
+2025,Denzel Dumfries,league,29,7,2024-08-17,2025-05-25,https://en.wikipedia.org/wiki/2024%E2%80%9325_Serie_A
+2025,Erling Haaland,league,31,22,2024-08-16,2025-05-25,https://en.wikipedia.org/wiki/2024%E2%80%9325_Premier_League
+2025,Erling Haaland,ucl,9,8,2024-08-10,2025-06-30,https://en.wikipedia.org/wiki/2024–25_Manchester_City_F.C._season
+2025,Erling Haaland,club_other,8,4,2024-08-10,2025-06-30,https://en.wikipedia.org/wiki/2024–25_Manchester_City_F.C._season
+2025,Declan Rice,league,35,4,2024-08-16,2025-05-25,https://en.wikipedia.org/wiki/2024%E2%80%9325_Premier_League
+2025,Declan Rice,ucl,13,4,2024-08-17,2025-05-25,https://en.wikipedia.org/wiki/2024–25_Arsenal_F.C._season
+2025,Declan Rice,club_other,4,1,2024-08-17,2025-05-25,https://en.wikipedia.org/wiki/2024–25_Arsenal_F.C._season
+2025,Virgil van Dijk,league,37,3,2024-08-16,2025-05-25,https://en.wikipedia.org/wiki/2024%E2%80%9325_Premier_League
+2025,Virgil van Dijk,ucl,9,1,2024-08-17,2025-05-25,https://en.wikipedia.org/wiki/2024–25_Liverpool_F.C._season
+2025,Virgil van Dijk,club_other,3,1,2024-08-17,2025-05-25,https://en.wikipedia.org/wiki/2024–25_Liverpool_F.C._season
+2025,Florian Wirtz,league,31,10,2024-08-23,2025-05-17,https://en.wikipedia.org/wiki/2024%E2%80%9325_Bundesliga
+2025,Florian Wirtz,ucl,9,6,2024-08-17,2025-05-17,https://en.wikipedia.org/wiki/2024–25_Bayer_04_Leverkusen_season
+2025,Florian Wirtz,club_other,5,0,2024-08-17,2025-05-17,https://en.wikipedia.org/wiki/2024–25_Bayer_04_Leverkusen_season
+2025,Michael Olise,league,34,12,2024-08-23,2025-05-17,https://en.wikipedia.org/wiki/2024%E2%80%9325_Bundesliga
+2026,Harry Kane,league,31,36,2025-08-22,2026-05-16,https://en.wikipedia.org/wiki/2025%E2%80%9326_Bundesliga
+2026,Harry Kane,ucl,13,14,2025-08-16,2026-05-23,https://en.wikipedia.org/wiki/2025–26_FC_Bayern_Munich_season
+2026,Harry Kane,club_other,7,11,2025-08-16,2026-05-23,https://en.wikipedia.org/wiki/2025–26_FC_Bayern_Munich_season
+2026,Kylian Mbappé,league,31,25,2025-08-15,2026-05-24,https://en.wikipedia.org/wiki/2025%E2%80%9326_La_Liga
+2026,Lamine Yamal,league,28,16,2025-08-15,2026-05-24,https://en.wikipedia.org/wiki/2025%E2%80%9326_La_Liga
+2026,Lamine Yamal,ucl,10,6,2025-08-16,2026-05-23,https://en.wikipedia.org/wiki/2025–26_FC_Barcelona_season
+2026,Lamine Yamal,club_other,7,2,2025-08-16,2026-05-23,https://en.wikipedia.org/wiki/2025–26_FC_Barcelona_season
+2026,Rodri,league,21,1,2025-08-15,2026-05-24,https://en.wikipedia.org/wiki/2025%E2%80%9326_Premier_League
+2026,Rodri,ucl,5,0,2025-08-16,2026-05-24,https://en.wikipedia.org/wiki/2025–26_Manchester_City_F.C._season
+2026,Rodri,club_other,7,1,2025-08-16,2026-05-24,https://en.wikipedia.org/wiki/2025–26_Manchester_City_F.C._season
+2026,Khvicha Kvaratskhelia,league,28,8,2025-08-15,2026-05-17,https://en.wikipedia.org/wiki/2025%E2%80%9326_Ligue_1
+2026,Khvicha Kvaratskhelia,ucl,16,10,2025-08-13,2026-05-30,https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season
+2026,Khvicha Kvaratskhelia,club_other,4,1,2025-08-13,2026-05-30,https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season
+2026,Ousmane Dembélé,league,22,10,2025-08-15,2026-05-17,https://en.wikipedia.org/wiki/2025%E2%80%9326_Ligue_1
+2026,Ousmane Dembélé,ucl,13,8,2025-08-13,2026-05-30,https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season
+2026,Ousmane Dembélé,club_other,5,2,2025-08-13,2026-05-30,https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season
+2026,Erling Haaland,league,35,27,2025-08-15,2026-05-24,https://en.wikipedia.org/wiki/2025%E2%80%9326_Premier_League
+2026,Erling Haaland,ucl,10,8,2025-08-16,2026-05-24,https://en.wikipedia.org/wiki/2025–26_Manchester_City_F.C._season
+2026,Erling Haaland,club_other,7,3,2025-08-16,2026-05-24,https://en.wikipedia.org/wiki/2025–26_Manchester_City_F.C._season
+2026,Michael Olise,league,32,15,2025-08-22,2026-05-16,https://en.wikipedia.org/wiki/2025%E2%80%9326_Bundesliga
+2026,Michael Olise,ucl,13,5,2025-08-16,2026-05-23,https://en.wikipedia.org/wiki/2025–26_FC_Bayern_Munich_season
+2026,Michael Olise,club_other,7,2,2025-08-16,2026-05-23,https://en.wikipedia.org/wiki/2025–26_FC_Bayern_Munich_season
+2026,Fabián Ruiz,league,20,1,2025-08-15,2026-05-17,https://en.wikipedia.org/wiki/2025%E2%80%9326_Ligue_1
+2026,Fabián Ruiz,ucl,9,1,2025-08-13,2026-05-30,https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season
+2026,Fabián Ruiz,club_other,5,0,2025-08-13,2026-05-30,https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season
+2026,Jude Bellingham,league,28,6,2025-08-15,2026-05-24,https://en.wikipedia.org/wiki/2025%E2%80%9326_La_Liga
+2026,Pau Cubarsí,league,31,1,2025-08-15,2026-05-24,https://en.wikipedia.org/wiki/2025%E2%80%9326_La_Liga
+2026,Achraf Hakimi,league,18,2,2025-08-15,2026-05-17,https://en.wikipedia.org/wiki/2025%E2%80%9326_Ligue_1
+2026,Achraf Hakimi,ucl,13,1,2025-08-13,2026-05-30,https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season
+2026,Achraf Hakimi,club_other,1,0,2025-08-13,2026-05-30,https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season
+2026,Vitinha,league,29,1,2025-08-15,2026-05-17,https://en.wikipedia.org/wiki/2025%E2%80%9326_Ligue_1
+2026,Vitinha,ucl,17,6,2025-08-13,2026-05-30,https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season
+2026,Vitinha,club_other,4,0,2025-08-13,2026-05-30,https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season
+2026,Declan Rice,league,36,4,2025-08-15,2026-05-24,https://en.wikipedia.org/wiki/2025%E2%80%9326_Premier_League
+2026,Declan Rice,ucl,13,1,2025-08-17,2026-05-30,https://en.wikipedia.org/wiki/2025–26_Arsenal_F.C._season
+2026,Declan Rice,club_other,6,0,2025-08-17,2026-05-30,https://en.wikipedia.org/wiki/2025–26_Arsenal_F.C._season
+2026,Ferran Torres,league,33,16,2025-08-15,2026-05-24,https://en.wikipedia.org/wiki/2025%E2%80%9326_La_Liga
+2026,Ferran Torres,ucl,10,3,2025-08-16,2026-05-23,https://en.wikipedia.org/wiki/2025–26_FC_Barcelona_season
+2026,Ferran Torres,club_other,6,2,2025-08-16,2026-05-23,https://en.wikipedia.org/wiki/2025–26_FC_Barcelona_season
+2026,Vinícius Júnior,league,36,16,2025-08-15,2026-05-24,https://en.wikipedia.org/wiki/2025%E2%80%9326_La_Liga
+2026,Marc Cucurella,league,34,1,2025-08-15,2026-05-24,https://en.wikipedia.org/wiki/2025%E2%80%9326_Premier_League
+2026,Marc Cucurella,ucl,9,0,2025-08-17,2026-05-24,https://en.wikipedia.org/wiki/2025–26_Chelsea_F.C._season
+2026,Marc Cucurella,club_other,7,0,2025-08-17,2026-05-24,https://en.wikipedia.org/wiki/2025–26_Chelsea_F.C._season
+2026,João Neves,league,21,5,2025-08-15,2026-05-17,https://en.wikipedia.org/wiki/2025%E2%80%9326_Ligue_1
+2026,João Neves,ucl,14,2,2025-08-13,2026-05-30,https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season
+2026,João Neves,club_other,3,0,2025-08-13,2026-05-30,https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season
+2026,Willian Pacho,league,23,0,2025-08-15,2026-05-17,https://en.wikipedia.org/wiki/2025%E2%80%9326_Ligue_1
+2026,Willian Pacho,ucl,17,2,2025-08-13,2026-05-30,https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season
+2026,Willian Pacho,club_other,4,0,2025-08-13,2026-05-30,https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season
+2026,Gabriel Magalhães,league,32,3,2025-08-15,2026-05-24,https://en.wikipedia.org/wiki/2025%E2%80%9326_Premier_League
+2026,Gabriel Magalhães,ucl,12,1,2025-08-17,2026-05-30,https://en.wikipedia.org/wiki/2025–26_Arsenal_F.C._season
+2026,Gabriel Magalhães,club_other,7,0,2025-08-17,2026-05-30,https://en.wikipedia.org/wiki/2025–26_Arsenal_F.C._season
+2026,Lautaro Martínez,league,30,17,2025-08-23,2026-05-24,https://en.wikipedia.org/wiki/2025%E2%80%9326_Serie_A
+2026,Lautaro Martínez,ucl,8,4,2025-08-25,2026-05-23,https://en.wikipedia.org/wiki/2025–26_Inter_Milan_season
+2026,Lautaro Martínez,club_other,3,1,2025-08-25,2026-05-23,https://en.wikipedia.org/wiki/2025–26_Inter_Milan_season
+2026,Nuno Mendes,league,20,4,2025-08-15,2026-05-17,https://en.wikipedia.org/wiki/2025%E2%80%9326_Ligue_1
+2026,Nuno Mendes,ucl,17,2,2025-08-13,2026-05-30,https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season
+2026,Nuno Mendes,club_other,4,0,2025-08-13,2026-05-30,https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season
+2026,Luis Díaz,league,32,15,2025-08-22,2026-05-16,https://en.wikipedia.org/wiki/2025%E2%80%9326_Bundesliga
+2026,Luis Díaz,ucl,12,7,2025-08-16,2026-05-23,https://en.wikipedia.org/wiki/2025–26_FC_Bayern_Munich_season
+2026,Luis Díaz,club_other,7,4,2025-08-16,2026-05-23,https://en.wikipedia.org/wiki/2025–26_FC_Bayern_Munich_season
+2026,Marquinhos,league,14,0,2025-08-15,2026-05-17,https://en.wikipedia.org/wiki/2025%E2%80%9326_Ligue_1
+2026,Marquinhos,ucl,15,2,2025-08-13,2026-05-30,https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season
+2026,Marquinhos,club_other,3,0,2025-08-13,2026-05-30,https://en.wikipedia.org/wiki/2025–26_Paris_Saint-Germain_FC_season
+2026,Dayot Upamecano,league,24,1,2025-08-22,2026-05-16,https://en.wikipedia.org/wiki/2025%E2%80%9326_Bundesliga
+2026,Dayot Upamecano,ucl,12,1,2025-08-16,2026-05-23,https://en.wikipedia.org/wiki/2025–26_FC_Bayern_Munich_season
+2026,Dayot Upamecano,club_other,6,0,2025-08-16,2026-05-23,https://en.wikipedia.org/wiki/2025–26_FC_Bayern_Munich_season
+2026,Bruno Fernandes,league,35,9,2025-08-15,2026-05-24,https://en.wikipedia.org/wiki/2025%E2%80%9326_Premier_League
+2026,Julián Quiñones,league,31,33,2025-08-28,2026-05-21,https://en.wikipedia.org/wiki/2025%E2%80%9326_Saudi_Pro_League
+2026,Sadio Mané,league,25,10,2025-08-28,2026-05-21,https://en.wikipedia.org/wiki/2025%E2%80%9326_Saudi_Pro_League
+2026,Sadio Mané,ucl,8,3,2025-08-19,2026-05-21,https://en.wikipedia.org/wiki/2025–26_Al-Nassr_FC_season
+2026,Sadio Mané,club_other,3,1,2025-08-19,2026-05-21,https://en.wikipedia.org/wiki/2025–26_Al-Nassr_FC_season
+2026,William Saliba,league,31,1,2025-08-15,2026-05-24,https://en.wikipedia.org/wiki/2025%E2%80%9326_Premier_League
+2026,William Saliba,ucl,12,0,2025-08-17,2026-05-30,https://en.wikipedia.org/wiki/2025–26_Arsenal_F.C._season
+2026,William Saliba,club_other,7,0,2025-08-17,2026-05-30,https://en.wikipedia.org/wiki/2025–26_Arsenal_F.C._season

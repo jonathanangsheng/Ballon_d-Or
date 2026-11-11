@@ -8,7 +8,7 @@ import random
 import re
 import sys
 from collections import defaultdict
-from datetime import date
+from datetime import date, timedelta
 from pathlib import Path
 
 ROOT = Path(__file__).parent
@@ -84,9 +84,49 @@ from players import norm  # noqa: E402
 
 country = {(y, r["name"]): r["country"] for y in years for r in read(BD / f"{y}.csv")}
 logged = {k[:3] for k in agg}
+
+def log_rows(name):
+    return read(LOGS / f"{name}.csv") if (LOGS / f"{name}.csv").exists() else []
+
+# Wikipedia season totals (Aug-Jul windows): the season's dates must lie inside the window
+season = {(int(s["year"]), s["name"], s["bucket"]): s for s in log_rows("season_stats")}
+for (y, n, b), s in season.items():
+    if not (in_window(y, s["first_match"]) and in_window(y, s["last_match"])):
+        fail(f"season total outside window: {s}")
+    for stat in ("apps", "goals"):
+        if num(features[(y, n)][f"{b}_{stat}"]) != float(s[stat]):
+            fail(f"{y} {n} {b}_{stat} != logged season total")
 for (y, n), r in features.items():
-    if r["league_apps"] != "" and (y, n, "league") not in logged:
-        fail(f"{y} {n} league_apps filled without logged matches")
+    for b in ("league", "ucl", "club_other"):
+        if r[f"{b}_apps"] != "" and (y, n, b) not in logged and (y, n, b) not in season:
+            fail(f"{y} {n} {b}_apps filled without logged matches or season total")
+# national stats: goal-list dates inside the window; year-table values only when the country
+# played nothing between the window end and 31 December
+goal_dates = defaultdict(list)
+for g in log_rows("intl_goals"):
+    goal_dates[(int(g["year"]), g["name"])].append(g["date"])
+    if not in_window(int(g["year"]), g["date"]):
+        fail(f"international goal outside window: {g}")
+national_stats = log_rows("national_stats")
+for s in national_stats:
+    k, w = (int(s["year"]), s["name"]), windows[int(s["year"])]
+    if num(features[k][f"national_{s['stat']}"]) != float(s["value"]):
+        fail(f"{k} national_{s['stat']} != logged value")
+    if s["source"] == "wikipedia goal list" and len(goal_dates[k]) != int(s["value"]):
+        fail(f"{k} national goals {s['value']} but {len(goal_dates[k])} dated goals logged")
+    if s["source"] == "wikipedia year table":
+        y = w["window_end"].year
+        if w["window_start"].month != 1 or intl.country_matches(
+                country[k], w["window_end"] + timedelta(days=1), date(y, 12, 31)):
+            fail(f"{k} year-table value used but the year does not equal the window")
+for (y, n), r in features.items():
+    for stat in ("goals", "apps"):
+        if r[f"national_{stat}"] != "" and not any(
+                (int(s["year"]), s["name"], s["stat"]) == (y, n, stat) for s in national_stats):
+            fail(f"{y} {n} national_{stat} filled without a logged source")
+print(f"[2b] {len(season)} season totals, {sum(map(len, goal_dates.values()))} dated international goals, "
+      f"{len(national_stats)} national values checked")
+for (y, n), r in features.items():
     if r["intl_tournament_apps"] != "" and (y, n, "intl_tournament") not in logged:
         # allowed only as a true zero: the country played no major-tournament match in the window
         w = windows[y]
@@ -182,6 +222,25 @@ for k in sample:
         line += "  <-- MISMATCH"
     print(line)
 print(f"    {len(mism)} mismatching rows")
+
+# 6b. national goals: Wikipedia's dated goal list vs martj42, where martj42 is complete
+pool2 = []
+for s in national_stats:
+    k = (int(s["year"]), s["name"])
+    if s["stat"] == "goals" and s["source"] == "wikipedia goal list":
+        w = windows[k[0]]
+        mj = intl.national_goals(country[k], k[1], w["window_start"], w["window_end"])[0]
+        if mj is not None:
+            pool2.append((k, int(s["value"]), mj))
+sample2 = random.sample(pool2, min(10, len(pool2)))
+print(f"[6b] national goals, Wikipedia goal list vs martj42, {len(sample2)} random rows (pool {len(pool2)}):")
+for k, wiki, mj in sample2:
+    line = f"    {k[0]} {k[1]}: Wikipedia={wiki} martj42={mj}"
+    if wiki != mj:
+        mism.append(line)
+        line += "  <-- MISMATCH"
+    print(line)
+print(f"    all {len(pool2)} comparable rows: {sum(w != m for _, w, m in pool2)} differ")
 
 # 7. sanity
 for m in matches:

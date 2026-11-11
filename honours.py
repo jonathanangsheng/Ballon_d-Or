@@ -199,14 +199,62 @@ def classify(entries):
     """Split honours entries into (trophies, awards); drop youth, managerial and non-football
     honours, and entries that name no year (links to a list, not to an edition)."""
     trophies, awards = [], []
-    for group, comp, target, label, result in entries:
+    for group, comp, target, label, result, comp_title in entries:
         if YOUTH.search(group) or YOUTH.search(comp) or SKIP_GROUP.search(group):
             continue
         if not (label_years(label) or label_years(target)):
             continue
         if re.search(r"individual|award", group, re.I):
             if not EXCLUDED_AWARD.search(comp) and not EXCLUDED_AWARD.search(target):
-                awards.append((comp, target, label))
+                awards.append((comp, target, label, comp_title))
         elif not EXCLUDED_AWARD.search(group):
             trophies.append((comp, target, label, result))
     return trophies, awards
+
+
+# ---------- awards dated through the award's own article ----------
+
+def _award_rows(award_title, label):
+    """Rows of the award article's tables that mention the label's year or season."""
+    yrs = label_years(label)
+    wt, url, _ = wiki_wikitext(award_title) if award_title else (None, None, None)
+    if not wt or not yrs:
+        return [], url
+    lab = re.sub(r"[−-]", "–", label.strip())
+    return [r for r in re.split(r"\n\|-", wt) if lab in r or str(yrs[1]) in r], url
+
+
+def _edition_links(row, label):
+    yrs = label_years(label)
+    return [t.strip() for t in re.findall(r"\[\[([^\]|#]+)", row)
+            if re.search(r"\d{4}", t) and any(str(y) in t for y in set(yrs))]
+
+
+def award_row_date(award_title, label, player_title, player_name):
+    """(date, url, method): find the winners-table row naming the player and the year, and date
+    it by the edition article that row links to (e.g. the tournament for a Golden Ball)."""
+    from players import norm
+    rows, url = _award_rows(award_title, label)
+    if not rows:
+        return None, url, "no row for this year in the award article"
+    yrs = label_years(label)
+    for row in rows:
+        text = norm(re.sub(r"\[\[(?:[^\]|]*\|)?([^\]]*)\]\]", r" \1 ", row))
+        if f"[[{player_title}" not in row and norm(player_name) not in text:
+            continue
+        for t in _edition_links(row, label):
+            got = _date_of(t, yrs)
+            if got and got != "club season":
+                return got[0], got[1], f"award table row -> {t}"
+        return None, url, "award row has no dated edition link"
+    return None, url, "player not found in the award article's row for this year"
+
+
+def prefetch_award_rows(items):
+    """Batch-load award articles and the edition articles their matching rows link to."""
+    wiki_prefetch({a for a, *_ in items if a})
+    links = set()
+    for award_title, label, *_ in items:
+        for row in _award_rows(award_title, label)[0]:
+            links.update(_edition_links(row, label))
+    wiki_prefetch(links)

@@ -7,16 +7,18 @@ check_features.py can verify it against the window.
 Output: data/features/<year>.csv, data/features/logs/*.csv, data/features/row_gaps.csv
 """
 import csv
+import re
 from collections import defaultdict
-from datetime import date
+from datetime import date, timedelta
 from pathlib import Path
 
 import honours as H
 import intl
 import sb
 import ucl
+import wiki_stats as ws
 from build_windows import YEARS
-from fetch import wiki_prefetch
+from fetch import wiki_prefetch, wiki_wikitext
 from players import (ballon_dor_rows, club_spells, honours_entries, norm, player_article,
                      positions, resolve_titles)
 
@@ -238,6 +240,74 @@ def intl_stage(country, title, name, w, editions, folders, data, logs, key):
     return best, urls, None
 
 
+# ---------- Wikipedia career statistics ----------
+
+TOTALS = [("apps", "apps"), ("minutes", "minutes"), ("goals", "goals"), ("assists", "assists"),
+          ("decisive_ga", "ko_ga"), ("yellow_cards", "yellow"), ("red_cards", "red"),
+          ("gk_clean_sheets", "gk_clean_sheets"), ("gk_goals_conceded", "gk_goals_conceded")]
+
+
+def season_label(w):
+    """'2023–24' for the 1 Aug 2023 - 31 Jul 2024 window."""
+    return f"{w['start'].year}–{str(w['end'].year)[2:]}"
+
+
+def division(r):
+    raw = r["cols"].get(("League", "Division"), (None, ""))[1]
+    m = re.search(r"\[\[([^\]|#]+)", raw)
+    return m.group(1).strip() if m else ws.plain(raw)
+
+
+def wiki_club(wt, w):
+    """Season totals from the club table for an Aug-Jul window: {bucket: (apps, goals, first,
+    last, source)}. League counts when the league season's dates lie inside the window; UCL and
+    other competitions count when the club-season article dates at least as many competitive
+    matches as the player's appearances, all inside the window."""
+    if w["start"].month == 1:
+        return {}, "calendar-year window: club tables are per season"
+    label = season_label(w)
+    rows = [r for r in ws.club_seasons(wt) if r["season"] == label]
+    if not rows:
+        return {}, f"no {label} row in the club statistics table"
+    buckets = ws.season_buckets(rows, ws.club_table_defs(wt))
+    league_span, match_span, src = [], [], None
+    for r in rows:
+        span, src = ws.league_season_dates(f"{label} {division(r)}")
+        league_span.append(span)
+        ds = ws.football_box_dates(wiki_wikitext(r["season_link"])[0] or "") if r["season_link"] else []
+        total = r["cols"].get(("Total", "Apps"), (None,))[0]
+        match_span.append((min(ds), max(ds)) if ds and total is not None and len(ds) >= total else None)
+    inside = [s is not None and w["start"] <= s[0] and s[1] <= w["end"] for s in league_span]
+    m_inside = [s is not None and w["start"] <= s[0] and s[1] <= w["end"] for s in match_span]
+    out = {}
+    if all(inside) and buckets["league"]:
+        out["league"] = (*buckets["league"], min(s[0] for s in league_span), max(s[1] for s in league_span), src)
+    if all(m_inside):
+        for b in ("ucl", "club_other"):
+            if buckets[b] is not None:
+                out[b] = (*buckets[b], min(s[0] for s in match_span), max(s[1] for s in match_span),
+                          "https://en.wikipedia.org/wiki/" + rows[0]["season_link"].replace(" ", "_"))
+    why = None if len(out) == 3 else (
+        f"league season dates {league_span} / club-season match dates {match_span} vs window "
+        f"{w['start']}–{w['end']}")
+    return out, why
+
+
+def year_table_ok(country, years_tbl, w):
+    """For a calendar-year window: a detail string if the country played no match between the
+    window end and 31 Dec (so the year's total is the window's total), else (None, reason)."""
+    if w["start"].month != 1:
+        return None, "Aug-Jul window: the year table does not split at 1 Aug"
+    y = w["end"].year
+    if y not in years_tbl:
+        return None, f"no {y} row in the international year table"
+    after = intl.country_matches(country, w["end"] + timedelta(days=1), date(y, 12, 31))
+    if after:
+        return None, f"{country} played {len(after)} match(es) after the window end in {y}"
+    played = intl.country_matches(country, date(y, 1, 1), w["end"])
+    return f"no {country} match after {w['end']}; last in year {max((m['date'] for m in played), default='')}", None
+
+
 # ---------- main ----------
 
 def build():
@@ -252,12 +322,24 @@ def build():
 
     # batch-load every Wikipedia article we will read
     articles = {t: player_article(t) for t in set(titles.values()) if t}
-    entries = set()
+    entries, award_items = set(), set()
     for a in articles.values():
         if a:
             tr, aw = H.classify(honours_entries(a[0]))
-            entries |= {(c, t, l) for c, t, l, *_ in tr} | set(aw)
+            entries |= {(c, t, l) for c, t, l, *_ in tr + aw}
+            award_items |= {(ct, l) for c, t, l, ct in aw}
     H.prefetch_entries(entries)
+    H.prefetch_award_rows(list(award_items))
+    wiki_prefetch({ws.goal_list_title(a[0]) for a in articles.values() if a} - {None})
+    season_titles = set()
+    for (year, name, _) in rows:
+        a = articles.get(titles.get((year, name)))
+        if a and windows[year]["start"].month != 1:
+            label = season_label(windows[year])
+            for r in ws.club_seasons(a[0]):
+                if r["season"] == label:
+                    season_titles |= {r["season_link"], f"{label} {division(r)}"} - {None}
+    wiki_prefetch(season_titles)
     squad_titles = set()
     for (tour, ek), ms in intl.tournament_instances(date(1999, 1, 1), date.today()).items():
         first = min(m["date"] for m in ms)
@@ -295,9 +377,24 @@ def build():
             if recs is not None:
                 recs_by_bucket["league"] = recs
         if "league" not in recs_by_bucket:
-            gap("league_*", why)
-        gap("ucl_* / club_other_* (match stats)", "no permitted source with every UCL / cup match "
-            "(Transfermarkt, FBref blocked; StatsBomb has finals only)")
+            gap("league_* (StatsBomb)", why)
+        # Wikipedia club table: season totals, Aug-Jul windows only
+        club_fill, why = wiki_club(art[0], w) if art else ({}, "no article")
+        if why:
+            gap("league/ucl/club_other apps+goals (Wikipedia)", why)
+        for b, (apps, goals, first, last, src) in club_fill.items():
+            if b == "league" and "league" in recs_by_bucket:
+                continue  # StatsBomb has every league match, incl. minutes
+            row[f"{b}_apps"], row[f"{b}_goals"] = apps, goals
+            urls.append(src)
+            logs["season_stats"].append({"year": year, "name": name, "bucket": b, "apps": apps,
+                                         "goals": goals, "first_match": first, "last_match": last,
+                                         "source": src})
+        for b in ("league", "ucl", "club_other"):
+            if b not in club_fill and not (b == "league" and "league" in recs_by_bucket):
+                gap(f"{b}_apps/goals", "season total not verifiably inside the window")
+        gap("club minutes/assists/cards", "Wikipedia club tables list apps and goals only; "
+            "Transfermarkt and FBref blocked")
 
         # --- national team ---
         editions = intl.tournament_instances(w["start"], w["end"])
@@ -307,20 +404,48 @@ def build():
             recs_by_bucket["intl_tournament"] = recs
         else:
             gap("intl_tournament_*", why)
-        goals, nms, why = intl.national_goals(country, name, w["start"], w["end"])
+        # national goals: Wikipedia's dated goal list, else martj42, else the year table
+        years_tbl = ws.intl_years(art[0]) if art else {}
+        gdates, gsrc, why_list = ws.intl_goal_dates(art[0], years_tbl) if art else (None, None, "no article")
+        year_ok, why_year = year_table_ok(country, years_tbl, w)
+        goals, nms, why_mj = intl.national_goals(country, name, w["start"], w["end"])
         d = intl.data()
-        if goals is not None:
+        if gdates is not None:
+            inside = [g for g in gdates if w["start"] <= g <= w["end"]]
+            row["national_goals"] = len(inside)
+            src = f"https://en.wikipedia.org/wiki/{gsrc.replace(' ', '_')}" if gsrc else art[1]
+            urls.append(src)
+            logs["national_stats"].append({"year": year, "name": name, "stat": "goals", "value": len(inside),
+                                           "source": "wikipedia goal list", "detail": src})
+            logs["intl_goals"] += [{"year": year, "name": name, "date": g} for g in inside]
+        elif goals is not None:
             row["national_goals"] = goals
             urls += d["urls"][:2]
             fetched.add(d["fetched"])
+            logs["national_stats"].append({"year": year, "name": name, "stat": "goals", "value": goals,
+                                           "source": "martj42", "detail": ""})
             for m in nms:
                 logs["national_matches"].append({"year": year, "name": name, "date": m["date"],
                                                  "home": m["home_team"], "away": m["away_team"],
                                                  "tournament": m["tournament"]})
+        elif year_ok:
+            row["national_goals"] = years_tbl[year][1]
+            logs["national_stats"].append({"year": year, "name": name, "stat": "goals",
+                                           "value": years_tbl[year][1], "source": "wikipedia year table",
+                                           "detail": year_ok})
         else:
-            gap("national_goals", why)
-        gap("national_apps/minutes/assists/cards", "martj42 has goals only; no permitted source lists "
-            "national-team line-ups, minutes or assists for every match")
+            gap("national_goals", f"{why_list}; martj42: {why_mj}; year table: {why_year}")
+        # national apps: the year table, when the year's total equals the window's
+        if year_ok:
+            row["national_apps"] = years_tbl[year][0]
+            urls.append(art[1])
+            logs["national_stats"].append({"year": year, "name": name, "stat": "apps",
+                                           "value": years_tbl[year][0], "source": "wikipedia year table",
+                                           "detail": year_ok})
+        else:
+            gap("national_apps", why_year)
+        gap("national minutes/assists/cards", "no permitted source lists national-team line-ups, "
+            "minutes or assists for every match")
 
         for b, recs in recs_by_bucket.items():
             agg = aggregate(recs, is_gk)
@@ -339,8 +464,12 @@ def build():
                     row[f"{b}_{s}_coverage"] = "none"
         row["match_rating_avg_coverage"] = "none"
         gap("match_rating_avg", "no permitted source publishes per-match ratings (FBref/Transfermarkt blocked)")
-        gap("total apps/minutes/goals/assists/decisive_ga/cards/gk", "needs every bucket complete; "
-            "UCL and other club competitions have no complete source")
+        for total, part in TOTALS:
+            vals = [row[f"{b}_{part}"] for b in TOTAL_PARTS]
+            if all(v != "" for v in vals):
+                row[total] = round(sum(float(v) for v in vals), 2)
+            else:
+                gap(total, "needs league, ucl, club_other and national all filled")
 
         # --- honours: trophies and awards ---
         trophies = {c: 0 for c in H.TROPHY_COLS}
@@ -366,11 +495,14 @@ def build():
                 logs["trophies"].append({"year": year, "name": name, "competition": comp, "category": cat,
                                          "label": label, "result": result, "date": dt or "",
                                          "method": method, "source": src or "", "counted": counted})
-            for comp, target, label in aw:
+            for comp, target, label, comp_title in aw:
                 yrs = H.label_years(label) or H.label_years(target)
                 if not yrs or yrs[1] != w["end"].year:
                     continue
                 dt, src, method = H.entry_date(comp, target, label)
+                if dt is None and method != "club season article":
+                    dt, src2, method2 = H.award_row_date(comp_title, label, title, name)
+                    src, method = (src2, method2) if dt else (src, f"{method}; {method2}")
                 counted = bool(dt and w["start"] <= dt < w["deadline"])
                 if dt is None and method != "club season article":
                     awards_unknown = True

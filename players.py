@@ -150,9 +150,9 @@ def honours_section(wt):
 def honours_entries(wt):
     """Parse '* [[Competition]]: [[target|label]], ...; runner-up: ...' bullet lines.
 
-    Returns [(group, competition_title, season_target, season_label, result)] where result is
-    'winner', 'runner-up' or 'third'. group is the nearest heading or bold line above (club,
-    national team, 'Individual').
+    Returns [(group, competition, season_target, season_label, result, competition_article)]
+    where result is 'winner', 'runner-up' or 'third'. group is the nearest heading or bold line
+    above (club, national team, 'Individual').
     """
     out, group = [], ""
     sec = re.sub(r"<ref[^>]*/>|<ref[^>]*>.*?</ref>", "", honours_section(wt), flags=re.S)
@@ -169,6 +169,7 @@ def honours_entries(wt):
         comp_m = re.match(r"\[\[([^\]|]+)(?:\|([^\]]*))?\]\]", body)
         comp = (comp_m.group(2) or comp_m.group(1)).split("#")[0].strip() if comp_m \
             else re.split(r":", body)[0].strip()
+        comp_title = comp_m.group(1).split("#")[0].strip() if comp_m else ""
         rest = body[comp_m.end():] if comp_m else body.split(":", 1)[-1]
         result = "winner"
         for tok in re.split(r"(\[\[[^\]]+\]\]|runner-up|runners-up|second place|third place)", rest, flags=re.I):
@@ -181,10 +182,11 @@ def honours_entries(wt):
                 tm = re.match(r"\[\[([^\]|#]+)(?:\|([^\]]*))?\]\]", tok)
                 if not tm or ":" in tm.group(1):
                     continue
-                out.append((group, comp, tm.group(1).strip(), (tm.group(2) or tm.group(1)).strip(), result))
+                out.append((group, comp, tm.group(1).strip(), (tm.group(2) or tm.group(1)).strip(), result,
+                            comp_title))
             else:
                 # years written as plain text, e.g. '* [[FIFA World Cup Golden Ball]]: 2018'
                 plain = re.sub(r"<[^>]+>|\{\{[^}]*\}\}|\([^)]*\)", " ", tok)
                 for y in re.findall(r"(?<!\d)(\d{4}(?:\s*[–−-]\s*\d{2,4})?)(?!\d)", plain):
-                    out.append((group, comp, "", y.strip(), result))
+                    out.append((group, comp, "", y.strip(), result, comp_title))
     return out

@@ -17,7 +17,7 @@ SOURCES = """## Source access (checked 2026-11-10)
 | Transfermarkt | Every page, incl. robots.txt-allowed match logs, returns an AWS WAF CAPTCHA (HTTP 405) to an automated client | Not used. No match logs, minutes, assists, cards from it |
 | FBref | Every page, incl. robots.txt, returns a Cloudflare challenge (HTTP 403) | Not used |
 | Understat | Every URL returns a "We will come back soon" page (HTTP 200) | Not used. No xG for top-5 leagues 2014/15+ |
-| Wikipedia (API) | OK, batched requests (50 pages/request), 3 s between requests | Windows, player articles, honours, trophy/award dates, tournament squads |
+| Wikipedia (API) | OK, batched requests (50 pages/request), 3 s between requests | Windows, player articles, honours, trophy/award dates, tournament squads, career-statistics tables (club season totals, international year totals, dated goal lists) |
 | StatsBomb open data (GitHub, attribution: StatsBomb) | OK | Match stats incl. xG for the competitions it releases in full |
 | martj42/international_results (GitHub, CC0) | OK | Every international with dated goalscorers |
 | openfootball (GitHub, public domain) | OK | Rounds of World Cups, Euros, some Copas; Champions League 2011-12 on |
@@ -54,8 +54,21 @@ DEFINITIONS = """## Definitions and rules
   inside the season). Counted when that date is in the window. Youth/Olympic honours excluded.
 - **Awards**: entries in the honours section's individual-awards group whose label ends in the
   window's last year and whose date is on or after the window start and before the voting
-  deadline. Ballon d'Or and its ceremony awards are never counted. Club-internal awards (linked
-  only to a club-season article) are not counted.
+  deadline. An entry with no dated link is dated through the award's own article: the winners
+  row naming the player and year, by the edition it links to (e.g. a Golden Ball by the
+  tournament's final). Ballon d'Or and its ceremony awards are never counted. Club-internal awards
+  (linked only to a club-season article) are not counted. One undated award blanks the count.
+- **Club apps/goals from Wikipedia** (Aug–Jul windows only): the player's career-statistics row
+  for that season. League counts when the league season's dates (its article's infobox) lie in
+  the window; UCL and cups count when the club-season article dates at least as many competitive
+  matches as his appearances, all in the window. A "Europe" column counts as UCL only when its
+  footnote names the Champions League alone. Minutes, assists and cards are not in these tables.
+- **National goals**: the dated list of international goals (in the article or its "List of
+  international goals scored by …" article), used only when its length equals the year table's
+  goal total; else martj42; else the year table. **National apps**: the year table, only for
+  calendar windows where the country played no match between the voting deadline and 31 Dec.
+- **Totals** (`apps`, `goals`, …) are the sum of league, ucl, club_other and national, filled only
+  when all four are.
 """
 
 
@@ -82,14 +95,16 @@ def main():
             "2021, whose ceremonies were in late November. A press report puts the real 2021 "
             "deadline at 24 Oct 2021, but the only source reachable was a low-quality blog, so the "
             "estimate is kept.", "",
-            "## Columns that are always blank", "",
+            "## Columns that are always or mostly blank", "",
             "| Column(s) | Reason |", "|---|---|",
-            "| `ucl_*`, `club_other_*` match stats | No permitted source holds every UCL / cup match "
-            "(Transfermarkt and FBref blocked; StatsBomb releases UCL finals only) |",
-            "| `national_apps/minutes/assists/ko_ga/yellow/red`, national advanced | martj42 lists goals "
-            "only; no permitted source has national-team line-ups for every match |",
-            "| `apps`, `minutes`, `goals`, `assists`, `decisive_ga`, `yellow_cards`, `red_cards`, "
-            "`gk_*` totals | Need every club and national bucket complete, never the case |",
+            "| `ucl_*`, `club_other_*`, `national_*` minutes, assists, cards, advanced | No permitted "
+            "source has every line-up (Transfermarkt and FBref blocked); Wikipedia tables give apps "
+            "and goals only |",
+            "| club apps/goals for 2000–2021 | Calendar-year windows split two seasons; season totals "
+            "cannot be cut at the voting deadline |",
+            "| `national_apps` for 2022+ | Year totals do not split at 1 August |",
+            "| `apps`, `minutes`, `assists`, `decisive_ga`, cards, `gk_*` totals | Need club and "
+            "national values in the same window, which only `goals` reaches (2022+) |",
             "| `match_rating_avg` | No permitted source publishes ratings |",
             "| Understat xG | Understat unreachable; xG comes only from StatsBomb where a bucket is complete |",
             "", "## Missing fields by reason", "",
