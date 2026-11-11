@@ -1,4 +1,4 @@
-"""Train / test / hidden split of the men's Ballon d'Or top-10 data.
+"""Train / test / hidden split of the men's Ballon d'Or ranking data.
 
 - train:  2000-2015
 - test:   2016-2025 (2020 was cancelled, so there is no file for it)

@@ -5,10 +5,19 @@ See [BALLON_DOR.md](BALLON_DOR.md) for the voting criteria and how the vote work
 
 ## Data
 
-[`data/ballon_dor/`](data/ballon_dor/) holds the top 10 of the men's Ballon d'Or for each edition
-from 2000 to 2026, one CSV per edition (`2000.csv` … `2026.csv`). From 2016 on, each file holds
-the full 30-player shortlist with its final ranking (ranks 11–30 follow the top 10). There is no
-2020 file: that edition was cancelled.
+[`data/ballon_dor/`](data/ballon_dor/) holds the men's Ballon d'Or ranking for each edition from
+2000 to 2026, one CSV per edition (`2000.csv` … `2026.csv`). There is no 2020 file: that edition
+was cancelled. How far down each file goes:
+
+| Editions | Rows | What is included |
+|---|---|---|
+| 2016–2026 | 30 | The full 30-player shortlist |
+| 2010–2015 | 23 | The full 23-player FIFA shortlist |
+| 2008–2009 | 30 | The full 30-player shortlist |
+| 2000–2007 | 24–35 | Every player who received votes, down to 30th (ties at 30th kept). The rest of each 50-man shortlist got no votes and has no rank, so it is left out. |
+
+Rows are in ranking order. The top-10 rows came first; [`expand_ballon_dor.py`](expand_ballon_dor.py)
+added the 2000–2015 rows below them from the same Wikipedia tables without changing the top 10.
 
 Columns: `rank,name,age,country,position,club,points`
 
@@ -24,10 +33,13 @@ Columns: `rank,name,age,country,position,club,points`
 
 ### Things to know
 
-- **Ties at 10th.** 2000 (Maldini, Beckham) and 2005 (Eto'o, Terry) have two players tied for
-  10th, so those files have 11 rows. All other 2000–2015 files have exactly 10; 2016–2026 files
-  have 30. Lower down the 2016+ rankings ties are common (e.g. eleven players tied at 20th with
-  0 points in 2016 and 2022), and the `points` column can be 0.
+- **Ties.** 2000 (Maldini, Beckham) and 2005 (Eto'o, Terry) have two players tied for 10th, so
+  their top 10 has 11 players. Lower down ties are common (e.g. eleven players tied at 20th with
+  0 points in 2016 and 2022; six tied at 30th with 1 point in 2007), and from 2008 on the
+  `points` column can be 0.
+- **New rows' age and position** follow the same rules as the top 10: age from the player's
+  infobox birth date on the ceremony day, first infobox position grouped as below. FIFA-coded
+  countries (`{{fb|ARG}}`) use the name in Wikipedia's `Template:Country data <code>`.
 - **2010–2015 are not points.** During the FIFA Ballon d'Or years FIFA published each player's
   share of the vote, not a points total, so `points` holds that **percentage** (e.g. `22.65`
   means 22.65%). Do not compare these values with points from other years.
