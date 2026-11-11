@@ -1,5 +1,5 @@
-"""Rank Ballon d'Or nominees with a small neural network (structure as in DSA312 Lectures 10-11:
-one Dense hidden layer, linear output, full-batch gradient descent on MSE). Standard library only.
+"""Rank Ballon d'Or nominees with a small neural network (structure: one Dense hidden layer, 
+linear output, full-batch gradient descent on MSE). Standard library only.
 
 Target: (11 - rank) / 10 for the top 10, 0 below; each year's prediction is sorted and the top
 10 scored with split.score(). Model choice uses leave-one-year-out on 2000-2015 only.
@@ -9,8 +9,8 @@ better player made the top 10, with a logistic loss on the score difference. The
 chosen on the same pairwise loss; one replaces the MSE pick only if it has more leave-one-year-out
 top-10 hits.
 
-    python nn_model.py           # select on 2000-2015, evaluate on 2016-2025
-    python nn_model.py --final   # also refit on 2000-2025 and score 2026 (do this once)
+    python model/nn_model.py           # select on 2000-2015, evaluate on 2016-2025
+    python model/nn_model.py --final   # also refit on 2000-2025 and score 2026 (do this once)
 """
 import csv
 import math
@@ -28,7 +28,7 @@ CLUB_GOALS = ["league_goals", "ucl_goals", "club_other_goals"]
 POSITIONS = ["goalkeeper", "defender", "midfielder", "forward"]
 SEEDS = [8, 18, 28, 38, 48]
 EPOCHS = 2000
-ROOT = Path(__file__).parent
+ROOT = Path(__file__).parent.parent
 
 RUNS = {  # name: (extra inputs, hidden layer sizes, activation, learning rate)
     "1 linear":          ([], (), None, 0.1),

@@ -13,7 +13,7 @@ import urllib.request
 from datetime import date
 from pathlib import Path
 
-RAW_DIR = Path(__file__).parent / "data" / "raw"
+RAW_DIR = Path(__file__).parent.parent / "data" / "raw"
 USER_AGENT = "BallonDorFeatures/0.1 (https://github.com/jonathanangsheng/Ballon_d-Or; research script)"
 MIN_INTERVAL = 3.0  # seconds between live requests
 _last = 0.0

@@ -3,6 +3,14 @@ Predictor of the male Ballon d'Or, an annual football award presented by France 
 
 See [BALLON_DOR.md](BALLON_DOR.md) for the voting criteria and how the vote works.
 
+## Code
+
+| What it does | Files |
+|---|---|
+| Fetch and parse sources (cached under `data/raw/`) | [`pipeline/`](pipeline/): `fetch`, `players`, `honours`, `intl`, `sb`, `ucl`, `wiki_stats` |
+| Build and check the features | [`pipeline/`](pipeline/): `build_windows` → `build_features` → `report` → `check_features`; one-off `expand_ballon_dor` |
+| Model | [`model/`](model/): `split`, `nn_model` |
+
 ## Data
 
 [`data/ballon_dor/`](data/ballon_dor/) holds the men's Ballon d'Or ranking for each edition from
@@ -16,7 +24,7 @@ was cancelled. How far down each file goes:
 | 2008–2009 | 30 | The full 30-player shortlist |
 | 2000–2007 | 24–35 | Every player who received votes, down to 30th (ties at 30th kept). The rest of each 50-man shortlist got no votes and has no rank, so it is left out. |
 
-Rows are in ranking order. The top-10 rows came first; [`expand_ballon_dor.py`](expand_ballon_dor.py)
+Rows are in ranking order. The top-10 rows came first; [`pipeline/expand_ballon_dor.py`](pipeline/expand_ballon_dor.py)
 added the 2000–2015 rows below them from the same Wikipedia tables without changing the top 10.
 
 Columns: `rank,name,age,country,position,club,points`
@@ -68,7 +76,7 @@ and why ([`gaps.md`](data/features/gaps.md)) and how many rows each column fills
 ([`coverage.md`](data/features/coverage.md)). Rebuild and check:
 
 ```bash
-python build_windows.py && python build_features.py && python report.py && python check_features.py
+python pipeline/build_windows.py && python pipeline/build_features.py && python pipeline/report.py && python pipeline/check_features.py
 ```
 
 ### Feature sources
@@ -84,19 +92,19 @@ python build_windows.py && python build_features.py && python report.py && pytho
 
 ## Model
 
-[`nn_model.py`](nn_model.py) predicts each edition's top 10 from the performance features. It uses
+[`model/nn_model.py`](model/nn_model.py) predicts each edition's top 10 from the performance features. It uses
 only the Python standard library and is a small dense network, as in the DSA312 lectures: one
 hidden layer, a linear output and full-batch gradient descent. A linear model (no hidden layer)
 is trained the same way as a baseline.
 
 ```bash
-python nn_model.py           # choose the model on 2000–2015, report 2016–2025
-python nn_model.py --final   # also refit on 2000–2025 and score 2026
+python model/nn_model.py           # choose the model on 2000–2015, report 2016–2025
+python model/nn_model.py --final   # also refit on 2000–2025 and score 2026
 ```
 
 ### Setup
 
-- **Split** ([`split.py`](split.py)): train 2000–2015 (421 rows), test 2016–2025 (270 rows, no
+- **Split** ([`model/split.py`](model/split.py)): train 2000–2015 (421 rows), test 2016–2025 (270 rows, no
   2020), hidden 2026. Nothing is tuned by looking at 2026.
 - **Inputs**: trophies won in the window (9 columns) and international tournament stage. Some runs
   add national goals, club goals (league, UCL, other cups), UCL stage, age and position. Blanks

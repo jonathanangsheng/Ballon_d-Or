@@ -23,7 +23,7 @@ from fetch import wiki_prefetch, wiki_redirects, wiki_wikitext
 from players import (ballon_dor_rows, club_spells, honours_entries, norm, player_article,
                      positions, resolve_titles)
 
-ROOT = Path(__file__).parent
+ROOT = Path(__file__).parent.parent
 FEAT = ROOT / "data" / "features"
 LOGS = ROOT / "data" / "features" / "logs"
 BUCKETS = ["league", "ucl", "club_other", "national", "intl_tournament"]
