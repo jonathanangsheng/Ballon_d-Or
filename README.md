@@ -134,6 +134,8 @@ start from zero, so seeds don't change them). Learning curves per run:
 | Run | Held-out 2000–2015: hits / exact | Test 2016–2025: hits / exact | Test hits, 5 seeds |
 |---|---|---|---|
 | Heuristic (sort by trophies, then stage; no learning) | – | 4.67 / 0.78 | – |
+| Previous edition's rank, unlisted players last (no learning) | 5.87 / 1.00 (2001–2015) | 5.33 / 0.78 | – |
+| Major winners first: UCL, World Cup, Euro and Copa titles, then the heuristic (no learning) | 4.75 / 1.06 | 5.00 / 0.67 | – |
 | 1 linear | 4.44 / 0.81 | 4.78 / 1.22 | – |
 | 3 network, 4 softplus nodes | 4.44 / 0.62 | 3.89 / 0.44 | 4.56 ± 0.39 |
 | 6 network + age, position | 5.19 / 0.56 | 5.33 / 0.89 | 5.02 ± 0.30 |
@@ -144,8 +146,17 @@ start from zero, so seeds don't change them). Learning curves per run:
 | 14 ranking network + national, club goals | 5.62 / 0.62 | 5.33 / 0.89 | 5.16 ± 0.13 |
 | **15 ranking linear + national, club goals** | **5.88 / 0.81** | **5.00 / 0.56** | – |
 
+- **The final model does not beat the simplest baseline.** Ranking nominees by where they
+  finished in the previous edition gets 5.33 test hits, more than run 15's 5.00, and ranking by
+  major titles ties it. The best runs on test (11 and 13, 5.44 hits) are a tenth of a hit per
+  edition ahead of previous-edition rank, too little to call a win without a paired test (issue #4).
+  Previous-edition rank's test hits per year: 2016: 4, 2017: 6, 2018: 5, 2019: 4, 2021: 7,
+  2022: 6, 2023: 6, 2024: 7, 2025: 3. Its held-out figure starts at 2001, since 2000 has no
+  previous edition in the data.
 - The heuristic ties often (its scores are whole trophy counts plus stage / 10), so its number
-  depends on the tie order: over 20 tie orders it averages 4.44 hits (range 4.11–4.67).
+  depends on the tie order: over 20 tie orders it averages 4.44 hits (range 4.11–4.67). The
+  baselines tie too: previous-edition rank averages 5.34 (5.33–5.44) and major winners 5.01
+  (4.78–5.33).
 - **Final model: run 15**, chosen by the rules above. On test it is weaker than run 13, the
   previous pick (5.00 vs 5.44 hits). It is kept anyway: switching back after seeing that would
   let the test result change a rule fixed in advance.

@@ -24,12 +24,14 @@ from split import HIDDEN_YEAR, TEST_YEARS, TRAIN_YEARS, load_year, score
 
 TROPHIES = ["trophies_league", "trophies_cup", "trophies_ucl", "trophies_uel", "trophies_world_cup",
             "trophies_euro", "trophies_copa_america", "trophies_intl_other", "trophies_club_intl_other"]
+MAJORS = ["trophies_ucl", "trophies_world_cup", "trophies_euro", "trophies_copa_america"]
 BASE = TROPHIES + ["intl_stage"]
 CLUB_GOALS = ["league_goals", "ucl_goals", "club_other_goals"]
 POSITIONS = ["goalkeeper", "defender", "midfielder", "forward"]
 SEEDS = [8, 18, 28, 38, 48]
 EPOCHS = 2000
 ROOT = Path(__file__).parent.parent
+EDITIONS = sorted(int(p.stem) for p in (ROOT / "data/ballon_dor").glob("*.csv"))
 
 RUNS = {  # name: (extra inputs, hidden layer sizes, activation, learning rate)
     "1 linear":          ([], (), None, 0.1),
@@ -287,13 +289,32 @@ def test_eval(train_rows, test_rows, extra, hidden, act, lr, epochs, seed, rank=
     return (None if rank else mse(preds, test_rows)), per_year, n_params(p)
 
 
+def trophy_score(r):
+    return sum(r[c] or 0 for c in TROPHIES) + (r["intl_stage"] or 0) / 10
+
+
 def heuristic(test_rows, seed=0):
     """Run 2: no learning. Sort by trophies won in the window, then tournament stage."""
     out = {}
     for y in sorted({r["year"] for r in test_rows}):
         rs = [r for r in test_rows if r["year"] == y]
-        out[y] = year_metrics(rs, [sum(r[c] or 0 for c in TROPHIES) + (r["intl_stage"] or 0) / 10 for r in rs],
-                              seed)
+        out[y] = year_metrics(rs, [trophy_score(r) for r in rs], seed)
+    return out
+
+
+def baselines(rows, seed=0):
+    """No learning. prev_rank: rank in the previous held edition, 99 if unlisted (skipped when there
+    is none, as for 2000). major_winners: UCL + World Cup + Euro + Copa titles first, then the heuristic."""
+    out = {"prev_rank": {}, "major_winners": {}}
+    for y in sorted({r["year"] for r in rows}):
+        rs = [r for r in rows if r["year"] == y]
+        earlier = [e for e in EDITIONS if e < y]
+        if earlier:
+            prev = {r["name"]: r["rank"] for r in load_year(earlier[-1])}
+            out["prev_rank"][y] = year_metrics(rs, [-prev.get(r["name"], 99) for r in rs], seed)
+        assert all(trophy_score(r) < 100 for r in rs), y  # the x100 weight must keep majors first
+        out["major_winners"][y] = year_metrics(rs, [100 * sum(r[c] or 0 for c in MAJORS) + trophy_score(r)
+                                                    for r in rs], seed)
     return out
 
 
@@ -324,6 +345,10 @@ def main():
                               name in RANK_RUNS)
                     for s in (SEEDS if hidden else [8])]  # the linear model starts from zeros: seed-independent
              for name, (extra, hidden, act, lr) in RUNS.items()}
+    for name, b in baselines(train_rows).items():  # no learning: each year scored as is
+        label = f"B {name}" + (" (2001-)" if 2000 not in b else "")
+        print(f"{label:26s} {'-':>5s} {'-':>8s} {avg(b.values(), 0):6.2f} {avg(b.values(), 1):6.2f} "
+              f"{avg(b.values(), 2):8.3f}")
     with open(out / "nn_loyo_curves.csv", "w", newline="") as f:
         w = csv.writer(f)
         w.writerow(["epoch"] + [f"{n} {k}" for n in RUNS for k in ("train", "val")])
@@ -352,6 +377,14 @@ def main():
           f"{statistics.fmean(avg(x.values(), 0) for x in h20):6.2f} "
           f"{statistics.fmean(avg(x.values(), 1) for x in h20):6.2f}   "
           f"hits {min(avg(x.values(), 0) for x in h20):.2f}-{max(avg(x.values(), 0) for x in h20):.2f}")
+    b20 = [baselines(test_rows, s) for s in range(20)]  # unlisted players and trophy counts tie often
+    for name, b in b20[0].items():
+        hits = [avg(x[name].values(), 0) for x in b20]
+        print(f"{'B ' + name:26s} {0:6d} {'-':>7s} {avg(b.values(), 0):6.2f} {avg(b.values(), 1):6.2f}   "
+              "hits per year " + ", ".join(f"{y}:{m[0]}" for y, m in b.items()))
+        print(f"{'  20 tie orders':26s} {'':6s} {'':7s} {statistics.fmean(hits):6.2f} "
+              f"{statistics.fmean(avg(x[name].values(), 1) for x in b20):6.2f}   "
+              f"hits {min(hits):.2f}-{max(hits):.2f}")
     results = {}
     for name in RUNS:
         runs = [f.result() for f in tests[name]]
