@@ -216,10 +216,32 @@ def grad_check():
 
 # ---------- evaluation ----------
 
-def year_metrics(rows, preds):
+def top10(rows, preds, seed=0):
+    """Predicted top 10 names. Ties go by a fixed per-edition shuffle: rows arrive in true rank
+    order, so a stable sort would let the answer break them."""
+    shuffled = sorted(r["name"] for r in rows)
+    random.Random(rows[0]["year"] + 10000 * seed).shuffle(shuffled)
+    tie = {n: i for i, n in enumerate(shuffled)}
+    return [r["name"] for r, _ in sorted(zip(rows, preds), key=lambda t: (-t[1], tie[t[0]["name"]]))][:10]
+
+
+def tie_check(rows):
+    """With every prediction tied (bar one, so Spearman is defined), hits must sit at chance,
+    10 * top-10 size / nominees per edition, not near the true top 10."""
+    by_year = {}
+    for r in rows:
+        by_year.setdefault(r["year"], []).append(r)
+    hits, chance = [], []
+    for rs in by_year.values():
+        first = min(r["name"] for r in rs)
+        hits.append(year_metrics(rs, [float(r["name"] == first) for r in rs])[0])
+        chance.append(10 * sum(r["rank"] <= 10 for r in rs) / len(rs))
+    assert abs(statistics.fmean(hits) - statistics.fmean(chance)) < 1, (hits, chance)
+
+
+def year_metrics(rows, preds, seed=0):
     """hits/exact via split.score, plus Spearman between prediction and target, for one year."""
-    names = [r["name"] for r, _ in sorted(zip(rows, preds), key=lambda t: -t[1])][:10]
-    s = score(names, load_year(rows[0]["year"]))
+    s = score(top10(rows, preds, seed), load_year(rows[0]["year"]))
     rho = statistics.correlation(preds, [r["y"] for r in rows], method="ranked")
     return s["hits"], s["exact"], rho
 
@@ -264,12 +286,13 @@ def test_eval(train_rows, test_rows, extra, hidden, act, lr, epochs, seed, rank=
     return (None if rank else mse(preds, test_rows)), per_year, n_params(p)
 
 
-def heuristic(test_rows):
+def heuristic(test_rows, seed=0):
     """Run 2: no learning. Sort by trophies won in the window, then tournament stage."""
     out = {}
     for y in sorted({r["year"] for r in test_rows}):
         rs = [r for r in test_rows if r["year"] == y]
-        out[y] = year_metrics(rs, [sum(r[c] or 0 for c in TROPHIES) + (r["intl_stage"] or 0) / 10 for r in rs])
+        out[y] = year_metrics(rs, [sum(r[c] or 0 for c in TROPHIES) + (r["intl_stage"] or 0) / 10 for r in rs],
+                              seed)
     return out
 
 
@@ -280,6 +303,7 @@ def avg(per_year, i):
 def main():
     grad_check()
     train_rows, test_rows = load(TRAIN_YEARS), load(TEST_YEARS)
+    tie_check(train_rows + test_rows)
     out = ROOT / "results"
     out.mkdir(exist_ok=True)
 
@@ -315,6 +339,11 @@ def main():
     print(f"{'run':26s} {'params':>6s} {'MSE':>7s} {'hits':>6s} {'exact':>6s}   {'hits mean±sd':>13s} {'exact mean±sd':>13s}")
     h = heuristic(test_rows)
     print(f"{'2 heuristic':26s} {0:6d} {'-':>7s} {avg(h.values(), 0):6.2f} {avg(h.values(), 1):6.2f}")
+    h20 = [heuristic(test_rows, s) for s in range(20)]  # it ties often, so show the tie-order spread
+    print(f"{'2 heuristic, 20 tie orders':26s} {'':6s} {'':7s} "
+          f"{statistics.fmean(avg(x.values(), 0) for x in h20):6.2f} "
+          f"{statistics.fmean(avg(x.values(), 1) for x in h20):6.2f}   "
+          f"hits {min(avg(x.values(), 0) for x in h20):.2f}-{max(avg(x.values(), 0) for x in h20):.2f}")
     results = {}
     for name, (extra, hidden, act, lr) in RUNS.items():
         seeds = SEEDS if hidden else [8]  # the linear model starts from zeros: seed-independent

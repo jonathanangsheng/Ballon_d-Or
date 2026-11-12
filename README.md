@@ -114,7 +114,9 @@ python model/nn_model.py --final   # also refit on 2000–2025 and score 2026
   instead on pairs from the same edition whose better player made the top 10. They use a
   logistic loss on the difference between the two scores.
 - **Scoring** (`split.score`): each edition's predictions are sorted. *Hits* = how many of the
-  predicted top 10 are in the real top 10; *exact* = how many are at their real rank.
+  predicted top 10 are in the real top 10; *exact* = how many are at their real rank. Tied
+  predictions are broken by a fixed per-edition shuffle, never by file order (which is the true
+  ranking).
 - **Choosing a model**: leave-one-year-out on 2000–2015, holding out each training year in turn.
   The training length (epoch) is set where the mean validation loss is lowest. The best network
   and best linear model are those with the lowest validation loss. The network is kept only if
@@ -131,24 +133,26 @@ start from zero, so seeds don't change them). Learning curves per run:
 
 | Run | Held-out 2000–2015: hits / exact | Test 2016–2025: hits / exact | Test hits, 5 seeds |
 |---|---|---|---|
-| Heuristic (sort by trophies, then stage; no learning) | – | 4.89 / 0.78 | – |
-| 1 linear | 4.62 / 0.62 | 5.11 / 0.89 | – |
-| 3 network, 4 softplus nodes | 4.88 / 0.50 | 3.89 / 0.44 | 4.89 ± 0.51 |
-| 6 network + age, position | 5.19 / 0.50 | 5.33 / 0.89 | 5.04 ± 0.33 |
-| 9 network, two layers of 4 | 4.38 / 0.56 | 4.56 / 1.33 | 4.82 ± 0.18 |
-| 11 linear + national goals | 4.69 / 0.44 | 5.56 / 0.89 | – |
+| Heuristic (sort by trophies, then stage; no learning) | – | 4.67 / 0.78 | – |
+| 1 linear | 4.44 / 0.81 | 4.78 / 1.22 | – |
+| 3 network, 4 softplus nodes | 4.44 / 0.62 | 3.89 / 0.44 | 4.56 ± 0.39 |
+| 6 network + age, position | 5.19 / 0.56 | 5.33 / 0.89 | 5.02 ± 0.30 |
+| 9 network, two layers of 4 | 4.12 / 0.44 | 4.33 / 0.56 | 4.58 ± 0.20 |
+| 11 linear + national goals | 4.62 / 0.44 | 5.44 / 0.89 | – |
 | 12 network + national, club goals | 5.69 / 1.06 | 5.00 / 1.22 | 5.11 ± 0.16 |
 | 13 linear + national, club goals | 5.75 / 0.69 | 5.44 / 0.89 | – |
 | 14 ranking network + national, club goals | 5.62 / 0.62 | 5.33 / 0.89 | 5.16 ± 0.13 |
 | **15 ranking linear + national, club goals** | **5.88 / 0.81** | **5.00 / 0.56** | – |
 
+- The heuristic ties often (its scores are whole trophy counts plus stage / 10), so its number
+  depends on the tie order: over 20 tie orders it averages 4.44 hits (range 4.11–4.67).
 - **Final model: run 15**, chosen by the rules above. On test it is weaker than run 13, the
   previous pick (5.00 vs 5.44 hits). It is kept anyway: switching back after seeing that would
   let the test result change a rule fixed in advance.
 - Club goals were the biggest gain on the held-out years: Spearman rose from 0.21 to 0.37 (runs 11 →
   13). On test, they and training to rank roughly tie with national goals alone.
-- Networks never clearly beat the linear models. Wider or deeper networks did worse, and results
-  vary between seeds by up to half a hit per edition.
+- Networks never clearly beat the linear models. Wider or deeper networks had higher validation
+  loss and no clear gain in hits, and results vary between seeds by up to half a hit per edition.
 - Blanks are not spread the same way in training and test. In 2016–2025 a missing club-goal value
   is more often a top-10 player than in 2000–2015 (45% vs 30%). Some of the gain on the held-out
   years may not carry over to test for that reason.
@@ -161,7 +165,8 @@ start from zero, so seeds don't change them). Learning curves per run:
 
 It was then scored a second time, once, with the final model (run 15, refit on 2000–2025 at the
 epoch chosen on 2000–2015): **6 hits, 2 exact, Spearman 0.51.** Nothing was changed after this
-result.
+result. Both 2026 scores predate the tie-break fix (ties went to the player who really finished
+higher); 2026 was not re-scored, to avoid a third look.
 
 | | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 |---|---|---|---|---|---|---|---|---|---|---|
