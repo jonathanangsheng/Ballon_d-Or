@@ -17,6 +17,7 @@ import math
 import random
 import statistics
 import sys
+from concurrent.futures import ProcessPoolExecutor
 from pathlib import Path
 
 from split import HIDDEN_YEAR, TEST_YEARS, TRAIN_YEARS, load_year, score
@@ -310,12 +311,19 @@ def main():
     print(f"Leave-one-year-out on {TRAIN_YEARS[0]}-{TRAIN_YEARS[-1]} ({len(train_rows)} rows), seed 8")
     print(f"{'run':26s} {'epoch':>5s} {'val loss':>8s} {'hits':>6s} {'exact':>6s} {'spearman':>8s}"
           "   (val loss: MSE, or pairwise loss for rank runs)")
+    ex = ProcessPoolExecutor()  # every run and every test seed trains independently: one per core
+    jobs = {name: ex.submit(loyo, train_rows, extra, hidden, act, lr, 8, name in RANK_RUNS)
+            for name, (extra, hidden, act, lr) in RUNS.items()}
     chosen, curves, loyo_hits = {}, {}, {}
-    for name, (extra, hidden, act, lr) in RUNS.items():
-        tr, va, ep, per_year = loyo(train_rows, extra, hidden, act, lr, 8, name in RANK_RUNS)
+    for name in RUNS:
+        tr, va, ep, per_year = jobs[name].result()
         chosen[name], curves[name], loyo_hits[name] = ep, (tr, va), avg(per_year, 0)
         print(f"{name:26s} {ep:5d} {va[ep - 1]:8.4f} {avg(per_year, 0):6.2f} {avg(per_year, 1):6.2f} "
               f"{avg(per_year, 2):8.3f}")
+    tests = {name: [ex.submit(test_eval, train_rows, test_rows, extra, hidden, act, lr, chosen[name], s,
+                              name in RANK_RUNS)
+                    for s in (SEEDS if hidden else [8])]  # the linear model starts from zeros: seed-independent
+             for name, (extra, hidden, act, lr) in RUNS.items()}
     with open(out / "nn_loyo_curves.csv", "w", newline="") as f:
         w = csv.writer(f)
         w.writerow(["epoch"] + [f"{n} {k}" for n in RUNS for k in ("train", "val")])
@@ -345,10 +353,8 @@ def main():
           f"{statistics.fmean(avg(x.values(), 1) for x in h20):6.2f}   "
           f"hits {min(avg(x.values(), 0) for x in h20):.2f}-{max(avg(x.values(), 0) for x in h20):.2f}")
     results = {}
-    for name, (extra, hidden, act, lr) in RUNS.items():
-        seeds = SEEDS if hidden else [8]  # the linear model starts from zeros: seed-independent
-        runs = [test_eval(train_rows, test_rows, extra, hidden, act, lr, chosen[name], s, name in RANK_RUNS)
-                for s in seeds]
+    for name in RUNS:
+        runs = [f.result() for f in tests[name]]
         hits = [avg(r[1].values(), 0) for r in runs]
         exact = [avg(r[1].values(), 1) for r in runs]
         sd = (statistics.pstdev(hits), statistics.pstdev(exact))
@@ -358,6 +364,7 @@ def main():
               f"{statistics.fmean(hits):6.2f}±{sd[0]:.2f}   {statistics.fmean(exact):6.2f}±{sd[1]:.2f}")
         if name == "3 nn4 softplus":
             per_year = runs[0][1]
+    ex.shutdown()
     print("\nMain model (3), seed 8, per test year: " +
           ", ".join(f"{y}: {m[0]} hits/{m[1]} exact" for y, m in per_year.items()))
 
