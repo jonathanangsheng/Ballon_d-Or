@@ -120,16 +120,23 @@ python model/nn_model.py --final   # also refit on 2000–2025 and score 2026
   so the order near the top counts) and *winner* (1 if the predicted number one won).
 - **Choosing a model**: leave-one-year-out on 2000–2015, holding out each training year in turn.
   The training length (epoch) is set where the mean validation loss is lowest. The best network
-  and best linear model are those with the lowest validation loss (seed 8). The network is kept
-  only if it beats the linear model on held-out top-10 hits, paired by edition: per held-out
-  edition, the network's hits averaged over 5 seeds minus the linear model's, with the 95%
-  bootstrap interval of the mean difference over the 16 editions entirely above 0. Otherwise the
-  linear model is kept. A ranking run replaces that pick only if it has more top-10 hits on the
-  held-out training years (the network's 5-seed mean, if it was kept), because its loss is on a
-  different scale. No test number feeds any of these choices.
-  This rule was committed on its own, before the code that applies it was written or run. Before
-  it, test 2016–2025 decided network vs linear: the network had to beat the linear model on test
-  hits by more than its own spread over 5 seeds.
+  and best linear model are those with the lowest validation loss (seed 8), and so is the best
+  ranking run. Starting from the linear model, the network and then the ranking run each replace
+  the pick only if they beat it on held-out top-10 hits, paired by edition: the 95% bootstrap
+  interval of the mean per-edition difference over the 16 editions must lie entirely above 0.
+  A network's hits are averaged over 5 seeds, each scored at seed 8's epoch, the epoch its test
+  runs use. Hits, not loss, because the ranking runs' loss is on a different scale. No test
+  number feeds any of these choices.
+  The rule was committed on its own, before the code that applies it was written or run (commit
+  `33fd341`, "State the LOYO-only model selection rule before implementing it (#5)"). After a
+  code review, and still before any run, it was amended in a second README-only commit ("Amend
+  the selection rule after review (#5)"): the ranking step used to need any gain in mean hits,
+  and the extra seeds were scored at their own best epochs. Before these commits, test 2016–2025
+  decided network vs linear: the network had to beat the linear model on test hits by more than
+  its own spread over 5 seeds.
+  That does not make the test score clean: 2016–2025 had already been looked at many times,
+  across all the runs below and the old rule. The first edition no choice here has seen is 2027
+  (issue #6).
   Each time the script runs, backprop is first checked against finite differences.
 
 ### Results
@@ -137,6 +144,16 @@ python model/nn_model.py --final   # also refit on 2000–2025 and score 2026
 Seed 8; networks also show the mean ± sd over seeds 8, 18, 28, 38 and 48 (the linear models
 start from zero, so seeds don't change them). Learning curves per run:
 `results/nn_loyo_curves.csv`.
+
+Selected model: **not yet rerun under the rule above.** Under the old rule it was run 15, shown
+here until the rerun replaces it. The rerun also prints the seed-averaged held-out hits each
+comparison uses, which the held-out column below (seed 8 only) does not show.
+
+| Run | Held-out 2000–2015: hits / exact | Test 2016–2025: hits / exact | Test hits, 5 seeds |
+|---|---|---|---|
+| **15 ranking linear + national, club goals** | **5.88 / 0.81** | **5.00 / 0.56** | – |
+
+Exploratory runs and baselines (not used for selection):
 
 | Run | Held-out 2000–2015: hits / exact | Test 2016–2025: hits / exact | Test hits, 5 seeds |
 |---|---|---|---|
@@ -151,7 +168,6 @@ start from zero, so seeds don't change them). Learning curves per run:
 | 12 network + national, club goals | 5.69 / 1.06 | 5.00 / 1.22 | 5.11 ± 0.16 |
 | 13 linear + national, club goals | 5.75 / 0.69 | 5.44 / 0.89 | – |
 | 14 ranking network + national, club goals | 5.62 / 0.62 | 5.33 / 0.89 | 5.16 ± 0.13 |
-| **15 ranking linear + national, club goals** | **5.88 / 0.81** | **5.00 / 0.56** | – |
 
 - **The final model does not beat the simplest baseline.** Ranking nominees by where they
   finished in the previous edition gets 5.33 test hits to run 15's 5.00, and ranking by major
@@ -164,9 +180,9 @@ start from zero, so seeds don't change them). Learning curves per run:
   depends on the tie order: over 20 tie orders it averages 4.44 hits (range 4.11–4.67). The
   baselines tie too: previous-edition rank averages 5.34 (5.33–5.44) and major winners 5.01
   (4.78–5.33).
-- **Final model: run 15**, chosen by the rules above. On test it scores below run 13, the
-  previous pick (5.00 vs 5.44 hits), a gap well inside the margin below. It is kept anyway:
-  switching back after seeing that would let the test result change a rule fixed in advance.
+- **Final model under the old rule: run 15.** On test it scores below run 13 (5.00 vs 5.44
+  hits), a gap well inside the margin below. That old rule was itself replaced after the test
+  years had been seen (see "Choosing a model"), so neither pick's test score is a clean estimate.
 - Club goals were the biggest gain on the held-out years: Spearman rose from 0.21 to 0.37 (runs 11 →
   13). On test, they and training to rank roughly tie with national goals alone.
 - Networks never clearly beat the linear models. Wider or deeper networks had higher validation
