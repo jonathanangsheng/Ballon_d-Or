@@ -1,0 +1,4 @@
+[
+ {"model": "11 linear +nat_goals", "commit": null, "date": "2026-11-11", "hits": 7, "exact": 0, "spearman": 0.43, "post_hoc": false, "note": "recorded by hand from README; scoring commit unknown (--final was added in 1f69700), score first written up in 32ad21e"},
+ {"model": "15 rank linear +nat,club", "commit": "32ad21e", "date": "2026-11-11", "hits": 6, "exact": 2, "spearman": 0.51, "post_hoc": true, "note": "recorded by hand from README; commit is the one that wrote the score up"}
+]

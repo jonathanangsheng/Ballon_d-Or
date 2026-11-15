@@ -102,10 +102,14 @@ python model/nn_model.py           # choose the model on 2000–2015, report 201
 python model/nn_model.py --final   # also refit on 2000–2025 and score 2026
 ```
 
+`--final` appends each scoring to `results/final_2026.json` and refuses to run once that file
+holds one, unless `--rescore` is passed; the extra scoring is then flagged post hoc.
+
 ### Setup
 
 - **Split** ([`model/split.py`](model/split.py)): train 2000–2015 (421 rows), test 2016–2025 (270 rows, no
-  2020), hidden 2026. Nothing is tuned by looking at 2026.
+  2020), 2026 held out until its first scoring. It has since been scored a second time, after
+  more development (see [2026](#2026)).
 - **Inputs**: trophies won in the window (9 columns) and international tournament stage. Some runs
   add national goals, club goals (league, UCL, other cups), UCL stage, age and position. Blanks
   get the training median plus a missing flag; every column is standardised on the training
@@ -220,14 +224,22 @@ hits), so this only matters next to the held-out 2000–2015 figures, where list
 
 ### 2026
 
-2026 has been scored once, with an earlier model: run 11, refit on 2000–2025 before the
-2000–2015 rankings were extended past the top 10 and before club goals were added. It got 7 hits,
-0 exact and Spearman 0.43.
+| | Hits | Exact | Spearman |
+|---|---|---|---|
+| **First blind 2026 prediction**: run 11, refit on 2000–2025 | **7** | **0** | **0.43** |
+| Second, post hoc scoring made after further development: run 15, refit on 2000–2025 | 6 | 2 | 0.51 |
+| Previous edition's rank (no learning) | 5 | 0 | – |
 
-It was then scored a second time, once, with the final model of the time (run 15, refit on 2000–2025 at the
-epoch chosen on 2000–2015): **6 hits, 2 exact, Spearman 0.51.** Nothing was changed after this
-result. Both 2026 scores predate the tie-break fix (ties went to the player who really finished
-higher); 2026 was not re-scored, to avoid a third look.
+Only run 11's score is a blind result. Between the two scorings club goals and the ranking runs
+were added and run 15 became the pick, so run 15's score is not a prediction. On one edition 7, 6 and 5 hits cannot be told apart: a
+model's hits move by more than one from edition to edition (see "How sure are these numbers?").
+Both scores predate the tie-break fix (ties went to the player who really finished higher); 2026
+was not re-scored, to avoid a third look. Both were also computed with `intl_tournament_*` blank
+for 29 of 30 nominees (StatsBomb has no 2026 World Cup, see `data/features/gaps.md`); the runs
+scored here do not use those columns. The first clean out-of-sample result will be 2027,
+predicted and committed before its ceremony.
+
+Run 15's post hoc top 10:
 
 | | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 |---|---|---|---|---|---|---|---|---|---|---|

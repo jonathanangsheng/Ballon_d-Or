@@ -115,6 +115,7 @@ def main():
             "national values in the same window, which only `goals` reaches (2022+) |",
             "| `match_rating_avg` | No permitted source publishes ratings |",
             "| Understat xG | Understat unreachable; xG comes only from StatsBomb where a bucket is complete |",
+            "| `intl_tournament_*` for 2026 (29 of 30) | martj42 holds the 2026 World Cup, so each nominee's team has tournament matches in the window, but StatsBomb open data has not released that World Cup, so the bucket fails the completeness check. Kvaratskhelia is filled because Georgia played no tournament match. No model run uses these columns |",
             "", "## Missing fields by reason", "",
             "| Field | Reason | Rows | Editions |", "|---|---|---|---|"]
     for (field, reason), e in sorted(by.items(), key=lambda kv: (kv[0][0], -kv[1]["rows"])):

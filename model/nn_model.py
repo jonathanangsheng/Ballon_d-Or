@@ -11,14 +11,20 @@ hits beat it per edition, with the 95% bootstrap interval of the gain above 0 (s
 
     python model/nn_model.py           # select on 2000-2015, evaluate on 2016-2025
     python model/nn_model.py --final   # also refit on 2000-2025 and score 2026 (do this once)
+    python model/nn_model.py --final --rescore   # score again anyway; logged as post hoc
+
+Every --final scoring is appended to results/final_<year>.json; the first entry is the blind one.
 """
 import csv
+import json
 import math
 import random
 import statistics
+import subprocess
 import sys
 from collections import namedtuple
 from concurrent.futures import ProcessPoolExecutor
+from datetime import date
 from pathlib import Path
 
 from split import HIDDEN_YEAR, TEST_YEARS, TRAIN_YEARS, load_year, score
@@ -347,7 +353,22 @@ def paired_check():
     assert paired([6, 4] * 8, [5] * 16)[1] <= 0
 
 
+def read_scorings(record):
+    return json.loads(record.read_text(encoding="utf-8")) if record.exists() else []
+
+
 def main():
+    record = ROOT / "results" / f"final_{HIDDEN_YEAR}.json"
+    if "--final" in sys.argv:
+        scorings = read_scorings(record)
+        if scorings and "--rescore" not in sys.argv:
+            sys.exit(f"{HIDDEN_YEAR} was already scored {len(scorings)} time(s), see {record}. "
+                     "Pass --rescore to score it again; the result will be logged as post hoc.")
+        try:  # taken now, so a git failure can't stop the score being logged; "-dirty" flags uncommitted code
+            commit = subprocess.run(["git", "describe", "--always", "--dirty"], capture_output=True,
+                                    text=True, cwd=ROOT).stdout.strip() or None
+        except FileNotFoundError:
+            commit = None
     grad_check()
     train_rows, test_rows = load(TRAIN_YEARS), load(TEST_YEARS)
     tie_check(train_rows + test_rows)
@@ -495,8 +516,14 @@ def main():
         _, per_year, _ = test_eval(full, hidden_rows, extra, hidden, act, lr, chosen[final], 8,
                                    final in RANK_RUNS)
         hits, exact, rho, *_ = per_year[HIDDEN_YEAR]
+        scorings = read_scorings(record)  # re-read: another run may have logged a scoring meanwhile
         print(f"{HIDDEN_YEAR} (refit on {TRAIN_YEARS[0]}-{TEST_YEARS[-1]}): {hits} hits, {exact} exact, "
-              f"spearman {rho:.3f}")
+              f"spearman {rho:.3f}" + (f" -- POST HOC: scoring #{len(scorings) + 1}" if scorings else ""))
+        scorings.append({"model": final, "commit": commit, "date": date.today().isoformat(),
+                         "hits": hits, "exact": exact, "spearman": round(rho, 3), "post_hoc": bool(scorings)})
+        tmp = record.with_suffix(".tmp")  # write then rename, so an interrupted write can't corrupt the log
+        tmp.write_text(json.dumps(scorings, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
+        tmp.replace(record)
 
 
 if __name__ == "__main__":
