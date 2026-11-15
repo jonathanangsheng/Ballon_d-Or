@@ -17,6 +17,7 @@ import math
 import random
 import statistics
 import sys
+from collections import namedtuple
 from concurrent.futures import ProcessPoolExecutor
 from pathlib import Path
 
@@ -242,11 +243,14 @@ def tie_check(rows):
     assert abs(statistics.fmean(hits) - statistics.fmean(chance)) < 1, (hits, chance)
 
 
+Metrics = namedtuple("Metrics", "hits exact spearman ndcg winner")
+
+
 def year_metrics(rows, preds, seed=0):
-    """hits/exact via split.score, plus Spearman between prediction and target, for one year."""
+    """split.score plus Spearman between prediction and target, for one year."""
     s = score(top10(rows, preds, seed), load_year(rows[0]["year"]))
     rho = statistics.correlation(preds, [r["y"] for r in rows], method="ranked")
-    return s["hits"], s["exact"], rho
+    return Metrics(s["hits"], s["exact"], rho, s["ndcg"], s["winner"])
 
 
 def mse(preds, rows):
@@ -322,6 +326,13 @@ def avg(per_year, i):
     return statistics.fmean(m[i] for m in per_year)
 
 
+def boot_ci(values, n=10000, seed=0):
+    """95% bootstrap interval of the mean, resampling editions."""
+    rnd = random.Random(seed)
+    means = sorted(statistics.fmean(rnd.choices(values, k=len(values))) for _ in range(n))
+    return means[int(0.025 * n)], means[int(0.975 * n)]
+
+
 def main():
     grad_check()
     train_rows, test_rows = load(TRAIN_YEARS), load(TEST_YEARS)
@@ -345,7 +356,8 @@ def main():
                               name in RANK_RUNS)
                     for s in (SEEDS if hidden else [8])]  # the linear model starts from zeros: seed-independent
              for name, (extra, hidden, act, lr) in RUNS.items()}
-    for name, b in baselines(train_rows).items():  # no learning: each year scored as is
+    bl = baselines(train_rows)
+    for name, b in bl.items():  # no learning: each year scored as is
         label = f"B {name}" + (" (2001-)" if 2000 not in b else "")
         print(f"{label:26s} {'-':>5s} {'-':>8s} {avg(b.values(), 0):6.2f} {avg(b.values(), 1):6.2f} "
               f"{avg(b.values(), 2):8.3f}")
@@ -368,8 +380,8 @@ def main():
         w.writerows([e + 1, round(a, 6), round(mse(p, va), 6)] for e, (a, p) in enumerate(zip(losses, vp)))
     print(f"80/20 by year: validation years {sorted(val_years)}; curves in results/nn_8020_curves.csv")
 
-    print(f"\nTest {TEST_YEARS[0]}-{TEST_YEARS[-1]} ({len(test_rows)} rows): seed 8, then mean ± sd over seeds {SEEDS}")
-    print(f"{'run':26s} {'params':>6s} {'MSE':>7s} {'hits':>6s} {'exact':>6s}   {'hits mean±sd':>13s} {'exact mean±sd':>13s}")
+    print(f"\nTest {TEST_YEARS[0]}-{TEST_YEARS[-1]} ({len(test_rows)} rows): seed 8, then mean +- sd over seeds {SEEDS}")
+    print(f"{'run':26s} {'params':>6s} {'MSE':>7s} {'hits':>6s} {'exact':>6s}   {'hits mean+-sd':>13s} {'exact mean+-sd':>13s}")
     h = heuristic(test_rows)
     print(f"{'2 heuristic':26s} {0:6d} {'-':>7s} {avg(h.values(), 0):6.2f} {avg(h.values(), 1):6.2f}")
     h20 = [heuristic(test_rows, s) for s in range(20)]  # it ties often, so show the tie-order spread
@@ -385,21 +397,18 @@ def main():
         print(f"{'  20 tie orders':26s} {'':6s} {'':7s} {statistics.fmean(hits):6.2f} "
               f"{statistics.fmean(avg(x[name].values(), 1) for x in b20):6.2f}   "
               f"hits {min(hits):.2f}-{max(hits):.2f}")
-    results = {}
+    results, per_seed = {}, {}
     for name in RUNS:
         runs = [f.result() for f in tests[name]]
+        per_seed[name] = [r[1] for r in runs]
         hits = [avg(r[1].values(), 0) for r in runs]
         exact = [avg(r[1].values(), 1) for r in runs]
         sd = (statistics.pstdev(hits), statistics.pstdev(exact))
         results[name] = (hits, exact, sd)
         mse_txt = "-" if runs[0][0] is None else f"{runs[0][0]:.4f}"
         print(f"{name:26s} {runs[0][2]:6d} {mse_txt:>7s} {hits[0]:6.2f} {exact[0]:6.2f}   "
-              f"{statistics.fmean(hits):6.2f}±{sd[0]:.2f}   {statistics.fmean(exact):6.2f}±{sd[1]:.2f}")
-        if name == "3 nn4 softplus":
-            per_year = runs[0][1]
+              f"{statistics.fmean(hits):6.2f}+-{sd[0]:.2f}   {statistics.fmean(exact):6.2f}+-{sd[1]:.2f}")
     ex.shutdown()
-    print("\nMain model (3), seed 8, per test year: " +
-          ", ".join(f"{y}: {m[0]} hits/{m[1]} exact" for y, m in per_year.items()))
 
     # best network and best linear model = lowest LOYO validation loss in each group; keep the
     # network only if it beats that linear model on test hits by more than its own seed spread
@@ -411,7 +420,7 @@ def main():
     nn_hits, _, nn_sd = results[nn]
     final = nn if statistics.fmean(nn_hits) - lin_hits > nn_sd[0] else lin
     print(f"\nBest on validation: network {nn}, linear {lin}. Test hits {statistics.fmean(nn_hits):.2f}"
-          f"±{nn_sd[0]:.2f} vs {lin_hits:.2f} -> MSE pick: {final}")
+          f"+-{nn_sd[0]:.2f} vs {lin_hits:.2f} -> MSE pick: {final}")
     # a ranking run replaces it only with more leave-one-year-out hits (the losses differ in scale)
     rk = best(list(RANK_RUNS))
     print(f"Best ranking run on validation: {rk}. LOYO hits {loyo_hits[rk]:.2f} vs {loyo_hits[final]:.2f} "
@@ -419,12 +428,45 @@ def main():
     if loyo_hits[rk] > loyo_hits[final]:
         final = rk
 
+    # how sure: final model vs the baseline with the most LOYO hits, per test edition (paired).
+    # Each side is averaged per edition over its seeds / 20 tie orders, so neither choice sways the verdict.
+    def mean_by_year(dicts):
+        return {y: Metrics(*map(statistics.fmean, zip(*(d[y] for d in dicts)))) for y in dicts[0]}
+    base = max(bl, key=lambda n: avg(bl[n].values(), 0))
+    fm, bm = mean_by_year(per_seed[final]), mean_by_year([x[base] for x in b20])
+    assert fm.keys() == bm.keys()
+    rows = [[y, *(round(v, 4) for v in (*fm[y], *bm[y]))] for y in fm]
+    with open(out / "per_edition.csv", "w", newline="") as f:
+        csv.writer(f).writerows([["year"] + [f"{who} {k}" for who in (final, "B " + base)
+                                             for k in Metrics._fields]] + rows)
+    print(f"\nPer test edition: year, then {', '.join(Metrics._fields)} for {final} "
+          f"(mean of {len(per_seed[final])} seed(s)), then for B {base} (mean of {len(b20)} tie orders)")
+    for r in rows:
+        print("  " + "  ".join(map(str, r)))
+    # shortcut: t(0.975, df=8) is hardcoded (stdlib has no t quantile); look it up again if the test years change
+    assert len(fm) == 9
+    print(f"Test means over {len(fm)} editions, 95% bootstrap CI; diff = model - B, paired by edition, "
+          "with a t-interval too (the bootstrap runs narrow on 9 editions; a verdict needs both)")
+    for k in ("hits", "exact"):
+        a = [getattr(fm[y], k) for y in fm]
+        d = [getattr(fm[y], k) - getattr(bm[y], k) for y in fm]
+        (alo, ahi), (lo, hi) = boot_ci(a), boot_ci(d)
+        half = 2.306 * statistics.stdev(d) / math.sqrt(len(d))
+        tlo, thi = statistics.fmean(d) - half, statistics.fmean(d) + half
+        verdict = ("beats baseline" if min(lo, tlo) > 0 else "worse than baseline" if max(hi, thi) < 0
+                   else "no clear difference")
+        print(f"  {k:5s} model {statistics.fmean(a):.2f} [{alo:.2f}, {ahi:.2f}]   diff {statistics.fmean(d):+.2f} "
+              f"boot [{lo:+.2f}, {hi:+.2f}] t [{tlo:+.2f}, {thi:+.2f}]  {verdict}")
+    print(f"  ndcg@10 {statistics.fmean(m.ndcg for m in fm.values()):.3f} vs B "
+          f"{statistics.fmean(m.ndcg for m in bm.values()):.3f}; winner right "
+          f"{sum(m.winner for m in fm.values()):.1f}/{len(fm)} vs B {sum(m.winner for m in bm.values()):.1f}/{len(fm)}")
+
     if "--final" in sys.argv:
         extra, hidden, act, lr = RUNS[final]
         full, hidden_rows = train_rows + test_rows, load([HIDDEN_YEAR])
         _, per_year, _ = test_eval(full, hidden_rows, extra, hidden, act, lr, chosen[final], 8,
                                    final in RANK_RUNS)
-        hits, exact, rho = per_year[HIDDEN_YEAR]
+        hits, exact, rho, *_ = per_year[HIDDEN_YEAR]
         print(f"{HIDDEN_YEAR} (refit on {TRAIN_YEARS[0]}-{TEST_YEARS[-1]}): {hits} hits, {exact} exact, "
               f"spearman {rho:.3f}")
 

@@ -8,6 +8,7 @@ Each split is a dict {year: [row, ...]}, where a row is a dict with the CSV colu
 (rank, age and points converted to numbers). Rows are in ranking order.
 """
 import csv
+import math
 from pathlib import Path
 
 DATA_DIR = Path(__file__).parent.parent / "data" / "ballon_dor"
@@ -44,6 +45,8 @@ def score(predicted_names, actual_rows):
 
     hits:  how many predicted names are in the actual top 10
     exact: how many predicted names sit at their actual rank (ties count for every tied position)
+    ndcg:  ndcg_at_10, rewards the right order near the top
+    winner: 1 if the predicted number one actually won
     """
     actual_rows = [r for r in actual_rows if r["rank"] <= 10]  # 2016+ files hold all 30 nominees
     actual_rank = {r["name"]: r["rank"] for r in actual_rows}
@@ -54,10 +57,23 @@ def score(predicted_names, actual_rows):
         tied = sum(1 for r in actual_rows if r["rank"] == rank)
         if rank is not None and rank <= pos < rank + tied:
             exact += 1
-    return {"hits": hits, "exact": exact}
+    winner = int(actual_rank.get(predicted_names[0]) == 1)
+    return {"hits": hits, "exact": exact, "ndcg": ndcg_at_10(predicted_names, actual_rows), "winner": winner}
+
+
+def ndcg_at_10(predicted_names, actual_rows):
+    """DCG of the predicted top 10 over the best possible DCG; gain 11 - rank for the true top 10."""
+    gain = {r["name"]: 11 - r["rank"] for r in actual_rows if r["rank"] <= 10}
+    dcg = sum(gain.get(n, 0) / math.log2(pos + 1) for pos, n in enumerate(predicted_names[:10], start=1))
+    ideal = sum(g / math.log2(pos + 1) for pos, g in enumerate(sorted(gain.values(), reverse=True)[:10], start=1))
+    return dcg / ideal
 
 
 if __name__ == "__main__":
+    rows = load_year(2016)
+    best = [r["name"] for r in rows][:10]
+    assert score(best, rows) == {"hits": 10, "exact": 10, "ndcg": 1.0, "winner": 1}
+    assert score(best[::-1], rows)["ndcg"] < 1 and score(["nobody"], rows)["ndcg"] == 0
     for label, split in [("train", load_train()), ("test", load_test())]:
         years = sorted(split)
         rows = sum(len(v) for v in split.values())

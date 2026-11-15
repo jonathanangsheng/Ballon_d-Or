@@ -116,11 +116,13 @@ python model/nn_model.py --final   # also refit on 2000–2025 and score 2026
 - **Scoring** (`split.score`): each edition's predictions are sorted. *Hits* = how many of the
   predicted top 10 are in the real top 10; *exact* = how many are at their real rank. Tied
   predictions are broken by a fixed per-edition shuffle, never by file order (which is the true
-  ranking).
+  ranking). For the final model and best baseline it also gives *NDCG@10* (gain 11 − true rank,
+  so the order near the top counts) and *winner* (1 if the predicted number one won).
 - **Choosing a model**: leave-one-year-out on 2000–2015, holding out each training year in turn.
   The training length (epoch) is set where the mean validation loss is lowest. The best network
   and best linear model are those with the lowest validation loss. The network is kept only if
-  it beats the linear model on test hits by more than its own spread over 5 seeds. A ranking run
+  it beats the linear model on test hits by more than its own spread over 5 seeds (too lenient a
+  yardstick, and it uses test data; issue #5 replaces it). A ranking run
   replaces that pick only if it has more top-10 hits on the held-out training years, because its
   loss is on a different scale. All of these rules were set before the results were seen.
   Each time the script runs, backprop is first checked against finite differences.
@@ -147,9 +149,9 @@ start from zero, so seeds don't change them). Learning curves per run:
 | **15 ranking linear + national, club goals** | **5.88 / 0.81** | **5.00 / 0.56** | – |
 
 - **The final model does not beat the simplest baseline.** Ranking nominees by where they
-  finished in the previous edition gets 5.33 test hits, more than run 15's 5.00, and ranking by
-  major titles ties it. The best runs on test (11 and 13, 5.44 hits) are a tenth of a hit per
-  edition ahead of previous-edition rank, too little to call a win without a paired test (issue #4).
+  finished in the previous edition gets 5.33 test hits to run 15's 5.00, and ranking by major
+  titles gets 5.00. The paired test against previous-edition rank (below) finds no clear
+  difference either way.
   Previous-edition rank's test hits per year: 2016: 4, 2017: 6, 2018: 5, 2019: 4, 2021: 7,
   2022: 6, 2023: 6, 2024: 7, 2025: 3. Its held-out figure starts at 2001, since 2000 has no
   previous edition in the data.
@@ -157,9 +159,9 @@ start from zero, so seeds don't change them). Learning curves per run:
   depends on the tie order: over 20 tie orders it averages 4.44 hits (range 4.11–4.67). The
   baselines tie too: previous-edition rank averages 5.34 (5.33–5.44) and major winners 5.01
   (4.78–5.33).
-- **Final model: run 15**, chosen by the rules above. On test it is weaker than run 13, the
-  previous pick (5.00 vs 5.44 hits). It is kept anyway: switching back after seeing that would
-  let the test result change a rule fixed in advance.
+- **Final model: run 15**, chosen by the rules above. On test it scores below run 13, the
+  previous pick (5.00 vs 5.44 hits), a gap well inside the margin below. It is kept anyway:
+  switching back after seeing that would let the test result change a rule fixed in advance.
 - Club goals were the biggest gain on the held-out years: Spearman rose from 0.21 to 0.37 (runs 11 →
   13). On test, they and training to rank roughly tie with national goals alone.
 - Networks never clearly beat the linear models. Wider or deeper networks had higher validation
@@ -167,6 +169,31 @@ start from zero, so seeds don't change them). Learning curves per run:
 - Blanks are not spread the same way in training and test. In 2016–2025 a missing club-goal value
   is more often a top-10 player than in 2000–2015 (45% vs 30%). Some of the gain on the held-out
   years may not carry over to test for that reason.
+
+### How sure are these numbers?
+
+The test set has only 9 editions, and a model's hits move by more than one from edition to
+edition. A test mean is therefore known only to about ±0.9 hits (95% bootstrap over editions):
+run 15 gets 5.00 hits [4.11, 5.89] and 0.56 exact [0.22, 0.89]. Most rows of the table are within
+that margin of each other, so read them as roughly equal, not as a ranking. The 5-seed spreads in
+the table are far smaller and do not measure this.
+
+The final model and the best baseline (previous-edition rank, the best on held-out 2000–2015
+hits) are also compared edition by edition, which is more sensitive than comparing two intervals.
+Each side is first averaged over its seeds or its 20 tie orders. Run 15 minus the baseline:
+
+| | Mean diff | Bootstrap 95% | t-interval 95% | Verdict |
+|---|---|---|---|---|
+| Hits | −0.34 | [−1.14, +0.44] | [−1.37, +0.68] | no clear difference |
+| Exact | −0.29 | [−0.69, +0.15] | [−0.82, +0.23] | no clear difference |
+
+A win or loss is called only if both intervals exclude 0, because a percentile bootstrap runs
+narrow on 9 editions. NDCG@10 is 0.569 for run 15 and 0.618 for the baseline. Run 15 named the
+winner in 5 of 9 editions and the baseline in 2 of 9, the one place the model looks better, but 9
+editions is too few to rely on. Per-edition numbers: `results/per_edition.csv`.
+
+Hits are raw counts, not hits above chance. Every test edition has 30 nominees (chance: 3.33
+hits), so this only matters next to the held-out 2000–2015 figures, where lists ran 23–35.
 
 ### 2026
 
