@@ -165,6 +165,14 @@ holds one, unless `--rescore` is passed; the extra scoring is then flagged post 
 
 ### Results
 
+**Re-run on 15 Nov 2026 after a feature rebuild.** The features gained Champions League stages
+for 2000–2011 (engsoccerdata; `ucl_stage` now fills 343 of 421 training rows, was 134) and La Liga
+appearances, minutes, assists and cards (78 training and 47 test rows, was 6 and 1); four Inter
+stages were corrected (2021 and 2023) and the 2025 and 2026 windows now follow the published
+periods. The selection rule was not changed, and it picked the same model. Runs without the new
+inputs (1, 3, 6, 9, 11) and the baselines give the same numbers as before; runs 12–15 moved by up
+to 0.23 test hits. This is yet another look at 2016–2025, so the caveats below still apply.
+
 Seed 8; networks also show the mean ± sd over seeds 8, 18, 28, 38 and 48 (the linear models
 start from zero, so seeds don't change them). Learning curves per run:
 `results/nn_loyo_curves.csv`.
@@ -173,11 +181,11 @@ Selected model, by the rule above:
 
 | Run | Held-out 2000–2015: hits / exact | Test 2016–2025: hits / exact | Test hits, 5 seeds |
 |---|---|---|---|
-| **13 linear + national, club goals** | **5.75 / 0.69** | **5.44 / 0.89** | – |
+| **13 linear + national, club goals** | **5.88 / 1.00** | **5.67 / 0.89** | – |
 
 The comparisons behind it, on held-out hits per edition (network averaged over 5 seeds):
-run 12, the best network, 5.61 vs 5.75, diff −0.14 [−0.44, +0.23], so run 13 stays; run 15, the
-best ranking run, 5.88 vs 5.75, diff +0.12 [−0.31, +0.62], so run 13 stays.
+run 12, the best network, 5.60 vs 5.88, diff −0.28 [−0.72, +0.20], so run 13 stays; run 15, the
+best ranking run, 5.94 vs 5.88, diff +0.06 [−0.44, +0.56], so run 13 stays.
 
 Exploratory runs and baselines (not used for selection):
 
@@ -191,12 +199,12 @@ Exploratory runs and baselines (not used for selection):
 | 6 network + age, position | 5.19 / 0.56 | 5.33 / 0.89 | 5.02 ± 0.30 |
 | 9 network, two layers of 4 | 4.12 / 0.44 | 4.33 / 0.56 | 4.58 ± 0.20 |
 | 11 linear + national goals | 4.62 / 0.44 | 5.44 / 0.89 | – |
-| 12 network + national, club goals | 5.69 / 1.06 | 5.00 / 1.22 | 5.11 ± 0.16 |
-| 14 ranking network + national, club goals | 5.62 / 0.62 | 5.33 / 0.89 | 5.16 ± 0.13 |
-| 15 ranking linear + national, club goals | 5.88 / 0.81 | 5.00 / 0.56 | – |
+| 12 network + national, club goals | 5.56 / 0.69 | 5.11 / 1.22 | 5.29 ± 0.23 |
+| 14 ranking network + national, club goals | 5.50 / 0.81 | 5.56 / 1.44 | 5.27 ± 0.15 |
+| 15 ranking linear + national, club goals | 5.94 / 0.75 | 5.22 / 0.78 | – |
 
 - **The final model does not clearly beat the simplest baseline.** Ranking nominees by where
-  they finished in the previous edition gets 5.33 test hits to run 13's 5.44, and ranking by
+  they finished in the previous edition gets 5.33 test hits to run 13's 5.67, and ranking by
   major titles gets 5.00. The paired test against previous-edition rank (below) finds no clear
   difference either way.
   Previous-edition rank's test hits per year: 2016: 4, 2017: 6, 2018: 5, 2019: 4, 2021: 7,
@@ -208,22 +216,22 @@ Exploratory runs and baselines (not used for selection):
   (4.78–5.33).
 - **Final model: run 13**, where the old rule picked run 15. The change comes from the ranking
   step now needing the same margin as network vs linear. That amendment was made while run 15's
-  lower test score (5.00 vs 5.44) was already in this README, and the rule as a whole was rewritten
+  lower test score (then 5.00 vs 5.44) was already in this README, and the rule as a whole was rewritten
   after the test years had been seen (see "Choosing a model"), so run 13's test score is not a
   clean estimate either.
-- Club goals were the biggest gain on the held-out years: Spearman rose from 0.21 to 0.37 (runs 11 →
+- Club goals were the biggest gain on the held-out years: Spearman rose from 0.21 to 0.39 (runs 11 →
   13). On test, they and training to rank roughly tie with national goals alone.
 - Networks never clearly beat the linear models. Wider or deeper networks had higher validation
   loss and no clear gain in hits, and results vary between seeds by up to half a hit per edition.
 - Blanks are not spread the same way in training and test. In 2016–2025 a missing club-goal value
-  is more often a top-10 player than in 2000–2015 (45% vs 30%). Some of the gain on the held-out
+  is more often a top-10 player than in 2000–2015 (45% vs 29% for league goals). Some of the gain on the held-out
   years may not carry over to test for that reason.
 
 ### How sure are these numbers?
 
 The test set has only 9 editions, and a model's hits move by more than one from edition to
-edition. A test mean is therefore known only to about ±0.9 hits (95% bootstrap over editions):
-run 13 gets 5.44 hits [4.56, 6.22] and 0.89 exact [0.44, 1.33]. Most rows of the table are within
+edition. A test mean is therefore known only to about ±0.8 hits (95% bootstrap over editions):
+run 13 gets 5.67 hits [4.89, 6.44] and 0.89 exact [0.33, 1.44]. Most rows of the table are within
 that margin of each other, so read them as roughly equal, not as a ranking. The 5-seed spreads in
 the table are far smaller and do not measure this.
 
@@ -233,13 +241,13 @@ Each side is first averaged over its seeds or its 20 tie orders. Run 13 minus th
 
 | | Mean diff | Bootstrap 95% | t-interval 95% | Verdict |
 |---|---|---|---|---|
-| Hits | +0.10 | [−0.92, +1.00] | [−1.15, +1.35] | no clear difference |
-| Exact | +0.04 | [−0.56, +0.71] | [−0.74, +0.82] | no clear difference |
+| Hits | +0.32 | [−0.67, +1.33] | [−0.90, +1.55] | no clear difference |
+| Exact | +0.04 | [−0.46, +0.62] | [−0.64, +0.72] | no clear difference |
 
 A win or loss is called only if both intervals exclude 0, because a percentile bootstrap runs
-narrow on 9 editions. NDCG@10 is 0.587 for run 13 and 0.618 for the baseline. Run 13 named the
-winner in 5 of 9 editions and the baseline in 2 of 9, the one place the model looks better, but 9
-editions is too few to rely on. Per-edition numbers: `results/per_edition.csv`.
+narrow on 9 editions. NDCG@10 is 0.621 for run 13 and 0.618 for the baseline, level. Run 13 named
+the winner in 5 of 9 editions and the baseline in 2 of 9, the one place the model looks better,
+but 9 editions is too few to rely on. Per-edition numbers: `results/per_edition.csv`.
 
 Hits are raw counts, not hits above chance. Every test edition has 30 nominees (chance: 3.33
 hits), so this only matters next to the held-out 2000–2015 figures, where lists ran 23–35.
