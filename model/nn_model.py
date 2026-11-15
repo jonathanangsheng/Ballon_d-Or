@@ -6,8 +6,8 @@ Target: (11 - rank) / 10 for the top 10, 0 below; each year's prediction is sort
 
 Ranking runs (RANK_RUNS) train on pairs instead: within a year, every (better, worse) pair whose
 better player made the top 10, with a logistic loss on the score difference. Their epoch is
-chosen on the same pairwise loss; one replaces the MSE pick only if it has more leave-one-year-out
-top-10 hits.
+chosen on the same pairwise loss; one replaces the MSE pick only if its leave-one-year-out top-10
+hits beat it per edition, with the 95% bootstrap interval of the gain above 0 (see paired()).
 
     python model/nn_model.py           # select on 2000-2015, evaluate on 2016-2025
     python model/nn_model.py --final   # also refit on 2000-2025 and score 2026 (do this once)
@@ -257,9 +257,9 @@ def mse(preds, rows):
     return statistics.fmean((p - r["y"]) ** 2 for p, r in zip(preds, rows))
 
 
-def loyo(rows, extra, hidden, act, lr, seed, rank=False):
+def loyo(rows, extra, hidden, act, lr, seed, rank=False, at=None):
     """Leave-one-year-out on the training years. Returns mean train/val loss curves and the
-    per-year metrics at the epoch with the lowest mean validation loss."""
+    per-year metrics at the epoch with the lowest mean validation loss, or at epoch `at`."""
     years = sorted({r["year"] for r in rows})
     tr_curves, va_curves, folds = [], [], []
     for y in years:
@@ -274,7 +274,7 @@ def loyo(rows, extra, hidden, act, lr, seed, rank=False):
         folds.append((va, vp))
     tr_mean = [statistics.fmean(c) for c in zip(*tr_curves)]
     va_mean = [statistics.fmean(c) for c in zip(*va_curves)]
-    best = min(range(EPOCHS), key=va_mean.__getitem__)
+    best = at - 1 if at else min(range(EPOCHS), key=va_mean.__getitem__)
     per_year = [year_metrics(va, vp[best]) for va, vp in folds]
     return tr_mean, va_mean, best + 1, per_year
 
@@ -333,10 +333,25 @@ def boot_ci(values, n=10000, seed=0):
     return means[int(0.025 * n)], means[int(0.975 * n)]
 
 
+def paired(a, b):
+    """Mean of a - b per edition and its 95% bootstrap interval. Rounded so float noise in
+    seed means can't push a true tie above 0."""
+    d = [round(x - y, 9) for x, y in zip(a, b, strict=True)]
+    return statistics.fmean(d), *boot_ci(d)
+
+
+def paired_check():
+    """The selection rule: a clear gain passes, a tie or a mixed result does not."""
+    assert paired([6] * 16, [5] * 16)[1] > 0
+    assert paired([5] * 16, [5] * 16)[1] <= 0
+    assert paired([6, 4] * 8, [5] * 16)[1] <= 0
+
+
 def main():
     grad_check()
     train_rows, test_rows = load(TRAIN_YEARS), load(TEST_YEARS)
     tie_check(train_rows + test_rows)
+    paired_check()
     out = ROOT / "results"
     out.mkdir(exist_ok=True)
 
@@ -346,12 +361,22 @@ def main():
     ex = ProcessPoolExecutor()  # every run and every test seed trains independently: one per core
     jobs = {name: ex.submit(loyo, train_rows, extra, hidden, act, lr, 8, name in RANK_RUNS)
             for name, (extra, hidden, act, lr) in RUNS.items()}
-    chosen, curves, loyo_hits = {}, {}, {}
+    chosen, curves, loyo_years = {}, {}, {}
     for name in RUNS:
         tr, va, ep, per_year = jobs[name].result()
-        chosen[name], curves[name], loyo_hits[name] = ep, (tr, va), avg(per_year, 0)
+        chosen[name], curves[name], loyo_years[name] = ep, (tr, va), per_year
         print(f"{name:26s} {ep:5d} {va[ep - 1]:8.4f} {avg(per_year, 0):6.2f} {avg(per_year, 1):6.2f} "
               f"{avg(per_year, 2):8.3f}")
+
+    # best network, linear and ranking run = lowest LOYO validation loss in each group (seed 8)
+    def best(group):
+        return min(group, key=lambda n: curves[n][1][chosen[n] - 1])
+    nn = best([n for n in RUNS if RUNS[n][1] and n not in RANK_RUNS])
+    lin = best([n for n in RUNS if not RUNS[n][1] and n not in RANK_RUNS])
+    rk = best(list(RANK_RUNS))
+    # networks are judged on every seed, each at seed 8's epoch as on test; linear runs don't depend on the seed
+    more_seeds = {n: [ex.submit(loyo, train_rows, *RUNS[n], s, n in RANK_RUNS, chosen[n]) for s in SEEDS if s != 8]
+                  for n in (nn, rk) if RUNS[n][1]}
     tests = {name: [ex.submit(test_eval, train_rows, test_rows, extra, hidden, act, lr, chosen[name], s,
                               name in RANK_RUNS)
                     for s in (SEEDS if hidden else [8])]  # the linear model starts from zeros: seed-independent
@@ -380,8 +405,41 @@ def main():
         w.writerows([e + 1, round(a, 6), round(mse(p, va), 6)] for e, (a, p) in enumerate(zip(losses, vp)))
     print(f"80/20 by year: validation years {sorted(val_years)}; curves in results/nn_8020_curves.csv")
 
+    def ed_hits(n):
+        """LOYO hits per edition, averaged over seeds for a network."""
+        years = [loyo_years[n]] + [j.result()[3] for j in more_seeds.get(n, [])]
+        assert len(years) == (len(SEEDS) if RUNS[n][1] else 1), n
+        return [statistics.fmean(m.hits for m in ms) for ms in zip(*years)]
+
+    # from the linear model, the network then the ranking run each replace the pick only if the 95%
+    # bootstrap interval of their paired per-edition LOYO hit gain lies above 0. No test data.
+    print(f"\nBest on validation: network {nn}, linear {lin}, ranking {rk}. LOYO hits per edition, "
+          f"networks averaged over {len(SEEDS)} seeds:")
+    final = lin
+    for challenger in (nn, rk):
+        a, b = ed_hits(challenger), ed_hits(final)
+        d, lo, hi = paired(a, b)
+        held, final = final, (challenger if lo > 0 else final)
+        print(f"  {challenger} {statistics.fmean(a):.2f} vs {held} {statistics.fmean(b):.2f}: diff {d:+.2f} "
+              f"[{lo:+.2f}, {hi:+.2f}] -> {final}")
+    print(f"Final model: {final}")
+
     print(f"\nTest {TEST_YEARS[0]}-{TEST_YEARS[-1]} ({len(test_rows)} rows): seed 8, then mean +- sd over seeds {SEEDS}")
     print(f"{'run':26s} {'params':>6s} {'MSE':>7s} {'hits':>6s} {'exact':>6s}   {'hits mean+-sd':>13s} {'exact mean+-sd':>13s}")
+    print("Selected model: test result")
+    per_seed = {}
+    for name in [final] + [n for n in RUNS if n != final]:
+        runs = [f.result() for f in tests[name]]
+        per_seed[name] = [r[1] for r in runs]
+        hits = [avg(r[1].values(), 0) for r in runs]
+        exact = [avg(r[1].values(), 1) for r in runs]
+        sd = (statistics.pstdev(hits), statistics.pstdev(exact))
+        mse_txt = "-" if runs[0][0] is None else f"{runs[0][0]:.4f}"
+        print(f"{name:26s} {runs[0][2]:6d} {mse_txt:>7s} {hits[0]:6.2f} {exact[0]:6.2f}   "
+              f"{statistics.fmean(hits):6.2f}+-{sd[0]:.2f}   {statistics.fmean(exact):6.2f}+-{sd[1]:.2f}")
+        if name == final:
+            print("Exploratory runs and baselines (not used for selection)")
+    ex.shutdown()
     h = heuristic(test_rows)
     print(f"{'2 heuristic':26s} {0:6d} {'-':>7s} {avg(h.values(), 0):6.2f} {avg(h.values(), 1):6.2f}")
     h20 = [heuristic(test_rows, s) for s in range(20)]  # it ties often, so show the tie-order spread
@@ -397,36 +455,6 @@ def main():
         print(f"{'  20 tie orders':26s} {'':6s} {'':7s} {statistics.fmean(hits):6.2f} "
               f"{statistics.fmean(avg(x[name].values(), 1) for x in b20):6.2f}   "
               f"hits {min(hits):.2f}-{max(hits):.2f}")
-    results, per_seed = {}, {}
-    for name in RUNS:
-        runs = [f.result() for f in tests[name]]
-        per_seed[name] = [r[1] for r in runs]
-        hits = [avg(r[1].values(), 0) for r in runs]
-        exact = [avg(r[1].values(), 1) for r in runs]
-        sd = (statistics.pstdev(hits), statistics.pstdev(exact))
-        results[name] = (hits, exact, sd)
-        mse_txt = "-" if runs[0][0] is None else f"{runs[0][0]:.4f}"
-        print(f"{name:26s} {runs[0][2]:6d} {mse_txt:>7s} {hits[0]:6.2f} {exact[0]:6.2f}   "
-              f"{statistics.fmean(hits):6.2f}+-{sd[0]:.2f}   {statistics.fmean(exact):6.2f}+-{sd[1]:.2f}")
-    ex.shutdown()
-
-    # best network and best linear model = lowest LOYO validation loss in each group; keep the
-    # network only if it beats that linear model on test hits by more than its own seed spread
-    def best(group):
-        return min(group, key=lambda n: curves[n][1][chosen[n] - 1])
-    nn = best([n for n in RUNS if RUNS[n][1] and n not in RANK_RUNS])
-    lin = best([n for n in RUNS if not RUNS[n][1] and n not in RANK_RUNS])
-    lin_hits = results[lin][0][0]
-    nn_hits, _, nn_sd = results[nn]
-    final = nn if statistics.fmean(nn_hits) - lin_hits > nn_sd[0] else lin
-    print(f"\nBest on validation: network {nn}, linear {lin}. Test hits {statistics.fmean(nn_hits):.2f}"
-          f"+-{nn_sd[0]:.2f} vs {lin_hits:.2f} -> MSE pick: {final}")
-    # a ranking run replaces it only with more leave-one-year-out hits (the losses differ in scale)
-    rk = best(list(RANK_RUNS))
-    print(f"Best ranking run on validation: {rk}. LOYO hits {loyo_hits[rk]:.2f} vs {loyo_hits[final]:.2f} "
-          f"for {final} -> final model: {rk if loyo_hits[rk] > loyo_hits[final] else final}")
-    if loyo_hits[rk] > loyo_hits[final]:
-        final = rk
 
     # how sure: final model vs the baseline with the most LOYO hits, per test edition (paired).
     # Each side is averaged per edition over its seeds / 20 tie orders, so neither choice sways the verdict.

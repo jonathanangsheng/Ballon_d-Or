@@ -145,13 +145,15 @@ Seed 8; networks also show the mean ± sd over seeds 8, 18, 28, 38 and 48 (the l
 start from zero, so seeds don't change them). Learning curves per run:
 `results/nn_loyo_curves.csv`.
 
-Selected model: **not yet rerun under the rule above.** Under the old rule it was run 15, shown
-here until the rerun replaces it. The rerun also prints the seed-averaged held-out hits each
-comparison uses, which the held-out column below (seed 8 only) does not show.
+Selected model, by the rule above:
 
 | Run | Held-out 2000–2015: hits / exact | Test 2016–2025: hits / exact | Test hits, 5 seeds |
 |---|---|---|---|
-| **15 ranking linear + national, club goals** | **5.88 / 0.81** | **5.00 / 0.56** | – |
+| **13 linear + national, club goals** | **5.75 / 0.69** | **5.44 / 0.89** | – |
+
+The comparisons behind it, on held-out hits per edition (network averaged over 5 seeds):
+run 12, the best network, 5.61 vs 5.75, diff −0.14 [−0.44, +0.23], so run 13 stays; run 15, the
+best ranking run, 5.88 vs 5.75, diff +0.12 [−0.31, +0.62], so run 13 stays.
 
 Exploratory runs and baselines (not used for selection):
 
@@ -166,12 +168,12 @@ Exploratory runs and baselines (not used for selection):
 | 9 network, two layers of 4 | 4.12 / 0.44 | 4.33 / 0.56 | 4.58 ± 0.20 |
 | 11 linear + national goals | 4.62 / 0.44 | 5.44 / 0.89 | – |
 | 12 network + national, club goals | 5.69 / 1.06 | 5.00 / 1.22 | 5.11 ± 0.16 |
-| 13 linear + national, club goals | 5.75 / 0.69 | 5.44 / 0.89 | – |
 | 14 ranking network + national, club goals | 5.62 / 0.62 | 5.33 / 0.89 | 5.16 ± 0.13 |
+| 15 ranking linear + national, club goals | 5.88 / 0.81 | 5.00 / 0.56 | – |
 
-- **The final model does not beat the simplest baseline.** Ranking nominees by where they
-  finished in the previous edition gets 5.33 test hits to run 15's 5.00, and ranking by major
-  titles gets 5.00. The paired test against previous-edition rank (below) finds no clear
+- **The final model does not clearly beat the simplest baseline.** Ranking nominees by where
+  they finished in the previous edition gets 5.33 test hits to run 13's 5.44, and ranking by
+  major titles gets 5.00. The paired test against previous-edition rank (below) finds no clear
   difference either way.
   Previous-edition rank's test hits per year: 2016: 4, 2017: 6, 2018: 5, 2019: 4, 2021: 7,
   2022: 6, 2023: 6, 2024: 7, 2025: 3. Its held-out figure starts at 2001, since 2000 has no
@@ -180,9 +182,11 @@ Exploratory runs and baselines (not used for selection):
   depends on the tie order: over 20 tie orders it averages 4.44 hits (range 4.11–4.67). The
   baselines tie too: previous-edition rank averages 5.34 (5.33–5.44) and major winners 5.01
   (4.78–5.33).
-- **Final model under the old rule: run 15.** On test it scores below run 13 (5.00 vs 5.44
-  hits), a gap well inside the margin below. That old rule was itself replaced after the test
-  years had been seen (see "Choosing a model"), so neither pick's test score is a clean estimate.
+- **Final model: run 13**, where the old rule picked run 15. The change comes from the ranking
+  step now needing the same margin as network vs linear. That amendment was made while run 15's
+  lower test score (5.00 vs 5.44) was already in this README, and the rule as a whole was rewritten
+  after the test years had been seen (see "Choosing a model"), so run 13's test score is not a
+  clean estimate either.
 - Club goals were the biggest gain on the held-out years: Spearman rose from 0.21 to 0.37 (runs 11 →
   13). On test, they and training to rank roughly tie with national goals alone.
 - Networks never clearly beat the linear models. Wider or deeper networks had higher validation
@@ -195,21 +199,21 @@ Exploratory runs and baselines (not used for selection):
 
 The test set has only 9 editions, and a model's hits move by more than one from edition to
 edition. A test mean is therefore known only to about ±0.9 hits (95% bootstrap over editions):
-run 15 gets 5.00 hits [4.11, 5.89] and 0.56 exact [0.22, 0.89]. Most rows of the table are within
+run 13 gets 5.44 hits [4.56, 6.22] and 0.89 exact [0.44, 1.33]. Most rows of the table are within
 that margin of each other, so read them as roughly equal, not as a ranking. The 5-seed spreads in
 the table are far smaller and do not measure this.
 
 The final model and the best baseline (previous-edition rank, the best on held-out 2000–2015
 hits) are also compared edition by edition, which is more sensitive than comparing two intervals.
-Each side is first averaged over its seeds or its 20 tie orders. Run 15 minus the baseline:
+Each side is first averaged over its seeds or its 20 tie orders. Run 13 minus the baseline:
 
 | | Mean diff | Bootstrap 95% | t-interval 95% | Verdict |
 |---|---|---|---|---|
-| Hits | −0.34 | [−1.14, +0.44] | [−1.37, +0.68] | no clear difference |
-| Exact | −0.29 | [−0.69, +0.15] | [−0.82, +0.23] | no clear difference |
+| Hits | +0.10 | [−0.92, +1.00] | [−1.15, +1.35] | no clear difference |
+| Exact | +0.04 | [−0.56, +0.71] | [−0.74, +0.82] | no clear difference |
 
 A win or loss is called only if both intervals exclude 0, because a percentile bootstrap runs
-narrow on 9 editions. NDCG@10 is 0.569 for run 15 and 0.618 for the baseline. Run 15 named the
+narrow on 9 editions. NDCG@10 is 0.587 for run 13 and 0.618 for the baseline. Run 13 named the
 winner in 5 of 9 editions and the baseline in 2 of 9, the one place the model looks better, but 9
 editions is too few to rely on. Per-edition numbers: `results/per_edition.csv`.
 
@@ -222,7 +226,7 @@ hits), so this only matters next to the held-out 2000–2015 figures, where list
 2000–2015 rankings were extended past the top 10 and before club goals were added. It got 7 hits,
 0 exact and Spearman 0.43.
 
-It was then scored a second time, once, with the final model (run 15, refit on 2000–2025 at the
+It was then scored a second time, once, with the final model of the time (run 15, refit on 2000–2025 at the
 epoch chosen on 2000–2015): **6 hits, 2 exact, Spearman 0.51.** Nothing was changed after this
 result. Both 2026 scores predate the tie-break fix (ties went to the player who really finished
 higher); 2026 was not re-scored, to avoid a third look.
