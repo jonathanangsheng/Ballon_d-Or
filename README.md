@@ -120,11 +120,16 @@ python model/nn_model.py --final   # also refit on 2000–2025 and score 2026
   so the order near the top counts) and *winner* (1 if the predicted number one won).
 - **Choosing a model**: leave-one-year-out on 2000–2015, holding out each training year in turn.
   The training length (epoch) is set where the mean validation loss is lowest. The best network
-  and best linear model are those with the lowest validation loss. The network is kept only if
-  it beats the linear model on test hits by more than its own spread over 5 seeds (too lenient a
-  yardstick, and it uses test data; issue #5 replaces it). A ranking run
-  replaces that pick only if it has more top-10 hits on the held-out training years, because its
-  loss is on a different scale. All of these rules were set before the results were seen.
+  and best linear model are those with the lowest validation loss (seed 8). The network is kept
+  only if it beats the linear model on held-out top-10 hits, paired by edition: per held-out
+  edition, the network's hits averaged over 5 seeds minus the linear model's, with the 95%
+  bootstrap interval of the mean difference over the 16 editions entirely above 0. Otherwise the
+  linear model is kept. A ranking run replaces that pick only if it has more top-10 hits on the
+  held-out training years (the network's 5-seed mean, if it was kept), because its loss is on a
+  different scale. No test number feeds any of these choices.
+  This rule was committed on its own, before the code that applies it was written or run. Before
+  it, test 2016–2025 decided network vs linear: the network had to beat the linear model on test
+  hits by more than its own spread over 5 seeds.
   Each time the script runs, backprop is first checked against finite differences.
 
 ### Results
