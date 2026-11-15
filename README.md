@@ -9,6 +9,8 @@ See [BALLON_DOR.md](BALLON_DOR.md) for the voting criteria and how the vote work
 |---|---|
 | Fetch and parse sources (cached under `data/raw/`) | [`pipeline/`](pipeline/): `fetch`, `players`, `honours`, `intl`, `sb`, `ucl`, `wiki_stats` |
 | Build and check the features | [`pipeline/`](pipeline/): `build_windows` → `build_features` → `report` → `check_features`; one-off `expand_ballon_dor` |
+| Cross-check World Cup match stats against a second source | [`pipeline/validate_worldcup.py`](pipeline/validate_worldcup.py) |
+| Cross-check 2000–2009 rankings and points against RSSSF | [`pipeline/validate_rankings.py`](pipeline/validate_rankings.py) |
 | Model | [`model/`](model/): `split`, `nn_model` |
 
 ## Data
@@ -64,6 +66,13 @@ Columns: `rank,name,age,country,position,club,points`
 - Rankings, clubs, nationality and points: the English Wikipedia article for each edition
   (`<year> Ballon d'Or`, or `<year> FIFA Ballon d'Or` for 2010–2015), fetched November 2026.
 - Birth dates and pre-2022 positions: each player's English Wikipedia article infobox.
+- Cross-check for 2000–2009: RSSSF's per-edition vote tables
+  ([rsssf.org](https://www.rsssf.org/miscellaneous/europa-poy.html), © RSSSF, copied with
+  acknowledgement). `python pipeline/validate_rankings.py` matches all 277 players who got votes
+  and agrees on rank and points except: 2000 Nesta and Rivaldo tie on 39 points, RSSSF ranks
+  both 5th but Wikipedia (this file) puts Rivaldo 6th; 2007 Drogba has 108 points here, 106 at
+  RSSSF; 2008 Kaká has 29 points here, 31 at RSSSF, which would put him 8th ahead of
+  Ibrahimović. These are left as Wikipedia has them.
 - One correction: Wikipedia's 2004 table lists Wayne Rooney's club as Everton only; his
   article shows he joined Manchester United on 31 August 2004, before the December ceremony, so
   his club is Manchester United.
@@ -88,6 +97,19 @@ python pipeline/build_windows.py && python pipeline/build_features.py && python 
   [martj42/international_results](https://github.com/martj42/international_results) (CC0).
 - Tournament rounds and Champions League results: [openfootball](https://github.com/openfootball)
   (public domain).
+- Champions League rounds 1999-00 to 2010-11: the `champs` data of
+  [engsoccerdata](https://github.com/jalapic/engsoccerdata) by James Curley (free for
+  non-commercial use with credit).
+- La Liga 2000-01 to 2021-22 (line-ups, substitutions, goals, assists, cards):
+  [21st Century Spanish Football League Dataset](https://doi.org/10.5281/zenodo.7341037) by
+  Sergio Lois (CC BY-NC 4.0; match data from BeSoccer). Used for the league bucket where
+  StatsBomb lacks matches. Its assists run slightly higher than StatsBomb's (7 more in 304
+  player-matches checked), so league assists are not fully comparable across sources.
+- Cross-check only: [Fjelstul World Cup Database](https://github.com/jfjelstul/worldcup)
+  (CC BY-SA 4.0). `python pipeline/validate_worldcup.py` compares every nominee's StatsBomb World
+  Cup match (2018, 2022) with it: appearance, minutes (±2), goals, first yellows and sendings-off.
+  One disagreement: Emiliano Martínez's booking in the 2022 final (Fjelstul 120+5', not in
+  StatsBomb's record).
 - Trophies, awards, squads and edition dates: English Wikipedia (CC BY-SA), fetched November 2026.
 
 ## Model
@@ -234,7 +256,11 @@ Only run 11's score is a blind result. Between the two scorings club goals and t
 were added and run 15 became the pick, so run 15's score is not a prediction. On one edition 7, 6 and 5 hits cannot be told apart: a
 model's hits move by more than one from edition to edition (see "How sure are these numbers?").
 Both scores predate the tie-break fix (ties went to the player who really finished higher); 2026
-was not re-scored, to avoid a third look. Both were also computed with `intl_tournament_*` blank
+was not re-scored, to avoid a third look. Both also used the old 2026 window (1 Aug 2025 –
+31 Jul 2026, deadline estimated); the features now use the published window, 3 Aug 2025 –
+19 Jul 2026 (stated in the edition's Wikipedia article), with voting closed 28 Sep 2026 (press).
+Season windows (2022 on) are read from each edition's article where it states them; this also
+moved the 2025 window end to 13 Jul 2025, the Club World Cup final. Both were also computed with `intl_tournament_*` blank
 for 29 of 30 nominees (StatsBomb has no 2026 World Cup, see `data/features/gaps.md`); the runs
 scored here do not use those columns. The first clean out-of-sample result will be 2027,
 predicted and committed before its ceremony.

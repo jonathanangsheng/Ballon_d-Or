@@ -6,12 +6,15 @@ Only names and links are read from the edition articles; rank and points are nev
 import csv
 import re
 import unicodedata
+from datetime import date
 from pathlib import Path
 
 from build_windows import YEARS, article_title
 from fetch import wiki_prefetch, wiki_wikitext
 
 BD_DIR = Path(__file__).parent.parent / "data" / "ballon_dor"
+YEAR_RE = r"(?<!\d)(\d{4}(?:\s*[–−-]\s*\d{2,4})?)(?!\d)"
+REVOKED = r"\s*\((?:title )?(?:revoked|stripped|annulled)"  # honours marked as taken away
 
 
 def norm(s):
@@ -112,6 +115,13 @@ def _param(box, key):
     return m.group(1).strip() if m else ""
 
 
+def birth_date(wt):
+    """Birth date from the first infobox with a {{birth date}} template, or None."""
+    m = re.search(r"\{\{\s*birth[ -]date(?: and age)?\s*\|([^}]*)\}\}", _param(wt, "birth_date"), re.I)
+    nums = [int(p) for p in (m.group(1).split("|") if m else []) if p.strip().isdigit()]
+    return date(*nums[:3]) if len(nums) >= 3 else None
+
+
 def _years(s):
     """'2004–2021' -> (2004, 2021); '2021–' -> (2021, None); '2008' -> (2008, 2008)."""
     s = re.sub(r"<[^>]+>|\{\{[^}]*\}\}", "", s)
@@ -172,7 +182,8 @@ def honours_entries(wt):
         comp_title = comp_m.group(1).split("#")[0].strip() if comp_m else ""
         rest = body[comp_m.end():] if comp_m else body.split(":", 1)[-1]
         result = "winner"
-        for tok in re.split(r"(\[\[[^\]]+\]\]|runner-up|runners-up|second place|third place)", rest, flags=re.I):
+        toks = re.split(r"(\[\[[^\]]+\]\]|runner-up|runners-up|second place|third place)", rest, flags=re.I)
+        for i, tok in enumerate(toks):
             low = tok.lower()
             if low in ("runner-up", "runners-up", "second place"):
                 result = "runner-up"
@@ -182,11 +193,16 @@ def honours_entries(wt):
                 tm = re.match(r"\[\[([^\]|#]+)(?:\|([^\]]*))?\]\]", tok)
                 if not tm or ":" in tm.group(1):
                     continue
-                out.append((group, comp, tm.group(1).strip(), (tm.group(2) or tm.group(1)).strip(), result,
-                            comp_title))
+                # e.g. 'Serie A: [[2005–06 Serie A|2005–06]] (Revoked)' (Calciopoli): not a win
+                # re.split with a capture group always leaves a (maybe empty) piece after a match
+                revoked = re.match(REVOKED, toks[i + 1], re.I)
+                out.append((group, comp, tm.group(1).strip(), (tm.group(2) or tm.group(1)).strip(),
+                            "revoked" if revoked else result, comp_title))
             else:
                 # years written as plain text, e.g. '* [[FIFA World Cup Golden Ball]]: 2018'
+                revoked = {y.strip() for y in re.findall(YEAR_RE + REVOKED, tok, re.I)}
                 plain = re.sub(r"<[^>]+>|\{\{[^}]*\}\}|\([^)]*\)", " ", tok)
-                for y in re.findall(r"(?<!\d)(\d{4}(?:\s*[–−-]\s*\d{2,4})?)(?!\d)", plain):
-                    out.append((group, comp, "", y.strip(), result, comp_title))
+                for y in re.findall(YEAR_RE, plain):
+                    out.append((group, comp, "", y.strip(), "revoked" if y.strip() in revoked else result,
+                                comp_title))
     return out

@@ -16,7 +16,7 @@ from datetime import date
 import wiki_stats as ws
 from build_windows import article_title
 from fetch import wiki_prefetch, wiki_wikitext
-from players import BD_DIR, _infobox, _param, norm
+from players import BD_DIR, _infobox, _param, birth_date, norm
 
 YEARS = range(2000, 2016)
 COLS = ["rank", "name", "age", "country", "position", "club", "points"]
@@ -80,11 +80,9 @@ def club_of(cell, known):
 
 
 def age_on(wt, day):
-    m = re.search(r"\{\{\s*birth[ -]date(?: and age)?\s*\|([^}]*)\}\}", _param(wt, "birth_date"), re.I)  # first infobox with a birth date
-    nums = [int(p) for p in (m.group(1).split("|") if m else []) if p.strip().isdigit()]
-    if len(nums) < 3:
+    b = birth_date(wt)
+    if b is None:
         return None
-    b = date(*nums[:3])
     return day.year - b.year - ((day.month, day.day) < (b.month, b.day))
 
 

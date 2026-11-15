@@ -42,11 +42,15 @@ def season_span(season_name):
     return years[0], years[-1]
 
 
+def full_season(n_own, n_teams):
+    """A league season holds every match of a team when it has a full double round-robin for it."""
+    return n_own == 2 * (n_teams - 1)
+
+
 def team_complete(ms, team):
-    """A league season is complete for `team` if it has a full double round-robin for it."""
     teams = {m["home_team"]["home_team_name"] for m in ms} | {m["away_team"]["away_team_name"] for m in ms}
     own = [m for m in ms if team in (m["home_team"]["home_team_name"], m["away_team"]["away_team_name"])]
-    return len(own) == 2 * (len(teams) - 1)
+    return full_season(len(own), len(teams))
 
 
 # ---------- per-match player stats ----------

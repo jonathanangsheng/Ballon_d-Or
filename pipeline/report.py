@@ -21,9 +21,13 @@ SOURCES = """## Source access (checked 2026-11-10)
 | StatsBomb open data (GitHub, attribution: StatsBomb) | OK | Match stats incl. xG for the competitions it releases in full |
 | martj42/international_results (GitHub, CC0) | OK | Every international with dated goalscorers |
 | openfootball (GitHub, public domain) | OK | Rounds of World Cups, Euros, some Copas; Champions League 2011-12 on |
+| engsoccerdata `champs` (GitHub, James Curley; free for non-commercial use with credit, package licence GPL ≥ 2) | OK | Champions League rounds 1999-00 to 2010-11 |
+| 21st Century Spanish Football League Dataset (Zenodo, Sergio Lois, CC BY-NC 4.0; match data from BeSoccer) | OK | La Liga 2000-01 to 2021-22: line-ups, substitutions, goals, assists, cards by minute. Fills the league bucket where StatsBomb does not; no xG |
+| Fjelstul World Cup Database (GitHub, CC BY-SA 4.0) | OK | Not a feature source: `validate_worldcup.py` cross-checks StatsBomb World Cup records against it |
 
-Bot challenges were not bypassed. StatsBomb, martj42 and openfootball were added with the
-user's approval because the listed sources were unreachable.
+Bot challenges were not bypassed. StatsBomb, martj42, openfootball, engsoccerdata, the La Liga
+dataset and Fjelstul were added with the user's approval because the listed sources were
+unreachable.
 """
 
 DEFINITIONS = """## Definitions and rules
@@ -35,6 +39,10 @@ DEFINITIONS = """## Definitions and rules
   the source.** StatsBomb league seasons are checked for a full double round-robin for the club;
   tournaments are checked against martj42's match list. StatsBomb's Barcelona 2004/05–2020/21 La
   Liga seasons hold only the matches Messi played, so they fail this check for every player.
+  The La Liga dataset is used for the league bucket when StatsBomb fails: the nominee is the
+  player with his infobox birth date and nationality, and every season the window touches must
+  hold all of his team's matches (2 × (teams − 1)). Its assists run slightly higher than
+  StatsBomb's (see README).
 - **Club for the window** (league bucket, UCL stage): used only when exactly one senior club spell
   in the player's Wikipedia infobox overlaps the window's years. Any transfer or loan in those
   years leaves the club unknown.
@@ -47,6 +55,7 @@ DEFINITIONS = """## Definitions and rules
   match in goal with no goal conceded.
 - **Stage (0–6)**: 0 none / not in squad, 1 group or league phase (incl. UCL knockout play-offs),
   2 round of 32 or 16, 3 quarter-final, 4 semi-final or third-place match, 5 lost final, 6 won.
+  UCL qualifying rounds count as 0; the 1999–2003 second group stage (last 16 teams) counts as 2.
   `intl_stage` needs the player in the Wikipedia squad list. A dated title in the honours list
   sets 6 even when other data is missing.
 - **Trophies**: honours entries marked as won, dated by the infobox of the linked edition article
@@ -94,10 +103,7 @@ def main():
            "Every field left blank, and why. Per-row detail: `data/features/row_gaps.csv`.", "",
            SOURCES, DEFINITIONS, "## Judging windows", ""]
     for w in windows:
-        flag = w["voting_deadline_estimated"] == "true"
-        out.append(f"- {w['year']}: {w['window_start']} – {w['window_end']}"
-                   + (" — voting deadline estimated (ceremony − 30 days, no deadline found)" if flag else
-                      f" — {w['notes']}"))
+        out.append(f"- {w['year']}: {w['window_start']} – {w['window_end']} — {w['notes']}")
     out += ["", "Windows shorter than 10 months (warning from check_features.py): 2005, 2006 and "
             "2021, whose ceremonies were in late November. A press report puts the real 2021 "
             "deadline at 24 Oct 2021, but the only source reachable was a low-quality blog, so the "
@@ -107,9 +113,13 @@ def main():
             "| `ucl_*`, `club_other_*`, `national_*` minutes, assists, cards, advanced | No permitted "
             "source has every line-up (Transfermarkt and FBref blocked); Wikipedia tables give apps "
             "and goals only |",
-            "| club apps for 2000–2021 | Calendar-year windows split two seasons; season totals "
-            "cannot be cut at the voting deadline, and match lists give scorers, not line-ups. "
-            "Club goals (all years) are filled where the match lists pass the season-total check |",
+            "| `league_*` minutes, assists, cards outside La Liga | Only StatsBomb (complete seasons) "
+            "and the La Liga dataset (2000-01 to 2021-22) have every league line-up |",
+            "| `league_*` xG, shots, key passes | StatsBomb only; the La Liga dataset has none |",
+            "| club apps for 2000–2021 outside La Liga | Calendar-year windows split two seasons; "
+            "season totals cannot be cut at the voting deadline, and match lists give scorers, not "
+            "line-ups. La Liga players get league apps from the La Liga dataset's line-ups. Club "
+            "goals (all years) are filled where the match lists pass the season-total check |",
             "| `national_apps` for 2022+ | Year totals do not split at 1 August |",
             "| `apps`, `minutes`, `assists`, `decisive_ga`, cards, `gk_*` totals | Need club and "
             "national values in the same window, which only `goals` reaches (2022+) |",

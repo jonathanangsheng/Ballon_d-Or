@@ -15,13 +15,14 @@ from pathlib import Path
 
 import honours as H
 import intl
+import laliga
 import sb
 import ucl
 import wiki_stats as ws
 from build_windows import YEARS
 from fetch import wiki_prefetch, wiki_redirects, wiki_wikitext
-from players import (ballon_dor_rows, club_spells, honours_entries, norm, player_article,
-                     positions, resolve_titles)
+from players import (ballon_dor_rows, birth_date, club_spells, honours_entries, norm,
+                     player_article, positions, resolve_titles)
 
 ROOT = Path(__file__).parent.parent
 FEAT = ROOT / "data" / "features"
@@ -248,6 +249,17 @@ TOTALS = [("apps", "apps"), ("minutes", "minutes"), ("goals", "goals"), ("assist
           ("gk_clean_sheets", "gk_clean_sheets"), ("gk_goals_conceded", "gk_goals_conceded")]
 
 
+def wiki_league_apps(wt, seasons):
+    """{season start year: league apps} from the player's career table, for the seasons it lists."""
+    rows, defs, out = ws.club_seasons(wt), ws.club_table_defs(wt), {}
+    for y in seasons:
+        srows = [r for r in rows if r["season"] == f"{y}–{str(y + 1)[2:]}"]
+        b = ws.season_buckets(srows, defs) if srows else {}
+        if b.get("league"):
+            out[y] = b["league"][0]
+    return out
+
+
 def season_label(w):
     """'2023–24' for the 1 Aug 2023 - 31 Jul 2024 window."""
     return f"{w['start'].year}–{str(w['end'].year)[2:]}"
@@ -432,24 +444,35 @@ def build():
             gap("wikipedia_article", "no footballer article resolved for this name")
         is_gk = pos[key] == "goalkeeper"
 
-        # --- club bucket: league (StatsBomb, single club only) ---
+        # --- club bucket: league (StatsBomb, else the La Liga dataset; single club only) ---
         club, club_why = single_club(club_spells(art[0]), w) if art else (None, "no article")
         why = club_why
         recs_by_bucket = {}
         if club:
             recs, u, why = sb_league(data, club, name, w)
             urls += u
+            if recs is None:
+                birth = birth_date(art[0])
+                seasons = [sb.season_span(s)[0] for s in _needed_seasons(True, w)]
+                recs, u, why_ll = (laliga.league_records(name, birth, country, w, seasons,
+                                                         wiki_league_apps(art[0], seasons)) if birth
+                                   else (None, [], "no infobox birth date"))
+                if recs is not None:
+                    urls += u
+                    gap("league xG/shots/key passes", "La Liga dataset has no xG, shots or key passes")
+                else:
+                    why = f"{why}; La Liga dataset: {why_ll}"
             if recs is not None:
                 recs_by_bucket["league"] = recs
         if "league" not in recs_by_bucket:
-            gap("league_* (StatsBomb)", why)
+            gap("league_* (StatsBomb, La Liga dataset)", why)
         # Wikipedia club table: season apps, Aug-Jul windows only (goals come match by match below)
         club_fill, why = wiki_club(art[0], w) if art else ({}, "no article")
         if why:
             gap("league/ucl/club_other apps+goals (Wikipedia)", why)
         for b, (apps, goals, first, last, src) in club_fill.items():
             if b == "league" and "league" in recs_by_bucket:
-                continue  # StatsBomb has every league match, incl. minutes
+                continue  # match records hold every league match, incl. minutes
             row[f"{b}_apps"] = apps
             urls.append(src)
             logs["season_stats"].append({"year": year, "name": name, "bucket": b, "apps": apps,
@@ -530,10 +553,12 @@ def build():
 
         for b, recs in recs_by_bucket.items():
             agg = aggregate(recs, is_gk)
-            for s in BASIC + ADV:
+            has_adv = all(r["source"] == "statsbomb" for r in recs)  # the La Liga dataset has no xG
+            for s in BASIC + (ADV if has_adv else []):
                 row[f"{b}_{s}"] = agg[s]
-            for s in ADV:
-                row[f"{b}_{s}_coverage"] = "statsbomb"
+            if has_adv:
+                for s in ADV:
+                    row[f"{b}_{s}_coverage"] = "statsbomb"
             for r in recs:
                 logs["matches"].append({"year": year, "name": name, **{k: r.get(k, "") for k in
                                         ["bucket", "source", "match_id", "date", "competition", "season",
@@ -608,8 +633,8 @@ def build():
             st, info = ucl.club_stage(club, w["start"], w["end"])
             if st is None:
                 gap("ucl_stage", info)
-            elif st == 0 and not ucl.club_known(club):
-                gap("ucl_stage", f"club '{club}' never matched an openfootball team name")
+            elif st == 0 and not ucl.club_known(club, w["start"], w["end"]):
+                gap("ucl_stage", f"club '{club}' never matched a team name in the window's Champions League source")
             else:
                 row["ucl_stage"] = st
                 urls += info

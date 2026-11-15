@@ -53,7 +53,6 @@ year,name,bucket,goals,seasons,source
 2001,Michael Owen,league,15,2,https://en.wikipedia.org/wiki/2000–01_Liverpool_F.C._season https://en.wikipedia.org/wiki/2001–02_Liverpool_F.C._season
 2001,Michael Owen,ucl,4,2,https://en.wikipedia.org/wiki/2000–01_Liverpool_F.C._season https://en.wikipedia.org/wiki/2001–02_Liverpool_F.C._season
 2001,Michael Owen,club_other,8,2,https://en.wikipedia.org/wiki/2000–01_Liverpool_F.C._season https://en.wikipedia.org/wiki/2001–02_Liverpool_F.C._season
-2001,Raúl,league,22,2,https://en.wikipedia.org/wiki/2000–01_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2001–02_Real_Madrid_CF_season
 2001,Oliver Kahn,league,0,2,https://en.wikipedia.org/wiki/2000–01_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2001–02_FC_Bayern_Munich_season
 2001,Oliver Kahn,ucl,0,2,https://en.wikipedia.org/wiki/2000–01_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2001–02_FC_Bayern_Munich_season
 2001,Oliver Kahn,club_other,0,2,https://en.wikipedia.org/wiki/2000–01_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2001–02_FC_Bayern_Munich_season
@@ -63,10 +62,8 @@ year,name,bucket,goals,seasons,source
 2001,Francesco Totti,league,11,2,https://en.wikipedia.org/wiki/2000–01_AS_Roma_season https://en.wikipedia.org/wiki/2001–02_AS_Roma_season
 2001,Francesco Totti,ucl,3,2,https://en.wikipedia.org/wiki/2000–01_AS_Roma_season https://en.wikipedia.org/wiki/2001–02_AS_Roma_season
 2001,Francesco Totti,club_other,1,2,https://en.wikipedia.org/wiki/2000–01_AS_Roma_season https://en.wikipedia.org/wiki/2001–02_AS_Roma_season
-2001,Luís Figo,league,7,2,https://en.wikipedia.org/wiki/2000–01_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2001–02_Real_Madrid_CF_season
 2001,Luís Figo,ucl,6,2,https://en.wikipedia.org/wiki/2000–01_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2001–02_Real_Madrid_CF_season
 2001,Luís Figo,club_other,0,2,https://en.wikipedia.org/wiki/2000–01_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2001–02_Real_Madrid_CF_season
-2001,Rivaldo,league,16,2,https://en.wikipedia.org/wiki/2000–01_FC_Barcelona_season https://en.wikipedia.org/wiki/2001–02_FC_Barcelona_season
 2001,Andriy Shevchenko,ucl,1,2,https://en.wikipedia.org/wiki/2000–01_AC_Milan_season https://en.wikipedia.org/wiki/2001–02_AC_Milan_season
 2001,Andriy Shevchenko,club_other,2,2,https://en.wikipedia.org/wiki/2000–01_AC_Milan_season https://en.wikipedia.org/wiki/2001–02_AC_Milan_season
 2001,Thierry Henry,club_other,1,2,https://en.wikipedia.org/wiki/2000–01_Arsenal_F.C._season https://en.wikipedia.org/wiki/2001–02_Arsenal_F.C._season
@@ -81,7 +78,6 @@ year,name,bucket,goals,seasons,source
 2001,Juan Sebastián Verón,club_other,0,2,https://en.wikipedia.org/wiki/2000–01_SS_Lazio_season https://en.wikipedia.org/wiki/2001–02_Manchester_United_F.C._season
 2001,Hernán Crespo,ucl,5,2,https://en.wikipedia.org/wiki/2000–01_SS_Lazio_season https://en.wikipedia.org/wiki/2001–02_SS_Lazio_season
 2001,Hernán Crespo,club_other,2,2,https://en.wikipedia.org/wiki/2000–01_SS_Lazio_season https://en.wikipedia.org/wiki/2001–02_SS_Lazio_season
-2001,Roberto Carlos,league,5,2,https://en.wikipedia.org/wiki/2000–01_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2001–02_Real_Madrid_CF_season
 2001,Roberto Carlos,ucl,2,2,https://en.wikipedia.org/wiki/2000–01_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2001–02_Real_Madrid_CF_season
 2001,Roberto Carlos,club_other,0,2,https://en.wikipedia.org/wiki/2000–01_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2001–02_Real_Madrid_CF_season
 2001,Sami Hyypiä,league,2,2,https://en.wikipedia.org/wiki/2000–01_Liverpool_F.C._season https://en.wikipedia.org/wiki/2001–02_Liverpool_F.C._season
@@ -93,17 +89,14 @@ year,name,bucket,goals,seasons,source
 2001,Rui Costa,club_other,3,2,https://en.wikipedia.org/wiki/2000–01_AC_Fiorentina_season https://en.wikipedia.org/wiki/2001–02_AC_Milan_season
 2002,Ronaldo,ucl,0,2,https://en.wikipedia.org/wiki/2001–02_Inter_Milan_season https://en.wikipedia.org/wiki/2002–03_Real_Madrid_CF_season
 2002,Ronaldo,club_other,0,2,https://en.wikipedia.org/wiki/2001–02_Inter_Milan_season https://en.wikipedia.org/wiki/2002–03_Real_Madrid_CF_season
-2002,Roberto Carlos,league,2,2,https://en.wikipedia.org/wiki/2001–02_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2002–03_Real_Madrid_CF_season
 2002,Roberto Carlos,ucl,0,2,https://en.wikipedia.org/wiki/2001–02_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2002–03_Real_Madrid_CF_season
 2002,Roberto Carlos,club_other,2,2,https://en.wikipedia.org/wiki/2001–02_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2002–03_Real_Madrid_CF_season
 2002,Oliver Kahn,league,0,2,https://en.wikipedia.org/wiki/2001–02_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2002–03_FC_Bayern_Munich_season
 2002,Oliver Kahn,ucl,0,2,https://en.wikipedia.org/wiki/2001–02_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2002–03_FC_Bayern_Munich_season
 2002,Oliver Kahn,club_other,0,2,https://en.wikipedia.org/wiki/2001–02_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2002–03_FC_Bayern_Munich_season
-2002,Zinedine Zidane,league,5,2,https://en.wikipedia.org/wiki/2001–02_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2002–03_Real_Madrid_CF_season
 2002,Michael Ballack,club_other,1,2,https://en.wikipedia.org/wiki/2001–02_Bayer_04_Leverkusen_season https://en.wikipedia.org/wiki/2002–03_FC_Bayern_Munich_season
 2002,Thierry Henry,league,14,2,https://en.wikipedia.org/wiki/2001–02_Arsenal_F.C._season https://en.wikipedia.org/wiki/2002–03_Arsenal_F.C._season
 2002,Thierry Henry,club_other,1,2,https://en.wikipedia.org/wiki/2001–02_Arsenal_F.C._season https://en.wikipedia.org/wiki/2002–03_Arsenal_F.C._season
-2002,Raúl,league,8,2,https://en.wikipedia.org/wiki/2001–02_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2002–03_Real_Madrid_CF_season
 2002,Rivaldo,league,7,2,https://en.wikipedia.org/wiki/2001–02_FC_Barcelona_season https://en.wikipedia.org/wiki/2002–03_AC_Milan_season
 2002,Rivaldo,ucl,0,2,https://en.wikipedia.org/wiki/2001–02_FC_Barcelona_season https://en.wikipedia.org/wiki/2002–03_AC_Milan_season
 2002,Rivaldo,club_other,0,2,https://en.wikipedia.org/wiki/2001–02_FC_Barcelona_season https://en.wikipedia.org/wiki/2002–03_AC_Milan_season
@@ -117,7 +110,6 @@ year,name,bucket,goals,seasons,source
 2002,Cafu,club_other,0,2,https://en.wikipedia.org/wiki/2001–02_AS_Roma_season https://en.wikipedia.org/wiki/2002–03_AS_Roma_season
 2002,Patrick Vieira,league,3,2,https://en.wikipedia.org/wiki/2001–02_Arsenal_F.C._season https://en.wikipedia.org/wiki/2002–03_Arsenal_F.C._season
 2002,Lúcio,ucl,2,3,https://en.wikipedia.org/wiki/2001–02_Bayer_04_Leverkusen_season https://en.wikipedia.org/wiki/2002–03_Bayer_04_Leverkusen_season https://en.wikipedia.org/wiki/2002–03_Regionalliga
-2002,Luís Figo,league,5,2,https://en.wikipedia.org/wiki/2001–02_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2002–03_Real_Madrid_CF_season
 2002,Luís Figo,ucl,1,2,https://en.wikipedia.org/wiki/2001–02_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2002–03_Real_Madrid_CF_season
 2002,Luís Figo,club_other,1,2,https://en.wikipedia.org/wiki/2001–02_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2002–03_Real_Madrid_CF_season
 2002,Rio Ferdinand,league,0,2,https://en.wikipedia.org/wiki/2001–02_Leeds_United_A.F.C._season https://en.wikipedia.org/wiki/2002–03_Manchester_United_F.C._season
@@ -134,10 +126,7 @@ year,name,bucket,goals,seasons,source
 2003,Andriy Shevchenko,league,10,2,https://en.wikipedia.org/wiki/2002–03_AC_Milan_season https://en.wikipedia.org/wiki/2003–04_AC_Milan_season
 2003,Andriy Shevchenko,ucl,2,2,https://en.wikipedia.org/wiki/2002–03_AC_Milan_season https://en.wikipedia.org/wiki/2003–04_AC_Milan_season
 2003,Andriy Shevchenko,club_other,2,2,https://en.wikipedia.org/wiki/2002–03_AC_Milan_season https://en.wikipedia.org/wiki/2003–04_AC_Milan_season
-2003,Zinedine Zidane,league,8,2,https://en.wikipedia.org/wiki/2002–03_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2003–04_Real_Madrid_CF_season
 2003,Ruud van Nistelrooy,ucl,7,2,https://en.wikipedia.org/wiki/2002–03_Manchester_United_F.C._season https://en.wikipedia.org/wiki/2003–04_Manchester_United_F.C._season
-2003,Raúl,league,14,2,https://en.wikipedia.org/wiki/2002–03_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2003–04_Real_Madrid_CF_season
-2003,Roberto Carlos,league,5,2,https://en.wikipedia.org/wiki/2002–03_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2003–04_Real_Madrid_CF_season
 2003,Roberto Carlos,ucl,2,2,https://en.wikipedia.org/wiki/2002–03_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2003–04_Real_Madrid_CF_season
 2003,Roberto Carlos,club_other,0,2,https://en.wikipedia.org/wiki/2002–03_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2003–04_Real_Madrid_CF_season
 2003,Gianluigi Buffon,league,0,2,https://en.wikipedia.org/wiki/2002–03_Juventus_FC_season https://en.wikipedia.org/wiki/2003–04_Juventus_FC_season
@@ -257,7 +246,6 @@ year,name,bucket,goals,seasons,source
 2006,Thierry Henry,league,22,2,https://en.wikipedia.org/wiki/2005–06_Arsenal_F.C._season https://en.wikipedia.org/wiki/2006–07_Arsenal_F.C._season
 2006,Thierry Henry,ucl,3,2,https://en.wikipedia.org/wiki/2005–06_Arsenal_F.C._season https://en.wikipedia.org/wiki/2006–07_Arsenal_F.C._season
 2006,Thierry Henry,club_other,1,2,https://en.wikipedia.org/wiki/2005–06_Arsenal_F.C._season https://en.wikipedia.org/wiki/2006–07_Arsenal_F.C._season
-2006,Samuel Eto'o,league,13,2,https://en.wikipedia.org/wiki/2005–06_FC_Barcelona_season https://en.wikipedia.org/wiki/2006–07_FC_Barcelona_season
 2006,Samuel Eto'o,ucl,4,2,https://en.wikipedia.org/wiki/2005–06_FC_Barcelona_season https://en.wikipedia.org/wiki/2006–07_FC_Barcelona_season
 2006,Didier Drogba,league,11,2,https://en.wikipedia.org/wiki/2005–06_Chelsea_F.C._season https://en.wikipedia.org/wiki/2006–07_Chelsea_F.C._season
 2006,Didier Drogba,ucl,4,2,https://en.wikipedia.org/wiki/2005–06_Chelsea_F.C._season https://en.wikipedia.org/wiki/2006–07_Chelsea_F.C._season
@@ -280,11 +268,9 @@ year,name,bucket,goals,seasons,source
 2006,Frank Lampard,league,9,2,https://en.wikipedia.org/wiki/2005–06_Chelsea_F.C._season https://en.wikipedia.org/wiki/2006–07_Chelsea_F.C._season
 2006,Frank Lampard,ucl,1,2,https://en.wikipedia.org/wiki/2005–06_Chelsea_F.C._season https://en.wikipedia.org/wiki/2006–07_Chelsea_F.C._season
 2006,Frank Lampard,club_other,2,2,https://en.wikipedia.org/wiki/2005–06_Chelsea_F.C._season https://en.wikipedia.org/wiki/2006–07_Chelsea_F.C._season
-2006,Carles Puyol,league,1,2,https://en.wikipedia.org/wiki/2005–06_FC_Barcelona_season https://en.wikipedia.org/wiki/2006–07_FC_Barcelona_season
 2006,Juninho,league,10,2,https://en.wikipedia.org/wiki/2005–06_Olympique_Lyonnais_season https://en.wikipedia.org/wiki/2006–07_Olympique_Lyonnais_season
 2006,Juninho,ucl,2,2,https://en.wikipedia.org/wiki/2005–06_Olympique_Lyonnais_season https://en.wikipedia.org/wiki/2006–07_Olympique_Lyonnais_season
 2006,Juninho,club_other,1,2,https://en.wikipedia.org/wiki/2005–06_Olympique_Lyonnais_season https://en.wikipedia.org/wiki/2006–07_Olympique_Lyonnais_season
-2006,Lionel Messi,league,8,2,https://en.wikipedia.org/wiki/2005–06_FC_Barcelona_season https://en.wikipedia.org/wiki/2006–07_FC_Barcelona_season
 2006,Luca Toni,league,19,2,https://en.wikipedia.org/wiki/2005–06_ACF_Fiorentina_season https://en.wikipedia.org/wiki/2006–07_ACF_Fiorentina_season
 2006,Luca Toni,ucl,0,2,https://en.wikipedia.org/wiki/2005–06_ACF_Fiorentina_season https://en.wikipedia.org/wiki/2006–07_ACF_Fiorentina_season
 2006,Luca Toni,club_other,0,2,https://en.wikipedia.org/wiki/2005–06_ACF_Fiorentina_season https://en.wikipedia.org/wiki/2006–07_ACF_Fiorentina_season
@@ -407,7 +393,6 @@ year,name,bucket,goals,seasons,source
 2009,Thierry Henry,ucl,4,2,https://en.wikipedia.org/wiki/2008–09_FC_Barcelona_season https://en.wikipedia.org/wiki/2009–10_FC_Barcelona_season
 2009,Thierry Henry,club_other,1,2,https://en.wikipedia.org/wiki/2008–09_FC_Barcelona_season https://en.wikipedia.org/wiki/2009–10_FC_Barcelona_season
 2009,Nemanja Vidić,league,2,2,https://en.wikipedia.org/wiki/2008–09_Manchester_United_F.C._season https://en.wikipedia.org/wiki/2009–10_Manchester_United_F.C._season
-2009,Iker Casillas,league,0,2,https://en.wikipedia.org/wiki/2008–09_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2009–10_Real_Madrid_CF_season
 2009,Iker Casillas,ucl,0,2,https://en.wikipedia.org/wiki/2008–09_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2009–10_Real_Madrid_CF_season
 2009,Iker Casillas,club_other,0,2,https://en.wikipedia.org/wiki/2008–09_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2009–10_Real_Madrid_CF_season
 2009,Júlio César,league,0,2,https://en.wikipedia.org/wiki/2008–09_Inter_Milan_season https://en.wikipedia.org/wiki/2009–10_Inter_Milan_season
@@ -430,16 +415,13 @@ year,name,bucket,goals,seasons,source
 2010,Xavi,league,5,2,https://en.wikipedia.org/wiki/2009–10_FC_Barcelona_season https://en.wikipedia.org/wiki/2010–11_FC_Barcelona_season
 2010,Wesley Sneijder,league,2,2,https://en.wikipedia.org/wiki/2009–10_Inter_Milan_season https://en.wikipedia.org/wiki/2010–11_Inter_Milan_season
 2010,Wesley Sneijder,ucl,4,2,https://en.wikipedia.org/wiki/2009–10_Inter_Milan_season https://en.wikipedia.org/wiki/2010–11_Inter_Milan_season
-2010,Cristiano Ronaldo,league,35,2,https://en.wikipedia.org/wiki/2009–10_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2010–11_Real_Madrid_CF_season
 2010,Cristiano Ronaldo,ucl,5,2,https://en.wikipedia.org/wiki/2009–10_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2010–11_Real_Madrid_CF_season
-2010,Iker Casillas,league,0,2,https://en.wikipedia.org/wiki/2009–10_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2010–11_Real_Madrid_CF_season
 2010,Iker Casillas,ucl,0,2,https://en.wikipedia.org/wiki/2009–10_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2010–11_Real_Madrid_CF_season
 2010,Iker Casillas,club_other,0,2,https://en.wikipedia.org/wiki/2009–10_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2010–11_Real_Madrid_CF_season
 2010,David Villa,league,17,2,https://en.wikipedia.org/wiki/2009–10_Valencia_CF_season https://en.wikipedia.org/wiki/2010–11_FC_Barcelona_season
 2010,Didier Drogba,league,21,2,https://en.wikipedia.org/wiki/2009–10_Chelsea_F.C._season https://en.wikipedia.org/wiki/2010–11_Chelsea_F.C._season
 2010,Didier Drogba,ucl,1,2,https://en.wikipedia.org/wiki/2009–10_Chelsea_F.C._season https://en.wikipedia.org/wiki/2010–11_Chelsea_F.C._season
 2010,Didier Drogba,club_other,3,2,https://en.wikipedia.org/wiki/2009–10_Chelsea_F.C._season https://en.wikipedia.org/wiki/2010–11_Chelsea_F.C._season
-2010,Xabi Alonso,league,3,2,https://en.wikipedia.org/wiki/2009–10_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2010–11_Real_Madrid_CF_season
 2010,Carles Puyol,league,2,2,https://en.wikipedia.org/wiki/2009–10_FC_Barcelona_season https://en.wikipedia.org/wiki/2010–11_FC_Barcelona_season
 2010,Carles Puyol,ucl,0,2,https://en.wikipedia.org/wiki/2009–10_FC_Barcelona_season https://en.wikipedia.org/wiki/2010–11_FC_Barcelona_season
 2010,Carles Puyol,club_other,0,2,https://en.wikipedia.org/wiki/2009–10_FC_Barcelona_season https://en.wikipedia.org/wiki/2010–11_FC_Barcelona_season
@@ -462,57 +444,40 @@ year,name,bucket,goals,seasons,source
 2010,Dani Alves,league,2,2,https://en.wikipedia.org/wiki/2009–10_FC_Barcelona_season https://en.wikipedia.org/wiki/2010–11_FC_Barcelona_season
 2010,Dani Alves,ucl,1,2,https://en.wikipedia.org/wiki/2009–10_FC_Barcelona_season https://en.wikipedia.org/wiki/2010–11_FC_Barcelona_season
 2010,Dani Alves,club_other,0,2,https://en.wikipedia.org/wiki/2009–10_FC_Barcelona_season https://en.wikipedia.org/wiki/2010–11_FC_Barcelona_season
-2011,Lionel Messi,league,31,2,https://en.wikipedia.org/wiki/2010–11_FC_Barcelona_season https://en.wikipedia.org/wiki/2011–12_FC_Barcelona_season
-2011,Cristiano Ronaldo,league,40,2,https://en.wikipedia.org/wiki/2010–11_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2011–12_Real_Madrid_CF_season
 2011,Cristiano Ronaldo,ucl,5,2,https://en.wikipedia.org/wiki/2010–11_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2011–12_Real_Madrid_CF_season
 2011,Cristiano Ronaldo,club_other,4,2,https://en.wikipedia.org/wiki/2010–11_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2011–12_Real_Madrid_CF_season
-2011,Xavi,league,5,2,https://en.wikipedia.org/wiki/2010–11_FC_Barcelona_season https://en.wikipedia.org/wiki/2011–12_FC_Barcelona_season
-2011,Andrés Iniesta,league,4,2,https://en.wikipedia.org/wiki/2010–11_FC_Barcelona_season https://en.wikipedia.org/wiki/2011–12_FC_Barcelona_season
 2011,Andrés Iniesta,ucl,2,2,https://en.wikipedia.org/wiki/2010–11_FC_Barcelona_season https://en.wikipedia.org/wiki/2011–12_FC_Barcelona_season
 2011,Andrés Iniesta,club_other,2,2,https://en.wikipedia.org/wiki/2010–11_FC_Barcelona_season https://en.wikipedia.org/wiki/2011–12_FC_Barcelona_season
 2011,Luis Suárez,league,9,3,https://en.wikipedia.org/wiki/2010–11_AFC_Ajax_season https://en.wikipedia.org/wiki/2010–11_Liverpool_F.C._season https://en.wikipedia.org/wiki/2011–12_Liverpool_F.C._season
 2011,Diego Forlán,league,3,3,https://en.wikipedia.org/wiki/2010–11_Atlético_Madrid_season https://en.wikipedia.org/wiki/2011–12_Atlético_Madrid_season https://en.wikipedia.org/wiki/2011–12_Inter_Milan_season
 2011,Samuel Eto'o,league,20,3,https://en.wikipedia.org/wiki/2010–11_Inter_Milan_season https://en.wikipedia.org/wiki/2011–12_Inter_Milan_season https://en.wikipedia.org/wiki/2011–12_FC_Anzhi_Makhachkala_season
-2011,Iker Casillas,league,0,2,https://en.wikipedia.org/wiki/2010–11_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2011–12_Real_Madrid_CF_season
 2011,Iker Casillas,ucl,0,2,https://en.wikipedia.org/wiki/2010–11_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2011–12_Real_Madrid_CF_season
 2011,Iker Casillas,club_other,0,2,https://en.wikipedia.org/wiki/2010–11_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2011–12_Real_Madrid_CF_season
-2011,Mesut Özil,league,2,3,https://en.wikipedia.org/wiki/2010–11_SV_Werder_Bremen_season https://en.wikipedia.org/wiki/2010–11_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2011–12_Real_Madrid_CF_season
 2011,Mesut Özil,ucl,1,3,https://en.wikipedia.org/wiki/2010–11_SV_Werder_Bremen_season https://en.wikipedia.org/wiki/2010–11_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2011–12_Real_Madrid_CF_season
 2011,Mesut Özil,club_other,3,3,https://en.wikipedia.org/wiki/2010–11_SV_Werder_Bremen_season https://en.wikipedia.org/wiki/2010–11_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2011–12_Real_Madrid_CF_season
 2011,Wesley Sneijder,league,5,2,https://en.wikipedia.org/wiki/2010–11_Inter_Milan_season https://en.wikipedia.org/wiki/2011–12_Inter_Milan_season
 2011,Wesley Sneijder,ucl,1,2,https://en.wikipedia.org/wiki/2010–11_Inter_Milan_season https://en.wikipedia.org/wiki/2011–12_Inter_Milan_season
 2011,Thomas Müller,ucl,1,2,https://en.wikipedia.org/wiki/2010–11_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2011–12_FC_Bayern_Munich_season
 2011,Thomas Müller,club_other,4,2,https://en.wikipedia.org/wiki/2010–11_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2011–12_FC_Bayern_Munich_season
-2011,David Villa,league,12,2,https://en.wikipedia.org/wiki/2010–11_FC_Barcelona_season https://en.wikipedia.org/wiki/2011–12_FC_Barcelona_season
-2011,Xabi Alonso,league,1,2,https://en.wikipedia.org/wiki/2010–11_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2011–12_Real_Madrid_CF_season
-2011,Eric Abidal,league,0,2,https://en.wikipedia.org/wiki/2010–11_FC_Barcelona_season https://en.wikipedia.org/wiki/2011–12_FC_Barcelona_season
 2011,Eric Abidal,ucl,0,2,https://en.wikipedia.org/wiki/2010–11_FC_Barcelona_season https://en.wikipedia.org/wiki/2011–12_FC_Barcelona_season
 2011,Eric Abidal,club_other,1,2,https://en.wikipedia.org/wiki/2010–11_FC_Barcelona_season https://en.wikipedia.org/wiki/2011–12_FC_Barcelona_season
-2011,Dani Alves,league,2,2,https://en.wikipedia.org/wiki/2010–11_FC_Barcelona_season https://en.wikipedia.org/wiki/2011–12_FC_Barcelona_season
 2011,Dani Alves,ucl,1,2,https://en.wikipedia.org/wiki/2010–11_FC_Barcelona_season https://en.wikipedia.org/wiki/2011–12_FC_Barcelona_season
 2011,Dani Alves,club_other,0,2,https://en.wikipedia.org/wiki/2010–11_FC_Barcelona_season https://en.wikipedia.org/wiki/2011–12_FC_Barcelona_season
-2011,Karim Benzema,league,22,2,https://en.wikipedia.org/wiki/2010–11_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2011–12_Real_Madrid_CF_season
 2011,Karim Benzema,ucl,6,2,https://en.wikipedia.org/wiki/2010–11_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2011–12_Real_Madrid_CF_season
 2011,Cesc Fàbregas,ucl,1,2,https://en.wikipedia.org/wiki/2010–11_Arsenal_F.C._season https://en.wikipedia.org/wiki/2011–12_FC_Barcelona_season
 2011,Cesc Fàbregas,club_other,4,2,https://en.wikipedia.org/wiki/2010–11_Arsenal_F.C._season https://en.wikipedia.org/wiki/2011–12_FC_Barcelona_season
 2011,Nani,league,9,2,https://en.wikipedia.org/wiki/2010–11_Manchester_United_F.C._season https://en.wikipedia.org/wiki/2011–12_Manchester_United_F.C._season
 2011,Nani,ucl,0,2,https://en.wikipedia.org/wiki/2010–11_Manchester_United_F.C._season https://en.wikipedia.org/wiki/2011–12_Manchester_United_F.C._season
 2011,Nani,club_other,2,2,https://en.wikipedia.org/wiki/2010–11_Manchester_United_F.C._season https://en.wikipedia.org/wiki/2011–12_Manchester_United_F.C._season
-2011,Gerard Piqué,league,3,2,https://en.wikipedia.org/wiki/2010–11_FC_Barcelona_season https://en.wikipedia.org/wiki/2011–12_FC_Barcelona_season
 2011,Gerard Piqué,ucl,1,2,https://en.wikipedia.org/wiki/2010–11_FC_Barcelona_season https://en.wikipedia.org/wiki/2011–12_FC_Barcelona_season
 2011,Gerard Piqué,club_other,0,2,https://en.wikipedia.org/wiki/2010–11_FC_Barcelona_season https://en.wikipedia.org/wiki/2011–12_FC_Barcelona_season
-2012,Lionel Messi,league,54,2,https://en.wikipedia.org/wiki/2011–12_FC_Barcelona_season https://en.wikipedia.org/wiki/2012–13_FC_Barcelona_season
-2012,Cristiano Ronaldo,league,39,2,https://en.wikipedia.org/wiki/2011–12_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2012–13_Real_Madrid_CF_season
 2012,Cristiano Ronaldo,ucl,13,2,https://en.wikipedia.org/wiki/2011–12_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2012–13_Real_Madrid_CF_season
 2012,Cristiano Ronaldo,club_other,4,2,https://en.wikipedia.org/wiki/2011–12_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2012–13_Real_Madrid_CF_season
-2012,Andrés Iniesta,league,3,2,https://en.wikipedia.org/wiki/2011–12_FC_Barcelona_season https://en.wikipedia.org/wiki/2012–13_FC_Barcelona_season
 2012,Andrés Iniesta,ucl,3,2,https://en.wikipedia.org/wiki/2011–12_FC_Barcelona_season https://en.wikipedia.org/wiki/2012–13_FC_Barcelona_season
 2012,Andrés Iniesta,club_other,1,2,https://en.wikipedia.org/wiki/2011–12_FC_Barcelona_season https://en.wikipedia.org/wiki/2012–13_FC_Barcelona_season
-2012,Xavi,league,8,2,https://en.wikipedia.org/wiki/2011–12_FC_Barcelona_season https://en.wikipedia.org/wiki/2012–13_FC_Barcelona_season
 2012,Radamel Falcao,league,26,3,https://en.wikipedia.org/wiki/2011–12_FC_Porto_season https://en.wikipedia.org/wiki/2011–12_Atlético_Madrid_season https://en.wikipedia.org/wiki/2012–13_Atlético_Madrid_season
 2012,Radamel Falcao,ucl,0,3,https://en.wikipedia.org/wiki/2011–12_FC_Porto_season https://en.wikipedia.org/wiki/2011–12_Atlético_Madrid_season https://en.wikipedia.org/wiki/2012–13_Atlético_Madrid_season
 2012,Radamel Falcao,club_other,12,3,https://en.wikipedia.org/wiki/2011–12_FC_Porto_season https://en.wikipedia.org/wiki/2011–12_Atlético_Madrid_season https://en.wikipedia.org/wiki/2012–13_Atlético_Madrid_season
-2012,Iker Casillas,league,0,2,https://en.wikipedia.org/wiki/2011–12_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2012–13_Real_Madrid_CF_season
 2012,Iker Casillas,ucl,0,2,https://en.wikipedia.org/wiki/2011–12_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2012–13_Real_Madrid_CF_season
 2012,Iker Casillas,club_other,0,2,https://en.wikipedia.org/wiki/2011–12_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2012–13_Real_Madrid_CF_season
 2012,Andrea Pirlo,ucl,0,2,https://en.wikipedia.org/wiki/2011–12_Juventus_FC_season https://en.wikipedia.org/wiki/2012–13_Juventus_FC_season
@@ -521,35 +486,26 @@ year,name,bucket,goals,seasons,source
 2012,Zlatan Ibrahimović,league,31,2,https://en.wikipedia.org/wiki/2011–12_AC_Milan_season https://en.wikipedia.org/wiki/2012–13_Paris_Saint-Germain_FC_season
 2012,Zlatan Ibrahimović,ucl,3,2,https://en.wikipedia.org/wiki/2011–12_AC_Milan_season https://en.wikipedia.org/wiki/2012–13_Paris_Saint-Germain_FC_season
 2012,Zlatan Ibrahimović,club_other,1,2,https://en.wikipedia.org/wiki/2011–12_AC_Milan_season https://en.wikipedia.org/wiki/2012–13_Paris_Saint-Germain_FC_season
-2012,Xabi Alonso,league,0,2,https://en.wikipedia.org/wiki/2011–12_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2012–13_Real_Madrid_CF_season
 2012,Yaya Touré,league,6,2,https://en.wikipedia.org/wiki/2011–12_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2012–13_Manchester_City_F.C._season
-2012,Mesut Özil,league,8,2,https://en.wikipedia.org/wiki/2011–12_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2012–13_Real_Madrid_CF_season
 2012,Mesut Özil,ucl,2,2,https://en.wikipedia.org/wiki/2011–12_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2012–13_Real_Madrid_CF_season
 2012,Mesut Özil,club_other,0,2,https://en.wikipedia.org/wiki/2011–12_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2012–13_Real_Madrid_CF_season
 2012,Gianluigi Buffon,league,0,2,https://en.wikipedia.org/wiki/2011–12_Juventus_FC_season https://en.wikipedia.org/wiki/2012–13_Juventus_FC_season
 2012,Gianluigi Buffon,ucl,0,2,https://en.wikipedia.org/wiki/2011–12_Juventus_FC_season https://en.wikipedia.org/wiki/2012–13_Juventus_FC_season
 2012,Gianluigi Buffon,club_other,0,2,https://en.wikipedia.org/wiki/2011–12_Juventus_FC_season https://en.wikipedia.org/wiki/2012–13_Juventus_FC_season
-2012,Sergio Ramos,league,3,2,https://en.wikipedia.org/wiki/2011–12_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2012–13_Real_Madrid_CF_season
 2012,Manuel Neuer,league,0,2,https://en.wikipedia.org/wiki/2011–12_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2012–13_FC_Bayern_Munich_season
 2012,Manuel Neuer,ucl,0,2,https://en.wikipedia.org/wiki/2011–12_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2012–13_FC_Bayern_Munich_season
 2012,Manuel Neuer,club_other,0,2,https://en.wikipedia.org/wiki/2011–12_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2012–13_FC_Bayern_Munich_season
-2012,Sergio Busquets,league,1,2,https://en.wikipedia.org/wiki/2011–12_FC_Barcelona_season https://en.wikipedia.org/wiki/2012–13_FC_Barcelona_season
 2012,Sergio Busquets,ucl,1,2,https://en.wikipedia.org/wiki/2011–12_FC_Barcelona_season https://en.wikipedia.org/wiki/2012–13_FC_Barcelona_season
 2012,Sergio Busquets,club_other,0,2,https://en.wikipedia.org/wiki/2011–12_FC_Barcelona_season https://en.wikipedia.org/wiki/2012–13_FC_Barcelona_season
-2012,Gerard Piqué,league,2,2,https://en.wikipedia.org/wiki/2011–12_FC_Barcelona_season https://en.wikipedia.org/wiki/2012–13_FC_Barcelona_season
 2012,Gerard Piqué,ucl,0,2,https://en.wikipedia.org/wiki/2011–12_FC_Barcelona_season https://en.wikipedia.org/wiki/2012–13_FC_Barcelona_season
 2012,Gerard Piqué,club_other,0,2,https://en.wikipedia.org/wiki/2011–12_FC_Barcelona_season https://en.wikipedia.org/wiki/2012–13_FC_Barcelona_season
-2012,Karim Benzema,league,16,2,https://en.wikipedia.org/wiki/2011–12_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2012–13_Real_Madrid_CF_season
 2012,Karim Benzema,ucl,6,2,https://en.wikipedia.org/wiki/2011–12_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2012–13_Real_Madrid_CF_season
 2012,Mario Balotelli,league,6,3,https://en.wikipedia.org/wiki/2011–12_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2012–13_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2012–13_A.C._Milan_season
-2013,Cristiano Ronaldo,league,37,2,https://en.wikipedia.org/wiki/2012–13_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2013–14_Real_Madrid_CF_season
 2013,Cristiano Ronaldo,ucl,14,2,https://en.wikipedia.org/wiki/2012–13_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2013–14_Real_Madrid_CF_season
 2013,Cristiano Ronaldo,club_other,6,2,https://en.wikipedia.org/wiki/2012–13_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2013–14_Real_Madrid_CF_season
-2013,Lionel Messi,league,28,2,https://en.wikipedia.org/wiki/2012–13_FC_Barcelona_season https://en.wikipedia.org/wiki/2013–14_FC_Barcelona_season
 2013,Zlatan Ibrahimović,league,21,2,https://en.wikipedia.org/wiki/2012–13_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2013–14_Paris_Saint-Germain_FC_season
 2013,Zlatan Ibrahimović,ucl,9,2,https://en.wikipedia.org/wiki/2012–13_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2013–14_Paris_Saint-Germain_FC_season
 2013,Zlatan Ibrahimović,club_other,2,2,https://en.wikipedia.org/wiki/2012–13_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2013–14_Paris_Saint-Germain_FC_season
-2013,Andrés Iniesta,league,3,2,https://en.wikipedia.org/wiki/2012–13_FC_Barcelona_season https://en.wikipedia.org/wiki/2013–14_FC_Barcelona_season
 2013,Andrés Iniesta,ucl,0,2,https://en.wikipedia.org/wiki/2012–13_FC_Barcelona_season https://en.wikipedia.org/wiki/2013–14_FC_Barcelona_season
 2013,Andrés Iniesta,club_other,1,2,https://en.wikipedia.org/wiki/2012–13_FC_Barcelona_season https://en.wikipedia.org/wiki/2013–14_FC_Barcelona_season
 2013,Robin van Persie,league,19,2,https://en.wikipedia.org/wiki/2012–13_Manchester_United_F.C._season https://en.wikipedia.org/wiki/2013–14_Manchester_United_F.C._season
@@ -565,7 +521,6 @@ year,name,bucket,goals,seasons,source
 2013,Robert Lewandowski,ucl,9,2,https://en.wikipedia.org/wiki/2012–13_Borussia_Dortmund_season https://en.wikipedia.org/wiki/2013–14_Borussia_Dortmund_season
 2013,Philipp Lahm,ucl,0,2,https://en.wikipedia.org/wiki/2012–13_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2013–14_FC_Bayern_Munich_season
 2013,Philipp Lahm,club_other,0,2,https://en.wikipedia.org/wiki/2012–13_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2013–14_FC_Bayern_Munich_season
-2013,Xavi,league,3,2,https://en.wikipedia.org/wiki/2012–13_FC_Barcelona_season https://en.wikipedia.org/wiki/2013–14_FC_Barcelona_season
 2013,Mesut Özil,league,7,3,https://en.wikipedia.org/wiki/2012–13_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2013–14_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2013–14_Arsenal_F.C._season
 2013,Mesut Özil,ucl,1,3,https://en.wikipedia.org/wiki/2012–13_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2013–14_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2013–14_Arsenal_F.C._season
 2013,Mesut Özil,club_other,0,3,https://en.wikipedia.org/wiki/2012–13_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2013–14_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2013–14_Arsenal_F.C._season
@@ -582,22 +537,18 @@ year,name,bucket,goals,seasons,source
 2013,Manuel Neuer,league,0,2,https://en.wikipedia.org/wiki/2012–13_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2013–14_FC_Bayern_Munich_season
 2013,Manuel Neuer,ucl,0,2,https://en.wikipedia.org/wiki/2012–13_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2013–14_FC_Bayern_Munich_season
 2013,Manuel Neuer,club_other,0,2,https://en.wikipedia.org/wiki/2012–13_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2013–14_FC_Bayern_Munich_season
-2014,Cristiano Ronaldo,league,38,2,https://en.wikipedia.org/wiki/2013–14_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2014–15_Real_Madrid_CF_season
 2014,Cristiano Ronaldo,ucl,13,2,https://en.wikipedia.org/wiki/2013–14_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2014–15_Real_Madrid_CF_season
-2014,Lionel Messi,league,33,2,https://en.wikipedia.org/wiki/2013–14_FC_Barcelona_season https://en.wikipedia.org/wiki/2014–15_FC_Barcelona_season
 2014,Manuel Neuer,league,0,2,https://en.wikipedia.org/wiki/2013–14_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2014–15_FC_Bayern_Munich_season
 2014,Manuel Neuer,ucl,0,2,https://en.wikipedia.org/wiki/2013–14_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2014–15_FC_Bayern_Munich_season
 2014,Manuel Neuer,club_other,0,2,https://en.wikipedia.org/wiki/2013–14_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2014–15_FC_Bayern_Munich_season
 2014,Philipp Lahm,ucl,0,2,https://en.wikipedia.org/wiki/2013–14_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2014–15_FC_Bayern_Munich_season
 2014,Philipp Lahm,club_other,0,2,https://en.wikipedia.org/wiki/2013–14_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2014–15_FC_Bayern_Munich_season
-2014,Neymar,league,14,2,https://en.wikipedia.org/wiki/2013–14_FC_Barcelona_season https://en.wikipedia.org/wiki/2014–15_FC_Barcelona_season
 2014,Neymar,ucl,4,2,https://en.wikipedia.org/wiki/2013–14_FC_Barcelona_season https://en.wikipedia.org/wiki/2014–15_FC_Barcelona_season
 2014,James Rodríguez,league,11,2,https://en.wikipedia.org/wiki/2013–14_AS_Monaco_FC_season https://en.wikipedia.org/wiki/2014–15_Real_Madrid_CF_season
 2014,James Rodríguez,ucl,1,2,https://en.wikipedia.org/wiki/2013–14_AS_Monaco_FC_season https://en.wikipedia.org/wiki/2014–15_Real_Madrid_CF_season
 2014,James Rodríguez,club_other,4,2,https://en.wikipedia.org/wiki/2013–14_AS_Monaco_FC_season https://en.wikipedia.org/wiki/2014–15_Real_Madrid_CF_season
 2014,Ángel Di María,league,5,3,https://en.wikipedia.org/wiki/2013–14_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2014–15_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2014–15_Manchester_United_F.C._season
 2014,Diego Costa,league,20,2,https://en.wikipedia.org/wiki/2013–14_Atlético_Madrid_season https://en.wikipedia.org/wiki/2014–15_Chelsea_F.C._season
-2014,Gareth Bale,league,15,2,https://en.wikipedia.org/wiki/2013–14_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2014–15_Real_Madrid_CF_season
 2014,Gareth Bale,ucl,6,2,https://en.wikipedia.org/wiki/2013–14_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2014–15_Real_Madrid_CF_season
 2014,Gareth Bale,club_other,1,2,https://en.wikipedia.org/wiki/2013–14_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2014–15_Real_Madrid_CF_season
 2014,Zlatan Ibrahimović,league,19,2,https://en.wikipedia.org/wiki/2013–14_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2014–15_Paris_Saint-Germain_FC_season
@@ -606,9 +557,7 @@ year,name,bucket,goals,seasons,source
 2014,Yaya Touré,league,15,2,https://en.wikipedia.org/wiki/2013–14_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2014–15_Manchester_City_F.C._season
 2014,Yaya Touré,ucl,1,2,https://en.wikipedia.org/wiki/2013–14_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2014–15_Manchester_City_F.C._season
 2014,Yaya Touré,club_other,3,2,https://en.wikipedia.org/wiki/2013–14_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2014–15_Manchester_City_F.C._season
-2014,Karim Benzema,league,17,2,https://en.wikipedia.org/wiki/2013–14_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2014–15_Real_Madrid_CF_season
 2014,Karim Benzema,ucl,8,2,https://en.wikipedia.org/wiki/2013–14_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2014–15_Real_Madrid_CF_season
-2014,Andrés Iniesta,league,2,2,https://en.wikipedia.org/wiki/2013–14_FC_Barcelona_season https://en.wikipedia.org/wiki/2014–15_FC_Barcelona_season
 2014,Andrés Iniesta,ucl,0,2,https://en.wikipedia.org/wiki/2013–14_FC_Barcelona_season https://en.wikipedia.org/wiki/2014–15_FC_Barcelona_season
 2014,Andrés Iniesta,club_other,1,2,https://en.wikipedia.org/wiki/2013–14_FC_Barcelona_season https://en.wikipedia.org/wiki/2014–15_FC_Barcelona_season
 2014,Bastian Schweinsteiger,club_other,1,2,https://en.wikipedia.org/wiki/2013–14_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2014–15_FC_Bayern_Munich_season
@@ -621,8 +570,6 @@ year,name,bucket,goals,seasons,source
 2014,Paul Pogba,league,5,2,https://en.wikipedia.org/wiki/2013–14_Juventus_FC_season https://en.wikipedia.org/wiki/2014–15_Juventus_FC_season
 2014,Paul Pogba,ucl,1,2,https://en.wikipedia.org/wiki/2013–14_Juventus_FC_season https://en.wikipedia.org/wiki/2014–15_Juventus_FC_season
 2014,Paul Pogba,club_other,1,2,https://en.wikipedia.org/wiki/2013–14_Juventus_FC_season https://en.wikipedia.org/wiki/2014–15_Juventus_FC_season
-2014,Sergio Ramos,league,5,2,https://en.wikipedia.org/wiki/2013–14_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2014–15_Real_Madrid_CF_season
-2015,Cristiano Ronaldo,league,33,2,https://en.wikipedia.org/wiki/2014–15_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2015–16_Real_Madrid_CF_season
 2015,Cristiano Ronaldo,ucl,16,2,https://en.wikipedia.org/wiki/2014–15_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2015–16_Real_Madrid_CF_season
 2015,Robert Lewandowski,league,25,2,https://en.wikipedia.org/wiki/2014–15_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2015–16_FC_Bayern_Munich_season
 2015,Robert Lewandowski,ucl,11,2,https://en.wikipedia.org/wiki/2014–15_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2015–16_FC_Bayern_Munich_season
@@ -649,31 +596,22 @@ year,name,bucket,goals,seasons,source
 2015,Paul Pogba,league,7,2,https://en.wikipedia.org/wiki/2014–15_Juventus_FC_season https://en.wikipedia.org/wiki/2015–16_Juventus_FC_season
 2015,Paul Pogba,ucl,0,2,https://en.wikipedia.org/wiki/2014–15_Juventus_FC_season https://en.wikipedia.org/wiki/2015–16_Juventus_FC_season
 2015,Paul Pogba,club_other,1,2,https://en.wikipedia.org/wiki/2014–15_Juventus_FC_season https://en.wikipedia.org/wiki/2015–16_Juventus_FC_season
-2015,Gareth Bale,league,10,2,https://en.wikipedia.org/wiki/2014–15_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2015–16_Real_Madrid_CF_season
 2015,Gareth Bale,ucl,0,2,https://en.wikipedia.org/wiki/2014–15_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2015–16_Real_Madrid_CF_season
 2015,Gareth Bale,club_other,0,2,https://en.wikipedia.org/wiki/2014–15_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2015–16_Real_Madrid_CF_season
 2015,Arturo Vidal,club_other,1,2,https://en.wikipedia.org/wiki/2014–15_Juventus_FC_season https://en.wikipedia.org/wiki/2015–16_FC_Bayern_Munich_season
 2015,Kevin De Bruyne,league,11,3,https://en.wikipedia.org/wiki/2014–15_VfL_Wolfsburg_season https://en.wikipedia.org/wiki/2015–16_VfL_Wolfsburg_season https://en.wikipedia.org/wiki/2015–16_Manchester_City_F.C._season
 2015,Kevin De Bruyne,ucl,1,3,https://en.wikipedia.org/wiki/2014–15_VfL_Wolfsburg_season https://en.wikipedia.org/wiki/2015–16_VfL_Wolfsburg_season https://en.wikipedia.org/wiki/2015–16_Manchester_City_F.C._season
 2015,Kevin De Bruyne,club_other,8,3,https://en.wikipedia.org/wiki/2014–15_VfL_Wolfsburg_season https://en.wikipedia.org/wiki/2015–16_VfL_Wolfsburg_season https://en.wikipedia.org/wiki/2015–16_Manchester_City_F.C._season
-2015,James Rodríguez,league,11,2,https://en.wikipedia.org/wiki/2014–15_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2015–16_Real_Madrid_CF_season
 2015,James Rodríguez,ucl,0,2,https://en.wikipedia.org/wiki/2014–15_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2015–16_Real_Madrid_CF_season
 2015,James Rodríguez,club_other,0,2,https://en.wikipedia.org/wiki/2014–15_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2015–16_Real_Madrid_CF_season
-2015,Karim Benzema,league,15,2,https://en.wikipedia.org/wiki/2014–15_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2015–16_Real_Madrid_CF_season
 2015,Karim Benzema,ucl,5,2,https://en.wikipedia.org/wiki/2014–15_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2015–16_Real_Madrid_CF_season
-2015,Toni Kroos,league,1,2,https://en.wikipedia.org/wiki/2014–15_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2015–16_Real_Madrid_CF_season
 2015,Arjen Robben,league,10,2,https://en.wikipedia.org/wiki/2014–15_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2015–16_FC_Bayern_Munich_season
 2015,Ivan Rakitić,ucl,4,2,https://en.wikipedia.org/wiki/2014–15_FC_Barcelona_season https://en.wikipedia.org/wiki/2015–16_FC_Barcelona_season
 2015,Ivan Rakitić,club_other,0,2,https://en.wikipedia.org/wiki/2014–15_FC_Barcelona_season https://en.wikipedia.org/wiki/2015–16_FC_Barcelona_season
-2016,Cristiano Ronaldo,league,26,2,https://en.wikipedia.org/wiki/2015–16_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2016–17_Real_Madrid_CF_season
 2016,Cristiano Ronaldo,ucl,7,2,https://en.wikipedia.org/wiki/2015–16_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2016–17_Real_Madrid_CF_season
 2016,Cristiano Ronaldo,club_other,0,2,https://en.wikipedia.org/wiki/2015–16_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2016–17_Real_Madrid_CF_season
-2016,Lionel Messi,league,28,2,https://en.wikipedia.org/wiki/2015–16_FC_Barcelona_season https://en.wikipedia.org/wiki/2016–17_FC_Barcelona_season
 2016,Antoine Griezmann,club_other,3,2,https://en.wikipedia.org/wiki/2015–16_Atlético_Madrid_season https://en.wikipedia.org/wiki/2016–17_Atlético_Madrid_season
-2016,Luis Suárez,league,33,2,https://en.wikipedia.org/wiki/2015–16_FC_Barcelona_season https://en.wikipedia.org/wiki/2016–17_FC_Barcelona_season
 2016,Luis Suárez,ucl,5,2,https://en.wikipedia.org/wiki/2015–16_FC_Barcelona_season https://en.wikipedia.org/wiki/2016–17_FC_Barcelona_season
-2016,Neymar,league,14,2,https://en.wikipedia.org/wiki/2015–16_FC_Barcelona_season https://en.wikipedia.org/wiki/2016–17_FC_Barcelona_season
-2016,Gareth Bale,league,16,2,https://en.wikipedia.org/wiki/2015–16_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2016–17_Real_Madrid_CF_season
 2016,Gareth Bale,ucl,2,2,https://en.wikipedia.org/wiki/2015–16_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2016–17_Real_Madrid_CF_season
 2016,Gareth Bale,club_other,0,2,https://en.wikipedia.org/wiki/2015–16_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2016–17_Real_Madrid_CF_season
 2016,Riyad Mahrez,ucl,3,2,https://en.wikipedia.org/wiki/2015–16_Leicester_City_F.C._season https://en.wikipedia.org/wiki/2016–17_Leicester_City_F.C._season
@@ -703,8 +641,6 @@ year,name,bucket,goals,seasons,source
 2016,Robert Lewandowski,league,22,2,https://en.wikipedia.org/wiki/2015–16_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2016–17_FC_Bayern_Munich_season
 2016,Robert Lewandowski,ucl,6,2,https://en.wikipedia.org/wiki/2015–16_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2016–17_FC_Bayern_Munich_season
 2016,Robert Lewandowski,club_other,5,2,https://en.wikipedia.org/wiki/2015–16_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2016–17_FC_Bayern_Munich_season
-2016,Toni Kroos,league,2,2,https://en.wikipedia.org/wiki/2015–16_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2016–17_Real_Madrid_CF_season
-2016,Luka Modrić,league,3,2,https://en.wikipedia.org/wiki/2015–16_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2016–17_Real_Madrid_CF_season
 2016,Luka Modrić,ucl,0,2,https://en.wikipedia.org/wiki/2015–16_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2016–17_Real_Madrid_CF_season
 2016,Luka Modrić,club_other,0,2,https://en.wikipedia.org/wiki/2015–16_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2016–17_Real_Madrid_CF_season
 2016,Dimitri Payet,league,5,3,https://en.wikipedia.org/wiki/2015–16_West_Ham_United_F.C._season https://en.wikipedia.org/wiki/2016–17_West_Ham_United_F.C._season https://en.wikipedia.org/wiki/2016–17_Olympique_de_Marseille_season
@@ -713,16 +649,13 @@ year,name,bucket,goals,seasons,source
 2016,Kevin De Bruyne,ucl,3,3,https://en.wikipedia.org/wiki/2015–16_VfL_Wolfsburg_season https://en.wikipedia.org/wiki/2015–16_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2016–17_Manchester_City_F.C._season
 2016,Kevin De Bruyne,club_other,2,3,https://en.wikipedia.org/wiki/2015–16_VfL_Wolfsburg_season https://en.wikipedia.org/wiki/2015–16_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2016–17_Manchester_City_F.C._season
 2016,Paulo Dybala,league,14,2,https://en.wikipedia.org/wiki/2015–16_Juventus_FC_season https://en.wikipedia.org/wiki/2016–17_Juventus_FC_season
-2016,Diego Godín,league,0,2,https://en.wikipedia.org/wiki/2015–16_Atlético_Madrid_season https://en.wikipedia.org/wiki/2016–17_Atlético_Madrid_season
 2016,Diego Godín,ucl,0,2,https://en.wikipedia.org/wiki/2015–16_Atlético_Madrid_season https://en.wikipedia.org/wiki/2016–17_Atlético_Madrid_season
 2016,Diego Godín,club_other,0,2,https://en.wikipedia.org/wiki/2015–16_Atlético_Madrid_season https://en.wikipedia.org/wiki/2016–17_Atlético_Madrid_season
 2016,Gonzalo Higuaín,league,27,2,https://en.wikipedia.org/wiki/2015–16_SSC_Napoli_season https://en.wikipedia.org/wiki/2016–17_Juventus_FC_season
 2016,Gonzalo Higuaín,ucl,2,2,https://en.wikipedia.org/wiki/2015–16_SSC_Napoli_season https://en.wikipedia.org/wiki/2016–17_Juventus_FC_season
 2016,Gonzalo Higuaín,club_other,0,2,https://en.wikipedia.org/wiki/2015–16_SSC_Napoli_season https://en.wikipedia.org/wiki/2016–17_Juventus_FC_season
-2016,Andrés Iniesta,league,0,2,https://en.wikipedia.org/wiki/2015–16_FC_Barcelona_season https://en.wikipedia.org/wiki/2016–17_FC_Barcelona_season
 2016,Andrés Iniesta,ucl,1,2,https://en.wikipedia.org/wiki/2015–16_FC_Barcelona_season https://en.wikipedia.org/wiki/2016–17_FC_Barcelona_season
 2016,Andrés Iniesta,club_other,0,2,https://en.wikipedia.org/wiki/2015–16_FC_Barcelona_season https://en.wikipedia.org/wiki/2016–17_FC_Barcelona_season
-2016,Koke,league,4,2,https://en.wikipedia.org/wiki/2015–16_Atlético_Madrid_season https://en.wikipedia.org/wiki/2016–17_Atlético_Madrid_season
 2016,Hugo Lloris,league,0,2,https://en.wikipedia.org/wiki/2015–16_Tottenham_Hotspur_F.C._season https://en.wikipedia.org/wiki/2016–17_Tottenham_Hotspur_F.C._season
 2016,Hugo Lloris,ucl,0,2,https://en.wikipedia.org/wiki/2015–16_Tottenham_Hotspur_F.C._season https://en.wikipedia.org/wiki/2016–17_Tottenham_Hotspur_F.C._season
 2016,Hugo Lloris,club_other,0,2,https://en.wikipedia.org/wiki/2015–16_Tottenham_Hotspur_F.C._season https://en.wikipedia.org/wiki/2016–17_Tottenham_Hotspur_F.C._season
@@ -732,18 +665,14 @@ year,name,bucket,goals,seasons,source
 2016,Manuel Neuer,league,0,2,https://en.wikipedia.org/wiki/2015–16_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2016–17_FC_Bayern_Munich_season
 2016,Manuel Neuer,ucl,0,2,https://en.wikipedia.org/wiki/2015–16_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2016–17_FC_Bayern_Munich_season
 2016,Manuel Neuer,club_other,0,2,https://en.wikipedia.org/wiki/2015–16_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2016–17_FC_Bayern_Munich_season
-2016,Sergio Ramos,league,3,2,https://en.wikipedia.org/wiki/2015–16_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2016–17_Real_Madrid_CF_season
-2017,Cristiano Ronaldo,league,16,2,https://en.wikipedia.org/wiki/2016–17_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2017–18_Real_Madrid_CF_season
 2017,Cristiano Ronaldo,ucl,16,2,https://en.wikipedia.org/wiki/2016–17_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2017–18_Real_Madrid_CF_season
 2017,Cristiano Ronaldo,club_other,2,2,https://en.wikipedia.org/wiki/2016–17_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2017–18_Real_Madrid_CF_season
 2017,Neymar,league,16,2,https://en.wikipedia.org/wiki/2016–17_FC_Barcelona_season https://en.wikipedia.org/wiki/2017–18_Paris_Saint-Germain_F.C._season
 2017,Gianluigi Buffon,league,0,2,https://en.wikipedia.org/wiki/2016–17_Juventus_FC_season https://en.wikipedia.org/wiki/2017–18_Juventus_FC_season
 2017,Gianluigi Buffon,ucl,0,2,https://en.wikipedia.org/wiki/2016–17_Juventus_FC_season https://en.wikipedia.org/wiki/2017–18_Juventus_FC_season
 2017,Gianluigi Buffon,club_other,0,2,https://en.wikipedia.org/wiki/2016–17_Juventus_FC_season https://en.wikipedia.org/wiki/2017–18_Juventus_FC_season
-2017,Luka Modrić,league,0,2,https://en.wikipedia.org/wiki/2016–17_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2017–18_Real_Madrid_CF_season
 2017,Luka Modrić,ucl,0,2,https://en.wikipedia.org/wiki/2016–17_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2017–18_Real_Madrid_CF_season
 2017,Luka Modrić,club_other,0,2,https://en.wikipedia.org/wiki/2016–17_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2017–18_Real_Madrid_CF_season
-2017,Sergio Ramos,league,3,2,https://en.wikipedia.org/wiki/2016–17_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2017–18_Real_Madrid_CF_season
 2017,Kylian Mbappé,ucl,8,4,https://en.wikipedia.org/wiki/2016–17_Championnat_de_France_Amateur https://en.wikipedia.org/wiki/2016–17_AS_Monaco_FC_season https://en.wikipedia.org/wiki/2017–18_AS_Monaco_FC_season https://en.wikipedia.org/wiki/2017–18_Paris_Saint-Germain_FC_season
 2017,Kylian Mbappé,club_other,2,4,https://en.wikipedia.org/wiki/2016–17_Championnat_de_France_Amateur https://en.wikipedia.org/wiki/2016–17_AS_Monaco_FC_season https://en.wikipedia.org/wiki/2017–18_AS_Monaco_FC_season https://en.wikipedia.org/wiki/2017–18_Paris_Saint-Germain_FC_season
 2017,N'Golo Kanté,league,1,2,https://en.wikipedia.org/wiki/2016–17_Chelsea_F.C._season https://en.wikipedia.org/wiki/2017–18_Chelsea_F.C._season
@@ -751,12 +680,8 @@ year,name,bucket,goals,seasons,source
 2017,N'Golo Kanté,club_other,1,2,https://en.wikipedia.org/wiki/2016–17_Chelsea_F.C._season https://en.wikipedia.org/wiki/2017–18_Chelsea_F.C._season
 2017,Harry Kane,league,29,2,https://en.wikipedia.org/wiki/2016–17_Tottenham_Hotspur_F.C._season https://en.wikipedia.org/wiki/2017–18_Tottenham_Hotspur_F.C._season
 2017,Edinson Cavani,league,30,2,https://en.wikipedia.org/wiki/2016–17_Paris_Saint-Germain_F.C._season https://en.wikipedia.org/wiki/2017–18_Paris_Saint-Germain_F.C._season
-2017,Isco,league,12,2,https://en.wikipedia.org/wiki/2016–17_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2017–18_Real_Madrid_CF_season
 2017,Kevin De Bruyne,ucl,1,2,https://en.wikipedia.org/wiki/2016–17_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2017–18_Manchester_City_F.C._season
 2017,Kevin De Bruyne,club_other,0,2,https://en.wikipedia.org/wiki/2016–17_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2017–18_Manchester_City_F.C._season
-2017,Marcelo,league,2,2,https://en.wikipedia.org/wiki/2016–17_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2017–18_Real_Madrid_CF_season
-2017,Toni Kroos,league,3,2,https://en.wikipedia.org/wiki/2016–17_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2017–18_Real_Madrid_CF_season
-2017,Antoine Griezmann,league,12,2,https://en.wikipedia.org/wiki/2016–17_Atlético_Madrid_season https://en.wikipedia.org/wiki/2017–18_Atlético_Madrid_season
 2017,Eden Hazard,league,8,2,https://en.wikipedia.org/wiki/2016–17_Chelsea_F.C._season https://en.wikipedia.org/wiki/2017–18_Chelsea_F.C._season
 2017,Eden Hazard,ucl,2,2,https://en.wikipedia.org/wiki/2016–17_Chelsea_F.C._season https://en.wikipedia.org/wiki/2017–18_Chelsea_F.C._season
 2017,Eden Hazard,club_other,1,2,https://en.wikipedia.org/wiki/2016–17_Chelsea_F.C._season https://en.wikipedia.org/wiki/2017–18_Chelsea_F.C._season
@@ -771,24 +696,19 @@ year,name,bucket,goals,seasons,source
 2017,Sadio Mané,club_other,0,2,https://en.wikipedia.org/wiki/2016–17_Liverpool_F.C._season https://en.wikipedia.org/wiki/2017–18_Liverpool_F.C._season
 2017,Radamel Falcao,league,23,2,https://en.wikipedia.org/wiki/2016–17_AS_Monaco_FC_season https://en.wikipedia.org/wiki/2017–18_AS_Monaco_FC_season
 2017,Radamel Falcao,club_other,2,2,https://en.wikipedia.org/wiki/2016–17_AS_Monaco_FC_season https://en.wikipedia.org/wiki/2017–18_AS_Monaco_FC_season
-2017,Karim Benzema,league,8,2,https://en.wikipedia.org/wiki/2016–17_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2017–18_Real_Madrid_CF_season
 2017,Karim Benzema,ucl,1,2,https://en.wikipedia.org/wiki/2016–17_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2017–18_Real_Madrid_CF_season
 2017,Karim Benzema,club_other,2,2,https://en.wikipedia.org/wiki/2016–17_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2017–18_Real_Madrid_CF_season
-2017,Jan Oblak,league,0,2,https://en.wikipedia.org/wiki/2016–17_Atlético_Madrid_season https://en.wikipedia.org/wiki/2017–18_Atlético_Madrid_season
 2017,Jan Oblak,ucl,0,2,https://en.wikipedia.org/wiki/2016–17_Atlético_Madrid_season https://en.wikipedia.org/wiki/2017–18_Atlético_Madrid_season
 2017,Jan Oblak,club_other,0,2,https://en.wikipedia.org/wiki/2016–17_Atlético_Madrid_season https://en.wikipedia.org/wiki/2017–18_Atlético_Madrid_season
 2017,Edin Džeko,league,23,2,https://en.wikipedia.org/wiki/2016–17_AS_Roma_season https://en.wikipedia.org/wiki/2017–18_AS_Roma_season
 2017,Edin Džeko,ucl,3,2,https://en.wikipedia.org/wiki/2016–17_AS_Roma_season https://en.wikipedia.org/wiki/2017–18_AS_Roma_season
 2017,Dries Mertens,league,27,2,https://en.wikipedia.org/wiki/2016–17_SSC_Napoli_season https://en.wikipedia.org/wiki/2017–18_SSC_Napoli_season
-2018,Luka Modrić,league,1,2,https://en.wikipedia.org/wiki/2017–18_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2018–19_Real_Madrid_CF_season
 2018,Luka Modrić,ucl,0,2,https://en.wikipedia.org/wiki/2017–18_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2018–19_Real_Madrid_CF_season
 2018,Luka Modrić,club_other,0,2,https://en.wikipedia.org/wiki/2017–18_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2018–19_Real_Madrid_CF_season
 2018,Cristiano Ronaldo,club_other,0,2,https://en.wikipedia.org/wiki/2017–18_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2018–19_Juventus_FC_season
-2018,Antoine Griezmann,league,17,2,https://en.wikipedia.org/wiki/2017–18_Atlético_Madrid_season https://en.wikipedia.org/wiki/2018–19_Atlético_Madrid_season
 2018,Kylian Mbappé,league,16,3,https://en.wikipedia.org/wiki/2017–18_AS_Monaco_FC_season https://en.wikipedia.org/wiki/2017–18_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2018–19_Paris_Saint-Germain_FC_season
 2018,Kylian Mbappé,ucl,2,3,https://en.wikipedia.org/wiki/2017–18_AS_Monaco_FC_season https://en.wikipedia.org/wiki/2017–18_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2018–19_Paris_Saint-Germain_FC_season
 2018,Kylian Mbappé,club_other,4,3,https://en.wikipedia.org/wiki/2017–18_AS_Monaco_FC_season https://en.wikipedia.org/wiki/2017–18_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2018–19_Paris_Saint-Germain_FC_season
-2018,Raphaël Varane,league,0,2,https://en.wikipedia.org/wiki/2017–18_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2018–19_Real_Madrid_CF_season
 2018,Raphaël Varane,ucl,0,2,https://en.wikipedia.org/wiki/2017–18_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2018–19_Real_Madrid_CF_season
 2018,Raphaël Varane,club_other,0,2,https://en.wikipedia.org/wiki/2017–18_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2018–19_Real_Madrid_CF_season
 2018,Eden Hazard,league,14,2,https://en.wikipedia.org/wiki/2017–18_Chelsea_F.C._season https://en.wikipedia.org/wiki/2018–19_Chelsea_F.C._season
@@ -809,33 +729,25 @@ year,name,bucket,goals,seasons,source
 2018,Thibaut Courtois,club_other,0,2,https://en.wikipedia.org/wiki/2017–18_Chelsea_F.C._season https://en.wikipedia.org/wiki/2018–19_Real_Madrid_CF_season
 2018,Paul Pogba,ucl,2,2,https://en.wikipedia.org/wiki/2017–18_Manchester_United_F.C._season https://en.wikipedia.org/wiki/2018–19_Manchester_United_F.C._season
 2018,Paul Pogba,club_other,0,2,https://en.wikipedia.org/wiki/2017–18_Manchester_United_F.C._season https://en.wikipedia.org/wiki/2018–19_Manchester_United_F.C._season
-2018,Gareth Bale,league,17,2,https://en.wikipedia.org/wiki/2017–18_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2018–19_Real_Madrid_CF_season
 2018,Gareth Bale,ucl,3,2,https://en.wikipedia.org/wiki/2017–18_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2018–19_Real_Madrid_CF_season
 2018,Gareth Bale,club_other,1,2,https://en.wikipedia.org/wiki/2017–18_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2018–19_Real_Madrid_CF_season
-2018,Karim Benzema,league,7,2,https://en.wikipedia.org/wiki/2017–18_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2018–19_Real_Madrid_CF_season
 2018,Karim Benzema,ucl,4,2,https://en.wikipedia.org/wiki/2017–18_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2018–19_Real_Madrid_CF_season
 2018,Karim Benzema,club_other,3,2,https://en.wikipedia.org/wiki/2017–18_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2018–19_Real_Madrid_CF_season
 2018,Roberto Firmino,league,8,2,https://en.wikipedia.org/wiki/2017–18_Liverpool_F.C._season https://en.wikipedia.org/wiki/2018–19_Liverpool_F.C._season
-2018,Sergio Ramos,league,7,2,https://en.wikipedia.org/wiki/2017–18_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2018–19_Real_Madrid_CF_season
 2018,Edinson Cavani,league,14,2,https://en.wikipedia.org/wiki/2017–18_Paris_Saint-Germain_F.C._season https://en.wikipedia.org/wiki/2018–19_Paris_Saint-Germain_F.C._season
 2018,Sadio Mané,league,12,2,https://en.wikipedia.org/wiki/2017–18_Liverpool_F.C._season https://en.wikipedia.org/wiki/2018–19_Liverpool_F.C._season
 2018,Sadio Mané,ucl,8,2,https://en.wikipedia.org/wiki/2017–18_Liverpool_F.C._season https://en.wikipedia.org/wiki/2018–19_Liverpool_F.C._season
 2018,Sadio Mané,club_other,0,2,https://en.wikipedia.org/wiki/2017–18_Liverpool_F.C._season https://en.wikipedia.org/wiki/2018–19_Liverpool_F.C._season
-2018,Marcelo,league,3,2,https://en.wikipedia.org/wiki/2017–18_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2018–19_Real_Madrid_CF_season
 2018,Alisson,league,0,2,https://en.wikipedia.org/wiki/2017–18_AS_Roma_season https://en.wikipedia.org/wiki/2018–19_Liverpool_F.C._season
 2018,Alisson,ucl,0,2,https://en.wikipedia.org/wiki/2017–18_AS_Roma_season https://en.wikipedia.org/wiki/2018–19_Liverpool_F.C._season
 2018,Alisson,club_other,0,2,https://en.wikipedia.org/wiki/2017–18_AS_Roma_season https://en.wikipedia.org/wiki/2018–19_Liverpool_F.C._season
-2018,Jan Oblak,league,0,2,https://en.wikipedia.org/wiki/2017–18_Atlético_Madrid_season https://en.wikipedia.org/wiki/2018–19_Atlético_Madrid_season
 2018,Jan Oblak,ucl,0,2,https://en.wikipedia.org/wiki/2017–18_Atlético_Madrid_season https://en.wikipedia.org/wiki/2018–19_Atlético_Madrid_season
 2018,Jan Oblak,club_other,0,2,https://en.wikipedia.org/wiki/2017–18_Atlético_Madrid_season https://en.wikipedia.org/wiki/2018–19_Atlético_Madrid_season
-2018,Diego Godín,league,1,2,https://en.wikipedia.org/wiki/2017–18_Atlético_Madrid_season https://en.wikipedia.org/wiki/2018–19_Atlético_Madrid_season
 2018,Diego Godín,ucl,0,2,https://en.wikipedia.org/wiki/2017–18_Atlético_Madrid_season https://en.wikipedia.org/wiki/2018–19_Atlético_Madrid_season
 2018,Diego Godín,club_other,1,2,https://en.wikipedia.org/wiki/2017–18_Atlético_Madrid_season https://en.wikipedia.org/wiki/2018–19_Atlético_Madrid_season
-2018,Isco,league,4,2,https://en.wikipedia.org/wiki/2017–18_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2018–19_Real_Madrid_CF_season
 2018,Hugo Lloris,league,0,2,https://en.wikipedia.org/wiki/2017–18_Tottenham_Hotspur_F.C._season https://en.wikipedia.org/wiki/2018–19_Tottenham_Hotspur_F.C._season
 2018,Hugo Lloris,ucl,0,2,https://en.wikipedia.org/wiki/2017–18_Tottenham_Hotspur_F.C._season https://en.wikipedia.org/wiki/2018–19_Tottenham_Hotspur_F.C._season
 2018,Hugo Lloris,club_other,0,2,https://en.wikipedia.org/wiki/2017–18_Tottenham_Hotspur_F.C._season https://en.wikipedia.org/wiki/2018–19_Tottenham_Hotspur_F.C._season
-2019,Lionel Messi,league,26,2,https://en.wikipedia.org/wiki/2018–19_FC_Barcelona_season https://en.wikipedia.org/wiki/2019–20_FC_Barcelona_season
 2019,Virgil van Dijk,league,4,2,https://en.wikipedia.org/wiki/2018–19_Liverpool_F.C._season https://en.wikipedia.org/wiki/2019–20_Liverpool_F.C._season
 2019,Virgil van Dijk,ucl,2,2,https://en.wikipedia.org/wiki/2018–19_Liverpool_F.C._season https://en.wikipedia.org/wiki/2019–20_Liverpool_F.C._season
 2019,Virgil van Dijk,club_other,0,2,https://en.wikipedia.org/wiki/2018–19_Liverpool_F.C._season https://en.wikipedia.org/wiki/2019–20_Liverpool_F.C._season
@@ -887,10 +799,8 @@ year,name,bucket,goals,seasons,source
 2019,Kalidou Koulibaly,league,2,2,https://en.wikipedia.org/wiki/2018–19_SSC_Napoli_season https://en.wikipedia.org/wiki/2019–20_SSC_Napoli_season
 2019,Kalidou Koulibaly,ucl,0,2,https://en.wikipedia.org/wiki/2018–19_SSC_Napoli_season https://en.wikipedia.org/wiki/2019–20_SSC_Napoli_season
 2019,Kalidou Koulibaly,club_other,0,2,https://en.wikipedia.org/wiki/2018–19_SSC_Napoli_season https://en.wikipedia.org/wiki/2019–20_SSC_Napoli_season
-2019,Marc-André ter Stegen,league,0,2,https://en.wikipedia.org/wiki/2018–19_FC_Barcelona_season https://en.wikipedia.org/wiki/2019–20_FC_Barcelona_season
 2019,Marc-André ter Stegen,ucl,0,2,https://en.wikipedia.org/wiki/2018–19_FC_Barcelona_season https://en.wikipedia.org/wiki/2019–20_FC_Barcelona_season
 2019,Marc-André ter Stegen,club_other,0,2,https://en.wikipedia.org/wiki/2018–19_FC_Barcelona_season https://en.wikipedia.org/wiki/2019–20_FC_Barcelona_season
-2019,Karim Benzema,league,22,2,https://en.wikipedia.org/wiki/2018–19_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2019–20_Real_Madrid_CF_season
 2019,Karim Benzema,ucl,1,2,https://en.wikipedia.org/wiki/2018–19_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2019–20_Real_Madrid_CF_season
 2019,Karim Benzema,club_other,3,2,https://en.wikipedia.org/wiki/2018–19_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2019–20_Real_Madrid_CF_season
 2019,Georginio Wijnaldum,league,3,2,https://en.wikipedia.org/wiki/2018–19_Liverpool_F.C._season https://en.wikipedia.org/wiki/2019–20_Liverpool_F.C._season
@@ -906,7 +816,6 @@ year,name,bucket,goals,seasons,source
 2021,Robert Lewandowski,ucl,7,2,https://en.wikipedia.org/wiki/2020–21_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2021–22_FC_Bayern_Munich_season
 2021,Robert Lewandowski,club_other,4,2,https://en.wikipedia.org/wiki/2020–21_FC_Bayern_Munich_season https://en.wikipedia.org/wiki/2021–22_FC_Bayern_Munich_season
 2021,Jorginho,club_other,0,2,https://en.wikipedia.org/wiki/2020–21_Chelsea_F.C._season https://en.wikipedia.org/wiki/2021–22_Chelsea_F.C._season
-2021,Karim Benzema,league,24,2,https://en.wikipedia.org/wiki/2020–21_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season
 2021,Karim Benzema,ucl,4,2,https://en.wikipedia.org/wiki/2020–21_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season
 2021,Karim Benzema,club_other,1,2,https://en.wikipedia.org/wiki/2020–21_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season
 2021,N'Golo Kanté,league,1,2,https://en.wikipedia.org/wiki/2020–21_Chelsea_F.C._season https://en.wikipedia.org/wiki/2021–22_Chelsea_F.C._season
@@ -964,13 +873,11 @@ year,name,bucket,goals,seasons,source
 2021,Rúben Dias,league,1,3,https://en.wikipedia.org/wiki/2020–21_S.L._Benfica_season https://en.wikipedia.org/wiki/2020–21_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2021–22_Manchester_City_F.C._season
 2021,Rúben Dias,ucl,0,3,https://en.wikipedia.org/wiki/2020–21_S.L._Benfica_season https://en.wikipedia.org/wiki/2020–21_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2021–22_Manchester_City_F.C._season
 2021,Rúben Dias,club_other,0,3,https://en.wikipedia.org/wiki/2020–21_S.L._Benfica_season https://en.wikipedia.org/wiki/2020–21_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2021–22_Manchester_City_F.C._season
-2021,Luka Modrić,league,2,2,https://en.wikipedia.org/wiki/2020–21_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season
 2021,Luka Modrić,ucl,0,2,https://en.wikipedia.org/wiki/2020–21_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season
 2021,Luka Modrić,club_other,0,2,https://en.wikipedia.org/wiki/2020–21_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season
 2021,Cesar Azpilicueta,league,1,2,https://en.wikipedia.org/wiki/2020–21_Chelsea_F.C._season https://en.wikipedia.org/wiki/2021–22_Chelsea_F.C._season
 2021,Cesar Azpilicueta,ucl,0,2,https://en.wikipedia.org/wiki/2020–21_Chelsea_F.C._season https://en.wikipedia.org/wiki/2021–22_Chelsea_F.C._season
 2021,Cesar Azpilicueta,club_other,0,2,https://en.wikipedia.org/wiki/2020–21_Chelsea_F.C._season https://en.wikipedia.org/wiki/2021–22_Chelsea_F.C._season
-2022,Karim Benzema,league,27,2,https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2022–23_Real_Madrid_CF_season
 2022,Karim Benzema,ucl,15,2,https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2022–23_Real_Madrid_CF_season
 2022,Karim Benzema,club_other,2,2,https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2022–23_Real_Madrid_CF_season
 2022,Sadio Mané,league,16,2,https://en.wikipedia.org/wiki/2021–22_Liverpool_F.C._season https://en.wikipedia.org/wiki/2022–23_FC_Bayern_Munich_season
@@ -981,13 +888,10 @@ year,name,bucket,goals,seasons,source
 2022,Kevin De Bruyne,club_other,2,2,https://en.wikipedia.org/wiki/2021–22_Manchester_City_F.C._season https://en.wikipedia.org/wiki/2022–23_Manchester_City_F.C._season
 2022,Mohamed Salah,ucl,8,2,https://en.wikipedia.org/wiki/2021–22_Liverpool_F.C._season https://en.wikipedia.org/wiki/2022–23_Liverpool_F.C._season
 2022,Kylian Mbappé,ucl,6,2,https://en.wikipedia.org/wiki/2021–22_Paris_Saint-Germain_FC_season https://en.wikipedia.org/wiki/2022–23_Paris_Saint-Germain_FC_season
-2022,Thibaut Courtois,league,0,2,https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2022–23_Real_Madrid_CF_season
 2022,Thibaut Courtois,ucl,0,2,https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2022–23_Real_Madrid_CF_season
 2022,Thibaut Courtois,club_other,0,2,https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2022–23_Real_Madrid_CF_season
-2022,Vinícius Júnior,league,17,2,https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2022–23_Real_Madrid_CF_season
 2022,Vinícius Júnior,ucl,4,2,https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2022–23_Real_Madrid_CF_season
 2022,Vinícius Júnior,club_other,1,2,https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2022–23_Real_Madrid_CF_season
-2022,Luka Modrić,league,2,2,https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2022–23_Real_Madrid_CF_season
 2022,Luka Modrić,ucl,0,2,https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2022–23_Real_Madrid_CF_season
 2022,Luka Modrić,club_other,1,2,https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season https://en.wikipedia.org/wiki/2022–23_Real_Madrid_CF_season
 2022,Erling Haaland,league,22,2,https://en.wikipedia.org/wiki/2021–22_Borussia_Dortmund_season https://en.wikipedia.org/wiki/2022–23_Manchester_City_F.C._season

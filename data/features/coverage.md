@@ -4,15 +4,15 @@ Rows with a value in each column (blank = missing).
 
 | Column | 2000–2015 (n=421) | 2016–2025 (n=270) | 2026 (n=30) |
 |---|---|---|---|
-| `league_apps` | 6 | 105 | 29 |
-| `league_minutes` | 6 | 1 | 0 |
-| `league_goals` | 251 | 205 | 23 |
-| `league_assists` | 6 | 1 | 0 |
-| `league_ko_ga` | 6 | 1 | 0 |
-| `league_yellow` | 6 | 1 | 0 |
-| `league_red` | 6 | 1 | 0 |
-| `league_gk_clean_sheets` | 0 | 0 | 0 |
-| `league_gk_goals_conceded` | 0 | 0 | 0 |
+| `league_apps` | 77 | 147 | 29 |
+| `league_minutes` | 77 | 47 | 0 |
+| `league_goals` | 265 | 212 | 23 |
+| `league_assists` | 77 | 47 | 0 |
+| `league_ko_ga` | 77 | 47 | 0 |
+| `league_yellow` | 77 | 47 | 0 |
+| `league_red` | 77 | 47 | 0 |
+| `league_gk_clean_sheets` | 4 | 4 | 0 |
+| `league_gk_goals_conceded` | 4 | 4 | 0 |
 | `ucl_apps` | 0 | 92 | 26 |
 | `ucl_minutes` | 0 | 0 | 0 |
 | `ucl_goals` | 216 | 182 | 18 |
@@ -76,7 +76,7 @@ Rows with a value in each column (blank = missing).
 | `intl_tournament_key_passes` | 210 | 217 | 1 |
 | `apps` | 0 | 0 | 0 |
 | `minutes` | 0 | 0 | 0 |
-| `goals` | 135 | 128 | 13 |
+| `goals` | 136 | 128 | 13 |
 | `assists` | 0 | 0 | 0 |
 | `decisive_ga` | 0 | 0 | 0 |
 | `yellow_cards` | 0 | 0 | 0 |
@@ -95,7 +95,7 @@ Rows with a value in each column (blank = missing).
 | `trophies_club_intl_other` | 421 | 270 | 30 |
 | `trophies_cup` | 414 | 269 | 30 |
 | `trophies_total` | 399 | 263 | 29 |
-| `ucl_stage` | 134 | 212 | 23 |
+| `ucl_stage` | 343 | 212 | 23 |
 | `intl_stage` | 384 | 256 | 29 |
 | `awards_count` | 126 | 69 | 12 |
 | `awards_list` | 173 | 127 | 11 |

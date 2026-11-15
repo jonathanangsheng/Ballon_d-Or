@@ -28,9 +28,12 @@ def _get(url, tries=5):
         req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
         try:
             with urllib.request.urlopen(req, timeout=60) as r:
-                body = r.read().decode("utf-8")
+                raw = r.read()
             _last = time.time()
-            return body
+            try:
+                return raw.decode("utf-8")
+            except UnicodeDecodeError:
+                return raw.decode("cp1252", errors="replace")  # older static sites (RSSSF)
         except urllib.error.HTTPError as e:
             _last = time.time()
             if e.code not in (429, 503) or attempt == tries - 1:

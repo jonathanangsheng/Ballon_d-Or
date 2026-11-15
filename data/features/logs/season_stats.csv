@@ -1,5 +1,4 @@
 year,name,bucket,apps,goals,first_match,last_match,source
-2022,Karim Benzema,league,32,27,2021-08-13,2022-05-22,https://en.wikipedia.org/wiki/2021%E2%80%9322_La_Liga
 2022,Karim Benzema,ucl,12,15,2021-08-14,2022-05-28,https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season
 2022,Karim Benzema,club_other,2,2,2021-08-14,2022-05-28,https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season
 2022,Sadio Mané,ucl,13,5,2021-08-14,2022-05-28,https://en.wikipedia.org/wiki/2021–22_Liverpool_F.C._season
@@ -14,13 +13,10 @@ year,name,bucket,apps,goals,first_match,last_match,source
 2022,Kylian Mbappé,league,35,28,2021-08-06,2022-05-21,https://en.wikipedia.org/wiki/2021%E2%80%9322_Ligue_1
 2022,Kylian Mbappé,ucl,8,6,2021-08-01,2022-05-21,https://en.wikipedia.org/wiki/2021–22_Paris_Saint-Germain_FC_season
 2022,Kylian Mbappé,club_other,3,5,2021-08-01,2022-05-21,https://en.wikipedia.org/wiki/2021–22_Paris_Saint-Germain_FC_season
-2022,Thibaut Courtois,league,36,0,2021-08-13,2022-05-22,https://en.wikipedia.org/wiki/2021%E2%80%9322_La_Liga
 2022,Thibaut Courtois,ucl,13,0,2021-08-14,2022-05-28,https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season
 2022,Thibaut Courtois,club_other,3,0,2021-08-14,2022-05-28,https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season
-2022,Vinícius Júnior,league,35,17,2021-08-13,2022-05-22,https://en.wikipedia.org/wiki/2021%E2%80%9322_La_Liga
 2022,Vinícius Júnior,ucl,13,4,2021-08-14,2022-05-28,https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season
 2022,Vinícius Júnior,club_other,4,1,2021-08-14,2022-05-28,https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season
-2022,Luka Modrić,league,28,2,2021-08-13,2022-05-22,https://en.wikipedia.org/wiki/2021%E2%80%9322_La_Liga
 2022,Luka Modrić,ucl,13,0,2021-08-14,2022-05-28,https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season
 2022,Luka Modrić,club_other,4,1,2021-08-14,2022-05-28,https://en.wikipedia.org/wiki/2021–22_Real_Madrid_CF_season
 2022,Erling Haaland,league,24,22,2021-08-13,2022-05-14,https://en.wikipedia.org/wiki/2021%E2%80%9322_Bundesliga

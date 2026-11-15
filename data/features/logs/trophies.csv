@@ -225,6 +225,7 @@ year,name,competition,category,label,result,date,method,source,counted
 2001,Roberto Carlos,FIFA World Cup,world_cup,2002,winner,2002-06-30,infobox,https://en.wikipedia.org/wiki/2002_FIFA_World_Cup,False
 2001,Damiano Tommasi,Serie A,league,2000–01,winner,2001-06-17,infobox,https://en.wikipedia.org/wiki/2000%E2%80%9301_Serie_A,True
 2001,Damiano Tommasi,Supercoppa Italiana,cup,2001,winner,2001-08-19,infobox,https://en.wikipedia.org/wiki/2001_Supercoppa_Italiana,True
+2001,Damiano Tommasi,Coppa Italia,cup,2002–03,runner-up,2003-05-31,infobox,https://en.wikipedia.org/wiki/2002%E2%80%9303_Coppa_Italia,False
 2001,Sami Hyypiä,FA Cup,cup,2000–01,winner,2001-05-12,final article,https://en.wikipedia.org/wiki/2001_FA_Cup_final,True
 2001,Sami Hyypiä,Football League Cup,cup,2000–01,winner,2001-08-23,latest date in article,https://en.wikipedia.org/wiki/2000%E2%80%9301_Football_League_Cup,True
 2001,Sami Hyypiä,Football League Cup,cup,2002–03,winner,2003-03-02,final article,https://en.wikipedia.org/wiki/2003_Football_League_Cup_final,False
@@ -816,8 +817,11 @@ year,name,competition,category,label,result,date,method,source,counted
 2006,Gennaro Gattuso,FIFA Club World Cup,club_intl_other,2007,winner,2007-12-16,infobox,https://en.wikipedia.org/wiki/2007_FIFA_Club_World_Cup,False
 2006,Gennaro Gattuso,FIFA World Cup,world_cup,2006,winner,2006-07-09,infobox,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup,True
 2006,Patrick Vieira,FA Cup,cup,2004–05,winner,2005-05-21,final article,https://en.wikipedia.org/wiki/2005_FA_Cup_final,False
+2006,Patrick Vieira,Serie A,league,2005–06,revoked,2006-05-14,infobox,https://en.wikipedia.org/wiki/2005%E2%80%9306_Serie_A,False
 2006,Patrick Vieira,Serie A,league,2006–07,winner,2007-05-26,infobox,https://en.wikipedia.org/wiki/2006%E2%80%9307_Serie_A,False
 2006,Patrick Vieira,Serie A,league,2007–08,winner,2008-05-18,infobox,https://en.wikipedia.org/wiki/2007%E2%80%9308_Serie_A,False
+2006,Patrick Vieira,Coppa Italia,cup,2006–07,runner-up,2007-05-17,infobox,https://en.wikipedia.org/wiki/2006%E2%80%9307_Coppa_Italia,False
+2006,Patrick Vieira,Coppa Italia,cup,2007–08,runner-up,2008-05-24,infobox,https://en.wikipedia.org/wiki/2007%E2%80%9308_Coppa_Italia,False
 2006,Patrick Vieira,Supercoppa Italiana,cup,2006,winner,2006-08-26,infobox,https://en.wikipedia.org/wiki/2006_Supercoppa_Italiana,True
 2006,Cristiano Ronaldo,Premier League,league,2006–07,winner,2007-05-13,infobox,https://en.wikipedia.org/wiki/2006%E2%80%9307_FA_Premier_League,False
 2006,Cristiano Ronaldo,Premier League,league,2007–08,winner,2008-05-11,infobox,https://en.wikipedia.org/wiki/2007%E2%80%9308_Premier_League,False

@@ -16,7 +16,7 @@ FEAT = ROOT / "data" / "features"
 LOGS = ROOT / "data" / "features" / "logs"
 BD = ROOT / "data" / "ballon_dor"
 FEATURE_CODE = ["build_features.py", "players.py", "honours.py", "intl.py", "sb.py", "ucl.py",
-                "fetch.py", "build_windows.py"]
+                "laliga.py", "fetch.py", "build_windows.py"]
 
 failures, warnings = [], []
 

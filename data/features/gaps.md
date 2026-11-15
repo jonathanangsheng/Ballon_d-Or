@@ -13,9 +13,13 @@ Every field left blank, and why. Per-row detail: `data/features/row_gaps.csv`.
 | StatsBomb open data (GitHub, attribution: StatsBomb) | OK | Match stats incl. xG for the competitions it releases in full |
 | martj42/international_results (GitHub, CC0) | OK | Every international with dated goalscorers |
 | openfootball (GitHub, public domain) | OK | Rounds of World Cups, Euros, some Copas; Champions League 2011-12 on |
+| engsoccerdata `champs` (GitHub, James Curley; free for non-commercial use with credit, package licence GPL ≥ 2) | OK | Champions League rounds 1999-00 to 2010-11 |
+| 21st Century Spanish Football League Dataset (Zenodo, Sergio Lois, CC BY-NC 4.0; match data from BeSoccer) | OK | La Liga 2000-01 to 2021-22: line-ups, substitutions, goals, assists, cards by minute. Fills the league bucket where StatsBomb does not; no xG |
+| Fjelstul World Cup Database (GitHub, CC BY-SA 4.0) | OK | Not a feature source: `validate_worldcup.py` cross-checks StatsBomb World Cup records against it |
 
-Bot challenges were not bypassed. StatsBomb, martj42 and openfootball were added with the
-user's approval because the listed sources were unreachable.
+Bot challenges were not bypassed. StatsBomb, martj42, openfootball, engsoccerdata, the La Liga
+dataset and Fjelstul were added with the user's approval because the listed sources were
+unreachable.
 
 ## Definitions and rules
 
@@ -26,6 +30,10 @@ user's approval because the listed sources were unreachable.
   the source.** StatsBomb league seasons are checked for a full double round-robin for the club;
   tournaments are checked against martj42's match list. StatsBomb's Barcelona 2004/05–2020/21 La
   Liga seasons hold only the matches Messi played, so they fail this check for every player.
+  The La Liga dataset is used for the league bucket when StatsBomb fails: the nominee is the
+  player with his infobox birth date and nationality, and every season the window touches must
+  hold all of his team's matches (2 × (teams − 1)). Its assists run slightly higher than
+  StatsBomb's (see README).
 - **Club for the window** (league bucket, UCL stage): used only when exactly one senior club spell
   in the player's Wikipedia infobox overlaps the window's years. Any transfer or loan in those
   years leaves the club unknown.
@@ -38,6 +46,7 @@ user's approval because the listed sources were unreachable.
   match in goal with no goal conceded.
 - **Stage (0–6)**: 0 none / not in squad, 1 group or league phase (incl. UCL knockout play-offs),
   2 round of 32 or 16, 3 quarter-final, 4 semi-final or third-place match, 5 lost final, 6 won.
+  UCL qualifying rounds count as 0; the 1999–2003 second group stage (last 16 teams) counts as 2.
   `intl_stage` needs the player in the Wikipedia squad list. A dated title in the honours list
   sets 6 even when other data is missing.
 - **Trophies**: honours entries marked as won, dated by the infobox of the linked edition article
@@ -70,32 +79,32 @@ user's approval because the listed sources were unreachable.
 
 ## Judging windows
 
-- 2000: 2000-01-01 – 2000-11-19 — voting deadline estimated (ceremony − 30 days, no deadline found)
-- 2001: 2001-01-01 – 2001-11-18 — voting deadline estimated (ceremony − 30 days, no deadline found)
-- 2002: 2002-01-01 – 2002-11-12 — voting deadline estimated (ceremony − 30 days, no deadline found)
-- 2003: 2003-01-01 – 2003-11-22 — voting deadline estimated (ceremony − 30 days, no deadline found)
-- 2004: 2004-01-01 – 2004-11-13 — voting deadline estimated (ceremony − 30 days, no deadline found)
-- 2005: 2005-01-01 – 2005-10-29 — voting deadline estimated (ceremony − 30 days, no deadline found)
-- 2006: 2006-01-01 – 2006-10-28 — voting deadline estimated (ceremony − 30 days, no deadline found)
-- 2007: 2007-01-01 – 2007-11-02 — voting deadline estimated (ceremony − 30 days, no deadline found)
-- 2008: 2008-01-01 – 2008-11-02 — voting deadline estimated (ceremony − 30 days, no deadline found)
-- 2009: 2009-01-01 – 2009-11-01 — voting deadline estimated (ceremony − 30 days, no deadline found)
-- 2010: 2010-01-01 – 2010-12-11 — voting deadline estimated (ceremony − 30 days, no deadline found)
-- 2011: 2011-01-01 – 2011-12-10 — voting deadline estimated (ceremony − 30 days, no deadline found)
-- 2012: 2012-01-01 – 2012-12-08 — voting deadline estimated (ceremony − 30 days, no deadline found)
+- 2000: 2000-01-01 – 2000-11-19 — deadline not stated in source; ceremony - 30 days
+- 2001: 2001-01-01 – 2001-11-18 — deadline not stated in source; ceremony - 30 days
+- 2002: 2002-01-01 – 2002-11-12 — deadline not stated in source; ceremony - 30 days
+- 2003: 2003-01-01 – 2003-11-22 — deadline not stated in source; ceremony - 30 days
+- 2004: 2004-01-01 – 2004-11-13 — deadline not stated in source; ceremony - 30 days
+- 2005: 2005-01-01 – 2005-10-29 — deadline not stated in source; ceremony - 30 days
+- 2006: 2006-01-01 – 2006-10-28 — deadline not stated in source; ceremony - 30 days
+- 2007: 2007-01-01 – 2007-11-02 — deadline not stated in source; ceremony - 30 days
+- 2008: 2008-01-01 – 2008-11-02 — deadline not stated in source; ceremony - 30 days
+- 2009: 2009-01-01 – 2009-11-01 — deadline not stated in source; ceremony - 30 days
+- 2010: 2010-01-01 – 2010-12-11 — deadline not stated in source; ceremony - 30 days
+- 2011: 2011-01-01 – 2011-12-10 — deadline not stated in source; ceremony - 30 days
+- 2012: 2012-01-01 – 2012-12-08 — deadline not stated in source; ceremony - 30 days
 - 2013: 2013-01-01 – 2013-11-29 — Wikipedia: "voting was extended to 29 November 2013"
-- 2014: 2014-01-01 – 2014-12-13 — voting deadline estimated (ceremony − 30 days, no deadline found)
-- 2015: 2015-01-01 – 2015-12-12 — voting deadline estimated (ceremony − 30 days, no deadline found)
-- 2016: 2016-01-01 – 2016-11-12 — voting deadline estimated (ceremony − 30 days, no deadline found)
-- 2017: 2017-01-01 – 2017-11-07 — voting deadline estimated (ceremony − 30 days, no deadline found)
-- 2018: 2018-01-01 – 2018-11-03 — voting deadline estimated (ceremony − 30 days, no deadline found)
-- 2019: 2019-01-01 – 2019-11-02 — voting deadline estimated (ceremony − 30 days, no deadline found)
-- 2021: 2021-01-01 – 2021-10-30 — voting deadline estimated (ceremony − 30 days, no deadline found)
-- 2022: 2021-08-01 – 2022-07-31 — voting deadline estimated (ceremony − 30 days, no deadline found)
-- 2023: 2022-08-01 – 2023-07-31 — voting deadline estimated (ceremony − 30 days, no deadline found)
-- 2024: 2023-08-01 – 2024-07-31 — voting deadline estimated (ceremony − 30 days, no deadline found)
-- 2025: 2024-08-01 – 2025-07-31 — voting deadline estimated (ceremony − 30 days, no deadline found)
-- 2026: 2025-08-01 – 2026-07-31 — voting deadline estimated (ceremony − 30 days, no deadline found)
+- 2014: 2014-01-01 – 2014-12-13 — deadline not stated in source; ceremony - 30 days
+- 2015: 2015-01-01 – 2015-12-12 — deadline not stated in source; ceremony - 30 days
+- 2016: 2016-01-01 – 2016-11-12 — deadline not stated in source; ceremony - 30 days
+- 2017: 2017-01-01 – 2017-11-07 — deadline not stated in source; ceremony - 30 days
+- 2018: 2018-01-01 – 2018-11-03 — deadline not stated in source; ceremony - 30 days
+- 2019: 2019-01-01 – 2019-11-02 — deadline not stated in source; ceremony - 30 days
+- 2021: 2021-01-01 – 2021-10-30 — deadline not stated in source; ceremony - 30 days
+- 2022: 2021-08-01 – 2022-07-31 — deadline not stated in source; ceremony - 30 days; no judging period found in source text; 1 Aug - 31 Jul assumed
+- 2023: 2022-08-01 – 2023-07-31 — deadline not stated in source; ceremony - 30 days; window, Wikipedia: "season starting on 1 August 2022 and ending 31 July 2023"
+- 2024: 2023-08-01 – 2024-07-31 — deadline not stated in source; ceremony - 30 days; window, Wikipedia: "period from 1 August 2023 to 31 July 2024"
+- 2025: 2024-08-01 – 2025-07-13 — deadline not stated in source; ceremony - 30 days; window, Wikipedia: "period from 1 August 2024 to 13 July 2025"
+- 2026: 2025-08-03 – 2026-07-19 — voting closed 28 Sep 2026 (foot-africa.com, beinsports.com); window, Wikipedia: "period from 3 August 2025 to 19 July 2026"
 
 Windows shorter than 10 months (warning from check_features.py): 2005, 2006 and 2021, whose ceremonies were in late November. A press report puts the real 2021 deadline at 24 Oct 2021, but the only source reachable was a low-quality blog, so the estimate is kept.
 
@@ -104,7 +113,9 @@ Windows shorter than 10 months (warning from check_features.py): 2005, 2006 and 
 | Column(s) | Reason |
 |---|---|
 | `ucl_*`, `club_other_*`, `national_*` minutes, assists, cards, advanced | No permitted source has every line-up (Transfermarkt and FBref blocked); Wikipedia tables give apps and goals only |
-| club apps for 2000–2021 | Calendar-year windows split two seasons; season totals cannot be cut at the voting deadline, and match lists give scorers, not line-ups. Club goals (all years) are filled where the match lists pass the season-total check |
+| `league_*` minutes, assists, cards outside La Liga | Only StatsBomb (complete seasons) and the La Liga dataset (2000-01 to 2021-22) have every league line-up |
+| `league_*` xG, shots, key passes | StatsBomb only; the La Liga dataset has none |
+| club apps for 2000–2021 outside La Liga | Calendar-year windows split two seasons; season totals cannot be cut at the voting deadline, and match lists give scorers, not line-ups. La Liga players get league apps from the La Liga dataset's line-ups. Club goals (all years) are filled where the match lists pass the season-total check |
 | `national_apps` for 2022+ | Year totals do not split at 1 August |
 | `apps`, `minutes`, `assists`, `decisive_ga`, cards, `gk_*` totals | Need club and national values in the same window, which only `goals` reaches (2022+) |
 | `match_rating_avg` | No permitted source publishes ratings |
@@ -1213,6 +1224,7 @@ Windows shorter than 10 months (warning from check_features.py): 2005, 2006 and 
 | `awards_count` | undated award ''The Athletic'' La Liga  Team of the Season 2024–25: no date found in linked article; no row for this year in the award article | 1 | 2025–2025 (1) |
 | `awards_count` | undated award African Footballer of the Year 2025: no date found in linked article; award row has no dated edition link | 1 | 2025–2025 (1) |
 | `awards_count` | undated award Lion d'Or African Footballer of the Year 2025: no date found in linked article; no row for this year in the award article | 1 | 2025–2025 (1) |
+| `awards_count` | undated award ESM Team of the Year 2025: no date found in linked article; award row has no dated edition link | 1 | 2025–2025 (1) |
 | `awards_count` | undated award IFFHS 2025: no date found in linked article; award row has no dated edition link | 1 | 2025–2025 (1) |
 | `awards_count` | undated award Ghana Football Awards 2025: no date found in linked article; no row for this year in the award article | 1 | 2025–2025 (1) |
 | `awards_count` | undated award UMFP Best Moroccan player abroad 2024–25: no date found in linked article; no row for this year in the award article | 1 | 2025–2025 (1) |
@@ -1258,7 +1270,7 @@ Windows shorter than 10 months (warning from check_features.py): 2005, 2006 and 
 | `decisive_ga` | needs league, ucl, club_other and national all filled | 721 | 2000–2026 (26) |
 | `gk_clean_sheets` | needs league, ucl, club_other and national all filled | 721 | 2000–2026 (26) |
 | `gk_goals_conceded` | needs league, ucl, club_other and national all filled | 721 | 2000–2026 (26) |
-| `goals` | needs league, ucl, club_other and national all filled | 445 | 2000–2026 (26) |
+| `goals` | needs league, ucl, club_other and national all filled | 444 | 2000–2026 (26) |
 | `intl_stage` | UEFA Euro 2000: no round data | 15 | 2000–2000 (1) |
 | `intl_stage` | Copa América 2016: no round data | 7 | 2016–2016 (1) |
 | `intl_stage` | Copa América 2015: no round data | 5 | 2015–2015 (1) |
@@ -1302,6 +1314,7 @@ Windows shorter than 10 months (warning from check_features.py): 2005, 2006 and 
 | `intl_tournament_*` | StatsBomb has no African Cup of Nations 2006 | 1 | 2006–2006 (1) |
 | `intl_tournament_*` | StatsBomb has no African Cup of Nations 2013 | 1 | 2013–2013 (1) |
 | `intl_tournament_*` | StatsBomb has no African Cup of Nations 2015 | 1 | 2015–2015 (1) |
+| `league xG/shots/key passes` | La Liga dataset has no xG, shots or key passes | 117 | 2001–2022 (19) |
 | `league/ucl/club_other apps+goals (Wikipedia)` | calendar-year window: club tables are per season | 571 | 2000–2021 (21) |
 | `league/ucl/club_other apps+goals (Wikipedia)` | league season dates [(datetime.date(2022, 8, 5), datetime.date(2023, 5, 28))] / club-season match dates [(datetime.date(2022, 7, 30), datetime.date(2023, 6, 10))] vs window 2022-08-01–2023-07-31 | 7 | 2023–2023 (1) |
 | `league/ucl/club_other apps+goals (Wikipedia)` | league season dates [None] / club-season match dates [(datetime.date(2021, 8, 14), datetime.date(2022, 5, 28))] vs window 2021-08-01–2022-07-31 | 5 | 2022–2022 (1) |
@@ -1321,13 +1334,13 @@ Windows shorter than 10 months (warning from check_features.py): 2005, 2006 and 
 | `league/ucl/club_other apps+goals (Wikipedia)` | league season dates [(datetime.date(2022, 8, 5), datetime.date(2023, 5, 27))] / club-season match dates [(datetime.date(2022, 7, 30), datetime.date(2023, 5, 27))] vs window 2022-08-01–2023-07-31 | 1 | 2023–2023 (1) |
 | `league/ucl/club_other apps+goals (Wikipedia)` | league season dates [(datetime.date(2022, 8, 13), datetime.date(2023, 6, 4))] / club-season match dates [(datetime.date(2022, 8, 13), datetime.date(2023, 6, 10))] vs window 2022-08-01–2023-07-31 | 1 | 2023–2023 (1) |
 | `league/ucl/club_other apps+goals (Wikipedia)` | league season dates [(datetime.date(2022, 8, 5), datetime.date(2023, 5, 27))] / club-season match dates [(datetime.date(2022, 5, 20), datetime.date(2023, 6, 3))] vs window 2022-08-01–2023-07-31 | 1 | 2023–2023 (1) |
-| `league/ucl/club_other apps+goals (Wikipedia)` | league season dates [(datetime.date(2024, 8, 15), datetime.date(2025, 5, 25))] / club-season match dates [(datetime.date(2024, 8, 17), datetime.date(2025, 5, 25))] vs window 2024-08-01–2025-07-31 | 1 | 2025–2025 (1) |
-| `league/ucl/club_other apps+goals (Wikipedia)` | league season dates [(datetime.date(2024, 8, 16), datetime.date(2025, 5, 25)), (datetime.date(2024, 8, 17), datetime.date(2025, 5, 25))] / club-season match dates [None, (datetime.date(2024, 8, 10), datetime.date(2025, 5, 23))] vs window 2024-08-01–2025-07-31 | 1 | 2025–2025 (1) |
-| `league/ucl/club_other apps+goals (Wikipedia)` | league season dates [(datetime.date(2024, 8, 17), datetime.date(2025, 5, 25))] / club-season match dates [(datetime.date(2024, 8, 17), datetime.date(2025, 6, 30))] vs window 2024-08-01–2025-07-31 | 1 | 2025–2025 (1) |
+| `league/ucl/club_other apps+goals (Wikipedia)` | league season dates [(datetime.date(2024, 8, 15), datetime.date(2025, 5, 25))] / club-season match dates [(datetime.date(2024, 8, 17), datetime.date(2025, 5, 25))] vs window 2024-08-01–2025-07-13 | 1 | 2025–2025 (1) |
+| `league/ucl/club_other apps+goals (Wikipedia)` | league season dates [(datetime.date(2024, 8, 16), datetime.date(2025, 5, 25)), (datetime.date(2024, 8, 17), datetime.date(2025, 5, 25))] / club-season match dates [None, (datetime.date(2024, 8, 10), datetime.date(2025, 5, 23))] vs window 2024-08-01–2025-07-13 | 1 | 2025–2025 (1) |
+| `league/ucl/club_other apps+goals (Wikipedia)` | league season dates [(datetime.date(2024, 8, 17), datetime.date(2025, 5, 25))] / club-season match dates [(datetime.date(2024, 8, 17), datetime.date(2025, 6, 30))] vs window 2024-08-01–2025-07-13 | 1 | 2025–2025 (1) |
 | `league/ucl/club_other apps+goals (Wikipedia)` | no 2025–26 row in the club statistics table | 1 | 2026–2026 (1) |
-| `league/ucl/club_other apps+goals (Wikipedia)` | league season dates [(datetime.date(2025, 8, 15), datetime.date(2026, 5, 24))] / club-season match dates [(datetime.date(2025, 8, 16), datetime.date(2026, 5, 23))] vs window 2025-08-01–2026-07-31 | 1 | 2026–2026 (1) |
-| `league/ucl/club_other apps+goals (Wikipedia)` | league season dates [(datetime.date(2025, 8, 15), datetime.date(2026, 5, 24))] / club-season match dates [None] vs window 2025-08-01–2026-07-31 | 1 | 2026–2026 (1) |
-| `league/ucl/club_other apps+goals (Wikipedia)` | league season dates [(datetime.date(2025, 8, 28), datetime.date(2026, 5, 21))] / club-season match dates [None] vs window 2025-08-01–2026-07-31 | 1 | 2026–2026 (1) |
+| `league/ucl/club_other apps+goals (Wikipedia)` | league season dates [(datetime.date(2025, 8, 15), datetime.date(2026, 5, 24))] / club-season match dates [(datetime.date(2025, 8, 16), datetime.date(2026, 5, 23))] vs window 2025-08-03–2026-07-19 | 1 | 2026–2026 (1) |
+| `league/ucl/club_other apps+goals (Wikipedia)` | league season dates [(datetime.date(2025, 8, 15), datetime.date(2026, 5, 24))] / club-season match dates [None] vs window 2025-08-03–2026-07-19 | 1 | 2026–2026 (1) |
+| `league/ucl/club_other apps+goals (Wikipedia)` | league season dates [(datetime.date(2025, 8, 28), datetime.date(2026, 5, 21))] / club-season match dates [None] vs window 2025-08-03–2026-07-19 | 1 | 2026–2026 (1) |
 | `league/ucl/club_other goals (Wikipedia matches)` | career table has no season row covering 2009-01-01 | 5 | 2009–2009 (1) |
 | `league/ucl/club_other goals (Wikipedia matches)` | career table has no season row covering 2004-01-01 | 4 | 2004–2004 (1) |
 | `league/ucl/club_other goals (Wikipedia matches)` | career table has no season row covering 2007-01-01 | 4 | 2007–2007 (1) |
@@ -1707,189 +1720,180 @@ Windows shorter than 10 months (warning from check_features.py): 2005, 2006 and 
 | `league/ucl/club_other goals (Wikipedia matches)` | 2026–27 league: article lists 3 goals, career table 4 | 1 | 2026–2026 (1) |
 | `league/ucl/club_other goals (Wikipedia matches)` | 2025–26 league: article lists 24 goals, career table 33; 2026–27 league: article lists 0 goals, career table 4; 2026–27 ucl: article lists 0 goals, career table 1 | 1 | 2026–2026 (1) |
 | `league/ucl/club_other goals (Wikipedia matches)` | 2025–26 league: article lists 13 goals, career table 10; 2025–26 ucl: article lists 0 goals, career table 3 | 1 | 2026–2026 (1) |
-| `league/ucl/club_other goals (Wikipedia matches)` | career table has no season row covering 2026-07-31 | 1 | 2026–2026 (1) |
-| `league_* (StatsBomb)` | club not in StatsBomb league data | 23 | 2000–2026 (15) |
-| `league_* (StatsBomb)` | StatsBomb has no Premier League 2018/2019 | 15 | 2019–2019 (1) |
-| `league_* (StatsBomb)` | StatsBomb La Liga 2016/2017 does not hold every Real Madrid match | 13 | 2016–2017 (2) |
-| `league_* (StatsBomb)` | StatsBomb has no Premier League 2016/2017 | 13 | 2016–2017 (2) |
-| `league_* (StatsBomb)` | StatsBomb has no Premier League 2020/2021 | 12 | 2021–2021 (1) |
-| `league_* (StatsBomb)` | 2 club spells in the infobox overlap 2004-2004 | 11 | 2004–2004 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Premier League 2004/2005 | 11 | 2004–2005 (2) |
-| `league_* (StatsBomb)` | StatsBomb has no Premier League 2007/2008 | 11 | 2008–2008 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Premier League 2021/2022 | 11 | 2022–2022 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Serie A 1999/2000 | 10 | 2000–2000 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Serie A 2002/2003 | 10 | 2003–2003 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Premier League 2006/2007 | 10 | 2007–2007 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Premier League 2008/2009 | 10 | 2009–2009 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Premier League 2017/2018 | 10 | 2018–2018 (1) |
-| `league_* (StatsBomb)` | 2 club spells in the infobox overlap 2021-2022 | 10 | 2022–2022 (1) |
-| `league_* (StatsBomb)` | 2 club spells in the infobox overlap 2023-2024 | 10 | 2024–2024 (1) |
-| `league_* (StatsBomb)` | 2 club spells in the infobox overlap 2024-2025 | 10 | 2025–2025 (1) |
-| `league_* (StatsBomb)` | 2 club spells in the infobox overlap 2000-2000 | 9 | 2000–2000 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Serie A 2006/2007 | 9 | 2007–2007 (1) |
-| `league_* (StatsBomb)` | 2 club spells in the infobox overlap 2022-2023 | 9 | 2023–2023 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Premier League 2022/2023 | 8 | 2023–2023 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Premier League 2023/2024 | 8 | 2024–2024 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Ligue 1 2025/2026 | 8 | 2026–2026 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no La Liga 2001/2002 | 7 | 2002–2002 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Serie A 2004/2005 | 7 | 2005–2005 (1) |
-| `league_* (StatsBomb)` | StatsBomb La Liga 2010/2011 does not hold every Barcelona match | 7 | 2011–2011 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no 1. Bundesliga 2012/2013 | 7 | 2013–2013 (1) |
-| `league_* (StatsBomb)` | StatsBomb La Liga 2017/2018 does not hold every Real Madrid match | 7 | 2018–2018 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Serie A 2000/2001 | 6 | 2001–2001 (1) |
-| `league_* (StatsBomb)` | 2 club spells in the infobox overlap 2002-2002 | 6 | 2002–2002 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Serie A 2003/2004 | 6 | 2004–2004 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Premier League 2005/2006 | 6 | 2006–2006 (1) |
-| `league_* (StatsBomb)` | 2 club spells in the infobox overlap 2009-2009 | 6 | 2009–2009 (1) |
-| `league_* (StatsBomb)` | StatsBomb La Liga 2011/2012 does not hold every Real Madrid match | 6 | 2012–2012 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no 1. Bundesliga 2013/2014 | 6 | 2014–2014 (1) |
-| `league_* (StatsBomb)` | StatsBomb La Liga 2016/2017 does not hold every Barcelona match | 6 | 2016–2017 (2) |
-| `league_* (StatsBomb)` | StatsBomb has no Serie A 2016/2017 | 6 | 2016–2017 (2) |
-| `league_* (StatsBomb)` | 3 club spells in the infobox overlap 2022-2023 | 6 | 2023–2023 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no La Liga 2024/2025 | 6 | 2025–2025 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Premier League 2024/2025 | 6 | 2025–2025 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no La Liga 1999/2000 | 5 | 2000–2000 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Premier League 2000/2001 | 5 | 2001–2001 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no 1. Bundesliga 2000/2001 | 5 | 2001–2001 (1) |
-| `league_* (StatsBomb)` | 2 club spells in the infobox overlap 2001-2001 | 5 | 2001–2001 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no La Liga 2002/2003 | 5 | 2003–2003 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no La Liga 2003/2004 | 5 | 2004–2004 (1) |
-| `league_* (StatsBomb)` | StatsBomb La Liga 2005/2006 does not hold every Barcelona match | 5 | 2006–2006 (1) |
-| `league_* (StatsBomb)` | StatsBomb La Liga 2008/2009 does not hold every Barcelona match | 5 | 2009–2009 (1) |
-| `league_* (StatsBomb)` | StatsBomb La Liga 2009/2010 does not hold every Barcelona match | 5 | 2010–2010 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no 1. Bundesliga 2009/2010 | 5 | 2010–2010 (1) |
-| `league_* (StatsBomb)` | StatsBomb La Liga 2010/2011 does not hold every Real Madrid match | 5 | 2011–2011 (1) |
-| `league_* (StatsBomb)` | 2 club spells in the infobox overlap 2011-2011 | 5 | 2011–2011 (1) |
-| `league_* (StatsBomb)` | StatsBomb La Liga 2011/2012 does not hold every Barcelona match | 5 | 2012–2012 (1) |
-| `league_* (StatsBomb)` | 2 club spells in the infobox overlap 2013-2013 | 5 | 2013–2013 (1) |
-| `league_* (StatsBomb)` | 2 club spells in the infobox overlap 2014-2014 | 5 | 2014–2014 (1) |
-| `league_* (StatsBomb)` | StatsBomb La Liga 2014/2015 does not hold every Real Madrid match | 5 | 2015–2015 (1) |
-| `league_* (StatsBomb)` | StatsBomb La Liga 2016/2017 does not hold every Atlético Madrid match | 5 | 2016–2017 (2) |
-| `league_* (StatsBomb)` | 2 club spells in the infobox overlap 2019-2019 | 5 | 2019–2019 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Serie A 2020/2021 | 5 | 2021–2021 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no La Liga 2023/2024 | 5 | 2024–2024 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Ligue 1 2024/2025 | 5 | 2025–2025 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no La Liga 2025/2026 | 5 | 2026–2026 (1) |
-| `league_* (StatsBomb)` | 2 club spells in the infobox overlap 2025-2026 | 5 | 2026–2026 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Premier League 2025/2026 | 5 | 2026–2026 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Premier League 1999/2000 | 4 | 2000–2000 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no La Liga 2000/2001 | 4 | 2001–2001 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no 1. Bundesliga 2001/2002 | 4 | 2002–2002 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Premier League 2001/2002 | 4 | 2002–2002 (1) |
-| `league_* (StatsBomb)` | 2 club spells in the infobox overlap 2003-2003 | 4 | 2003–2003 (1) |
-| `league_* (StatsBomb)` | 2 club spells in the infobox overlap 2006-2006 | 4 | 2006–2006 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Serie A 2005/2006 | 4 | 2006–2006 (1) |
-| `league_* (StatsBomb)` | StatsBomb La Liga 2006/2007 does not hold every Real Madrid match | 4 | 2007–2007 (1) |
-| `league_* (StatsBomb)` | StatsBomb La Liga 2007/2008 does not hold every Real Madrid match | 4 | 2008–2008 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Serie A 2009/2010 | 4 | 2010–2010 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Premier League 2011/2012 | 4 | 2012–2012 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Premier League 2012/2013 | 4 | 2013–2013 (1) |
-| `league_* (StatsBomb)` | StatsBomb La Liga 2013/2014 does not hold every Real Madrid match | 4 | 2014–2014 (1) |
-| `league_* (StatsBomb)` | StatsBomb La Liga 2013/2014 does not hold every Barcelona match | 4 | 2014–2014 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no 1. Bundesliga 2014/2015 | 4 | 2015–2015 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Premier League 2014/2015 | 4 | 2015–2015 (1) |
-| `league_* (StatsBomb)` | StatsBomb 1. Bundesliga 2015/2016 does not hold every Bayern Munich match | 4 | 2016–2016 (1) |
-| `league_* (StatsBomb)` | 2 club spells in the infobox overlap 2021-2021 | 4 | 2021–2021 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no La Liga 2021/2022 | 4 | 2022–2022 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Serie A 2001/2002 | 3 | 2002–2002 (1) |
-| `league_* (StatsBomb)` | StatsBomb La Liga 2006/2007 does not hold every Barcelona match | 3 | 2007–2007 (1) |
-| `league_* (StatsBomb)` | 2 club spells in the infobox overlap 2007-2007 | 3 | 2007–2007 (1) |
-| `league_* (StatsBomb)` | StatsBomb La Liga 2007/2008 does not hold every Barcelona match | 3 | 2008–2008 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Serie A 2007/2008 | 3 | 2008–2008 (1) |
-| `league_* (StatsBomb)` | StatsBomb La Liga 2009/2010 does not hold every Real Madrid match | 3 | 2010–2010 (1) |
-| `league_* (StatsBomb)` | 2 club spells in the infobox overlap 2010-2010 | 3 | 2010–2010 (1) |
-| `league_* (StatsBomb)` | 2 club spells in the infobox overlap 2012-2012 | 3 | 2012–2012 (1) |
-| `league_* (StatsBomb)` | StatsBomb La Liga 2012/2013 does not hold every Barcelona match | 3 | 2013–2013 (1) |
-| `league_* (StatsBomb)` | 2 club spells in the infobox overlap 2016-2016 | 3 | 2016–2016 (1) |
-| `league_* (StatsBomb)` | 2 club spells in the infobox overlap 2017-2017 | 3 | 2017–2017 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no 1. Bundesliga 2016/2017 | 3 | 2017–2017 (1) |
-| `league_* (StatsBomb)` | 2 club spells in the infobox overlap 2018-2018 | 3 | 2018–2018 (1) |
-| `league_* (StatsBomb)` | StatsBomb La Liga 2017/2018 does not hold every Atlético Madrid match | 3 | 2018–2018 (1) |
-| `league_* (StatsBomb)` | StatsBomb La Liga 2017/2018 does not hold every Barcelona match | 3 | 2018–2018 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Serie A 2022/2023 | 3 | 2023–2023 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Serie A 2023/2024 | 3 | 2024–2024 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no 1. Bundesliga 2025/2026 | 3 | 2026–2026 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Premier League 2002/2003 | 2 | 2003–2003 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no 1. Bundesliga 2002/2003 | 2 | 2003–2003 (1) |
-| `league_* (StatsBomb)` | StatsBomb Premier League 2003/2004 does not hold every Manchester United match | 2 | 2004–2004 (1) |
-| `league_* (StatsBomb)` | StatsBomb La Liga 2004/2005 does not hold every Barcelona match | 2 | 2005–2005 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no 1. Bundesliga 2005/2006 | 2 | 2006–2006 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Ligue 1 2005/2006 | 2 | 2006–2006 (1) |
-| `league_* (StatsBomb)` | StatsBomb La Liga 2006/2007 does not hold every Sevilla match | 2 | 2007–2007 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no 1. Bundesliga 2007/2008 | 2 | 2008–2008 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Serie A 2008/2009 | 2 | 2009–2009 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Premier League 2009/2010 | 2 | 2010–2010 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Premier League 2010/2011 | 2 | 2011–2011 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no 1. Bundesliga 2010/2011 | 2 | 2011–2011 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Serie A 2011/2012 | 2 | 2012–2012 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Ligue 1 2012/2013 | 2 | 2013–2013 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Premier League 2013/2014 | 2 | 2014–2014 (1) |
-| `league_* (StatsBomb)` | 2 club spells in the infobox overlap 2015-2015 | 2 | 2015–2015 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Ligue 1 2016/2017 | 2 | 2017–2017 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Ligue 1 2017/2018 | 2 | 2018–2018 (1) |
-| `league_* (StatsBomb)` | StatsBomb La Liga 2018/2019 does not hold every Barcelona match | 2 | 2019–2019 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Serie A 2018/2019 | 2 | 2019–2019 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Ligue 1 2018/2019 | 2 | 2019–2019 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no 1. Bundesliga 2020/2021 | 2 | 2021–2021 (1) |
-| `league_* (StatsBomb)` | StatsBomb La Liga 2020/2021 does not hold every Real Madrid match | 2 | 2021–2021 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Ligue 1 2020/2021 | 2 | 2021–2021 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no 1. Bundesliga 2021/2022 | 2 | 2022–2022 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no La Liga 2022/2023 | 2 | 2023–2023 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Serie A 2024/2025 | 2 | 2025–2025 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no 1. Bundesliga 1999/2000 | 1 | 2000–2000 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Ligue 1 2001/2002 | 1 | 2002–2002 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no 1. Bundesliga 2003/2004 | 1 | 2004–2004 (1) |
-| `league_* (StatsBomb)` | StatsBomb Premier League 2003/2004 does not hold every Liverpool match | 1 | 2004–2004 (1) |
-| `league_* (StatsBomb)` | StatsBomb Premier League 2003/2004 does not hold every Chelsea match | 1 | 2004–2004 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Ligue 1 2004/2005 | 1 | 2005–2005 (1) |
-| `league_* (StatsBomb)` | 3 club spells in the infobox overlap 2005-2005 | 1 | 2005–2005 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no 1. Bundesliga 2004/2005 | 1 | 2005–2005 (1) |
-| `league_* (StatsBomb)` | StatsBomb La Liga 2004/2005 does not hold every Real Madrid match | 1 | 2005–2005 (1) |
-| `league_* (StatsBomb)` | 2 club spells in the infobox overlap 2005-2005 | 1 | 2005–2005 (1) |
-| `league_* (StatsBomb)` | StatsBomb La Liga 2005/2006 does not hold every Real Madrid match | 1 | 2006–2006 (1) |
-| `league_* (StatsBomb)` | StatsBomb La Liga 2005/2006 does not hold every Valencia match | 1 | 2006–2006 (1) |
-| `league_* (StatsBomb)` | 3 club spells in the infobox overlap 2007-2007 | 1 | 2007–2007 (1) |
-| `league_* (StatsBomb)` | StatsBomb La Liga 2007/2008 does not hold every Valencia match | 1 | 2008–2008 (1) |
-| `league_* (StatsBomb)` | StatsBomb La Liga 2007/2008 does not hold every Villarreal match | 1 | 2008–2008 (1) |
-| `league_* (StatsBomb)` | StatsBomb La Liga 2007/2008 does not hold every Atlético Madrid match | 1 | 2008–2008 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Ligue 1 2007/2008 | 1 | 2008–2008 (1) |
-| `league_* (StatsBomb)` | 2 club spells in the infobox overlap 2008-2008 | 1 | 2008–2008 (1) |
-| `league_* (StatsBomb)` | StatsBomb La Liga 2008/2009 does not hold every Sevilla match | 1 | 2009–2009 (1) |
-| `league_* (StatsBomb)` | StatsBomb La Liga 2008/2009 does not hold every Real Madrid match | 1 | 2009–2009 (1) |
-| `league_* (StatsBomb)` | StatsBomb La Liga 2008/2009 does not hold every Atlético Madrid match | 1 | 2009–2009 (1) |
-| `league_* (StatsBomb)` | 3 club spells in the infobox overlap 2009-2009 | 1 | 2009–2009 (1) |
-| `league_* (StatsBomb)` | StatsBomb La Liga 2008/2009 does not hold every Valencia match | 1 | 2009–2009 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no 1. Bundesliga 2008/2009 | 1 | 2009–2009 (1) |
-| `league_* (StatsBomb)` | StatsBomb La Liga 2009/2010 does not hold every Atlético Madrid match | 1 | 2010–2010 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Serie A 2010/2011 | 1 | 2011–2011 (1) |
-| `league_* (StatsBomb)` | StatsBomb La Liga 2011/2012 does not hold every Atlético Madrid match | 1 | 2012–2012 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no 1. Bundesliga 2011/2012 | 1 | 2012–2012 (1) |
-| `league_* (StatsBomb)` | StatsBomb La Liga 2012/2013 does not hold every Real Madrid match | 1 | 2013–2013 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Serie A 2012/2013 | 1 | 2013–2013 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Ligue 1 2013/2014 | 1 | 2014–2014 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Serie A 2013/2014 | 1 | 2014–2014 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Ligue 1 2014/2015 | 1 | 2015–2015 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Serie A 2014/2015 | 1 | 2015–2015 (1) |
-| `league_* (StatsBomb)` | StatsBomb 1. Bundesliga 2015/2016 does not hold every Borussia Dortmund match | 1 | 2016–2016 (1) |
-| `league_* (StatsBomb)` | 3 club spells in the infobox overlap 2018-2018 | 1 | 2018–2018 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Serie A 2017/2018 | 1 | 2018–2018 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no 1. Bundesliga 2018/2019 | 1 | 2019–2019 (1) |
-| `league_* (StatsBomb)` | StatsBomb La Liga 2018/2019 does not hold every Real Madrid match | 1 | 2019–2019 (1) |
-| `league_* (StatsBomb)` | StatsBomb La Liga 2020/2021 does not hold every Atlético Madrid match | 1 | 2021–2021 (1) |
-| `league_* (StatsBomb)` | StatsBomb La Liga 2020/2021 does not hold every Barcelona match | 1 | 2021–2021 (1) |
-| `league_* (StatsBomb)` | StatsBomb La Liga 2020/2021 does not hold every Villarreal match | 1 | 2021–2021 (1) |
-| `league_* (StatsBomb)` | StatsBomb Ligue 1 2021/2022 does not hold every Paris Saint-Germain match | 1 | 2022–2022 (1) |
-| `league_* (StatsBomb)` | 3 club spells in the infobox overlap 2021-2022 | 1 | 2022–2022 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Serie A 2021/2022 | 1 | 2022–2022 (1) |
-| `league_* (StatsBomb)` | StatsBomb Ligue 1 2022/2023 does not hold every Paris Saint-Germain match | 1 | 2023–2023 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no 1. Bundesliga 2022/2023 | 1 | 2023–2023 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Ligue 1 2023/2024 | 1 | 2024–2024 (1) |
-| `league_* (StatsBomb)` | 3 club spells in the infobox overlap 2023-2024 | 1 | 2024–2024 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no 1. Bundesliga 2024/2025 | 1 | 2025–2025 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Major League Soccer 2025 | 1 | 2026–2026 (1) |
-| `league_* (StatsBomb)` | StatsBomb has no Serie A 2025/2026 | 1 | 2026–2026 (1) |
-| `league_apps` | season total not verifiably inside the window | 581 | 2000–2026 (23) |
-| `league_goals` | match-by-match goals did not pass the season-total check | 242 | 2000–2026 (26) |
+| `league/ucl/club_other goals (Wikipedia matches)` | career table has no season row covering 2026-07-19 | 1 | 2026–2026 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Premier League 2018/2019; La Liga dataset: 0 players in La Liga 2018-19 with his name, birth date and nationality | 15 | 2019–2019 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Premier League 2020/2021; La Liga dataset: 0 players in La Liga 2020-21 with his name, birth date and nationality | 12 | 2021–2021 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | 2 club spells in the infobox overlap 2004-2004 | 11 | 2004–2004 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Premier League 2007/2008; La Liga dataset: 0 players in La Liga 2007-08 with his name, birth date and nationality | 11 | 2008–2008 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Premier League 2021/2022; La Liga dataset: 0 players in La Liga 2021-22 with his name, birth date and nationality | 11 | 2022–2022 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Serie A 1999/2000; La Liga dataset: La Liga dataset has no 1999-00 season | 10 | 2000–2000 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Serie A 2002/2003; La Liga dataset: 0 players in La Liga 2002-03 with his name, birth date and nationality | 10 | 2003–2003 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Premier League 2004/2005; La Liga dataset: 0 players in La Liga 2004-05 with his name, birth date and nationality | 10 | 2005–2005 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Premier League 2006/2007; La Liga dataset: 0 players in La Liga 2006-07 with his name, birth date and nationality | 10 | 2007–2007 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Premier League 2008/2009; La Liga dataset: 0 players in La Liga 2008-09 with his name, birth date and nationality | 10 | 2009–2009 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Premier League 2017/2018; La Liga dataset: 0 players in La Liga 2017-18 with his name, birth date and nationality | 10 | 2018–2018 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | 2 club spells in the infobox overlap 2021-2022 | 10 | 2022–2022 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | 2 club spells in the infobox overlap 2023-2024 | 10 | 2024–2024 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | 2 club spells in the infobox overlap 2024-2025 | 10 | 2025–2025 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | 2 club spells in the infobox overlap 2000-2000 | 9 | 2000–2000 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Serie A 2006/2007; La Liga dataset: 0 players in La Liga 2006-07 with his name, birth date and nationality | 9 | 2007–2007 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | 2 club spells in the infobox overlap 2022-2023 | 9 | 2023–2023 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Premier League 2022/2023; La Liga dataset: La Liga dataset has no 2022-23 season | 8 | 2023–2023 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Premier League 2023/2024; La Liga dataset: La Liga dataset has no 2023-24 season | 8 | 2024–2024 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Ligue 1 2025/2026; La Liga dataset: La Liga dataset has no 2025-26 season | 8 | 2026–2026 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Serie A 2004/2005; La Liga dataset: 0 players in La Liga 2004-05 with his name, birth date and nationality | 7 | 2005–2005 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no 1. Bundesliga 2012/2013; La Liga dataset: 0 players in La Liga 2012-13 with his name, birth date and nationality | 7 | 2013–2013 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Premier League 2016/2017; La Liga dataset: 0 players in La Liga 2016-17 with his name, birth date and nationality | 7 | 2017–2017 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Serie A 2000/2001; La Liga dataset: 0 players in La Liga 2000-01 with his name, birth date and nationality | 6 | 2001–2001 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | 2 club spells in the infobox overlap 2002-2002 | 6 | 2002–2002 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Serie A 2003/2004; La Liga dataset: 0 players in La Liga 2003-04 with his name, birth date and nationality | 6 | 2004–2004 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Premier League 2005/2006; La Liga dataset: 0 players in La Liga 2005-06 with his name, birth date and nationality | 6 | 2006–2006 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | 2 club spells in the infobox overlap 2009-2009 | 6 | 2009–2009 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no 1. Bundesliga 2013/2014; La Liga dataset: 0 players in La Liga 2013-14 with his name, birth date and nationality | 6 | 2014–2014 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Premier League 2016/2017; La Liga dataset: 0 players in La Liga 2015-16 with his name, birth date and nationality | 6 | 2016–2016 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | 3 club spells in the infobox overlap 2022-2023 | 6 | 2023–2023 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no La Liga 2024/2025; La Liga dataset: La Liga dataset has no 2024-25 season | 6 | 2025–2025 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Premier League 2024/2025; La Liga dataset: La Liga dataset has no 2024-25 season | 6 | 2025–2025 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no La Liga 1999/2000; La Liga dataset: La Liga dataset has no 1999-00 season | 5 | 2000–2000 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Premier League 2000/2001; La Liga dataset: 0 players in La Liga 2000-01 with his name, birth date and nationality | 5 | 2001–2001 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no 1. Bundesliga 2000/2001; La Liga dataset: 0 players in La Liga 2000-01 with his name, birth date and nationality | 5 | 2001–2001 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | 2 club spells in the infobox overlap 2001-2001 | 5 | 2001–2001 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb La Liga 2008/2009 does not hold every Barcelona match; La Liga dataset: La Liga dataset 2009-10: a Barcelona match has no line-up or bench | 5 | 2009–2009 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb La Liga 2009/2010 does not hold every Barcelona match; La Liga dataset: La Liga dataset 2009-10: a Barcelona match has no line-up or bench | 5 | 2010–2010 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no 1. Bundesliga 2009/2010; La Liga dataset: 0 players in La Liga 2009-10 with his name, birth date and nationality | 5 | 2010–2010 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | 2 club spells in the infobox overlap 2011-2011 | 5 | 2011–2011 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | 2 club spells in the infobox overlap 2013-2013 | 5 | 2013–2013 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | 2 club spells in the infobox overlap 2014-2014 | 5 | 2014–2014 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | 2 club spells in the infobox overlap 2019-2019 | 5 | 2019–2019 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Serie A 2020/2021; La Liga dataset: 0 players in La Liga 2020-21 with his name, birth date and nationality | 5 | 2021–2021 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no La Liga 2023/2024; La Liga dataset: La Liga dataset has no 2023-24 season | 5 | 2024–2024 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Ligue 1 2024/2025; La Liga dataset: La Liga dataset has no 2024-25 season | 5 | 2025–2025 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no La Liga 2025/2026; La Liga dataset: La Liga dataset has no 2025-26 season | 5 | 2026–2026 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | 2 club spells in the infobox overlap 2025-2026 | 5 | 2026–2026 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Premier League 2025/2026; La Liga dataset: La Liga dataset has no 2025-26 season | 5 | 2026–2026 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Premier League 1999/2000; La Liga dataset: La Liga dataset has no 1999-00 season | 4 | 2000–2000 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no 1. Bundesliga 2001/2002; La Liga dataset: 0 players in La Liga 2001-02 with his name, birth date and nationality | 4 | 2002–2002 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Premier League 2001/2002; La Liga dataset: 0 players in La Liga 2001-02 with his name, birth date and nationality | 4 | 2002–2002 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | 2 club spells in the infobox overlap 2003-2003 | 4 | 2003–2003 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | 2 club spells in the infobox overlap 2006-2006 | 4 | 2006–2006 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Serie A 2005/2006; La Liga dataset: 0 players in La Liga 2005-06 with his name, birth date and nationality | 4 | 2006–2006 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb La Liga 2006/2007 does not hold every Real Madrid match; La Liga dataset: La Liga dataset 2006-07: a Real Madrid match has no line-up or bench | 4 | 2007–2007 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Serie A 2009/2010; La Liga dataset: 0 players in La Liga 2009-10 with his name, birth date and nationality | 4 | 2010–2010 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Premier League 2011/2012; La Liga dataset: 0 players in La Liga 2011-12 with his name, birth date and nationality | 4 | 2012–2012 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Premier League 2012/2013; La Liga dataset: 0 players in La Liga 2012-13 with his name, birth date and nationality | 4 | 2013–2013 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no 1. Bundesliga 2014/2015; La Liga dataset: 0 players in La Liga 2014-15 with his name, birth date and nationality | 4 | 2015–2015 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Premier League 2014/2015; La Liga dataset: 0 players in La Liga 2014-15 with his name, birth date and nationality | 4 | 2015–2015 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb 1. Bundesliga 2015/2016 does not hold every Bayern Munich match; La Liga dataset: 0 players in La Liga 2015-16 with his name, birth date and nationality | 4 | 2016–2016 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Serie A 2016/2017; La Liga dataset: 0 players in La Liga 2016-17 with his name, birth date and nationality | 4 | 2017–2017 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | 2 club spells in the infobox overlap 2021-2021 | 4 | 2021–2021 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Serie A 2001/2002; La Liga dataset: 0 players in La Liga 2001-02 with his name, birth date and nationality | 3 | 2002–2002 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | club not in StatsBomb league data; La Liga dataset: 0 players in La Liga 2002-03 with his name, birth date and nationality | 3 | 2003–2003 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb La Liga 2006/2007 does not hold every Barcelona match; La Liga dataset: La Liga dataset 2007-08: a Barcelona match has no line-up or bench | 3 | 2007–2007 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | 2 club spells in the infobox overlap 2007-2007 | 3 | 2007–2007 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | club not in StatsBomb league data; La Liga dataset: 0 players in La Liga 2006-07 with his name, birth date and nationality | 3 | 2007–2007 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb La Liga 2007/2008 does not hold every Barcelona match; La Liga dataset: La Liga dataset 2007-08: a Barcelona match has no line-up or bench | 3 | 2008–2008 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb La Liga 2007/2008 does not hold every Real Madrid match; La Liga dataset: La Liga dataset 2007-08: a Real Madrid match has no line-up or bench | 3 | 2008–2008 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Serie A 2007/2008; La Liga dataset: 0 players in La Liga 2007-08 with his name, birth date and nationality | 3 | 2008–2008 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | 2 club spells in the infobox overlap 2010-2010 | 3 | 2010–2010 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | 2 club spells in the infobox overlap 2012-2012 | 3 | 2012–2012 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | 2 club spells in the infobox overlap 2016-2016 | 3 | 2016–2016 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | 2 club spells in the infobox overlap 2017-2017 | 3 | 2017–2017 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no 1. Bundesliga 2016/2017; La Liga dataset: 0 players in La Liga 2016-17 with his name, birth date and nationality | 3 | 2017–2017 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | 2 club spells in the infobox overlap 2018-2018 | 3 | 2018–2018 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Serie A 2022/2023; La Liga dataset: La Liga dataset has no 2022-23 season | 3 | 2023–2023 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Serie A 2023/2024; La Liga dataset: La Liga dataset has no 2023-24 season | 3 | 2024–2024 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no 1. Bundesliga 2025/2026; La Liga dataset: La Liga dataset has no 2025-26 season | 3 | 2026–2026 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | club not in StatsBomb league data; La Liga dataset: 0 players in La Liga 2000-01 with his name, birth date and nationality | 2 | 2001–2001 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Premier League 2002/2003; La Liga dataset: 0 players in La Liga 2002-03 with his name, birth date and nationality | 2 | 2003–2003 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no 1. Bundesliga 2002/2003; La Liga dataset: 0 players in La Liga 2002-03 with his name, birth date and nationality | 2 | 2003–2003 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb Premier League 2003/2004 does not hold every Manchester United match; La Liga dataset: 0 players in La Liga 2003-04 with his name, birth date and nationality | 2 | 2004–2004 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no La Liga 2003/2004; La Liga dataset: La Liga dataset 2004-05: a Real Madrid match has no line-up or bench | 2 | 2004–2004 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no La Liga 2003/2004; La Liga dataset: La Liga dataset 2004-05: a Valencia match has no line-up or bench | 2 | 2004–2004 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no 1. Bundesliga 2005/2006; La Liga dataset: 0 players in La Liga 2005-06 with his name, birth date and nationality | 2 | 2006–2006 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Ligue 1 2005/2006; La Liga dataset: 0 players in La Liga 2005-06 with his name, birth date and nationality | 2 | 2006–2006 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | club not in StatsBomb league data; La Liga dataset: 0 players in La Liga 2007-08 with his name, birth date and nationality | 2 | 2008–2008 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no 1. Bundesliga 2007/2008; La Liga dataset: 0 players in La Liga 2007-08 with his name, birth date and nationality | 2 | 2008–2008 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Serie A 2008/2009; La Liga dataset: 0 players in La Liga 2008-09 with his name, birth date and nationality | 2 | 2009–2009 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Premier League 2009/2010; La Liga dataset: 0 players in La Liga 2009-10 with his name, birth date and nationality | 2 | 2010–2010 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Premier League 2010/2011; La Liga dataset: 0 players in La Liga 2010-11 with his name, birth date and nationality | 2 | 2011–2011 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no 1. Bundesliga 2010/2011; La Liga dataset: 0 players in La Liga 2010-11 with his name, birth date and nationality | 2 | 2011–2011 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Serie A 2011/2012; La Liga dataset: 0 players in La Liga 2011-12 with his name, birth date and nationality | 2 | 2012–2012 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Ligue 1 2012/2013; La Liga dataset: 0 players in La Liga 2012-13 with his name, birth date and nationality | 2 | 2013–2013 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Premier League 2013/2014; La Liga dataset: 0 players in La Liga 2013-14 with his name, birth date and nationality | 2 | 2014–2014 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | 2 club spells in the infobox overlap 2015-2015 | 2 | 2015–2015 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Serie A 2016/2017; La Liga dataset: 0 players in La Liga 2015-16 with his name, birth date and nationality | 2 | 2016–2016 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Ligue 1 2016/2017; La Liga dataset: 0 players in La Liga 2016-17 with his name, birth date and nationality | 2 | 2017–2017 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Ligue 1 2017/2018; La Liga dataset: 0 players in La Liga 2017-18 with his name, birth date and nationality | 2 | 2018–2018 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Serie A 2018/2019; La Liga dataset: 0 players in La Liga 2018-19 with his name, birth date and nationality | 2 | 2019–2019 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Ligue 1 2018/2019; La Liga dataset: 0 players in La Liga 2018-19 with his name, birth date and nationality | 2 | 2019–2019 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | club not in StatsBomb league data; La Liga dataset: 0 players in La Liga 2018-19 with his name, birth date and nationality | 2 | 2019–2019 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no 1. Bundesliga 2020/2021; La Liga dataset: 0 players in La Liga 2020-21 with his name, birth date and nationality | 2 | 2021–2021 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Ligue 1 2020/2021; La Liga dataset: 0 players in La Liga 2020-21 with his name, birth date and nationality | 2 | 2021–2021 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no 1. Bundesliga 2021/2022; La Liga dataset: 0 players in La Liga 2021-22 with his name, birth date and nationality | 2 | 2022–2022 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no La Liga 2022/2023; La Liga dataset: La Liga dataset has no 2022-23 season | 2 | 2023–2023 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Serie A 2024/2025; La Liga dataset: La Liga dataset has no 2024-25 season | 2 | 2025–2025 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | club not in StatsBomb league data; La Liga dataset: La Liga dataset has no 2025-26 season | 2 | 2026–2026 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no 1. Bundesliga 1999/2000; La Liga dataset: La Liga dataset has no 1999-00 season | 1 | 2000–2000 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | club not in StatsBomb league data; La Liga dataset: La Liga dataset has no 1999-00 season | 1 | 2000–2000 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | club not in StatsBomb league data; La Liga dataset: 0 players in La Liga 2001-02 with his name, birth date and nationality | 1 | 2002–2002 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Ligue 1 2001/2002; La Liga dataset: 0 players in La Liga 2001-02 with his name, birth date and nationality | 1 | 2002–2002 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no La Liga 2002/2003; La Liga dataset: 0 players in La Liga 2002-03 with his name, birth date and nationality | 1 | 2003–2003 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Premier League 2004/2005; La Liga dataset: 0 players in La Liga 2003-04 with his name, birth date and nationality | 1 | 2004–2004 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no 1. Bundesliga 2003/2004; La Liga dataset: 0 players in La Liga 2003-04 with his name, birth date and nationality | 1 | 2004–2004 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb Premier League 2003/2004 does not hold every Liverpool match; La Liga dataset: 0 players in La Liga 2003-04 with his name, birth date and nationality | 1 | 2004–2004 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb Premier League 2003/2004 does not hold every Chelsea match; La Liga dataset: 0 players in La Liga 2003-04 with his name, birth date and nationality | 1 | 2004–2004 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | club not in StatsBomb league data; La Liga dataset: 0 players in La Liga 2003-04 with his name, birth date and nationality | 1 | 2004–2004 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Ligue 1 2004/2005; La Liga dataset: 0 players in La Liga 2004-05 with his name, birth date and nationality | 1 | 2005–2005 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | 3 club spells in the infobox overlap 2005-2005 | 1 | 2005–2005 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no 1. Bundesliga 2004/2005; La Liga dataset: 0 players in La Liga 2004-05 with his name, birth date and nationality | 1 | 2005–2005 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb La Liga 2004/2005 does not hold every Real Madrid match; La Liga dataset: La Liga dataset 2004-05: a Real Madrid match has no line-up or bench | 1 | 2005–2005 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | 2 club spells in the infobox overlap 2005-2005 | 1 | 2005–2005 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb La Liga 2005/2006 does not hold every Real Madrid match; La Liga dataset: 0 players in La Liga 2006-07 with his name, birth date and nationality | 1 | 2006–2006 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | club not in StatsBomb league data; La Liga dataset: 0 players in La Liga 2005-06 with his name, birth date and nationality | 1 | 2006–2006 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb La Liga 2005/2006 does not hold every Valencia match; La Liga dataset: La Liga dataset 2005-06: a Valencia match has no line-up or bench | 1 | 2006–2006 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb La Liga 2006/2007 does not hold every Sevilla match; La Liga dataset: 0 players in La Liga 2006-07 with his name, birth date and nationality | 1 | 2007–2007 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | 3 club spells in the infobox overlap 2007-2007 | 1 | 2007–2007 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb La Liga 2006/2007 does not hold every Sevilla match; La Liga dataset: La Liga dataset 2007-08: a Sevilla match has no line-up or bench | 1 | 2007–2007 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb La Liga 2007/2008 does not hold every Valencia match; La Liga dataset: La Liga dataset 2007-08: a Valencia match has no line-up or bench | 1 | 2008–2008 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb La Liga 2007/2008 does not hold every Villarreal match; La Liga dataset: 0 players in La Liga 2007-08 with his name, birth date and nationality | 1 | 2008–2008 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb La Liga 2007/2008 does not hold every Atlético Madrid match; La Liga dataset: La Liga dataset 2007-08: a Atlético match has no line-up or bench | 1 | 2008–2008 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Ligue 1 2007/2008; La Liga dataset: 0 players in La Liga 2007-08 with his name, birth date and nationality | 1 | 2008–2008 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb La Liga 2007/2008 does not hold every Real Madrid match; La Liga dataset: 0 players in La Liga 2007-08 with his name, birth date and nationality | 1 | 2008–2008 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | 2 club spells in the infobox overlap 2008-2008 | 1 | 2008–2008 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | club not in StatsBomb league data; La Liga dataset: 0 players in La Liga 2008-09 with his name, birth date and nationality | 1 | 2009–2009 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | 3 club spells in the infobox overlap 2009-2009 | 1 | 2009–2009 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no 1. Bundesliga 2008/2009; La Liga dataset: 0 players in La Liga 2008-09 with his name, birth date and nationality | 1 | 2009–2009 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | club not in StatsBomb league data; La Liga dataset: 0 players in La Liga 2010-11 with his name, birth date and nationality | 1 | 2011–2011 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Serie A 2010/2011; La Liga dataset: 0 players in La Liga 2010-11 with his name, birth date and nationality | 1 | 2011–2011 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb La Liga 2011/2012 does not hold every Atlético Madrid match; La Liga dataset: La Liga dataset 2011-12: 34 apps, Wikipedia career table 35 | 1 | 2012–2012 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | club not in StatsBomb league data; La Liga dataset: 0 players in La Liga 2011-12 with his name, birth date and nationality | 1 | 2012–2012 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no 1. Bundesliga 2011/2012; La Liga dataset: 0 players in La Liga 2011-12 with his name, birth date and nationality | 1 | 2012–2012 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Serie A 2012/2013; La Liga dataset: 0 players in La Liga 2012-13 with his name, birth date and nationality | 1 | 2013–2013 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Ligue 1 2013/2014; La Liga dataset: 0 players in La Liga 2013-14 with his name, birth date and nationality | 1 | 2014–2014 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Serie A 2013/2014; La Liga dataset: 0 players in La Liga 2013-14 with his name, birth date and nationality | 1 | 2014–2014 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Ligue 1 2014/2015; La Liga dataset: 0 players in La Liga 2014-15 with his name, birth date and nationality | 1 | 2015–2015 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Serie A 2014/2015; La Liga dataset: 0 players in La Liga 2014-15 with his name, birth date and nationality | 1 | 2015–2015 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb La Liga 2016/2017 does not hold every Real Madrid match; La Liga dataset: 0 players in La Liga 2015-16 with his name, birth date and nationality | 1 | 2016–2016 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb 1. Bundesliga 2015/2016 does not hold every Borussia Dortmund match; La Liga dataset: 0 players in La Liga 2015-16 with his name, birth date and nationality | 1 | 2016–2016 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | club not in StatsBomb league data; La Liga dataset: 0 players in La Liga 2015-16 with his name, birth date and nationality | 1 | 2016–2016 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | 3 club spells in the infobox overlap 2018-2018 | 1 | 2018–2018 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb La Liga 2017/2018 does not hold every Barcelona match; La Liga dataset: 0 players in La Liga 2017-18 with his name, birth date and nationality | 1 | 2018–2018 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Serie A 2017/2018; La Liga dataset: 0 players in La Liga 2017-18 with his name, birth date and nationality | 1 | 2018–2018 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no 1. Bundesliga 2018/2019; La Liga dataset: 0 players in La Liga 2018-19 with his name, birth date and nationality | 1 | 2019–2019 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb La Liga 2020/2021 does not hold every Barcelona match; La Liga dataset: 0 players in La Liga 2020-21 with his name, birth date and nationality | 1 | 2021–2021 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb Ligue 1 2021/2022 does not hold every Paris Saint-Germain match; La Liga dataset: 0 players in La Liga 2021-22 with his name, birth date and nationality | 1 | 2022–2022 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | 3 club spells in the infobox overlap 2021-2022 | 1 | 2022–2022 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Serie A 2021/2022; La Liga dataset: 0 players in La Liga 2021-22 with his name, birth date and nationality | 1 | 2022–2022 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb Ligue 1 2022/2023 does not hold every Paris Saint-Germain match; La Liga dataset: La Liga dataset has no 2022-23 season | 1 | 2023–2023 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no 1. Bundesliga 2022/2023; La Liga dataset: La Liga dataset has no 2022-23 season | 1 | 2023–2023 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | club not in StatsBomb league data; La Liga dataset: La Liga dataset has no 2023-24 season | 1 | 2024–2024 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Ligue 1 2023/2024; La Liga dataset: La Liga dataset has no 2023-24 season | 1 | 2024–2024 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | 3 club spells in the infobox overlap 2023-2024 | 1 | 2024–2024 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no 1. Bundesliga 2024/2025; La Liga dataset: La Liga dataset has no 2024-25 season | 1 | 2025–2025 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Major League Soccer 2025; La Liga dataset: La Liga dataset has no 2025-26 season | 1 | 2026–2026 (1) |
+| `league_* (StatsBomb, La Liga dataset)` | StatsBomb has no Serie A 2025/2026; La Liga dataset: La Liga dataset has no 2025-26 season | 1 | 2026–2026 (1) |
+| `league_apps` | season total not verifiably inside the window | 468 | 2000–2026 (23) |
+| `league_goals` | match-by-match goals did not pass the season-total check | 221 | 2000–2026 (26) |
 | `match_rating_avg` | no permitted source publishes per-match ratings (FBref/Transfermarkt blocked) | 721 | 2000–2026 (26) |
 | `minutes` | needs league, ucl, club_other and national all filled | 721 | 2000–2026 (26) |
 | `national minutes/assists/cards` | no permitted source lists national-team line-ups, minutes or assists for every match | 721 | 2000–2026 (26) |
@@ -2171,18 +2175,6 @@ Windows shorter than 10 months (warning from check_features.py): 2005, 2006 and 
 | `trophies_league` | undated honours entry Campeón de Campeones 2024: no date found in linked article | 1 | 2026–2026 (1) |
 | `ucl_apps` | season total not verifiably inside the window | 603 | 2000–2026 (26) |
 | `ucl_goals` | match-by-match goals did not pass the season-total check | 305 | 2000–2026 (26) |
-| `ucl_stage` | no openfootball file for 2006-07 | 25 | 2007–2007 (1) |
-| `ucl_stage` | no openfootball file for 2007-08 | 24 | 2008–2008 (1) |
-| `ucl_stage` | no openfootball file for 1999-00 | 19 | 2000–2000 (1) |
-| `ucl_stage` | no openfootball file for 2004-05 | 19 | 2005–2005 (1) |
-| `ucl_stage` | no openfootball file for 2000-01 | 18 | 2001–2001 (1) |
-| `ucl_stage` | no openfootball file for 2008-09 | 18 | 2009–2009 (1) |
-| `ucl_stage` | no openfootball file for 2002-03 | 17 | 2003–2003 (1) |
-| `ucl_stage` | no openfootball file for 2003-04 | 17 | 2004–2004 (1) |
-| `ucl_stage` | no openfootball file for 2005-06 | 17 | 2006–2006 (1) |
-| `ucl_stage` | no openfootball file for 2001-02 | 16 | 2002–2002 (1) |
-| `ucl_stage` | no openfootball file for 2009-10 | 16 | 2010–2010 (1) |
-| `ucl_stage` | no openfootball file for 2010-11 | 11 | 2011–2011 (1) |
 | `ucl_stage` | 2 club spells in the infobox overlap 2021-2022 | 9 | 2022–2022 (1) |
 | `ucl_stage` | 2 club spells in the infobox overlap 2023-2024 | 9 | 2024–2024 (1) |
 | `ucl_stage` | 2 club spells in the infobox overlap 2000-2000 | 8 | 2000–2000 (1) |
@@ -2205,21 +2197,28 @@ Windows shorter than 10 months (warning from check_features.py): 2005, 2006 and 
 | `ucl_stage` | 2 club spells in the infobox overlap 2010-2010 | 3 | 2010–2010 (1) |
 | `ucl_stage` | 2 club spells in the infobox overlap 2016-2016 | 3 | 2016–2016 (1) |
 | `ucl_stage` | 2 club spells in the infobox overlap 2017-2017 | 3 | 2017–2017 (1) |
+| `ucl_stage` | club 'Santos FC' never matched a team name in the window's Champions League source | 2 | 2011–2012 (2) |
 | `ucl_stage` | 2 club spells in the infobox overlap 2012-2012 | 2 | 2012–2012 (1) |
 | `ucl_stage` | 2 club spells in the infobox overlap 2015-2015 | 2 | 2015–2015 (1) |
 | `ucl_stage` | 2 club spells in the infobox overlap 2018-2018 | 2 | 2018–2018 (1) |
+| `ucl_stage` | club 'AC Fiorentina' never matched a team name in the window's Champions League source | 1 | 2000–2000 (1) |
+| `ucl_stage` | club 'Brescia Calcio' never matched a team name in the window's Champions League source | 1 | 2001–2001 (1) |
 | `ucl_stage` | 3 club spells in the infobox overlap 2005-2005 | 1 | 2005–2005 (1) |
 | `ucl_stage` | 2 club spells in the infobox overlap 2005-2005 | 1 | 2005–2005 (1) |
 | `ucl_stage` | 3 club spells in the infobox overlap 2007-2007 | 1 | 2007–2007 (1) |
+| `ucl_stage` | club 'São Paulo FC' never matched a team name in the window's Champions League source | 1 | 2007–2007 (1) |
+| `ucl_stage` | club 'Al-Gharafa' never matched a team name in the window's Champions League source | 1 | 2007–2007 (1) |
+| `ucl_stage` | club 'Club América' never matched a team name in the window's Champions League source | 1 | 2007–2007 (1) |
+| `ucl_stage` | club 'FC Zenit Saint Petersburg' never matched a team name in the window's Champions League source | 1 | 2008–2008 (1) |
 | `ucl_stage` | 2 club spells in the infobox overlap 2008-2008 | 1 | 2008–2008 (1) |
+| `ucl_stage` | club 'PFC CSKA Moscow' never matched a team name in the window's Champions League source | 1 | 2008–2008 (1) |
 | `ucl_stage` | 3 club spells in the infobox overlap 2009-2009 | 1 | 2009–2009 (1) |
-| `ucl_stage` | club 'Santos FC' never matched an openfootball team name | 1 | 2012–2012 (1) |
-| `ucl_stage` | club 'West Ham United F.C.' never matched an openfootball team name | 1 | 2016–2016 (1) |
+| `ucl_stage` | club 'West Ham United F.C.' never matched a team name in the window's Champions League source | 1 | 2016–2016 (1) |
 | `ucl_stage` | 3 club spells in the infobox overlap 2018-2018 | 1 | 2018–2018 (1) |
 | `ucl_stage` | 3 club spells in the infobox overlap 2021-2022 | 1 | 2022–2022 (1) |
-| `ucl_stage` | club 'Athletic Bilbao' never matched an openfootball team name | 1 | 2024–2024 (1) |
+| `ucl_stage` | club 'Athletic Bilbao' never matched a team name in the window's Champions League source | 1 | 2024–2024 (1) |
 | `ucl_stage` | 3 club spells in the infobox overlap 2023-2024 | 1 | 2024–2024 (1) |
-| `ucl_stage` | club 'Inter Miami CF' never matched an openfootball team name | 1 | 2026–2026 (1) |
-| `ucl_stage` | club 'Al Qadsiah FC' never matched an openfootball team name | 1 | 2026–2026 (1) |
-| `ucl_stage` | club 'Al-Nassr FC' never matched an openfootball team name | 1 | 2026–2026 (1) |
+| `ucl_stage` | club 'Inter Miami CF' never matched a team name in the window's Champions League source | 1 | 2026–2026 (1) |
+| `ucl_stage` | club 'Al Qadsiah FC' never matched a team name in the window's Champions League source | 1 | 2026–2026 (1) |
+| `ucl_stage` | club 'Al-Nassr FC' never matched a team name in the window's Champions League source | 1 | 2026–2026 (1) |
 | `yellow_cards` | needs league, ucl, club_other and national all filled | 721 | 2000–2026 (26) |
