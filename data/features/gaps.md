@@ -133,10 +133,10 @@ Windows shorter than 10 months (warning from check_features.py): 2005, 2006 and 
 | `awards_count` | undated award IFFHS Men's World Team 2025: no date found in linked article; award row has no dated edition link | 9 | 2025–2025 (1) |
 | `awards_count` | undated award IFFHS Men's World Team 2023: no date found in linked article; award row has no dated edition link | 8 | 2023–2023 (1) |
 | `awards_count` | undated award FIFPRO World 11 2026: no date found in linked article; award row has no dated edition link | 8 | 2026–2026 (1) |
-| `awards_count` | undated award IFFHS Men's World Team 2017: no date found in linked article; award row has no dated edition link | 6 | 2017–2017 (1) |
-| `awards_count` | undated award IFFHS Men's World Team 2018: no date found in linked article; award row has no dated edition link | 6 | 2018–2018 (1) |
+| `awards_count` | undated award IFFHS Men's World Team 2017: no date found in linked article; award row has no dated edition link | 7 | 2017–2017 (1) |
+| `awards_count` | undated award IFFHS Men's World Team 2018: no date found in linked article; award row has no dated edition link | 7 | 2018–2018 (1) |
+| `awards_count` | undated award IFFHS Men's World Team 2022: no date found in linked article; award row has no dated edition link | 7 | 2022–2022 (1) |
 | `awards_count` | undated award IFFHS Men's World Team 2021: no date found in linked article; award row has no dated edition link | 6 | 2021–2021 (1) |
-| `awards_count` | undated award IFFHS Men's World Team 2022: no date found in linked article; award row has no dated edition link | 6 | 2022–2022 (1) |
 | `awards_count` | undated award IFFHS 2024: no date found in linked article; player not found in the award article's row for this year | 6 | 2024–2024 (1) |
 | `awards_count` | undated award ''The Athletic'' European Men's Team of the Season 2024–25: no date found in linked article; no row for this year in the award article | 6 | 2025–2025 (1) |
 | `awards_count` | undated award UEFA Team of the Year 2003: no date found in linked article; player not found in the award article's row for this year | 5 | 2003–2003 (1) |
@@ -213,6 +213,8 @@ Windows shorter than 10 months (warning from check_features.py): 2005, 2006 and 
 | `awards_count` | undated award ''[[France Football]]'' World XI 2015: no date found in linked article; no row for this year in the award article | 2 | 2015–2015 (1) |
 | `awards_count` | undated award La Liga Player of the Month 2016: no date found in linked article; award row has no dated edition link | 2 | 2016–2016 (1) |
 | `awards_count` | undated award CAF Team of the Year 2016: no date found in linked article; award row has no dated edition link | 2 | 2016–2016 (1) |
+| `awards_count` | undated award ESPN 2017: no date found in linked article; player not found in the award article's row for this year | 2 | 2017–2017 (1) |
+| `awards_count` | undated award ESPN 2018: no date found in linked article; player not found in the award article's row for this year | 2 | 2018–2018 (1) |
 | `awards_count` | undated award UNFP Ligue 1 Player of the Month 2018: no date found in linked article; player not found in the award article's row for this year | 2 | 2018–2018 (1) |
 | `awards_count` | undated award CAF Team of the Year 2018: no date found in linked article; award row has no dated edition link | 2 | 2018–2018 (1) |
 | `awards_count` | undated award Premier League Player of the Month 2018: no date found in linked article; award row has no dated edition link | 2 | 2018–2018 (1) |
@@ -877,6 +879,7 @@ Windows shorter than 10 months (warning from check_features.py): 2005, 2006 and 
 | `awards_count` | undated award Polish Footballer of the Year 2016: no date found in linked article; award row has no dated edition link | 1 | 2016–2016 (1) |
 | `awards_count` | undated award Croatian Footballer of the Year 2016: no date found in linked article; award row has no dated edition link | 1 | 2016–2016 (1) |
 | `awards_count` | undated award Football Oscar 2016: no date found in linked article; award row has no dated edition link | 1 | 2016–2016 (1) |
+| `awards_count` | undated award ESPN 2016: no date found in linked article; player not found in the award article's row for this year | 1 | 2016–2016 (1) |
 | `awards_count` | undated award Premier League Player of the Month 2016: no date found in linked article; award row has no dated edition link | 1 | 2016–2016 (1) |
 | `awards_count` | undated award Best Belgian Player Abroad 2016: no date found in linked article; award row has no dated edition link | 1 | 2016–2016 (1) |
 | `awards_count` | undated award CIES Football Observatory 2015–16: no date found in linked article; player not found in the award article's row for this year | 1 | 2016–2016 (1) |
@@ -923,7 +926,6 @@ Windows shorter than 10 months (warning from check_features.py): 2005, 2006 and 
 | `awards_count` | undated award Ligue 1 Best Foreign Player 2017: no date found in linked article; no row for this year in the award article | 1 | 2017–2017 (1) |
 | `awards_count` | undated award UEFA Champions League Forward of the Season 2016–17: no date found in linked article; player not found in the award article's row for this year | 1 | 2017–2017 (1) |
 | `awards_count` | undated award ''[[L'Équipe]]'' Team of the Season 2017: no date found in linked article; no row for this year in the award article | 1 | 2017–2017 (1) |
-| `awards_count` | undated award ESPN 2017: no date found in linked article; player not found in the award article's row for this year | 1 | 2017–2017 (1) |
 | `awards_count` | undated award Onze de Bronze 2016–17: no date found in linked article; award row has no dated edition link | 1 | 2017–2017 (1) |
 | `awards_count` | undated award La Liga Player of the Month 2017: no date found in linked article; award row has no dated edition link | 1 | 2017–2017 (1) |
 | `awards_count` | undated award Chelsea Goal of the Year 2016–17: no date found in linked article; award row has no dated edition link | 1 | 2017–2017 (1) |
@@ -940,6 +942,12 @@ Windows shorter than 10 months (warning from check_features.py): 2005, 2006 and 
 | `awards_count` | undated award HNS 2018: no date found in linked article; player not found in the award article's row for this year | 1 | 2018–2018 (1) |
 | `awards_count` | undated award HOO 2018: no date found in linked article; no row for this year in the award article | 1 | 2018–2018 (1) |
 | `awards_count` | undated award SN Sportsman of the Year 2018: no date found in linked article; award row has no dated edition link | 1 | 2018–2018 (1) |
+| `awards_count` | undated award IFFHS World's Best Playmaker 2018: no date found in linked article; award row has no dated edition link | 1 | 2018–2018 (1) |
+| `awards_count` | undated award Goal 50 2017–18: no date found in linked article; award row has no dated edition link | 1 | 2018–2018 (1) |
+| `awards_count` | undated award ''The Guardian'' Best Footballer in the World 2018: no date found in linked article; award row has no dated edition link | 1 | 2018–2018 (1) |
+| `awards_count` | undated award ''World Soccer'' Player of the Year 2018: no date found in linked article; award row has no dated edition link | 1 | 2018–2018 (1) |
+| `awards_count` | undated award ''Dongqiudi'' Player of the Year 2018: no date found in linked article; no row for this year in the award article | 1 | 2018–2018 (1) |
+| `awards_count` | undated award AIPS 2018: no date found in linked article; player not found in the award article's row for this year | 1 | 2018–2018 (1) |
 | `awards_count` | undated award Portuguese Sportsman of the Year 2018: no date found in linked article; player not found in the award article's row for this year | 1 | 2018–2018 (1) |
 | `awards_count` | undated award FPF Portuguese Player of the Year 2018: no date found in linked article; award row has no dated edition link | 1 | 2018–2018 (1) |
 | `awards_count` | undated award French Player of the Year 2018: no date found in linked article; award row has no dated edition link | 1 | 2018–2018 (1) |
@@ -971,7 +979,6 @@ Windows shorter than 10 months (warning from check_features.py): 2005, 2006 and 
 | `awards_count` | undated award Golden Foot 2018: no date found in linked article; award row has no dated edition link | 1 | 2018–2018 (1) |
 | `awards_count` | undated award PFA 2018: no date found in linked article; player not found in the award article's row for this year | 1 | 2018–2018 (1) |
 | `awards_count` | undated award ''[[L'Équipe]]'' Team of the Season 2018: no date found in linked article; no row for this year in the award article | 1 | 2018–2018 (1) |
-| `awards_count` | undated award ESPN 2018: no date found in linked article; player not found in the award article's row for this year | 1 | 2018–2018 (1) |
 | `awards_count` | undated award Globe Soccer Awards Best Goalkeeper of the Year 2018: no date found in linked article; player not found in the award article's row for this year | 1 | 2018–2018 (1) |
 | `awards_count` | undated award UEFA 2017–18: no date found in linked article; player not found in the award article's row for this year | 1 | 2018–2018 (1) |
 | `awards_count` | undated award Slovenian Footballer of the Year 2018: no date found in linked article; award row has no dated edition link | 1 | 2018–2018 (1) |
@@ -1108,6 +1115,7 @@ Windows shorter than 10 months (warning from check_features.py): 2005, 2006 and 
 | `awards_count` | undated award Croatian Footballer of the Year 2022: no date found in linked article; award row has no dated edition link | 1 | 2022–2022 (1) |
 | `awards_count` | undated award Football Oscar 2022: no date found in linked article; award row has no dated edition link | 1 | 2022–2022 (1) |
 | `awards_count` | undated award SN Sportsman of the Year 2022: no date found in linked article; award row has no dated edition link | 1 | 2022–2022 (1) |
+| `awards_count` | undated award Marca Leyenda Award 2022: no date found in linked article; award row has no dated edition link | 1 | 2022–2022 (1) |
 | `awards_count` | undated award Gullballen 2022: no date found in linked article; award row has no dated edition link | 1 | 2022–2022 (1) |
 | `awards_count` | undated award ''FourFourTwo'' Player of the Year 2022: no date found in linked article; award row has no dated edition link | 1 | 2022–2022 (1) |
 | `awards_count` | undated award IFFHS Asian Men's Player of the Year 2022: no date found in linked article; award row has no dated edition link | 1 | 2022–2022 (1) |
@@ -2134,34 +2142,12 @@ Windows shorter than 10 months (warning from check_features.py): 2005, 2006 and 
 | `national_goals` | goal list has 18 goals, year table 146; martj42: goalscorers incomplete for 2021-09-04 Qatar v Portugal; year table: Aug-Jul window: the year table does not split at 1 Aug | 1 | 2022–2022 (1) |
 | `national_goals` | goal list has 15 goals, year table 16; martj42: goalscorers incomplete for 2022-06-02 Mexico v Uruguay; year table: Aug-Jul window: the year table does not split at 1 Aug | 1 | 2022–2022 (1) |
 | `red_cards` | needs league, ucl, club_other and national all filled | 721 | 2000–2026 (26) |
-| `trophies_cup` | undated honours entry The second player <small>(after [[Javier Hernández]] in the [[2010–11 Manchester United F.C. season/2010–11 season]])</small> to score in the Premier League, [[FA Cup]], [[EFL Cup/League Cup]], European competition and [[FA Community Shield/Community Shield]] in a single season <small>([[2016–17 Manchester United F.C. season/2016–17 season]])</small> 2010–11 season: club season article | 2 | 2009–2012 (2) |
-| `trophies_cup` | undated honours entry The second player <small>(after [[Javier Hernández]] in the [[2010–11 Manchester United F.C. season/2010–11 season]])</small> to score in the Premier League, [[FA Cup]], [[EFL Cup/League Cup]], European competition and [[FA Community Shield/Community Shield]] in a single season <small>([[2016–17 Manchester United F.C. season/2016–17 season]])</small> 2016–17 season: club season article | 2 | 2015–2016 (2) |
 | `trophies_cup` | undated honours entry Polish Super Cup 2000: no date found in linked article | 1 | 2001–2001 (1) |
 | `trophies_cup` | undated honours entry Polish League Cup 1999–2000: no date found in linked article | 1 | 2001–2001 (1) |
 | `trophies_cup` | undated honours entry Dutch Super Cup 2005–06: no date found in linked article | 1 | 2004–2004 (1) |
 | `trophies_cup` | undated honours entry Sheikh Jassim Cup 2007: no date found in linked article | 1 | 2007–2007 (1) |
 | `trophies_cup` | undated honours entry Sheikh Jassim Cup 2008: no date found in linked article | 1 | 2007–2007 (1) |
 | `trophies_cup` | undated honours entry Copa do Brasil 2010: no date found in linked article | 1 | 2011–2011 (1) |
-| `trophies_league` | undated honours entry The most expensive footballer in history 2001–2009: no date found in linked article | 7 | 2000–2006 (7) |
-| `trophies_league` | undated honours entry IFFHS World Team of the Decade 2011–2020: no date found in linked article | 5 | 2016–2022 (5) |
-| `trophies_league` | undated honours entry IFFHS UEFA Team of the Decade 2011–2020: no date found in linked article | 5 | 2016–2022 (5) |
-| `trophies_league` | undated honours entry Longest goalscoring run in Ligue 1 2015–16: no date found in linked article | 3 | 2014–2016 (3) |
-| `trophies_league` | undated honours entry Most goals scored in a single season (all competitions) 2015–16 season: club season article | 3 | 2014–2016 (3) |
-| `trophies_league` | undated honours entry IFFHS Men's World Team 2017: no date found in linked article | 3 | 2016–2018 (3) |
-| `trophies_league` | undated honours entry ESPN 2017: no date found in linked article | 3 | 2016–2018 (3) |
-| `trophies_league` | undated honours entry Goal 50 2017–18: no date found in linked article | 3 | 2016–2018 (3) |
-| `trophies_league` | undated honours entry IFFHS Men's World Team 2022: no date found in linked article | 3 | 2021–2023 (3) |
-| `trophies_league` | undated honours entry Marca Leyenda Award 2022: no date found in linked article | 3 | 2021–2023 (3) |
-| `trophies_league` | undated honours entry Honorary [[Master of Arts]] degree from the [[University of Salford]] for contributions to football and charity work in developing countries 2008: no date found in linked article | 2 | 2007–2009 (2) |
-| `trophies_league` | undated honours entry Fastest Ligue 1 hat-trick 2016: no date found in linked article | 2 | 2015–2016 (2) |
-| `trophies_league` | undated honours entry ESPN 2016: no date found in linked article | 2 | 2016–2017 (2) |
-| `trophies_league` | undated honours entry IFFHS Men's World Team 2018: no date found in linked article | 2 | 2017–2018 (2) |
-| `trophies_league` | undated honours entry ESPN 2018: no date found in linked article | 2 | 2017–2018 (2) |
-| `trophies_league` | undated honours entry IFFHS World's Best Playmaker 2018: no date found in linked article | 2 | 2017–2018 (2) |
-| `trophies_league` | undated honours entry ''The Guardian'' Best Footballer in the World 2018: no date found in linked article | 2 | 2017–2018 (2) |
-| `trophies_league` | undated honours entry ''World Soccer'' Player of the Year 2018: no date found in linked article | 2 | 2017–2018 (2) |
-| `trophies_league` | undated honours entry ''Dongqiudi'' Player of the Year 2018: no date found in linked article | 2 | 2017–2018 (2) |
-| `trophies_league` | undated honours entry AIPS 2018: no date found in linked article | 2 | 2017–2018 (2) |
 | `trophies_league` | undated honours entry Vyshcha Liha 1998–99: no date found in linked article | 1 | 2000–2000 (1) |
 | `trophies_league` | undated honours entry Süper Lig 1998–99: no date found in linked article | 1 | 2000–2000 (1) |
 | `trophies_league` | undated honours entry Süper Lig 1999–2000: no date found in linked article | 1 | 2000–2000 (1) |
@@ -2169,9 +2155,7 @@ Windows shorter than 10 months (warning from check_features.py): 2005, 2006 and 
 | `trophies_league` | undated honours entry Turkish League 2001–02: no date found in linked article | 1 | 2002–2002 (1) |
 | `trophies_league` | undated honours entry Campeonato Brasileiro Série A 2008: no date found in linked article | 1 | 2007–2007 (1) |
 | `trophies_league` | undated honours entry Qatar Stars League 2007–08: no date found in linked article | 1 | 2007–2007 (1) |
-| `trophies_league` | undated honours entry OBE 2007: no date found in linked article | 1 | 2007–2007 (1) |
 | `trophies_league` | undated honours entry Four Nations Tournament (Ghana) third place 2007: no date found in linked article | 1 | 2008–2008 (1) |
-| `trophies_league` | undated honours entry Freedom of the City of Salford 2010: no date found in linked article | 1 | 2009–2009 (1) |
 | `trophies_league` | undated honours entry Campeón de Campeones 2024: no date found in linked article | 1 | 2026–2026 (1) |
 | `ucl_apps` | season total not verifiably inside the window | 603 | 2000–2026 (26) |
 | `ucl_goals` | match-by-match goals did not pass the season-total check | 305 | 2000–2026 (26) |

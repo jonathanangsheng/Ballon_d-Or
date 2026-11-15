@@ -36,10 +36,6 @@ def load_test():
     return {y: load_year(y) for y in TEST_YEARS}
 
 
-def load_hidden():
-    return {HIDDEN_YEAR: load_year(HIDDEN_YEAR)}
-
-
 def score(predicted_names, actual_rows):
     """Compare a predicted top 10 (names, best first) with the actual ranking.
 

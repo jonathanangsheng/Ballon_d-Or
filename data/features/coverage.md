@@ -84,7 +84,7 @@ Rows with a value in each column (blank = missing).
 | `gk_clean_sheets` | 0 | 0 | 0 |
 | `gk_goals_conceded` | 0 | 0 | 0 |
 | `match_rating_avg` | 0 | 0 | 0 |
-| `trophies_league` | 403 | 263 | 29 |
+| `trophies_league` | 414 | 270 | 29 |
 | `trophies_ucl` | 421 | 270 | 30 |
 | `trophies_uel` | 421 | 270 | 30 |
 | `trophies_world_cup` | 421 | 270 | 30 |
@@ -93,8 +93,8 @@ Rows with a value in each column (blank = missing).
 | `trophies_afcon` | 421 | 270 | 30 |
 | `trophies_intl_other` | 421 | 270 | 30 |
 | `trophies_club_intl_other` | 421 | 270 | 30 |
-| `trophies_cup` | 414 | 269 | 30 |
-| `trophies_total` | 399 | 263 | 29 |
+| `trophies_cup` | 417 | 270 | 30 |
+| `trophies_total` | 412 | 270 | 29 |
 | `ucl_stage` | 343 | 212 | 23 |
 | `intl_stage` | 384 | 256 | 29 |
 | `awards_count` | 126 | 69 | 12 |

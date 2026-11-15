@@ -11,6 +11,7 @@ from pathlib import Path
 
 from build_windows import YEARS, article_title
 from fetch import wiki_prefetch, wiki_wikitext
+from honours import template_end
 
 BD_DIR = Path(__file__).parent.parent / "data" / "ballon_dor"
 YEAR_RE = r"(?<!\d)(\d{4}(?:\s*[–−-]\s*\d{2,4})?)(?!\d)"
@@ -97,17 +98,7 @@ def player_article(title):
 
 def _infobox(wt):
     start = re.search(r"\{\{\s*Infobox football biography", wt, re.I).start()
-    depth, i = 0, start
-    while i < len(wt):
-        if wt.startswith("{{", i):
-            depth, i = depth + 1, i + 2
-        elif wt.startswith("}}", i):
-            depth, i = depth - 1, i + 2
-            if depth == 0:
-                return wt[start:i]
-        else:
-            i += 1
-    return wt[start:]
+    return wt[start:template_end(wt, start)]
 
 
 def _param(box, key):
@@ -170,8 +161,9 @@ def honours_entries(wt):
         line = line.strip()
         h = re.match(r"^(?:=+\s*(.*?)\s*=+\s*$|'''(.*?)'''|;\s*(.*)$)", line)
         if h:
-            g = h.group(1) or h.group(2) or h.group(3)
-            group = re.sub(r"\[\[(?:[^\]|]*\|)?([^\]]*)\]\]", r"\1", g).strip()
+            g = re.sub(r"\[\[(?:[^\]|]*\|)?([^\]]*)\]\]", r"\1", h.group(1) or h.group(2) or h.group(3)).strip()
+            # sub-headings under Individual / Records ('''Overall''', ;Media rankings) keep that parent
+            group = f"{group} / {g}" if re.search(r"individual|award|record", group, re.I) else g
             continue
         if not line.startswith("*"):
             continue

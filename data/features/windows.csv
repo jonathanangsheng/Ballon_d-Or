@@ -20,7 +20,7 @@ year,window_start,window_end,voting_deadline,ceremony_date,window_end_estimated,
 2018,2018-01-01,2018-11-03,2018-11-03,2018-12-03,true,true,https://en.wikipedia.org/wiki/2018_Ballon_d%27Or,deadline not stated in source; ceremony - 30 days
 2019,2019-01-01,2019-11-02,2019-11-02,2019-12-02,true,true,https://en.wikipedia.org/wiki/2019_Ballon_d%27Or,deadline not stated in source; ceremony - 30 days
 2021,2021-01-01,2021-10-30,2021-10-30,2021-11-29,true,true,https://en.wikipedia.org/wiki/2021_Ballon_d%27Or,deadline not stated in source; ceremony - 30 days
-2022,2021-08-01,2022-07-31,2022-09-17,2022-10-17,false,true,https://en.wikipedia.org/wiki/2022_Ballon_d%27Or,deadline not stated in source; ceremony - 30 days; no judging period found in source text; 1 Aug - 31 Jul assumed
+2022,2021-08-01,2022-07-31,2022-09-17,2022-10-17,true,true,https://en.wikipedia.org/wiki/2022_Ballon_d%27Or,deadline not stated in source; ceremony - 30 days; no judging period found in source text; 1 Aug - 31 Jul assumed
 2023,2022-08-01,2023-07-31,2023-09-30,2023-10-30,false,true,https://en.wikipedia.org/wiki/2023_Ballon_d%27Or,"deadline not stated in source; ceremony - 30 days; window, Wikipedia: ""season starting on 1 August 2022 and ending 31 July 2023"""
 2024,2023-08-01,2024-07-31,2024-09-28,2024-10-28,false,true,https://en.wikipedia.org/wiki/2024_Ballon_d%27Or,"deadline not stated in source; ceremony - 30 days; window, Wikipedia: ""period from 1 August 2023 to 31 July 2024"""
 2025,2024-08-01,2025-07-13,2025-08-23,2025-09-22,false,true,https://en.wikipedia.org/wiki/2025_Ballon_d%27Or,"deadline not stated in source; ceremony - 30 days; window, Wikipedia: ""period from 1 August 2024 to 13 July 2025"""

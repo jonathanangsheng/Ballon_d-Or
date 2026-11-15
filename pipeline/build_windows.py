@@ -85,7 +85,7 @@ def window(year):
         end_est = deadline_est
     else:
         start, end, wquote = parse_window(wikitext, year)
-        end_est = False
+        end_est = not wquote
         if wquote:
             notes.append(f'window, Wikipedia: "{wquote}"')
         else:

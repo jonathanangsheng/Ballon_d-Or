@@ -7,7 +7,6 @@ year,name,competition,category,label,result,date,method,source,counted
 2000,Zinedine Zidane,Supercopa de España,cup,2001,winner,2001-08-22,infobox,https://en.wikipedia.org/wiki/2001_Supercopa_de_Espa%C3%B1a,False
 2000,Zinedine Zidane,UEFA Champions League,ucl,2001–02,winner,2002-07-11,infobox,https://en.wikipedia.org/wiki/2001%E2%80%9302_UEFA_Champions_League,False
 2000,Zinedine Zidane,UEFA European Championship,euro,2000,winner,2000-07-02,infobox,https://en.wikipedia.org/wiki/UEFA_Euro_2000,True
-2000,Zinedine Zidane,The most expensive footballer in history,league,2001–2009,winner,,no date found in linked article,,False
 2000,Andriy Shevchenko,Vyshcha Liha,league,1998–99,winner,,no date found in linked article,,False
 2000,Andriy Shevchenko,Ukrainian Cup,cup,1998–99,winner,1999-05-30,infobox,https://en.wikipedia.org/wiki/1998%E2%80%9399_Ukrainian_Cup,False
 2000,Thierry Henry,Premier League,league,2001–02,winner,2002-05-11,infobox,https://en.wikipedia.org/wiki/2001%E2%80%9302_FA_Premier_League,False
@@ -168,7 +167,6 @@ year,name,competition,category,label,result,date,method,source,counted
 2001,Zinedine Zidane,UEFA Super Cup,club_intl_other,2002,winner,2002-08-30,infobox,https://en.wikipedia.org/wiki/2002_UEFA_Super_Cup,False
 2001,Zinedine Zidane,Intercontinental Cup,club_intl_other,2002,winner,2002-12-03,infobox,https://en.wikipedia.org/wiki/2002_Intercontinental_Cup,False
 2001,Zinedine Zidane,UEFA European Championship,euro,2000,winner,2000-07-02,infobox,https://en.wikipedia.org/wiki/UEFA_Euro_2000,False
-2001,Zinedine Zidane,The most expensive footballer in history,league,2001–2009,winner,,no date found in linked article,,False
 2001,Bixente Lizarazu,Bundesliga,league,1999–2000,winner,2000-05-20,infobox,https://en.wikipedia.org/wiki/1999%E2%80%932000_Bundesliga,False
 2001,Bixente Lizarazu,Bundesliga,league,2000–01,winner,2001-05-19,infobox,https://en.wikipedia.org/wiki/2000%E2%80%9301_Bundesliga,True
 2001,Bixente Lizarazu,Bundesliga,league,2002–03,winner,2003-05-24,infobox,https://en.wikipedia.org/wiki/2002%E2%80%9303_Bundesliga,False
@@ -270,7 +268,6 @@ year,name,competition,category,label,result,date,method,source,counted
 2002,Zinedine Zidane,UEFA Champions League,ucl,2001–02,winner,2002-07-11,infobox,https://en.wikipedia.org/wiki/2001%E2%80%9302_UEFA_Champions_League,True
 2002,Zinedine Zidane,UEFA Super Cup,club_intl_other,2002,winner,2002-08-30,infobox,https://en.wikipedia.org/wiki/2002_UEFA_Super_Cup,True
 2002,Zinedine Zidane,Intercontinental Cup,club_intl_other,2002,winner,2002-12-03,infobox,https://en.wikipedia.org/wiki/2002_Intercontinental_Cup,False
-2002,Zinedine Zidane,The most expensive footballer in history,league,2001–2009,winner,,no date found in linked article,,False
 2002,Michael Ballack,DFB-Pokal,cup,2001–02,runner-up,2002-05-11,latest date in article,https://en.wikipedia.org/wiki/2001%E2%80%9302_DFB-Pokal,False
 2002,Michael Ballack,UEFA Champions League,ucl,2001–02,runner-up,2002-07-11,infobox,https://en.wikipedia.org/wiki/2001%E2%80%9302_UEFA_Champions_League,False
 2002,Michael Ballack,Bundesliga,league,2002–03,winner,2003-05-24,infobox,https://en.wikipedia.org/wiki/2002%E2%80%9303_Bundesliga,False
@@ -389,7 +386,6 @@ year,name,competition,category,label,result,date,method,source,counted
 2003,Zinedine Zidane,UEFA Champions League,ucl,2001–02,winner,2002-07-11,infobox,https://en.wikipedia.org/wiki/2001%E2%80%9302_UEFA_Champions_League,False
 2003,Zinedine Zidane,UEFA Super Cup,club_intl_other,2002,winner,2002-08-30,infobox,https://en.wikipedia.org/wiki/2002_UEFA_Super_Cup,False
 2003,Zinedine Zidane,Intercontinental Cup,club_intl_other,2002,winner,2002-12-03,infobox,https://en.wikipedia.org/wiki/2002_Intercontinental_Cup,False
-2003,Zinedine Zidane,The most expensive footballer in history,league,2001–2009,winner,,no date found in linked article,,False
 2003,Ruud van Nistelrooy,Premier League,league,2002–03,winner,2003-05-11,infobox,https://en.wikipedia.org/wiki/2002%E2%80%9303_FA_Premier_League,True
 2003,Ruud van Nistelrooy,FA Cup,cup,2003–04,winner,2004-05-22,final article,https://en.wikipedia.org/wiki/2004_FA_Cup_final,False
 2003,Ruud van Nistelrooy,Football League Cup,cup,2002–03,runner-up,2003-03-02,final article,https://en.wikipedia.org/wiki/2003_Football_League_Cup_final,False
@@ -468,7 +464,6 @@ year,name,competition,category,label,result,date,method,source,counted
 2003,Zlatan Ibrahimović,Eredivisie,league,2003–04,winner,2004-05-16,infobox,https://en.wikipedia.org/wiki/2003%E2%80%9304_Eredivisie,False
 2003,Zlatan Ibrahimović,KNVB Cup,cup,2001–02,winner,2002-05-12,latest date in article,https://en.wikipedia.org/wiki/2001%E2%80%9302_KNVB_Cup,False
 2003,Zlatan Ibrahimović,Johan Cruyff Shield,cup,2002,winner,2002-08-11,infobox,https://en.wikipedia.org/wiki/2002_Johan_Cruyff_Shield,False
-2003,Zlatan Ibrahimović,Sweden's only player to score in three consecutive [[UEFA European Championship]] tournaments,euro,2004,winner,2004-07-04,infobox,https://en.wikipedia.org/wiki/UEFA_Euro_2004,False
 2003,Filippo Inzaghi,Serie A,league,2003–04,winner,2004-05-16,infobox,https://en.wikipedia.org/wiki/2003%E2%80%9304_Serie_A,False
 2003,Filippo Inzaghi,Coppa Italia,cup,2002–03,winner,2003-05-31,infobox,https://en.wikipedia.org/wiki/2002%E2%80%9303_Coppa_Italia,True
 2003,Filippo Inzaghi,UEFA Champions League,ucl,2002–03,winner,2003-07-17,infobox,https://en.wikipedia.org/wiki/2002%E2%80%9303_UEFA_Champions_League,True
@@ -545,7 +540,6 @@ year,name,competition,category,label,result,date,method,source,counted
 2004,Milan Baroš,Football League Cup,cup,2004–05,runner-up,2005-02-27,final article,https://en.wikipedia.org/wiki/2005_Football_League_Cup_final,False
 2004,Milan Baroš,UEFA Champions League,ucl,2004–05,winner,2005-07-13,infobox,https://en.wikipedia.org/wiki/2004%E2%80%9305_UEFA_Champions_League,False
 2004,Zlatan Ibrahimović,Eredivisie,league,2003–04,winner,2004-05-16,infobox,https://en.wikipedia.org/wiki/2003%E2%80%9304_Eredivisie,True
-2004,Zlatan Ibrahimović,Sweden's only player to score in three consecutive [[UEFA European Championship]] tournaments,euro,2004,winner,2004-07-04,infobox,https://en.wikipedia.org/wiki/UEFA_Euro_2004,True
 2004,Samuel Eto'o,Copa del Rey,cup,2002–03,winner,2003-06-28,latest date in article,https://en.wikipedia.org/wiki/2002%E2%80%9303_Copa_del_Rey,False
 2004,Samuel Eto'o,La Liga,league,2004–05,winner,2005-05-29,infobox,https://en.wikipedia.org/wiki/2004%E2%80%9305_La_Liga,False
 2004,Samuel Eto'o,La Liga,league,2005–06,winner,2006-05-19,infobox,https://en.wikipedia.org/wiki/2005%E2%80%9306_La_Liga,False
@@ -583,7 +577,6 @@ year,name,competition,category,label,result,date,method,source,counted
 2004,Luís Figo,UEFA European Championship,euro,2004,runner-up,2004-07-04,infobox,https://en.wikipedia.org/wiki/UEFA_Euro_2004,False
 2004,Zinedine Zidane,La Liga,league,2002–03,winner,2003-06-22,infobox,https://en.wikipedia.org/wiki/2002%E2%80%9303_La_Liga,False
 2004,Zinedine Zidane,Supercopa de España,cup,2003,winner,2003-08-27,infobox,https://en.wikipedia.org/wiki/2003_Supercopa_de_Espa%C3%B1a,False
-2004,Zinedine Zidane,The most expensive footballer in history,league,2001–2009,winner,,no date found in linked article,,False
 2004,Rubén Baraja,La Liga,league,2003–04,winner,2004-05-23,infobox,https://en.wikipedia.org/wiki/2003%E2%80%9304_La_Liga,True
 2004,Rubén Baraja,UEFA Cup,uel,2003–04,winner,2004-05-19,infobox,https://en.wikipedia.org/wiki/2003%E2%80%9304_UEFA_Cup,True
 2004,Rubén Baraja,UEFA Super Cup,club_intl_other,2004,winner,2004-08-27,infobox,https://en.wikipedia.org/wiki/2004_UEFA_Super_Cup,True
@@ -662,7 +655,6 @@ year,name,competition,category,label,result,date,method,source,counted
 2005,Zlatan Ibrahimović,Eredivisie,league,2003–04,winner,2004-05-16,infobox,https://en.wikipedia.org/wiki/2003%E2%80%9304_Eredivisie,False
 2005,Zlatan Ibrahimović,Serie A,league,2006–07,winner,2007-05-26,infobox,https://en.wikipedia.org/wiki/2006%E2%80%9307_Serie_A,False
 2005,Zlatan Ibrahimović,Supercoppa Italiana,cup,2006,winner,2006-08-26,infobox,https://en.wikipedia.org/wiki/2006_Supercoppa_Italiana,False
-2005,Zlatan Ibrahimović,Sweden's only player to score in three consecutive [[UEFA European Championship]] tournaments,euro,2004,winner,2004-07-04,infobox,https://en.wikipedia.org/wiki/UEFA_Euro_2004,False
 2005,Kaká,Serie A,league,2003–04,winner,2004-05-16,infobox,https://en.wikipedia.org/wiki/2003%E2%80%9304_Serie_A,False
 2005,Kaká,Supercoppa Italiana,cup,2004,winner,2004-08-21,infobox,https://en.wikipedia.org/wiki/2004_Supercoppa_Italiana,False
 2005,Kaká,UEFA Champions League,ucl,2006–07,winner,2007-07-11,infobox,https://en.wikipedia.org/wiki/2006%E2%80%9307_UEFA_Champions_League,False
@@ -718,7 +710,6 @@ year,name,competition,category,label,result,date,method,source,counted
 2005,Michael Ballack,FIFA World Cup,world_cup,2006,third,2006-07-09,infobox,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup,False
 2005,Michael Ballack,FIFA Confederations Cup,intl_other,2005,third,2005-06-29,infobox,https://en.wikipedia.org/wiki/2005_FIFA_Confederations_Cup,False
 2005,Zinedine Zidane,FIFA World Cup,world_cup,2006,runner-up,2006-07-09,infobox,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup,False
-2005,Zinedine Zidane,The most expensive footballer in history,league,2001–2009,winner,,no date found in linked article,,False
 2005,Gianluigi Buffon,Serie A,league,2004–05,winner,2005-05-29,infobox,https://en.wikipedia.org/wiki/2004%E2%80%9305_Serie_A,True
 2005,Gianluigi Buffon,Serie A,league,2005–06,winner,2006-05-14,infobox,https://en.wikipedia.org/wiki/2005%E2%80%9306_Serie_A,False
 2005,Gianluigi Buffon,Serie B,league,2006–07,winner,2007-06-21,latest date in article,https://en.wikipedia.org/wiki/2006%E2%80%9307_Serie_B,False
@@ -767,7 +758,6 @@ year,name,competition,category,label,result,date,method,source,counted
 2006,Ronaldinho,FIFA Club World Cup,club_intl_other,2006,runner-up,2006-12-17,infobox,https://en.wikipedia.org/wiki/2006_FIFA_Club_World_Cup,False
 2006,Ronaldinho,FIFA Confederations Cup,intl_other,2005,winner,2005-06-29,infobox,https://en.wikipedia.org/wiki/2005_FIFA_Confederations_Cup,False
 2006,Zinedine Zidane,FIFA World Cup,world_cup,2006,runner-up,2006-07-09,infobox,https://en.wikipedia.org/wiki/2006_FIFA_World_Cup,False
-2006,Zinedine Zidane,The most expensive footballer in history,league,2001–2009,winner,,no date found in linked article,,False
 2006,Samuel Eto'o,La Liga,league,2004–05,winner,2005-05-29,infobox,https://en.wikipedia.org/wiki/2004%E2%80%9305_La_Liga,False
 2006,Samuel Eto'o,La Liga,league,2005–06,winner,2006-05-19,infobox,https://en.wikipedia.org/wiki/2005%E2%80%9306_La_Liga,True
 2006,Samuel Eto'o,Supercopa de España,cup,2005,winner,2005-08-20,infobox,https://en.wikipedia.org/wiki/2005_Supercopa_de_Espa%C3%B1a,False
@@ -916,7 +906,6 @@ year,name,competition,category,label,result,date,method,source,counted
 2007,Zlatan Ibrahimović,Serie A,league,2008–09,winner,2009-05-31,infobox,https://en.wikipedia.org/wiki/2008%E2%80%9309_Serie_A,False
 2007,Zlatan Ibrahimović,Supercoppa Italiana,cup,2006,winner,2006-08-26,infobox,https://en.wikipedia.org/wiki/2006_Supercoppa_Italiana,False
 2007,Zlatan Ibrahimović,Supercoppa Italiana,cup,2008,winner,2008-08-24,infobox,https://en.wikipedia.org/wiki/2008_Supercoppa_Italiana,False
-2007,Zlatan Ibrahimović,Sweden's only player to score in three consecutive [[UEFA European Championship]] tournaments,euro,2008,winner,2008-06-29,infobox,https://en.wikipedia.org/wiki/UEFA_Euro_2008,False
 2007,Cesc Fàbregas,Football League Cup,cup,2006–07,runner-up,2007-02-25,final article,https://en.wikipedia.org/wiki/2007_Football_League_Cup_final,False
 2007,Cesc Fàbregas,UEFA Champions League,ucl,2005–06,runner-up,2006-07-12,infobox,https://en.wikipedia.org/wiki/2005%E2%80%9306_UEFA_Champions_League,False
 2007,Cesc Fàbregas,UEFA European Championship,euro,2008,winner,2008-06-29,infobox,https://en.wikipedia.org/wiki/UEFA_Euro_2008,False
@@ -1043,8 +1032,6 @@ year,name,competition,category,label,result,date,method,source,counted
 2007,Ryan Giggs,UEFA Champions League,ucl,2007–08,winner,2008-07-17,infobox,https://en.wikipedia.org/wiki/2007%E2%80%9308_UEFA_Champions_League,False
 2007,Ryan Giggs,UEFA Champions League,ucl,2008–09,runner-up,2009-07-15,infobox,https://en.wikipedia.org/wiki/2008%E2%80%9309_UEFA_Champions_League,False
 2007,Ryan Giggs,FIFA Club World Cup,club_intl_other,2008,winner,2008-12-21,infobox,https://en.wikipedia.org/wiki/2008_FIFA_Club_World_Cup,False
-2007,Ryan Giggs,OBE,league,2007,winner,,no date found in linked article,,False
-2007,Ryan Giggs,Honorary [[Master of Arts]] degree from the [[University of Salford]] for contributions to football and charity work in developing countries,league,2008,winner,,no date found in linked article,,False
 2007,Carlos Tevez,Premier League,league,2007–08,winner,2008-05-11,infobox,https://en.wikipedia.org/wiki/2007%E2%80%9308_Premier_League,False
 2007,Carlos Tevez,Premier League,league,2008–09,winner,2009-05-24,infobox,https://en.wikipedia.org/wiki/2008%E2%80%9309_Premier_League,False
 2007,Carlos Tevez,Football League Cup,cup,2008–09,winner,2009-03-01,final article,https://en.wikipedia.org/wiki/2009_Football_League_Cup_final,False
@@ -1097,7 +1084,6 @@ year,name,competition,category,label,result,date,method,source,counted
 2008,Zlatan Ibrahimović,Supercopa de España,cup,2009,winner,2009-08-23,infobox,https://en.wikipedia.org/wiki/2009_Supercopa_de_Espa%C3%B1a,False
 2008,Zlatan Ibrahimović,UEFA Super Cup,club_intl_other,2009,winner,2009-08-28,infobox,https://en.wikipedia.org/wiki/2009_UEFA_Super_Cup,False
 2008,Zlatan Ibrahimović,FIFA Club World Cup,club_intl_other,2009,winner,2009-12-19,infobox,https://en.wikipedia.org/wiki/2009_FIFA_Club_World_Cup,False
-2008,Zlatan Ibrahimović,Sweden's only player to score in three consecutive [[UEFA European Championship]] tournaments,euro,2008,winner,2008-06-29,infobox,https://en.wikipedia.org/wiki/UEFA_Euro_2008,True
 2008,Kaká,UEFA Champions League,ucl,2006–07,winner,2007-07-11,infobox,https://en.wikipedia.org/wiki/2006%E2%80%9307_UEFA_Champions_League,False
 2008,Kaká,UEFA Super Cup,club_intl_other,2007,winner,2007-08-31,infobox,https://en.wikipedia.org/wiki/2007_UEFA_Super_Cup,False
 2008,Kaká,FIFA Club World Cup,club_intl_other,2007,winner,2007-12-16,infobox,https://en.wikipedia.org/wiki/2007_FIFA_Club_World_Cup,False
@@ -1265,8 +1251,6 @@ year,name,competition,category,label,result,date,method,source,counted
 2009,Zlatan Ibrahimović,UEFA Super Cup,club_intl_other,2009,winner,2009-08-28,infobox,https://en.wikipedia.org/wiki/2009_UEFA_Super_Cup,True
 2009,Zlatan Ibrahimović,FIFA Club World Cup,club_intl_other,2009,winner,2009-12-19,infobox,https://en.wikipedia.org/wiki/2009_FIFA_Club_World_Cup,False
 2009,Zlatan Ibrahimović,Serie A,league,2010–11,winner,2011-05-22,infobox,https://en.wikipedia.org/wiki/2010%E2%80%9311_Serie_A,False
-2009,Zlatan Ibrahimović,"The second player <small>(after [[Javier Hernández]] in the [[2010–11 Manchester United F.C. season|2010–11 season]])</small> to score in the Premier League, [[FA Cup]], [[EFL Cup|League Cup]], European competition and [[FA Community Shield|Community Shield]] in a single season <small>([[2016–17 Manchester United F.C. season|2016–17 season]])</small>",cup,2010–11 season,winner,,club season article,,False
-2009,Zlatan Ibrahimović,Sweden's only player to score in three consecutive [[UEFA European Championship]] tournaments,euro,2008,winner,2008-06-29,infobox,https://en.wikipedia.org/wiki/UEFA_Euro_2008,False
 2009,Wayne Rooney,Premier League,league,2007–08,winner,2008-05-11,infobox,https://en.wikipedia.org/wiki/2007%E2%80%9308_Premier_League,False
 2009,Wayne Rooney,Premier League,league,2008–09,winner,2009-05-24,infobox,https://en.wikipedia.org/wiki/2008%E2%80%9309_Premier_League,True
 2009,Wayne Rooney,Premier League,league,2010–11,winner,2011-05-22,infobox,https://en.wikipedia.org/wiki/2010%E2%80%9311_Premier_League,False
@@ -1300,8 +1284,6 @@ year,name,competition,category,label,result,date,method,source,counted
 2009,Ryan Giggs,UEFA Champions League,ucl,2008–09,runner-up,2009-07-15,infobox,https://en.wikipedia.org/wiki/2008%E2%80%9309_UEFA_Champions_League,False
 2009,Ryan Giggs,UEFA Champions League,ucl,2010–11,runner-up,2011-06-29,infobox,https://en.wikipedia.org/wiki/2010%E2%80%9311_UEFA_Champions_League,False
 2009,Ryan Giggs,FIFA Club World Cup,club_intl_other,2008,winner,2008-12-21,infobox,https://en.wikipedia.org/wiki/2008_FIFA_Club_World_Cup,False
-2009,Ryan Giggs,Honorary [[Master of Arts]] degree from the [[University of Salford]] for contributions to football and charity work in developing countries,league,2008,winner,,no date found in linked article,,False
-2009,Ryan Giggs,Freedom of the City of Salford,league,2010,winner,,no date found in linked article,,False
 2009,Thierry Henry,La Liga,league,2008–09,winner,2009-05-31,infobox,https://en.wikipedia.org/wiki/2008%E2%80%9309_La_Liga,True
 2009,Thierry Henry,La Liga,league,2009–10,winner,2010-05-16,infobox,https://en.wikipedia.org/wiki/2009%E2%80%9310_La_Liga,False
 2009,Thierry Henry,Copa del Rey,cup,2008–09,winner,2009-05-13,latest date in article,https://en.wikipedia.org/wiki/2008%E2%80%9309_Copa_del_Rey,True
@@ -1794,10 +1776,6 @@ year,name,competition,category,label,result,date,method,source,counted
 2012,Zlatan Ibrahimović,Ligue 1,league,2013–14,winner,2014-08-17,infobox,https://en.wikipedia.org/wiki/2013%E2%80%9314_Ligue_1,False
 2012,Zlatan Ibrahimović,Coupe de la Ligue,cup,2013–14,winner,2014-04-19,final article,https://en.wikipedia.org/wiki/2014_Coupe_de_la_Ligue_final,False
 2012,Zlatan Ibrahimović,Trophée des Champions,cup,2013,winner,2013-08-03,infobox,https://en.wikipedia.org/wiki/2013_Troph%C3%A9e_des_Champions,False
-2012,Zlatan Ibrahimović,"First [[Paris Saint-Germain FC|Paris Saint-Germain]] player to be [[List of Ligue 1 top scorers|top goalscorer]] in three [[Ligue 1]] seasons ([[2012–13 Ligue 1|2012–13]], [[2013–14 Ligue 1|2013–14]], [[2015–16 Ligue 1|2015–16]]) (equalled by [[Kylian Mbappé]]).",league,2012–13,winner,2013-08-17,infobox,https://en.wikipedia.org/wiki/2012%E2%80%9313_Ligue_1,False
-2012,Zlatan Ibrahimović,"First [[Paris Saint-Germain FC|Paris Saint-Germain]] player to be [[List of Ligue 1 top scorers|top goalscorer]] in three [[Ligue 1]] seasons ([[2012–13 Ligue 1|2012–13]], [[2013–14 Ligue 1|2013–14]], [[2015–16 Ligue 1|2015–16]]) (equalled by [[Kylian Mbappé]]).",league,2013–14,winner,2014-08-17,infobox,https://en.wikipedia.org/wiki/2013%E2%80%9314_Ligue_1,False
-2012,Zlatan Ibrahimović,"The second player <small>(after [[Javier Hernández]] in the [[2010–11 Manchester United F.C. season|2010–11 season]])</small> to score in the Premier League, [[FA Cup]], [[EFL Cup|League Cup]], European competition and [[FA Community Shield|Community Shield]] in a single season <small>([[2016–17 Manchester United F.C. season|2016–17 season]])</small>",cup,2010–11 season,winner,,club season article,,False
-2012,Zlatan Ibrahimović,Sweden's only player to score in three consecutive [[UEFA European Championship]] tournaments,euro,2012,winner,2012-07-01,infobox,https://en.wikipedia.org/wiki/UEFA_Euro_2012,True
 2012,Xabi Alonso,La Liga,league,2011–12,winner,2012-05-13,infobox,https://en.wikipedia.org/wiki/2011%E2%80%9312_La_Liga,True
 2012,Xabi Alonso,Copa del Rey,cup,2010–11,winner,2011-04-20,latest date in article,https://en.wikipedia.org/wiki/2010%E2%80%9311_Copa_del_Rey,False
 2012,Xabi Alonso,Copa del Rey,cup,2013–14,winner,2014-04-15,final article,https://en.wikipedia.org/wiki/2014_Copa_del_Rey_final,False
@@ -1914,9 +1892,6 @@ year,name,competition,category,label,result,date,method,source,counted
 2013,Zlatan Ibrahimović,Coupe de la Ligue,cup,2014–15,winner,2015-04-11,final article,https://en.wikipedia.org/wiki/2015_Coupe_de_la_Ligue_final,False
 2013,Zlatan Ibrahimović,Trophée des Champions,cup,2013,winner,2013-08-03,infobox,https://en.wikipedia.org/wiki/2013_Troph%C3%A9e_des_Champions,True
 2013,Zlatan Ibrahimović,Trophée des Champions,cup,2014,winner,2014-08-02,infobox,https://en.wikipedia.org/wiki/2014_Troph%C3%A9e_des_Champions,False
-2013,Zlatan Ibrahimović,"First [[Paris Saint-Germain FC|Paris Saint-Germain]] player to be [[List of Ligue 1 top scorers|top goalscorer]] in three [[Ligue 1]] seasons ([[2012–13 Ligue 1|2012–13]], [[2013–14 Ligue 1|2013–14]], [[2015–16 Ligue 1|2015–16]]) (equalled by [[Kylian Mbappé]]).",league,2012–13,winner,2013-08-17,infobox,https://en.wikipedia.org/wiki/2012%E2%80%9313_Ligue_1,True
-2013,Zlatan Ibrahimović,"First [[Paris Saint-Germain FC|Paris Saint-Germain]] player to be [[List of Ligue 1 top scorers|top goalscorer]] in three [[Ligue 1]] seasons ([[2012–13 Ligue 1|2012–13]], [[2013–14 Ligue 1|2013–14]], [[2015–16 Ligue 1|2015–16]]) (equalled by [[Kylian Mbappé]]).",league,2013–14,winner,2014-08-17,infobox,https://en.wikipedia.org/wiki/2013%E2%80%9314_Ligue_1,False
-2013,Zlatan Ibrahimović,Sweden's only player to score in three consecutive [[UEFA European Championship]] tournaments,euro,2012,winner,2012-07-01,infobox,https://en.wikipedia.org/wiki/UEFA_Euro_2012,False
 2013,Neymar,Recopa Sudamericana,cup,2012,winner,2012-09-26,infobox,https://en.wikipedia.org/wiki/2012_Recopa_Sudamericana,False
 2013,Neymar,Campeonato Paulista,league,2012,winner,2012-05-14,latest date in article,https://en.wikipedia.org/wiki/2012_Campeonato_Paulista,False
 2013,Neymar,Campeonato Paulista,league,2013,runner-up,2013-05-22,latest date in article,https://en.wikipedia.org/wiki/2013_Campeonato_Paulista,False
@@ -2165,12 +2140,6 @@ year,name,competition,category,label,result,date,method,source,counted
 2014,Zlatan Ibrahimović,Trophée des Champions,cup,2013,winner,2013-08-03,infobox,https://en.wikipedia.org/wiki/2013_Troph%C3%A9e_des_Champions,False
 2014,Zlatan Ibrahimović,Trophée des Champions,cup,2014,winner,2014-08-02,infobox,https://en.wikipedia.org/wiki/2014_Troph%C3%A9e_des_Champions,True
 2014,Zlatan Ibrahimović,Trophée des Champions,cup,2015,winner,2015-08-01,infobox,https://en.wikipedia.org/wiki/2015_Troph%C3%A9e_des_Champions,False
-2014,Zlatan Ibrahimović,"First [[Paris Saint-Germain FC|Paris Saint-Germain]] player to be [[List of Ligue 1 top scorers|top goalscorer]] in three [[Ligue 1]] seasons ([[2012–13 Ligue 1|2012–13]], [[2013–14 Ligue 1|2013–14]], [[2015–16 Ligue 1|2015–16]]) (equalled by [[Kylian Mbappé]]).",league,2012–13,winner,2013-08-17,infobox,https://en.wikipedia.org/wiki/2012%E2%80%9313_Ligue_1,False
-2014,Zlatan Ibrahimović,"First [[Paris Saint-Germain FC|Paris Saint-Germain]] player to be [[List of Ligue 1 top scorers|top goalscorer]] in three [[Ligue 1]] seasons ([[2012–13 Ligue 1|2012–13]], [[2013–14 Ligue 1|2013–14]], [[2015–16 Ligue 1|2015–16]]) (equalled by [[Kylian Mbappé]]).",league,2013–14,winner,2014-08-17,infobox,https://en.wikipedia.org/wiki/2013%E2%80%9314_Ligue_1,True
-2014,Zlatan Ibrahimović,"First [[Paris Saint-Germain FC|Paris Saint-Germain]] player to be [[List of Ligue 1 top scorers|top goalscorer]] in three [[Ligue 1]] seasons ([[2012–13 Ligue 1|2012–13]], [[2013–14 Ligue 1|2013–14]], [[2015–16 Ligue 1|2015–16]]) (equalled by [[Kylian Mbappé]]).",league,2015–16,winner,2016-05-14,infobox,https://en.wikipedia.org/wiki/2015%E2%80%9316_Ligue_1,False
-2014,Zlatan Ibrahimović,Most Ligue 1 goals in a single season,league,2015–16 season,winner,2016-05-14,infobox,https://en.wikipedia.org/wiki/2015%E2%80%9316_Ligue_1,False
-2014,Zlatan Ibrahimović,Longest goalscoring run in Ligue 1,league,2015–16,winner,,no date found in linked article,,False
-2014,Zlatan Ibrahimović,Most goals scored in a single season (all competitions),league,2015–16 season,winner,,club season article,,False
 2014,Yaya Touré,Premier League,league,2013–14,winner,2014-05-11,infobox,https://en.wikipedia.org/wiki/2013%E2%80%9314_Premier_League,True
 2014,Yaya Touré,FA Cup,cup,2012–13,runner-up,2013-05-11,infobox,https://en.wikipedia.org/wiki/2012%E2%80%9313_FA_Cup,False
 2014,Yaya Touré,Football League Cup,cup,2013–14,winner,2014-03-02,infobox,https://en.wikipedia.org/wiki/2013%E2%80%9314_Football_League_Cup,True
@@ -2328,14 +2297,6 @@ year,name,competition,category,label,result,date,method,source,counted
 2015,Zlatan Ibrahimović,EFL Cup,cup,2016–17,winner,2017-02-26,infobox,https://en.wikipedia.org/wiki/2016%E2%80%9317_EFL_Cup,False
 2015,Zlatan Ibrahimović,FA Community Shield,cup,2016,winner,2016-08-07,infobox,https://en.wikipedia.org/wiki/2016_FA_Community_Shield,False
 2015,Zlatan Ibrahimović,UEFA Europa League,uel,2016–17,winner,2017-06-28,infobox,https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Europa_League,False
-2015,Zlatan Ibrahimović,"First [[Paris Saint-Germain FC|Paris Saint-Germain]] player to be [[List of Ligue 1 top scorers|top goalscorer]] in three [[Ligue 1]] seasons ([[2012–13 Ligue 1|2012–13]], [[2013–14 Ligue 1|2013–14]], [[2015–16 Ligue 1|2015–16]]) (equalled by [[Kylian Mbappé]]).",league,2013–14,winner,2014-08-17,infobox,https://en.wikipedia.org/wiki/2013%E2%80%9314_Ligue_1,False
-2015,Zlatan Ibrahimović,"First [[Paris Saint-Germain FC|Paris Saint-Germain]] player to be [[List of Ligue 1 top scorers|top goalscorer]] in three [[Ligue 1]] seasons ([[2012–13 Ligue 1|2012–13]], [[2013–14 Ligue 1|2013–14]], [[2015–16 Ligue 1|2015–16]]) (equalled by [[Kylian Mbappé]]).",league,2015–16,winner,2016-05-14,infobox,https://en.wikipedia.org/wiki/2015%E2%80%9316_Ligue_1,False
-2015,Zlatan Ibrahimović,Most Ligue 1 goals in a single season,league,2015–16 season,winner,2016-05-14,infobox,https://en.wikipedia.org/wiki/2015%E2%80%9316_Ligue_1,False
-2015,Zlatan Ibrahimović,Fastest Ligue 1 hat-trick,league,2016,winner,,no date found in linked article,,False
-2015,Zlatan Ibrahimović,Longest goalscoring run in Ligue 1,league,2015–16,winner,,no date found in linked article,,False
-2015,Zlatan Ibrahimović,Most goals scored in a single season (all competitions),league,2015–16 season,winner,,club season article,,False
-2015,Zlatan Ibrahimović,"The second player <small>(after [[Javier Hernández]] in the [[2010–11 Manchester United F.C. season|2010–11 season]])</small> to score in the Premier League, [[FA Cup]], [[EFL Cup|League Cup]], European competition and [[FA Community Shield|Community Shield]] in a single season <small>([[2016–17 Manchester United F.C. season|2016–17 season]])</small>",cup,2016–17 season,winner,,club season article,,False
-2015,Zlatan Ibrahimović,The oldest player to reach 15 goals in a single [[Premier League]] season <small>([[2016–17 Premier League|2016–17 season]] at 35 years and 125 days; since eclipsed by [[Cristiano Ronaldo]] in 2022)</small>,league,2016–17 season,winner,2017-05-21,infobox,https://en.wikipedia.org/wiki/2016%E2%80%9317_Premier_League,False
 2015,Yaya Touré,Premier League,league,2013–14,winner,2014-05-11,infobox,https://en.wikipedia.org/wiki/2013%E2%80%9314_Premier_League,False
 2015,Yaya Touré,Football League Cup,cup,2013–14,winner,2014-03-02,infobox,https://en.wikipedia.org/wiki/2013%E2%80%9314_Football_League_Cup,False
 2015,Yaya Touré,Football League Cup,cup,2015–16,winner,2016-02-28,infobox,https://en.wikipedia.org/wiki/2015%E2%80%9316_Football_League_Cup,False
@@ -2520,13 +2481,6 @@ year,name,competition,category,label,result,date,method,source,counted
 2016,Zlatan Ibrahimović,EFL Cup,cup,2016–17,winner,2017-02-26,infobox,https://en.wikipedia.org/wiki/2016%E2%80%9317_EFL_Cup,False
 2016,Zlatan Ibrahimović,FA Community Shield,cup,2016,winner,2016-08-07,infobox,https://en.wikipedia.org/wiki/2016_FA_Community_Shield,True
 2016,Zlatan Ibrahimović,UEFA Europa League,uel,2016–17,winner,2017-06-28,infobox,https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Europa_League,False
-2016,Zlatan Ibrahimović,"First [[Paris Saint-Germain FC|Paris Saint-Germain]] player to be [[List of Ligue 1 top scorers|top goalscorer]] in three [[Ligue 1]] seasons ([[2012–13 Ligue 1|2012–13]], [[2013–14 Ligue 1|2013–14]], [[2015–16 Ligue 1|2015–16]]) (equalled by [[Kylian Mbappé]]).",league,2015–16,winner,2016-05-14,infobox,https://en.wikipedia.org/wiki/2015%E2%80%9316_Ligue_1,True
-2016,Zlatan Ibrahimović,Most Ligue 1 goals in a single season,league,2015–16 season,winner,2016-05-14,infobox,https://en.wikipedia.org/wiki/2015%E2%80%9316_Ligue_1,True
-2016,Zlatan Ibrahimović,Fastest Ligue 1 hat-trick,league,2016,winner,,no date found in linked article,,False
-2016,Zlatan Ibrahimović,Longest goalscoring run in Ligue 1,league,2015–16,winner,,no date found in linked article,,False
-2016,Zlatan Ibrahimović,Most goals scored in a single season (all competitions),league,2015–16 season,winner,,club season article,,False
-2016,Zlatan Ibrahimović,"The second player <small>(after [[Javier Hernández]] in the [[2010–11 Manchester United F.C. season|2010–11 season]])</small> to score in the Premier League, [[FA Cup]], [[EFL Cup|League Cup]], European competition and [[FA Community Shield|Community Shield]] in a single season <small>([[2016–17 Manchester United F.C. season|2016–17 season]])</small>",cup,2016–17 season,winner,,club season article,,False
-2016,Zlatan Ibrahimović,The oldest player to reach 15 goals in a single [[Premier League]] season <small>([[2016–17 Premier League|2016–17 season]] at 35 years and 125 days; since eclipsed by [[Cristiano Ronaldo]] in 2022)</small>,league,2016–17 season,winner,2017-05-21,infobox,https://en.wikipedia.org/wiki/2016%E2%80%9317_Premier_League,False
 2016,Paul Pogba,Serie A,league,2014–15,winner,2015-05-31,infobox,https://en.wikipedia.org/wiki/2014%E2%80%9315_Serie_A,False
 2016,Paul Pogba,Serie A,league,2015–16,winner,2016-05-15,infobox,https://en.wikipedia.org/wiki/2015%E2%80%9316_Serie_A,True
 2016,Paul Pogba,Coppa Italia,cup,2014–15,winner,2015-05-20,infobox,https://en.wikipedia.org/wiki/2014%E2%80%9315_Coppa_Italia,False
@@ -2574,12 +2528,6 @@ year,name,competition,category,label,result,date,method,source,counted
 2016,Luka Modrić,UEFA Super Cup,club_intl_other,2017,winner,2017-08-08,infobox,https://en.wikipedia.org/wiki/2017_UEFA_Super_Cup,False
 2016,Luka Modrić,FIFA Club World Cup,club_intl_other,2016,winner,2016-12-18,infobox,https://en.wikipedia.org/wiki/2016_FIFA_Club_World_Cup,False
 2016,Luka Modrić,FIFA Club World Cup,club_intl_other,2017,winner,2017-12-16,infobox,https://en.wikipedia.org/wiki/2017_FIFA_Club_World_Cup,False
-2016,Luka Modrić,IFFHS Men's World Team,league,2017,winner,,no date found in linked article,,False
-2016,Luka Modrić,IFFHS World Team of the Decade,league,2011–2020,winner,,no date found in linked article,,False
-2016,Luka Modrić,IFFHS UEFA Team of the Decade,league,2011–2020,winner,,no date found in linked article,,False
-2016,Luka Modrić,ESPN,league,2016,winner,,no date found in linked article,,False
-2016,Luka Modrić,ESPN,league,2017,winner,,no date found in linked article,,False
-2016,Luka Modrić,Goal 50,league,2017–18,winner,,no date found in linked article,,False
 2016,Dimitri Payet,UEFA Europa League,uel,2017–18,runner-up,2018-06-29,infobox,https://en.wikipedia.org/wiki/2017%E2%80%9318_UEFA_Europa_League,False
 2016,Dimitri Payet,UEFA European Championship,euro,2016,runner-up,2016-07-10,infobox,https://en.wikipedia.org/wiki/UEFA_Euro_2016,False
 2016,Sergio Agüero,Premier League,league,2017–18,winner,2018-05-13,infobox,https://en.wikipedia.org/wiki/2017%E2%80%9318_Premier_League,False
@@ -2695,19 +2643,6 @@ year,name,competition,category,label,result,date,method,source,counted
 2017,Luka Modrić,FIFA Club World Cup,club_intl_other,2017,winner,2017-12-16,infobox,https://en.wikipedia.org/wiki/2017_FIFA_Club_World_Cup,False
 2017,Luka Modrić,FIFA Club World Cup,club_intl_other,2018,winner,2018-12-22,infobox,https://en.wikipedia.org/wiki/2018_FIFA_Club_World_Cup,False
 2017,Luka Modrić,FIFA World Cup,world_cup,2018,runner-up,2018-07-15,infobox,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup,False
-2017,Luka Modrić,IFFHS Men's World Team,league,2017,winner,,no date found in linked article,,False
-2017,Luka Modrić,IFFHS Men's World Team,league,2018,winner,,no date found in linked article,,False
-2017,Luka Modrić,IFFHS World Team of the Decade,league,2011–2020,winner,,no date found in linked article,,False
-2017,Luka Modrić,IFFHS UEFA Team of the Decade,league,2011–2020,winner,,no date found in linked article,,False
-2017,Luka Modrić,ESPN,league,2016,winner,,no date found in linked article,,False
-2017,Luka Modrić,ESPN,league,2017,winner,,no date found in linked article,,False
-2017,Luka Modrić,ESPN,league,2018,winner,,no date found in linked article,,False
-2017,Luka Modrić,IFFHS World's Best Playmaker,league,2018,winner,,no date found in linked article,,False
-2017,Luka Modrić,Goal 50,league,2017–18,winner,,no date found in linked article,,False
-2017,Luka Modrić,''The Guardian'' Best Footballer in the World,league,2018,winner,,no date found in linked article,,False
-2017,Luka Modrić,''World Soccer'' Player of the Year,league,2018,winner,,no date found in linked article,,False
-2017,Luka Modrić,''Dongqiudi'' Player of the Year,league,2018,winner,,no date found in linked article,,False
-2017,Luka Modrić,AIPS,league,2018,winner,,no date found in linked article,,False
 2017,Sergio Ramos,La Liga,league,2016–17,winner,2017-05-21,infobox,https://en.wikipedia.org/wiki/2016%E2%80%9317_La_Liga,True
 2017,Sergio Ramos,Supercopa de España,cup,2017,winner,2017-08-16,infobox,https://en.wikipedia.org/wiki/2017_Supercopa_de_Espa%C3%B1a,True
 2017,Sergio Ramos,UEFA Champions League,ucl,2015–16,winner,2016-06-30,infobox,https://en.wikipedia.org/wiki/2015%E2%80%9316_UEFA_Champions_League,False
@@ -2880,18 +2815,6 @@ year,name,competition,category,label,result,date,method,source,counted
 2018,Luka Modrić,FIFA Club World Cup,club_intl_other,2017,winner,2017-12-16,infobox,https://en.wikipedia.org/wiki/2017_FIFA_Club_World_Cup,False
 2018,Luka Modrić,FIFA Club World Cup,club_intl_other,2018,winner,2018-12-22,infobox,https://en.wikipedia.org/wiki/2018_FIFA_Club_World_Cup,False
 2018,Luka Modrić,FIFA World Cup,world_cup,2018,runner-up,2018-07-15,infobox,https://en.wikipedia.org/wiki/2018_FIFA_World_Cup,False
-2018,Luka Modrić,IFFHS Men's World Team,league,2017,winner,,no date found in linked article,,False
-2018,Luka Modrić,IFFHS Men's World Team,league,2018,winner,,no date found in linked article,,False
-2018,Luka Modrić,IFFHS World Team of the Decade,league,2011–2020,winner,,no date found in linked article,,False
-2018,Luka Modrić,IFFHS UEFA Team of the Decade,league,2011–2020,winner,,no date found in linked article,,False
-2018,Luka Modrić,ESPN,league,2017,winner,,no date found in linked article,,False
-2018,Luka Modrić,ESPN,league,2018,winner,,no date found in linked article,,False
-2018,Luka Modrić,IFFHS World's Best Playmaker,league,2018,winner,,no date found in linked article,,False
-2018,Luka Modrić,Goal 50,league,2017–18,winner,,no date found in linked article,,False
-2018,Luka Modrić,''The Guardian'' Best Footballer in the World,league,2018,winner,,no date found in linked article,,False
-2018,Luka Modrić,''World Soccer'' Player of the Year,league,2018,winner,,no date found in linked article,,False
-2018,Luka Modrić,''Dongqiudi'' Player of the Year,league,2018,winner,,no date found in linked article,,False
-2018,Luka Modrić,AIPS,league,2018,winner,,no date found in linked article,,False
 2018,Cristiano Ronaldo,La Liga,league,2016–17,winner,2017-05-21,infobox,https://en.wikipedia.org/wiki/2016%E2%80%9317_La_Liga,False
 2018,Cristiano Ronaldo,Supercopa de España,cup,2017,winner,2017-08-16,infobox,https://en.wikipedia.org/wiki/2017_Supercopa_de_Espa%C3%B1a,False
 2018,Cristiano Ronaldo,UEFA Champions League,ucl,2016–17,winner,2017-06-28,infobox,https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Champions_League,False
@@ -3437,7 +3360,7 @@ year,name,competition,category,label,result,date,method,source,counted
 2021,Lautaro Martínez,UEFA Europa League,uel,2019–20,runner-up,2020-08-21,infobox,https://en.wikipedia.org/wiki/2019%E2%80%9320_UEFA_Europa_League,False
 2021,Lautaro Martínez,FIFA World Cup,world_cup,2022,winner,2022-12-18,infobox,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup,False
 2021,Lautaro Martínez,Copa América,copa_america,2021,winner,2021-07-10,infobox,https://en.wikipedia.org/wiki/2021_Copa_Am%C3%A9rica,True
-2021,Lautaro Martínez,CONMEBOL–UEFA Cup of Champions,uel,2022,winner,2022-06-01,infobox,https://en.wikipedia.org/wiki/2022_Finalissima,False
+2021,Lautaro Martínez,CONMEBOL–UEFA Cup of Champions,intl_other,2022,winner,2022-06-01,infobox,https://en.wikipedia.org/wiki/2022_Finalissima,False
 2021,Harry Kane,Football League/EFL Cup,cup,2020–21,runner-up,2021-04-25,infobox,https://en.wikipedia.org/wiki/2020%E2%80%9321_EFL_Cup,False
 2021,Harry Kane,UEFA European Championship,euro,2020,runner-up,2021-07-11,infobox,https://en.wikipedia.org/wiki/UEFA_Euro_2020,False
 2021,Pedri,La Liga,league,2022–23,winner,2023-06-04,infobox,https://en.wikipedia.org/wiki/2022%E2%80%9323_La_Liga,False
@@ -3478,10 +3401,6 @@ year,name,competition,category,label,result,date,method,source,counted
 2021,Luka Modrić,UEFA Super Cup,club_intl_other,2022,winner,2022-08-10,infobox,https://en.wikipedia.org/wiki/2022_UEFA_Super_Cup,False
 2021,Luka Modrić,FIFA Club World Cup,club_intl_other,2022,winner,2023-02-11,infobox,https://en.wikipedia.org/wiki/2022_FIFA_Club_World_Cup,False
 2021,Luka Modrić,FIFA World Cup,world_cup,2022,third,2022-12-18,infobox,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup,False
-2021,Luka Modrić,IFFHS Men's World Team,league,2022,winner,,no date found in linked article,,False
-2021,Luka Modrić,IFFHS World Team of the Decade,league,2011–2020,winner,,no date found in linked article,,False
-2021,Luka Modrić,IFFHS UEFA Team of the Decade,league,2011–2020,winner,,no date found in linked article,,False
-2021,Luka Modrić,Marca Leyenda Award,league,2022,winner,,no date found in linked article,,False
 2021,Cesar Azpilicueta,FA Cup,cup,2019–20,runner-up,2020-08-01,infobox,https://en.wikipedia.org/wiki/2019%E2%80%9320_FA_Cup,False
 2021,Cesar Azpilicueta,FA Cup,cup,2020–21,runner-up,2021-05-15,infobox,https://en.wikipedia.org/wiki/2020%E2%80%9321_FA_Cup,False
 2021,Cesar Azpilicueta,FA Cup,cup,2021–22,runner-up,2022-05-14,infobox,https://en.wikipedia.org/wiki/2021%E2%80%9322_FA_Cup,False
@@ -3585,10 +3504,6 @@ year,name,competition,category,label,result,date,method,source,counted
 2022,Luka Modrić,FIFA Club World Cup,club_intl_other,2022,winner,2023-02-11,infobox,https://en.wikipedia.org/wiki/2022_FIFA_Club_World_Cup,False
 2022,Luka Modrić,FIFA World Cup,world_cup,2022,third,2022-12-18,infobox,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup,False
 2022,Luka Modrić,UEFA Nations League,intl_other,2023,runner-up,2023-06-18,infobox,https://en.wikipedia.org/wiki/2023_UEFA_Nations_League_Finals,False
-2022,Luka Modrić,IFFHS Men's World Team,league,2022,winner,,no date found in linked article,,False
-2022,Luka Modrić,IFFHS World Team of the Decade,league,2011–2020,winner,,no date found in linked article,,False
-2022,Luka Modrić,IFFHS UEFA Team of the Decade,league,2011–2020,winner,,no date found in linked article,,False
-2022,Luka Modrić,Marca Leyenda Award,league,2022,winner,,no date found in linked article,,False
 2022,Erling Haaland,DFB-Pokal,cup,2020–21,winner,2021-05-13,infobox,https://en.wikipedia.org/wiki/2020%E2%80%9321_DFB-Pokal,False
 2022,Erling Haaland,Premier League,league,2022–23,winner,2023-05-28,infobox,https://en.wikipedia.org/wiki/2022%E2%80%9323_Premier_League,False
 2022,Erling Haaland,Premier League,league,2023–24,winner,2024-05-19,infobox,https://en.wikipedia.org/wiki/2023%E2%80%9324_Premier_League,False
@@ -3824,8 +3739,6 @@ year,name,competition,category,label,result,date,method,source,counted
 2023,Luka Modrić,FIFA Intercontinental Cup,club_intl_other,2024,winner,2024-12-18,infobox,https://en.wikipedia.org/wiki/2024_FIFA_Intercontinental_Cup,False
 2023,Luka Modrić,FIFA World Cup,world_cup,2022,third,2022-12-18,infobox,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup,False
 2023,Luka Modrić,UEFA Nations League,intl_other,2023,runner-up,2023-06-18,infobox,https://en.wikipedia.org/wiki/2023_UEFA_Nations_League_Finals,False
-2023,Luka Modrić,IFFHS Men's World Team,league,2022,winner,,no date found in linked article,,False
-2023,Luka Modrić,Marca Leyenda Award,league,2022,winner,,no date found in linked article,,False
 2023,Mohamed Salah,Premier League,league,2024–25,winner,2025-05-25,infobox,https://en.wikipedia.org/wiki/2024%E2%80%9325_Premier_League,False
 2023,Mohamed Salah,FA Cup,cup,2021–22,winner,2022-05-14,infobox,https://en.wikipedia.org/wiki/2021%E2%80%9322_FA_Cup,False
 2023,Mohamed Salah,EFL Cup,cup,2021–22,winner,2022-02-27,infobox,https://en.wikipedia.org/wiki/2021%E2%80%9322_EFL_Cup,False
@@ -3895,7 +3808,7 @@ year,name,competition,category,label,result,date,method,source,counted
 2023,Lautaro Martínez,FIFA World Cup,world_cup,2022,winner,2022-12-18,infobox,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup,True
 2023,Lautaro Martínez,Copa América,copa_america,2021,winner,2021-07-10,infobox,https://en.wikipedia.org/wiki/2021_Copa_Am%C3%A9rica,False
 2023,Lautaro Martínez,Copa América,copa_america,2024,winner,2024-07-14,final article,https://en.wikipedia.org/wiki/2024_Copa_Am%C3%A9rica_final,False
-2023,Lautaro Martínez,CONMEBOL–UEFA Cup of Champions,uel,2022,winner,2022-06-01,infobox,https://en.wikipedia.org/wiki/2022_Finalissima,False
+2023,Lautaro Martínez,CONMEBOL–UEFA Cup of Champions,intl_other,2022,winner,2022-06-01,infobox,https://en.wikipedia.org/wiki/2022_Finalissima,False
 2023,Antoine Griezmann,Copa del Rey,cup,2020–21,winner,2021-04-17,infobox,https://en.wikipedia.org/wiki/2020%E2%80%9321_Copa_del_Rey,False
 2023,Antoine Griezmann,Supercopa de España,cup,2021,runner-up,2021-01-17,infobox,https://en.wikipedia.org/wiki/2021_Supercopa_de_Espa%C3%B1a,False
 2023,Antoine Griezmann,FIFA World Cup,world_cup,2022,runner-up,2022-12-18,infobox,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup,False
@@ -4034,7 +3947,7 @@ year,name,competition,category,label,result,date,method,source,counted
 2024,Lautaro Martínez,UEFA Champions League,ucl,2024–25,runner-up,2025-07-09,infobox,https://en.wikipedia.org/wiki/2024%E2%80%9325_UEFA_Champions_League,False
 2024,Lautaro Martínez,FIFA World Cup,world_cup,2022,winner,2022-12-18,infobox,https://en.wikipedia.org/wiki/2022_FIFA_World_Cup,False
 2024,Lautaro Martínez,Copa América,copa_america,2024,winner,2024-07-14,final article,https://en.wikipedia.org/wiki/2024_Copa_Am%C3%A9rica_final,True
-2024,Lautaro Martínez,CONMEBOL–UEFA Cup of Champions,uel,2022,winner,2022-06-01,infobox,https://en.wikipedia.org/wiki/2022_Finalissima,False
+2024,Lautaro Martínez,CONMEBOL–UEFA Cup of Champions,intl_other,2022,winner,2022-06-01,infobox,https://en.wikipedia.org/wiki/2022_Finalissima,False
 2024,Lamine Yamal,La Liga,league,2022–23,winner,2023-06-04,infobox,https://en.wikipedia.org/wiki/2022%E2%80%9323_La_Liga,False
 2024,Lamine Yamal,La Liga,league,2024–25,winner,2025-05-25,infobox,https://en.wikipedia.org/wiki/2024%E2%80%9325_La_Liga,False
 2024,Lamine Yamal,La Liga,league,2025–26,winner,2026-05-24,infobox,https://en.wikipedia.org/wiki/2025%E2%80%9326_La_Liga,False

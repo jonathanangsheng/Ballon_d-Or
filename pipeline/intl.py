@@ -10,6 +10,7 @@ import csv
 import json
 import io
 import re
+import urllib.error
 from collections import defaultdict
 from datetime import date
 
@@ -122,8 +123,10 @@ def openfootball_rounds(tournament, year, folders):
     for fn in files:
         try:
             text, url, _ = github_raw(repo, f"{folder}/{fn}")
-        except Exception:
-            continue
+        except urllib.error.HTTPError as e:
+            if e.code != 404:
+                raise
+            continue  # file not in this edition's folder
         urls.append(url)
         stage = None
         for line in text.splitlines():

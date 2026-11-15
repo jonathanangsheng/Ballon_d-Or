@@ -17,6 +17,8 @@ RAW_DIR = Path(__file__).parent.parent / "data" / "raw"
 USER_AGENT = "BallonDorFeatures/0.1 (https://github.com/jonathanangsheng/Ballon_d-Or; research script)"
 MIN_INTERVAL = 3.0  # seconds between live requests
 _last = 0.0
+# API errors safe to cache: the page truly does not exist. Anything else (rate limit, server error) raises.
+PERMANENT = {"missingtitle", "invalidtitle"}
 
 
 def _get(url, tries=5):
@@ -104,6 +106,8 @@ def wiki_wikitext(title):
         }
         url = "https://en.wikipedia.org/w/api.php?" + urllib.parse.urlencode(params)
         data = json.loads(_get(url))
+        if "parse" not in data and data.get("error", {}).get("code") not in PERMANENT:
+            raise RuntimeError(f"Wikipedia API error for {title!r}: {data.get('error')}")
         rec = {"title": title, "api_url": url, "fetched_date": date.today().isoformat(), "response": data}
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(json.dumps(rec, ensure_ascii=False), encoding="utf-8")
@@ -135,6 +139,8 @@ def wiki_prefetch(titles):
         url = "https://en.wikipedia.org/w/api.php?" + urllib.parse.urlencode(params)
         reply = json.loads(_get(url))
         if "query" not in reply:  # e.g. an invalid title in the batch
+            if "error" in reply and reply["error"].get("code") not in PERMANENT:
+                raise RuntimeError(f"Wikipedia API error: {reply['error']}")
             if len(batch) == 1:
                 save(batch[0], url, {"error": reply.get("error", {"code": "invalid"})})
                 return []
@@ -188,6 +194,8 @@ def wiki_redirects(titles):
                       "format": "json", "formatversion": 2, **cont}
             url = "https://en.wikipedia.org/w/api.php?" + urllib.parse.urlencode(params)
             reply = json.loads(_get(url))
+            if "error" in reply:  # don't cache an empty redirect list for a failed request
+                raise RuntimeError(f"Wikipedia API error: {reply['error']}")
             q = reply.get("query", {})
             alias = {n["to"]: n["from"] for n in q.get("normalized", [])}
             for p in q.get("pages", []):

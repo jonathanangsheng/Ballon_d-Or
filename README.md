@@ -5,6 +5,8 @@ See [BALLON_DOR.md](BALLON_DOR.md) for the voting criteria and how the vote work
 
 ## Code
 
+Needs Python 3.12 or newer (the model uses `statistics.correlation(..., method="ranked")`).
+
 | What it does | Files |
 |---|---|
 | Fetch and parse sources (cached under `data/raw/`) | [`pipeline/`](pipeline/): `fetch`, `players`, `honours`, `intl`, `sb`, `ucl`, `wiki_stats` |
@@ -165,6 +167,13 @@ holds one, unless `--rescore` is passed; the extra scoring is then flagged post 
 
 ### Results
 
+**Re-run again on 15 Nov 2026 after a trophy-parser fix.** Lines under sub-headings of a player's
+Records or Individual honours (e.g. "Sweden's only player to score in three consecutive Euros")
+had been read as trophies: Ibrahimović was credited with Euro 2004, 2008 and 2012 titles, and
+undated awards blanked the league-trophy count of Modrić (2016–2023), Zidane (2000–2006), Giggs and
+Ibrahimović. 23 rows changed (2026 none). The rule picked the same model; every number below is
+from this run, another look at 2016–2025.
+
 **Re-run on 15 Nov 2026 after a feature rebuild.** The features gained Champions League stages
 for 2000–2011 (engsoccerdata; `ucl_stage` now fills 343 of 421 training rows, was 134) and La Liga
 appearances, minutes, assists and cards (78 training and 47 test rows, was 6 and 1); four Inter
@@ -181,39 +190,39 @@ Selected model, by the rule above:
 
 | Run | Held-out 2000–2015: hits / exact | Test 2016–2025: hits / exact | Test hits, 5 seeds |
 |---|---|---|---|
-| **13 linear + national, club goals** | **5.88 / 1.00** | **5.67 / 0.89** | – |
+| **13 linear + national, club goals** | **6.00 / 1.12** | **5.44 / 1.00** | – |
 
 The comparisons behind it, on held-out hits per edition (network averaged over 5 seeds):
-run 12, the best network, 5.60 vs 5.88, diff −0.28 [−0.72, +0.20], so run 13 stays; run 15, the
-best ranking run, 5.94 vs 5.88, diff +0.06 [−0.44, +0.56], so run 13 stays.
+run 12, the best network, 5.58 vs 6.00, diff −0.43 [−0.80, −0.04], so run 13 stays; run 15, the
+best ranking run, 5.88 vs 6.00, diff −0.12 [−0.50, +0.25], so run 13 stays.
 
 Exploratory runs and baselines (not used for selection):
 
 | Run | Held-out 2000–2015: hits / exact | Test 2016–2025: hits / exact | Test hits, 5 seeds |
 |---|---|---|---|
-| Heuristic (sort by trophies, then stage; no learning) | – | 4.67 / 0.78 | – |
+| Heuristic (sort by trophies, then stage; no learning) | – | 4.67 / 1.22 | – |
 | Previous edition's rank, unlisted players last (no learning) | 5.87 / 1.00 (2001–2015) | 5.33 / 0.78 | – |
-| Major winners first: UCL, World Cup, Euro and Copa titles, then the heuristic (no learning) | 4.75 / 1.06 | 5.00 / 0.67 | – |
-| 1 linear | 4.44 / 0.81 | 4.78 / 1.22 | – |
-| 3 network, 4 softplus nodes | 4.44 / 0.62 | 3.89 / 0.44 | 4.56 ± 0.39 |
-| 6 network + age, position | 5.19 / 0.56 | 5.33 / 0.89 | 5.02 ± 0.30 |
-| 9 network, two layers of 4 | 4.12 / 0.44 | 4.33 / 0.56 | 4.58 ± 0.20 |
-| 11 linear + national goals | 4.62 / 0.44 | 5.44 / 0.89 | – |
-| 12 network + national, club goals | 5.56 / 0.69 | 5.11 / 1.22 | 5.29 ± 0.23 |
-| 14 ranking network + national, club goals | 5.50 / 0.81 | 5.56 / 1.44 | 5.27 ± 0.15 |
-| 15 ranking linear + national, club goals | 5.94 / 0.75 | 5.22 / 0.78 | – |
+| Major winners first: UCL, World Cup, Euro and Copa titles, then the heuristic (no learning) | 4.69 / 0.94 | 4.89 / 0.89 | – |
+| 1 linear | 4.62 / 0.62 | 4.78 / 1.11 | – |
+| 3 network, 4 softplus nodes | 4.62 / 0.56 | 4.00 / 0.67 | 4.62 ± 0.40 |
+| 6 network + age, position | 5.25 / 0.88 | 5.44 / 0.67 | 5.02 ± 0.32 |
+| 9 network, two layers of 4 | 4.19 / 0.44 | 4.67 / 0.78 | 4.82 ± 0.19 |
+| 11 linear + national goals | 4.62 / 0.44 | 5.33 / 0.56 | – |
+| 12 network + national, club goals | 5.31 / 0.75 | 5.11 / 1.44 | 5.22 ± 0.19 |
+| 14 ranking network + national, club goals | 5.50 / 0.69 | 5.44 / 1.11 | 5.33 ± 0.17 |
+| 15 ranking linear + national, club goals | 5.88 / 0.62 | 5.11 / 1.00 | – |
 
 - **The final model does not clearly beat the simplest baseline.** Ranking nominees by where
-  they finished in the previous edition gets 5.33 test hits to run 13's 5.67, and ranking by
-  major titles gets 5.00. The paired test against previous-edition rank (below) finds no clear
+  they finished in the previous edition gets 5.33 test hits to run 13's 5.44, and ranking by
+  major titles gets 4.89. The paired test against previous-edition rank (below) finds no clear
   difference either way.
   Previous-edition rank's test hits per year: 2016: 4, 2017: 6, 2018: 5, 2019: 4, 2021: 7,
   2022: 6, 2023: 6, 2024: 7, 2025: 3. Its held-out figure starts at 2001, since 2000 has no
   previous edition in the data.
 - The heuristic ties often (its scores are whole trophy counts plus stage / 10), so its number
-  depends on the tie order: over 20 tie orders it averages 4.44 hits (range 4.11–4.67). The
-  baselines tie too: previous-edition rank averages 5.34 (5.33–5.44) and major winners 5.01
-  (4.78–5.33).
+  depends on the tie order: over 20 tie orders it averages 4.49 hits (range 4.11–4.67). The
+  baselines tie too: previous-edition rank averages 5.34 (5.33–5.44) and major winners 4.97
+  (4.67–5.22).
 - **Final model: run 13**, where the old rule picked run 15. The change comes from the ranking
   step now needing the same margin as network vs linear. That amendment was made while run 15's
   lower test score (then 5.00 vs 5.44) was already in this README, and the rule as a whole was rewritten
@@ -231,7 +240,7 @@ Exploratory runs and baselines (not used for selection):
 
 The test set has only 9 editions, and a model's hits move by more than one from edition to
 edition. A test mean is therefore known only to about ±0.8 hits (95% bootstrap over editions):
-run 13 gets 5.67 hits [4.89, 6.44] and 0.89 exact [0.33, 1.44]. Most rows of the table are within
+run 13 gets 5.44 hits [4.78, 6.11] and 1.00 exact [0.44, 1.56]. Most rows of the table are within
 that margin of each other, so read them as roughly equal, not as a ranking. The 5-seed spreads in
 the table are far smaller and do not measure this.
 
@@ -241,11 +250,11 @@ Each side is first averaged over its seeds or its 20 tie orders. Run 13 minus th
 
 | | Mean diff | Bootstrap 95% | t-interval 95% | Verdict |
 |---|---|---|---|---|
-| Hits | +0.32 | [−0.67, +1.33] | [−0.90, +1.55] | no clear difference |
-| Exact | +0.04 | [−0.46, +0.62] | [−0.64, +0.72] | no clear difference |
+| Hits | +0.10 | [−0.69, +0.89] | [−0.88, +1.08] | no clear difference |
+| Exact | +0.15 | [−0.23, +0.53] | [−0.32, +0.62] | no clear difference |
 
 A win or loss is called only if both intervals exclude 0, because a percentile bootstrap runs
-narrow on 9 editions. NDCG@10 is 0.621 for run 13 and 0.618 for the baseline, level. Run 13 named
+narrow on 9 editions. NDCG@10 is 0.615 for run 13 and 0.618 for the baseline, level. Run 13 named
 the winner in 5 of 9 editions and the baseline in 2 of 9, the one place the model looks better,
 but 9 editions is too few to rely on. Per-edition numbers: `results/per_edition.csv`.
 

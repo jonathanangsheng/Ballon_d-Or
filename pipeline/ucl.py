@@ -3,6 +3,7 @@
 champs.csv (James Curley, free for non-commercial use with credit)."""
 import csv
 import re
+import urllib.error
 from collections import defaultdict
 from datetime import date
 from functools import lru_cache
@@ -89,8 +90,10 @@ def season_matches(start_year):
     path = f"{start_year}-{str(start_year + 1)[2:]}/cl.txt"
     try:
         text, url, fetched = github_raw(REPO, path)
-    except Exception:
-        return None, None
+    except urllib.error.HTTPError as e:
+        if e.code != 404:
+            raise
+        return None, None  # no file for this season; network failures still raise
     out, stage, cur, year, last_month = [], None, None, start_year, None
     for line in text.splitlines():
         s = line.strip()

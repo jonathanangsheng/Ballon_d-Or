@@ -10,7 +10,7 @@ import re
 from datetime import date
 
 from fetch import wiki_prefetch, wiki_wikitext
-from honours import MONTHS, _dates_in
+from honours import MONTHS, _dates_in, template_end
 
 
 def _split_top(s, sep):
@@ -288,16 +288,7 @@ def football_box_dates(wt):
         head = next((h for pos, h in reversed(heads) if pos < m.start()), "")
         if re.search(r"friendl|pre-?season|tour|exhibition", head, re.I):
             continue
-        depth, i = 0, m.start()
-        while i < len(wt):
-            if wt.startswith("{{", i):
-                depth, i = depth + 1, i + 2
-            elif wt.startswith("}}", i):
-                depth, i = depth - 1, i + 2
-                if depth == 0:
-                    break
-            else:
-                i += 1
+        i = template_end(wt, m.start())
         d = re.search(r"\|\s*date\s*=([^\n|{]*(?:\{\{[^}]*\}\}[^\n|]*)?)", wt[m.start():i])
         ds = _dates_in(d.group(1), 0) if d else []
         out += [x for x in ds[:1] if x.year > 1900]
@@ -356,20 +347,6 @@ def _heading_bucket(heads, pos):
         if b:
             return b
     return None
-
-
-def _template_end(wt, start):
-    depth, i = 0, start
-    while i < len(wt):
-        if wt.startswith("{{", i):
-            depth, i = depth + 1, i + 2
-        elif wt.startswith("}}", i):
-            depth, i = depth - 1, i + 2
-            if depth == 0:
-                return i
-        else:
-            i += 1
-    return i
 
 
 def _norm_title(t):
@@ -436,7 +413,7 @@ def club_match_goals(wt, player_titles, season=None):
              for m in re.finditer(r"^(=+)\s*(.*?)\s*=+\s*$", wt, re.M)]
     out = []
     for m in re.finditer(r"\{\{\s*Football ?box", wt, re.I):
-        box = wt[m.start():_template_end(wt, m.start())]
+        box = wt[m.start():template_end(wt, m.start())]
         par = lambda k: (re.search(r"\|\s*" + k + r"\s*=(.*?)(?=\n\s*\||\}\}\s*$)", box, re.S) or [None, ""])[1]
         text = par("goals1") + "\n" + par("goals2")
         if not names & {_norm_title(x) for x in re.findall(r"\[\[([^\]|#]+)", text)}:

@@ -16,7 +16,7 @@ FEAT = ROOT / "data" / "features"
 LOGS = ROOT / "data" / "features" / "logs"
 BD = ROOT / "data" / "ballon_dor"
 FEATURE_CODE = ["build_features.py", "players.py", "honours.py", "intl.py", "sb.py", "ucl.py",
-                "laliga.py", "fetch.py", "build_windows.py"]
+                "laliga.py", "wiki_stats.py", "fetch.py", "build_windows.py"]
 
 failures, warnings = [], []
 
@@ -79,8 +79,25 @@ for (y, n, b, s), v in agg.items():
     if got is None or abs(got - v) > 1e-6:
         fail(f"{y} {n} {b}_{s}: feature {got} != logged {v}")
 sys.path.insert(0, str(Path(__file__).parent))
+import honours  # noqa: E402
 import intl  # noqa: E402
-from players import norm  # noqa: E402
+from players import honours_entries, norm  # noqa: E402
+
+# honours parser: lines under sub-headings of Individual / Records are never trophies
+_wt = """==Honours==
+'''Juventus'''
+* [[Serie A]]: [[2002–03 Serie A|2002–03]]
+'''Individual'''
+;Media rankings
+* [[World Soccer Player of the Year]]: 2018
+'''Records'''
+'''Sweden'''
+* Sweden's only player to score in three [[UEFA European Championship]]s: [[UEFA Euro 2004|2004]]
+==Notes==
+"""
+_tr, _aw = honours.classify(honours_entries(_wt))
+if [t[0] for t in _tr] != ["Serie A"] or [a[0] for a in _aw] != ["World Soccer Player of the Year"]:
+    fail(f"honours parser: trophies {_tr}, awards {_aw}")
 
 country = {(y, r["name"]): r["country"] for y in years for r in read(BD / f"{y}.csv")}
 logged = {k[:3] for k in agg}

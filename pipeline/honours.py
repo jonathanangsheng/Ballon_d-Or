@@ -17,12 +17,12 @@ EXCLUDED_AWARD = re.compile(r"ballon d'or|kopa trophy|yashin trophy|gerd müller
                             r"socrates award|orders?\b|decorations?|medal of|knight|commander", re.I)
 TROPHY_CATEGORIES = [
     ("ucl", re.compile(r"UEFA Champions League|European Cup", re.I)),
-    ("uel", re.compile(r"UEFA Europa League|UEFA Cup", re.I)),
+    ("uel", re.compile(r"UEFA Europa League|UEFA Cup(?! of Champions)", re.I)),
     ("world_cup", re.compile(r"^FIFA World Cup$", re.I)),
     ("euro", re.compile(r"UEFA European Championship|UEFA Euro\b", re.I)),
     ("copa_america", re.compile(r"Copa Am[ée]rica", re.I)),
     ("afcon", re.compile(r"Africa(n)? Cup of Nations", re.I)),
-    ("intl_other", re.compile(r"Confederations Cup|Nations League|Gold Cup|Asian Cup|Finalissima|"
+    ("intl_other", re.compile(r"Confederations Cup|Nations League|Gold Cup|Asian Cup|Finalissima|UEFA Cup of Champions|"
                               r"Olympic|Artemio Franchi", re.I)),
     ("club_intl_other", re.compile(r"UEFA Super Cup|Club World Cup|Intercontinental Cup|"
                                    r"Conference League|Intertoto", re.I)),
@@ -52,21 +52,24 @@ def label_years(label):
     return a, (b if b >= a else b + 100)
 
 
-def _infobox_text(wt):
-    m = re.search(r"\{\{\s*Infobox", wt, re.I)
-    if not m:
-        return ""
-    depth, i = 0, m.start()
+def template_end(wt, start):
+    """Index just past the {{...}} template opening at `start` (end of text if never closed)."""
+    depth, i = 0, start
     while i < len(wt):
         if wt.startswith("{{", i):
             depth, i = depth + 1, i + 2
         elif wt.startswith("}}", i):
             depth, i = depth - 1, i + 2
             if depth == 0:
-                return wt[m.start():i]
+                return i
         else:
             i += 1
-    return wt[m.start():]
+    return i
+
+
+def _infobox_text(wt):
+    m = re.search(r"\{\{\s*Infobox", wt, re.I)
+    return wt[m.start():template_end(wt, m.start())] if m else ""
 
 
 def _dates_in(text, default_year):
